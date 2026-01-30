@@ -1,0 +1,8 @@
+{
+  "paper_id": 454,
+  "title": "Beyond Incrementalism: How to Change the World Through Data Systems Research (VLDB 2025 Panel)",
+  "authors": "Leis, Viktor",
+  "summary": {"objective": "데이터 시스템 연구의 영향력 증대", "methodology": "영향력 있는 연구 문제 선택 논의", "contributions": ["패널 토론", "연구 방향 제시"], "experiments": "학계와 산업 간 협력 분석", "limitations": "합의 도출 어려움"},
+  "tags": [{"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}, {"tag": "Data Integration", "confidence": 0.8}],
+  "key_findings": ["전통적 DB 연구가 여전히 중요", "산업 영향력 필요"]
+}

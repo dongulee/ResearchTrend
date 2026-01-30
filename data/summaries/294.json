@@ -1,0 +1,8 @@
+{
+  "paper_id": 294,
+  "title": "CoLA: Model Collaboration for Log-based Anomaly Detection",
+  "authors": "Xuhang Zhu, Xiu Tang, Sai Wu, Jichen Li, Haobo Wang, Chang Yao, Quanqing Xu, Gang Chen",
+  "summary": {"objective": "로그 기반 이상 탐지를 위한 모델 협업", "methodology": "여러 모델의 협업을 통한 로그 이상 탐지", "contributions": ["모델 협업 이상 탐지 CoLA", "다중 모델 결합"], "experiments": "기존 단일 모델 대비 탐지 정확도 향상", "limitations": "모델 조합 복잡성"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Security", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["모델 협업이 이상 탐지에 효과적", "다중 모델 결합이 정확도 향상에 기여"]
+}

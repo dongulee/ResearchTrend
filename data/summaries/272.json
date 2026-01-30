@@ -1,0 +1,8 @@
+{
+  "paper_id": 272,
+  "title": "HAWK: A Workload-driven Hierarchical Deadlock Detection Approach in Distributed Database System",
+  "authors": "Rongrong Zhang, Zhiwei Ye, Jun-Peng Zhu, Peng Cai, Xuan Zhou, Dunbo Cai, Ling Qian",
+  "summary": {"objective": "분산 DB에서 워크로드 기반 계층적 교착 상태 탐지", "methodology": "워크로드 특성을 고려한 계층적 교착 상태 탐지", "contributions": ["워크로드 기반 교착 탐지 HAWK", "계층적 접근"], "experiments": "기존 방법 대비 탐지 효율과 정확도 향상", "limitations": "매우 복잡한 교착 패턴"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Concurrency Control", "confidence": 0.85}],
+  "key_findings": ["워크로드 기반 탐지가 효과적", "계층적 접근이 확장성 제공"]
+}

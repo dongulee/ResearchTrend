@@ -1,0 +1,8 @@
+{
+  "paper_id": 211,
+  "title": "Using Read Promotion and Mixed Isolation Levels for Efficient Transactions",
+  "authors": "Brecht Vandevoort, Alan Fekete, Bas Ketsman",
+  "summary": {"objective": "읽기 승격과 혼합 격리 수준을 사용한 효율적 트랜잭션", "methodology": "읽기 연산을 승격하고 격리 수준을 혼합하여 성능 향상", "contributions": ["읽기 승격 기법", "혼합 격리 수준"], "experiments": "기존 방법 대비 처리량 향상", "limitations": "복잡한 워크로드에서의 격리 수준 선택"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Concurrency Control", "confidence": 0.9), ("Performance", 0.9}],
+  "key_findings": ["읽기 승격이 성능 향상에 효과적", "혼합 격리 수준이 유연성 제공"]
+}

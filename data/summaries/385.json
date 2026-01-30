@@ -1,0 +1,8 @@
+{
+  "paper_id": 385,
+  "title": "Delta Sharing: An Open Protocol for Cross-Platform Data Sharing",
+  "authors": "Krishna Puttaswamy, Abhijit Chakankar, Tao Tao, Zaheera Valani, Ramesh Chandra, William Chau, Mengxi Chen, Akram Chetibi, Tianyi Huang, Jonathan Keller, Celia Kung, Andy Liu, Charlene Lyu, Samarth Shetty, Xiaotong Sun, Steve Weis, Lin Zhou, Ryan Zhu, Reynold Xin, Matei Zaharia",
+  "summary": {"objective": "교차 플랫폼 데이터 공유를 위한 오픈 프로토콜", "methodology": "다양한 플랫폼 간 안전한 데이터 공유 프로토콜", "contributions": ["오픈 데이터 공유 프로토콜 Delta Sharing", "교차 플랫폼 지원"], "experiments": "다양한 플랫폼에서 공유 효과 검증", "limitations": "프로토콜 채택"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Security", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.85}],
+  "key_findings": ["오픈 프로토콜이 데이터 공유에 효과적", "교차 플랫폼 지원 가능"]
+}

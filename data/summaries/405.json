@@ -1,0 +1,8 @@
+{
+  "paper_id": 405,
+  "title": "Analytics Are Heavy. The DBMS Is Busy. When Will My Mission-Critical Transaction Start Running?",
+  "authors": "Jiatang Zhou, Kaisong Huang, Zhuoyue Zhao, Dong Xie, Tianzheng Wang",
+  "summary": {"objective": "DBMS가 바쁠 때 미션 크리티컬 트랜잭션 시작 시점", "methodology": "분석과 트랜잭션 혼합 워크로드에서 우선순위 관리", "contributions": ["트랜잭션 우선순위 관리", "혼합 워크로드 지원"], "experiments": "혼합 워크로드에서 우선순위 효과 검증", "limitations": "워크로드 예측"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["우선순위 관리가 혼합 워크로드에 효과적", "미션 크리티컬 트랜잭션 지원"]
+}

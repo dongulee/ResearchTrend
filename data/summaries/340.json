@@ -1,0 +1,8 @@
+{
+  "paper_id": 340,
+  "title": "CENTS: A Flexible and Cost-Effective Framework for LLM-Based Table Understanding",
+  "authors": "Guorui Xiao, Dong He, Jin Wang, Magdalena Balazinska",
+  "summary": {"objective": "LLM 기반 테이블 이해를 위한 유연하고 비용 효율적 프레임워크", "methodology": "테이블 이해 작업의 비용 효율적 LLM 활용", "contributions": ["비용 효율 테이블 이해 CENTS", "유연한 프레임워크"], "experiments": "기존 방법 대비 비용 절감과 정확도 유지", "limitations": "복잡한 테이블 구조"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["LLM 기반 테이블 이해가 효과적", "비용 효율 달성 가능"]
+}

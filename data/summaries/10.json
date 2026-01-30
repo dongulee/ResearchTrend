@@ -1,0 +1,39 @@
+{
+  "paper_id": 10,
+  "title": "Efficient and Effective Algorithms for A Family of Influence Maximization Problems with A Matroid Constraint",
+  "authors": "Yiqian Huang, Shiqi Zhang, Laks V.S. Lakshmanan, Wenqing Lin, Xiaokui Xiao, Bo Tang",
+  "summary": {
+    "objective": "매트로이드 제약 조건을 가진 영향력 최대화(IM) 문제군에 대한 효율적이고 효과적인 알고리즘 개발",
+    "methodology": "(1-1/e-ε) 근사 보장을 제공하는 AMP 시드 선택 방법 제안. 효율성 향상을 위한 빠른 구현체 RAMP 개발. 다중 시드 세트 요구사항을 매트로이드 제약으로 모델링",
+    "contributions": [
+      "기존 (1/2-ε) 근사보다 나은 (1-1/e-ε) 근사 알고리즘 AMP 제안",
+      "효율성을 크게 향상시킨 RAMP 구현체 개발",
+      "다양한 IM 변형 문제를 통합적으로 해결하는 프레임워크 제시"
+    ],
+    "experiments": "7개 실제 네트워크에서 4개 IM 변형에 대해 6개 경쟁자와 비교. 결과 품질, 실행 시간, 메모리 사용량에서 모든 경쟁자를 능가. 온라인 게임 산업 응용에 배포하여 베이스라인 대비 크게 개선",
+    "limitations": "대규모 그래프에서의 확장성 한계, 실시간 업데이트 시나리오 미고려"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Network Analysis",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.8
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "매트로이드 제약 하에서 (1-1/e-ε) 근사 달성 가능",
+    "RAMP가 기존 방법 대비 품질, 시간, 메모리 모두에서 우위",
+    "실제 온라인 게임 응용에서 효과성 입증"
+  ]
+}

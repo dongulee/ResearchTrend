@@ -1,0 +1,8 @@
+{
+  "paper_id": 321,
+  "title": "Faster Convergence in Mini-batch Graph Neural Networks Training with Pseudo Full Neighborhood Compensation",
+  "authors": "Qiqi Zhou, Yanyan Shen, Lei Chen",
+  "summary": {"objective": "의사 전체 이웃 보상을 통한 미니배치 GNN 훈련 수렴 가속", "methodology": "미니배치 샘플링의 정보 손실을 보상하는 기법", "contributions": ["의사 전체 이웃 보상", "GNN 훈련 가속"], "experiments": "기존 미니배치 훈련 대비 수렴 속도 향상", "limitations": "보상 계산 오버헤드"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["이웃 보상이 수렴에 효과적", "미니배치 훈련 효율 향상"]
+}

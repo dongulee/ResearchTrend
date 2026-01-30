@@ -1,0 +1,8 @@
+{
+  "paper_id": 458,
+  "title": "Versatile Property Graph Transformations",
+  "authors": "Bonifati, Angela",
+  "summary": {"objective": "다목적 속성 그래프 변환", "methodology": "속성 그래프 변환 언어 및 시스템 분석", "contributions": ["그래프 변환 기조 연설", "표준화 노력 분석"], "experiments": "다양한 변환 시나리오 분석", "limitations": "언어 표준 복잡성"},
+  "tags": [{"tag": "Knowledge Graphs", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["속성 그래프 변환이 데이터 통합에 중요", "표준화 진행 중"]
+}

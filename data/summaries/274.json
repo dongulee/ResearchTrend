@@ -1,0 +1,8 @@
+{
+  "paper_id": 274,
+  "title": "S^3AND: Efficient Subgraph Similarity Search Under Aggregated Neighbor Difference Semantics",
+  "authors": "Qi Wen, Yutong Ye, Xiang Lian, Mingsong Chen",
+  "summary": {"objective": "집계 이웃 차이 의미론 하의 효율적 부분그래프 유사성 검색", "methodology": "새로운 유사성 의미론을 적용한 부분그래프 검색", "contributions": ["집계 이웃 차이 기반 검색 S3AND", "효율적 유사성 검색"], "experiments": "기존 방법 대비 검색 효율과 품질 향상", "limitations": "매우 큰 그래프"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Indexing", "confidence": 0.85}],
+  "key_findings": ["집계 이웃 차이 의미론이 효과적", "부분그래프 유사성 검색 향상"]
+}

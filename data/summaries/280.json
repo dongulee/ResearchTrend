@@ -1,0 +1,8 @@
+{
+  "paper_id": 280,
+  "title": "Shifting Transaction Isolation on Graphs: From Systems to Data",
+  "authors": "Wenzhi Fu, Yang Cao",
+  "summary": {"objective": "그래프에서 트랜잭션 격리 이동: 시스템에서 데이터로", "methodology": "그래프 트랜잭션의 격리 수준을 데이터 관점에서 재정의", "contributions": ["데이터 중심 그래프 격리", "구조적 일관성 유지"], "experiments": "기존 시스템 격리 대비 성능과 일관성 향상", "limitations": "복잡한 트랜잭션 패턴"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Concurrency Control", "confidence": 0.85}],
+  "key_findings": ["데이터 중심 격리가 그래프에 효과적", "구조적 일관성이 중요"]
+}

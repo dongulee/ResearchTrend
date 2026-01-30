@@ -1,0 +1,8 @@
+{
+  "paper_id": 259,
+  "title": "AutoPrep: Natural Language Question-Aware Data Preparation with a Multi-Agent Framework",
+  "authors": "Meihao Fan, Ju Fan, Nan Tang, Lei Cao, Guoliang Li, Xiaoyong Du",
+  "summary": {"objective": "자연어 질문 인식 데이터 준비를 위한 멀티 에이전트 프레임워크", "methodology": "LLM 기반 멀티 에이전트로 질문에 맞는 데이터 준비 자동화", "contributions": ["질문 인식 데이터 준비 AutoPrep", "멀티 에이전트 자동화"], "experiments": "기존 방법 대비 데이터 준비 품질과 효율 향상", "limitations": "매우 복잡한 데이터 변환"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["질문 인식 데이터 준비가 효과적", "멀티 에이전트가 자동화에 적합"]
+}

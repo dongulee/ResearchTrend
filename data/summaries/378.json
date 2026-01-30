@@ -1,0 +1,8 @@
+{
+  "paper_id": 378,
+  "title": "GalaxyWeaver: Autonomous Table-to-Graph Conversion and Schema Optimization with Large Language Models",
+  "authors": "Bing Tong, Yan Zhou, Chen Zhang, Jianheng Tang, Jia Li, Lei Chen",
+  "summary": {"objective": "LLM을 활용한 자율 테이블-그래프 변환과 스키마 최적화", "methodology": "LLM으로 테이블 데이터를 그래프로 자동 변환", "contributions": ["테이블-그래프 변환 GalaxyWeaver", "스키마 최적화"], "experiments": "다양한 테이블에서 변환 품질 검증", "limitations": "복잡한 관계"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["LLM이 테이블-그래프 변환에 효과적", "자동 스키마 최적화 가능"]
+}

@@ -1,0 +1,39 @@
+{
+  "paper_id": 14,
+  "title": "NeutronTP: Load-Balanced Distributed Full-Graph GNN Training with Tensor Parallelism",
+  "authors": "Xin Ai, Hao Yuan, Zeyu Ling, Qiange Wang, Yanfeng Zhang, Zhenbo Fu, Chaoyi Chen, Yu Gu, Ge Yu",
+  "summary": {
+    "objective": "텐서 병렬성을 활용한 부하 균형 분산 GNN 학습 시스템 개발",
+    "methodology": "그래프 구조 대신 피처를 분할하여 작업자 간 정점 의존성 제거. 일반화된 분리 학습 프레임워크로 NN 연산과 그래프 집계 연산 분리. 메모리 효율적 태스크 스케줄링으로 단일 GPU 메모리 초과 그래프 지원 및 통신-계산 중첩",
+    "contributions": [
+      "GNN 텐서 병렬성으로 완전한 부하 균형 달성",
+      "분리 학습 프레임워크로 통신 오버헤드 감소",
+      "메모리 효율적 태스크 스케줄링으로 대규모 그래프 지원"
+    ],
+    "experiments": "16노드 Aliyun 클러스터에서 DistDGL, NeutronStar, Sancus 등 최신 GNN 시스템 대비 1.29-8.72배 속도 향상",
+    "limitations": "특정 GNN 아키텍처에 대한 최적화 필요, 동적 그래프 업데이트 시나리오 미지원"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "피처 분할이 그래프 분할보다 부하 균형에 효과적",
+    "NN 연산과 그래프 집계 분리가 통신 오버헤드 감소에 효과적",
+    "통신-계산 중첩이 성능 향상에 기여"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 194,
+  "title": "Fair Transaction Processing For Multi-Tenant Databases",
+  "authors": "Audrey Cheng, Xiao Shi, Aaron Kabcenell",
+  "summary": {"objective": "다중 테넌트 데이터베이스를 위한 공정한 트랜잭션 처리", "methodology": "테넌트 간 공정성을 보장하는 트랜잭션 스케줄링. 리소스 격리와 공정 배분", "contributions": ["공정한 다중 테넌트 트랜잭션 처리", "공정성 보장 스케줄링"], "experiments": "테넌트 간 공정한 리소스 배분 달성", "limitations": "매우 다양한 워크로드에서의 공정성 정의"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Cloud Computing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["공정성이 다중 테넌트에 필수적", "스케줄링이 공정성 구현 핵심"]
+}

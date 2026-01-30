@@ -1,0 +1,8 @@
+{
+  "paper_id": 390,
+  "title": "DVote: Constraining Committee Voting with Database Dependencies",
+  "authors": "Roi Yona, Jonathan Breitman, Benny Kimelfeld",
+  "summary": {"objective": "DB 종속성으로 위원회 투표 제약", "methodology": "데이터베이스 종속성을 투표 시스템에 적용", "contributions": ["종속성 기반 투표 제약 DVote", "위원회 선택 최적화"], "experiments": "다양한 투표 시나리오에서 효과 검증", "limitations": "종속성 정의 복잡성"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["DB 종속성이 투표에 적용 가능", "제약 있는 투표 최적화"]
+}

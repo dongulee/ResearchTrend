@@ -1,0 +1,8 @@
+{
+  "paper_id": 296,
+  "title": "Advancing Fact Attribution for Query Answering: Aggregate Queries and Novel Algorithms",
+  "authors": "Omer Abramovich, Daniel Deutch, Nave Frost, Ahmet Kara, Dan Olteanu",
+  "summary": {"objective": "쿼리 응답을 위한 사실 귀속 발전: 집계 쿼리와 새로운 알고리즘", "methodology": "쿼리 결과에 기여한 사실을 추적하는 알고리즘", "contributions": ["집계 쿼리 사실 귀속", "새로운 추적 알고리즘"], "experiments": "기존 방법 대비 귀속 정확도와 효율 향상", "limitations": "매우 복잡한 쿼리"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["사실 귀속이 쿼리 설명에 중요", "집계 쿼리 지원 가능"]
+}

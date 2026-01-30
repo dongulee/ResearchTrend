@@ -1,0 +1,8 @@
+{
+  "paper_id": 222,
+  "title": "Triparts: Scalable Streaming Graph Partitioning",
+  "authors": "Ruchi Bhoot, Tuhin Khare, Manoj Agarwal",
+  "summary": {"objective": "확장 가능한 스트리밍 그래프 파티셔닝", "methodology": "스트리밍 환경에서 효율적 그래프 파티셔닝. 동적 업데이트 지원", "contributions": ["스트리밍 그래프 파티셔닝 Triparts", "확장성"], "experiments": "기존 방법 대비 확장성과 품질 향상", "limitations": "매우 빠른 스트림에서의 처리"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Stream Processing", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["스트리밍 파티셔닝이 동적 그래프에 필수", "확장성이 대규모 처리에 핵심"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 236,
+  "title": "ArrayMorph: Optimizing Hyperslab Queries on the Cloud for Machine Learning Pipelines",
+  "authors": "Ruochen Jiang, Spyros Blanas",
+  "summary": {"objective": "클라우드에서 ML 파이프라인을 위한 하이퍼슬랩 쿼리 최적화", "methodology": "클라우드 스토리지에서 다차원 배열 데이터의 효율적 접근을 위한 쿼리 최적화. 관심 영역 중심 처리", "contributions": ["하이퍼슬랩 쿼리 최적화 ArrayMorph", "클라우드 ML 파이프라인 효율화"], "experiments": "기존 방법 대비 ML 데이터 접근 성능 향상", "limitations": "매우 복잡한 다차원 접근 패턴"},
+  "tags": [{"tag": "Cloud Computing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Query Optimization", "confidence": 0.85}],
+  "key_findings": ["클라우드 스토리지에서 ML 데이터 접근 최적화 가능", "하이퍼슬랩 쿼리가 ML 워크로드에 효과적"]
+}

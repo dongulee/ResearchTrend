@@ -1,0 +1,8 @@
+{
+  "paper_id": 235,
+  "title": "UFGTime: Mining Intertwined Dependencies in Multivariate Time Series",
+  "authors": "Ruikun Li, Dai Shi, Ye Xiao, Junbin Gao",
+  "summary": {"objective": "다변량 시계열에서 얽힌 의존성 마이닝", "methodology": "변수 간 얽힌 의존성을 발견하는 시계열 분석. 복잡한 관계 모델링", "contributions": ["얽힌 의존성 마이닝 UFGTime", "복잡한 관계 발견"], "experiments": "기존 방법 대비 의존성 발견 개선", "limitations": "매우 많은 변수에서의 확장성"},
+  "tags": [{"tag": "Real-time Analytics", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Deep Learning", "confidence": 0.85}],
+  "key_findings": ["얽힌 의존성이 예측에 중요", "복잡한 관계 모델링이 필요"]
+}

@@ -1,0 +1,14 @@
+{
+  "paper_id": 157,
+  "title": "ACE: A Cardinality Estimator for Set-Valued Queries",
+  "authors": "Yufan Sheng, Xin Cao, Kaiqi Zhao, Yixiang Fang, Jianzhong Qi, Wenjie Zhang, Christian S. Jensen",
+  "summary": {
+    "objective": "집합 값 쿼리를 위한 카디널리티 추정기 개발",
+    "methodology": "집합 값 속성을 포함하는 쿼리의 카디널리티 정확하게 추정. 집합 연산의 특성을 고려한 추정 방법",
+    "contributions": ["집합 값 쿼리용 카디널리티 추정기 ACE", "집합 연산 특성 고려", "정확한 추정 제공"],
+    "experiments": "기존 추정기 대비 집합 값 쿼리에서 정확도 향상",
+    "limitations": "매우 큰 집합에서의 추정 효율성"
+  },
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Statistics", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["집합 값 쿼리가 특수한 추정 필요", "집합 연산 특성이 추정 정확도에 중요", "전용 추정기가 범용 방법보다 우수"]
+}

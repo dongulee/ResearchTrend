@@ -1,0 +1,8 @@
+{
+  "paper_id": 242,
+  "title": "LEGO-GraphRAG: Modularizing Graph-based Retrieval-Augmented Generation for Design Space Exploration",
+  "authors": "Yukun Cao, Zengyi Gao, Zhiyang Li, Xike Xie, S. Kevin Zhou, Jianliang Xu",
+  "summary": {"objective": "GraphRAG의 모듈화 및 설계 공간 탐색", "methodology": "그래프 기반 RAG를 모듈화하여 다양한 구성 탐색 가능", "contributions": ["모듈화된 GraphRAG LEGO-GraphRAG", "설계 공간 탐색 지원"], "experiments": "다양한 모듈 조합으로 성능 최적화 달성", "limitations": "모듈 조합의 복잡성"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Knowledge Graphs", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["GraphRAG 모듈화가 유연성 제공", "설계 공간 탐색으로 최적 구성 발견"]
+}

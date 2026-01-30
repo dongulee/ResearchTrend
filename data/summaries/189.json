@@ -1,0 +1,8 @@
+{
+  "paper_id": 189,
+  "title": "BLAEQ: A Multigrid Index for Spatial Query on Geometry Objects",
+  "authors": "Song Wang, Chen Wang, Jianchun Wang, Sheng Wang",
+  "summary": {"objective": "기하 객체에 대한 공간 쿼리를 위한 멀티그리드 인덱스", "methodology": "다중 해상도 그리드 구조로 다양한 크기의 기하 객체 효율적 인덱싱", "contributions": ["멀티그리드 공간 인덱스 BLAEQ", "다양한 객체 크기 처리"], "experiments": "기존 공간 인덱스 대비 쿼리 성능 향상", "limitations": "매우 복잡한 기하 구조에서의 인덱싱"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["멀티그리드가 다양한 객체 크기에 효과적", "공간 인덱싱이 기하 쿼리 핵심"]
+}

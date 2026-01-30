@@ -1,0 +1,14 @@
+{
+  "paper_id": 151,
+  "title": "GREAT: Generalized Reservoir Sampling based Triangle Counting Estimation over Streaming Graphs",
+  "authors": "Siyue Wu, Dingming Wu, Sinhong Cheuk, Tsz Nam Chan, Kezhong Lu",
+  "summary": {
+    "objective": "스트리밍 그래프에서 삼각형 카운팅 추정을 위한 일반화된 저수지 샘플링 기반 방법 개발",
+    "methodology": "일반화된 저수지 샘플링 기법으로 스트리밍 그래프의 삼각형 수 추정. 메모리 효율적이고 정확한 추정 제공",
+    "contributions": ["삼각형 카운팅을 위한 GREAT 방법", "일반화된 저수지 샘플링 적용", "스트리밍 환경에서 효율적 추정"],
+    "experiments": "기존 방법 대비 정확도와 효율성 향상",
+    "limitations": "매우 희소한 그래프에서의 정확도"
+  },
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Stream Processing", "confidence": 0.9}, {"tag": "Statistics", "confidence": 0.85}],
+  "key_findings": ["저수지 샘플링이 삼각형 카운팅에 효과적", "스트리밍 환경에서 메모리 효율적", "일반화된 접근이 다양한 그래프에 적용 가능"]
+}

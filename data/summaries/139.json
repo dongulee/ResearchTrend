@@ -1,0 +1,26 @@
+{
+  "paper_id": 139,
+  "title": "SCompression: Enhancing Database Knob Tuning Efficiency Through Slice-Based OLTP Workload Compression",
+  "authors": "Baoqing Cai, Yu Liu, Lin Ma, Pingqi Huang, Bingcheng Lian, Ke Zhou, Jia Yuan, Jie Yang, Xiaofan Cai, Peijun Wu",
+  "summary": {
+    "objective": "OLTP 워크로드 압축을 통한 데이터베이스 노브 튜닝 효율성 향상",
+    "methodology": "쿼리 시퀀스와 동시성을 포함한 컨텍스트 세부사항을 고려하는 OLTP 워크로드 압축 목표 정의. 슬라이스 기반 압축 방법 제안",
+    "contributions": [
+      "노브 튜닝을 위한 OLTP 워크로드 압축 목표 정의",
+      "슬라이스 기반 압축으로 컨텍스트 보존",
+      "압축 워크로드에서 원본 성능 유지"
+    ],
+    "experiments": "워크로드 실행이 튜닝 시간의 90% 차지하는 병목 해결",
+    "limitations": "매우 다양한 쿼리 패턴에서의 압축 효과"
+  },
+  "tags": [
+    {"tag": "Query Optimization", "confidence": 0.95},
+    {"tag": "Performance", "confidence": 0.9},
+    {"tag": "Machine Learning", "confidence": 0.8}
+  ],
+  "key_findings": [
+    "OLTP 워크로드 압축이 OLAP와 다른 접근 필요",
+    "쿼리 시퀀스와 동시성이 압축의 핵심 요소",
+    "슬라이스 기반 접근이 컨텍스트 보존에 효과적"
+  ]
+}

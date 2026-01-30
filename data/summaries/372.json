@@ -1,0 +1,8 @@
+{
+  "paper_id": 372,
+  "title": "VSAG: An Optimized Search Framework for Graph-based Approximate Nearest Neighbor Search",
+  "authors": "Xiaoyao Zhong, Haotian Li, Jiabao Jin, Mingyu Yang, Deming Chu, Xiangyu Wang, Zhitao Shen, Wei Jia, George Gu, Yi Xie, Xuemin Lin, Heng Tao Shen, Jingkuan Song, Peng Cheng",
+  "summary": {"objective": "그래프 기반 ANN 검색을 위한 최적화된 검색 프레임워크", "methodology": "그래프 기반 ANN의 다양한 최적화 기법 통합", "contributions": ["최적화된 ANN 프레임워크 VSAG", "그래프 기반 검색 가속"], "experiments": "기존 방법 대비 검색 성능 향상", "limitations": "그래프 구축 비용"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["최적화 프레임워크가 ANN에 효과적", "다양한 기법 통합이 중요"]
+}

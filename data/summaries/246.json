@@ -1,0 +1,8 @@
+{
+  "paper_id": 246,
+  "title": "Customization Meets 2-Hop Labeling: Efficient Routing in Road Networks",
+  "authors": "Muhammad Farhan, Henning Koehler, Qing Wang, Jiawen Wang, Moritz Laupichler, Peter Sanders",
+  "summary": {"objective": "도로 네트워크에서 효율적 라우팅을 위한 2-hop 레이블링 커스터마이징", "methodology": "2-hop 레이블링과 커스터마이징을 결합한 경로 계산", "contributions": ["커스터마이징 2-hop 레이블링", "효율적 도로 라우팅"], "experiments": "기존 방법 대비 쿼리 성능 향상", "limitations": "대규모 네트워크에서의 전처리 시간"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Indexing", "confidence": 0.85}],
+  "key_findings": ["2-hop 레이블링 커스터마이징이 효과적", "도로 네트워크 쿼리 최적화 가능"]
+}

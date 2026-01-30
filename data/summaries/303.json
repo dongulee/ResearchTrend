@@ -1,0 +1,8 @@
+{
+  "paper_id": 303,
+  "title": "Semantic Integrity Constraints: Declarative Guardrails for AI-Augmented Data Processing Systems",
+  "authors": "Alexander Lee, Justin Chan, Michael Fu, Nicolas Kim, Akshay Mehta, Deepti Raghavan, Ugur Cetintemel",
+  "summary": {"objective": "AI 증강 데이터 처리 시스템을 위한 선언적 가드레일", "methodology": "의미적 무결성 제약으로 AI 시스템 출력 검증", "contributions": ["의미적 무결성 제약", "AI 가드레일"], "experiments": "AI 시스템의 출력 품질 향상 검증", "limitations": "제약 정의 복잡성"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["의미적 제약이 AI 출력에 효과적", "가드레일로 품질 보장 가능"]
+}

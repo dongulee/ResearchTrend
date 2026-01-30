@@ -1,0 +1,8 @@
+{
+  "paper_id": 173,
+  "title": "Oze: Decentralized Graph-based Concurrency Control",
+  "authors": "Jun Nemoto, Taksahi Kambayashi, Takashi Hoshino",
+  "summary": {"objective": "분산 그래프 기반 동시성 제어", "methodology": "중앙 집중 없이 그래프 구조를 활용한 동시성 제어. 분산 환경에서 트랜잭션 관리", "contributions": ["분산 그래프 기반 CC Oze", "중앙 집중 제거"], "experiments": "중앙 집중 방식 대비 확장성 향상", "limitations": "매우 긴 트랜잭션에서의 성능"},
+  "tags": [{"tag": "Concurrency Control", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Transaction Processing", "confidence": 0.9}],
+  "key_findings": ["분산 CC가 중앙 집중보다 확장적", "그래프 구조가 의존성 관리에 효과적"]
+}

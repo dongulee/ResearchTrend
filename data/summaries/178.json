@@ -1,0 +1,8 @@
+{
+  "paper_id": 178,
+  "title": "ChatTS: Aligning Time Series with LLMs via Synthetic Data",
+  "authors": "Zhe Xie, Zeyan Li, Xiao He, Longlong Xu",
+  "summary": {"objective": "합성 데이터를 통해 시계열과 LLM 정렬", "methodology": "합성 시계열 데이터 생성으로 LLM이 시계열 이해하도록 학습. 시계열-텍스트 정렬", "contributions": ["시계열-LLM 정렬 ChatTS", "합성 데이터 활용"], "experiments": "시계열 질의응답에서 효과적 성능", "limitations": "복잡한 시계열 패턴에서의 이해도"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["합성 데이터가 시계열-LLM 정렬에 효과적", "LLM이 시계열 분석에 활용 가능"]
+}

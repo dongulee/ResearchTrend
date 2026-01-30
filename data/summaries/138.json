@@ -1,0 +1,26 @@
+{
+  "paper_id": 138,
+  "title": "Agamotto: Scheduling of Deadline-Oriented Incremental Query Execution under Uncertain Resource Price",
+  "authors": "Botong Huang, Weng Lianggui, Wei Chen, Zuozhi Wang, Kai Zeng, Chen Li, Yihui Feng, Bolin Ding, Jingren Zhou",
+  "summary": {
+    "objective": "불확실한 자원 가격 하에서 데드라인 기반 증분 쿼리 실행의 새로운 스케줄링 문제 해결",
+    "methodology": "MDP(마르코프 결정 프로세스)로 오프라인에서 미래 확률 모델링. 온라인에서 비용 기반 동적 스케줄링 결정. 종속 쿼리 워크플로우로 확장하여 비동기 증분 실행 지원",
+    "contributions": [
+      "불확실한 자원 가격 하 증분 쿼리 스케줄링 Agamotto",
+      "MDP 기반 미래 확률 모델링",
+      "종속 쿼리 워크플로우 지원"
+    ],
+    "experiments": "나이브 솔루션 대비 일관되게 우수. 이론적 하한에 평균 10배 더 가까운 비용 달성",
+    "limitations": "매우 불규칙한 가격 변동에서의 예측 정확도"
+  },
+  "tags": [
+    {"tag": "Query Processing", "confidence": 0.95},
+    {"tag": "Stream Processing", "confidence": 0.9},
+    {"tag": "Cloud Computing", "confidence": 0.85}
+  ],
+  "key_findings": [
+    "자원 가격 불확실성이 스케줄링의 핵심 과제",
+    "MDP가 미래 확률 모델링에 효과적",
+    "비동기 증분 실행이 워크플로우 효율성 향상"
+  ]
+}

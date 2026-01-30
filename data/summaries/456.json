@@ -1,0 +1,8 @@
+{
+  "paper_id": 456,
+  "title": "Open Science: A New Paradigm for the Research Lifecycle",
+  "authors": "Ioannidis, Yannis",
+  "summary": {"objective": "연구 생애주기를 위한 오픈 사이언스", "methodology": "오픈 사이언스 철학과 방법론 분석", "contributions": ["오픈 사이언스 기조 연설", "새 패러다임 제시"], "experiments": "협력과 투명성 분석", "limitations": "기존 관행 변화 어려움"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}, {"tag": "Benchmarking", "confidence": 0.8}],
+  "key_findings": ["오픈 사이언스가 연구 변화 촉진", "협력과 접근성 중요"]
+}

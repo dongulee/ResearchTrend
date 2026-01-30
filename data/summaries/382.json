@@ -1,0 +1,8 @@
+{
+  "paper_id": 382,
+  "title": "Streaming View: An Efficient Data Processing Engine for Modern Real-time Data Warehouse of Alibaba Cloud",
+  "authors": "Fangyuan Zhang, Mengqi Wu, Chunlei Xu, Yunong Bao, Jiyu Qiao, Yingli Zhou, Hua Fan, Caihua Yin, Wenchao Zhou, Feifei Li",
+  "summary": {"objective": "Alibaba Cloud의 현대 실시간 DW를 위한 효율적 데이터 처리 엔진", "methodology": "스트리밍과 배치를 통합한 실시간 처리", "contributions": ["실시간 DW 엔진 Streaming View", "스트리밍-배치 통합"], "experiments": "Alibaba 프로덕션에서 효과 검증", "limitations": "복잡한 스트리밍 로직"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Real-time Analytics", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.85}],
+  "key_findings": ["스트리밍 뷰가 실시간 DW에 효과적", "스트리밍-배치 통합 가능"]
+}

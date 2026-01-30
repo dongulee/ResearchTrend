@@ -1,0 +1,35 @@
+{
+  "paper_id": 110,
+  "title": "Mining the Minoria: Unknown, Under-represented, and Under-performing Minority Groups",
+  "authors": "Mohsen Dehghankar, Abolfazl Asudeh",
+  "summary": {
+    "objective": "그룹 정보가 없는 데이터에서 과소대표되고 성능이 저하된 소수 그룹을 발견하는 소수자 마이닝 문제 해결",
+    "methodology": "속성 공간에서 과소대표/저성능 잠재 그룹을 드러내는 벡터 탐색. 데이터의 기하학적 변환과 초평면 배열 개념 사용. 저차원 효율적 알고리즘과 고차원 스마트 탐색 솔루션 제안",
+    "contributions": [
+      "소수자 마이닝 문제 정의 및 해결",
+      "기하학적 변환 기반 효율적 알고리즘",
+      "고차원을 위한 스마트 탐색 공간 탐색"
+    ],
+    "experiments": "실제 및 합성 데이터셋에서 미지의 과소대표/저성능 소수자 마이닝 효과성 입증",
+    "limitations": "매우 높은 차원에서의 계산 복잡도"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Privacy",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "그룹 정보 없이도 소수자 식별 가능",
+    "기하학적 접근이 저차원에서 효율적",
+    "책임감 있는 데이터 과학에 중요한 도구"
+  ]
+}

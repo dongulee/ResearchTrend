@@ -1,0 +1,34 @@
+{
+  "paper_id": 60,
+  "title": "SDEcho: Efficient Explanation of Aggregated Sequence Difference",
+  "authors": "Fei Ye, Zikang Liu, Xi Zhang, Yinan Jing, Zhenying He, Yuxin Che, Haoran Xiong, Kai Zhang, X. Sean Wang",
+  "summary": {
+    "objective": "SQL 쿼리에서 파생된 집계 시퀀스 간 차이의 원인을 자동으로 설명하는 것",
+    "methodology": "패턴, 순서, 차원 관점과 상호작용을 고려한 고급 가지치기 기법. 전체 설명 공간을 가지치기하면서 설명의 정확성과 간결성 유지",
+    "contributions": [
+      "시퀀스 차이 설명 프레임워크 SDEcho",
+      "하이브리드 가지치기 접근법",
+      "고차원/대용량 데이터셋 지원"
+    ],
+    "experiments": "합성/실제 데이터셋에서 기존 방법 대비 효과성과 효율성 우수",
+    "limitations": "매우 복잡한 시퀀스 패턴에 대한 설명 품질"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "하이브리드 가지치기가 검색 가속에 핵심",
+    "다차원 상호작용 고려가 설명 품질 향상"
+  ]
+}

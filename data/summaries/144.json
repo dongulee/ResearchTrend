@@ -1,0 +1,22 @@
+{
+  "paper_id": 144,
+  "title": "Causal DAG Summarization",
+  "authors": "Anna Zeng, Michael Cafarella, Batya Kenig, Markos Markakis, Brit Youngmann, Babak Salimi",
+  "summary": {
+    "objective": "인과 추론을 위한 필수 정보를 유지하면서 이해를 위해 그래프를 단순화하는 인과 DAG 요약 목표 제안",
+    "methodology": "인과 DAG 요약의 새로운 목표 정의. 그래프 단순화와 인과 정보 유지 균형. 효율적인 탐욕 알고리즘 개발",
+    "contributions": [
+      "인과 그래프 요약 목표 정의",
+      "인과 정보 유지하는 요약 방법",
+      "효율적인 탐욕 알고리즘"
+    ],
+    "experiments": "고차원 데이터에서 인간 검증 가능성을 넘어선 복잡한 인과 DAG 단순화",
+    "limitations": "매우 복잡한 인과 관계에서의 정보 손실"
+  },
+  "tags": [
+    {"tag": "Machine Learning", "confidence": 0.9},
+    {"tag": "Graph Analytics", "confidence": 0.9},
+    {"tag": "Data Quality", "confidence": 0.8}
+  ],
+  "key_findings": ["일반 그래프 요약이 인과 DAG에 부적합", "인과 정보 유지가 요약의 핵심 제약", "탐욕 알고리즘이 효율적 해결 제공"]
+}

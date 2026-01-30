@@ -1,0 +1,8 @@
+{
+  "paper_id": 434,
+  "title": "Beyond Quacking: Deep Integration of Language Models and RAG into DuckDB",
+  "authors": "Anas Dorbani, Sunny Yasser, Jimmy Lin, Amine Mhedhbi",
+  "summary": {"objective": "DuckDB에 언어 모델과 RAG 깊이 통합", "methodology": "DuckDB에서 LLM과 RAG를 네이티브로 지원", "contributions": ["DuckDB LLM/RAG 통합", "깊은 통합"], "experiments": "분석 애플리케이션에서 통합 효과 검증", "limitations": "LLM 비용"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["LLM/RAG 통합이 DuckDB에 효과적", "분석 애플리케이션 지원"]
+}

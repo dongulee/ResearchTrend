@@ -1,0 +1,8 @@
+{
+  "paper_id": 404,
+  "title": "Smart SPARQL Advisor: Guiding Users in Query Formulation with Performance Prediction",
+  "authors": "Abiram Mohanaraj, Matteo Lissandrini, Katja Hose",
+  "summary": {"objective": "성능 예측으로 쿼리 작성 안내하는 스마트 SPARQL 어드바이저", "methodology": "SPARQL 쿼리의 성능을 예측하여 사용자 안내", "contributions": ["스마트 SPARQL 어드바이저", "성능 예측 안내"], "experiments": "SPARQL 쿼리 작성에서 안내 효과 검증", "limitations": "예측 정확도"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Knowledge Graphs", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["성능 예측 안내가 효과적", "사용자 쿼리 작성 지원"]
+}

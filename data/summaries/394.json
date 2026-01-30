@@ -1,0 +1,8 @@
+{
+  "paper_id": 394,
+  "title": "Democratize MATCH_RECOGNIZE!",
+  "authors": "Louisa Lambrecht, Tim Findling, Samuel Heid, Marcel Knüdeler, Torsten Grust",
+  "summary": {"objective": "MATCH_RECOGNIZE 대중화", "methodology": "SQL의 MATCH_RECOGNIZE 절 이해와 활용 촉진", "contributions": ["MATCH_RECOGNIZE 대중화", "패턴 매칭 SQL"], "experiments": "다양한 패턴 매칭 사용 사례 시연", "limitations": "SQL 표준 지원"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Stream Processing", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["MATCH_RECOGNIZE가 강력한 기능", "대중화가 필요"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 309,
+  "title": "SQLStorm: Taking Database Benchmarking into the LLM Era",
+  "authors": "Tobias Schmidt, Leis Viktor, Peter Boncz, Thomas Neumann",
+  "summary": {"objective": "LLM 시대의 데이터베이스 벤치마킹", "methodology": "LLM을 활용한 새로운 벤치마크 워크로드 생성", "contributions": ["LLM 기반 벤치마킹 SQLStorm", "새로운 벤치마크 방법론"], "experiments": "LLM 생성 워크로드의 품질과 다양성 검증", "limitations": "LLM 편향"},
+  "tags": [{"tag": "Benchmarking", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["LLM이 벤치마크 생성에 유용", "다양한 워크로드 생성 가능"]
+}

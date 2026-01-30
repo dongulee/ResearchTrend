@@ -1,0 +1,26 @@
+{
+  "paper_id": 136,
+  "title": "Revisiting the Index Construction of Proximity Graph-Based Approximate Nearest Neighbor Search",
+  "authors": "Shuo Yang, Jiadong Xie, Yingfan Liu, Jeffrey Xu Yu, Xiyue Gao, Qianru Wang, Yanguo Peng, Jiangtao Cui",
+  "summary": {
+    "objective": "k-ANN 검색 성능을 저하시키지 않으면서 근접 그래프(PG) 기반 방법의 인덱스 구축 가속화",
+    "methodology": "RNG(상대 이웃 그래프)와 NSWG(탐색 가능한 작은 세계 그래프) 두 주요 PG 카테고리의 구축 과정 재검토. 구축 효율성 문제 식별 및 새로운 구축 프레임워크 제안",
+    "contributions": [
+      "PG 인덱스 구축의 효율성 문제 식별",
+      "k-ANN 검색 성능 유지하면서 구축 가속화",
+      "RNG와 NSWG 모두에 적용 가능한 프레임워크"
+    ],
+    "experiments": "초선형 구축 비용을 줄여 대규모 데이터 확장성 향상",
+    "limitations": "매우 높은 차원에서의 구축 효율성"
+  },
+  "tags": [
+    {"tag": "Vector Search", "confidence": 0.95},
+    {"tag": "Indexing", "confidence": 0.95},
+    {"tag": "Performance", "confidence": 0.9}
+  ],
+  "key_findings": [
+    "PG 구축의 초선형 비용이 확장성 제한",
+    "구축 과정 재검토로 효율성 문제 식별 가능",
+    "검색 성능 유지하면서 구축 가속화 가능"
+  ]
+}

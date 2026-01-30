@@ -1,0 +1,8 @@
+{
+  "paper_id": 192,
+  "title": "VecCity: A Taxonomy-guided Library for Map Entity Representation Learning",
+  "authors": "Wentao Zhang, Jingyuan Wang, Yifan Yang",
+  "summary": {"objective": "지도 엔티티 표현 학습을 위한 분류 체계 기반 라이브러리", "methodology": "지도의 다양한 엔티티(POI, 도로 등)에 대한 표현 학습. 분류 체계로 체계적 접근", "contributions": ["지도 엔티티 표현 학습 VecCity", "분류 체계 기반 설계"], "experiments": "다양한 지도 관련 태스크에서 효과적", "limitations": "매우 다양한 지도 유형에서의 일반화"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.85}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["분류 체계가 체계적 학습에 효과적", "지도 엔티티 표현이 다양한 응용에 유용"]
+}

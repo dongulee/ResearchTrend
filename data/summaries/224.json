@@ -1,0 +1,8 @@
+{
+  "paper_id": 224,
+  "title": "Alchemy: A Query Optimization Framework for Oblivious Databases",
+  "authors": "Donghyun Sohn, Kelly Jiang, Nicolas Hammer",
+  "summary": {"objective": "난독화 데이터베이스를 위한 쿼리 최적화 프레임워크", "methodology": "난독화 환경에서 효율적 쿼리 최적화. 보안과 성능 균형", "contributions": ["난독화 DB 쿼리 최적화 Alchemy", "보안-성능 균형"], "experiments": "기존 난독화 DB 대비 성능 향상", "limitations": "매우 복잡한 쿼리에서의 최적화"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Security", "confidence": 0.9}],
+  "key_findings": ["난독화 환경에서 최적화 가능", "보안과 성능 균형이 핵심"]
+}

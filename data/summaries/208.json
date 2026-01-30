@@ -1,0 +1,8 @@
+{
+  "paper_id": 208,
+  "title": "The UDFBench Benchmark for General-purpose UDF Queries",
+  "authors": "Yannis Foufoulas, Theoni Palaiologou, Alkis Simitsis",
+  "summary": {"objective": "범용 UDF 쿼리를 위한 벤치마크", "methodology": "다양한 UDF 유형과 워크로드를 포함한 벤치마크 설계. 체계적 평가 프레임워크", "contributions": ["UDF 벤치마크 UDFBench", "다양한 워크로드"], "experiments": "UDF 처리 시스템 체계적 평가", "limitations": "새로운 UDF 유형에 대한 확장"},
+  "tags": [{"tag": "Benchmarking", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["UDF 벤치마크가 체계적 평가에 필수", "다양한 UDF 유형 고려 필요"]
+}

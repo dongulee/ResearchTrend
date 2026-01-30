@@ -1,0 +1,34 @@
+{
+  "paper_id": 37,
+  "title": "The Cost of Representation by Subset Repairs",
+  "authors": "Yuxi Liu, Fangzhu Shen, Kushagra Ghosh, Amir Gilad, Benny Kimelfeld, Sudeepa Roy",
+  "summary": {
+    "objective": "데이터베이스 수리 시 하위 집단의 대표성 비용을 연구하는 것",
+    "methodology": "함수적 종속성에 대한 부분집합 수리에서 대표성 비용 분석. 무결성 제약과 대표성 제약을 모두 만족시키기 위해 추가로 삭제해야 하는 튜플 수 정량화",
+    "contributions": [
+      "대표성 비용 문제 정의",
+      "특수 경우에 대한 다항 시간 알고리즘",
+      "일반 경우에 대한 효율적 휴리스틱"
+    ],
+    "experiments": "알고리즘의 대표성 비용 계산/근사 효과 입증",
+    "limitations": "매우 복잡한 제약 조합에서의 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Data Quality",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Cleaning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "수리가 하위 집단 대표성에 영향",
+    "대표성 제약이 추가 삭제 비용 발생"
+  ]
+}

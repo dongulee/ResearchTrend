@@ -1,0 +1,8 @@
+{
+  "paper_id": 355,
+  "title": "MD-MVCC: Multi-version Concurrency Control for Schema Changes in Azure SQL Database",
+  "authors": "Panagiotis Antonopoulos, Mansi Chauhan, Shailender Dabas, Rajat Jain, Darshan Kattera, Wonseok Kim, Hanuma Kodavalla, Nikolas Ogg, Prashanth Purnananda, Rahul Ranjan, Alex Swanson, Divyesh Tikmani",
+  "summary": {"objective": "Azure SQL DB에서 스키마 변경을 위한 다중 버전 동시성 제어", "methodology": "스키마 변경 중에도 트랜잭션 처리 지속", "contributions": ["스키마 변경 MVCC MD-MVCC", "Azure SQL DB 적용"], "experiments": "스키마 변경 중 성능 유지 검증", "limitations": "복잡한 스키마 변경"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Concurrency Control", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.85}],
+  "key_findings": ["스키마 변경 중 트랜잭션 처리 가능", "MVCC가 스키마 변경에 적용 가능"]
+}

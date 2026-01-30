@@ -1,0 +1,8 @@
+{
+  "paper_id": 193,
+  "title": "Evaluating Methods for Efficient Entity Count Estimation",
+  "authors": "Jerin George Mathew, Donatella Firmani, Paolo Papotti",
+  "summary": {"objective": "효율적인 엔티티 수 추정 방법 평가", "methodology": "다양한 엔티티 수 추정 방법 비교 분석. 효율성과 정확도 평가", "contributions": ["엔티티 수 추정 방법 평가", "벤치마크 프레임워크"], "experiments": "방법별 강점과 약점 식별", "limitations": "새로운 추정 방법에 대한 업데이트"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Statistics", "confidence": 0.85}],
+  "key_findings": ["추정 방법 선택이 중요", "데이터 특성에 따라 최적 방법 다름"]
+}

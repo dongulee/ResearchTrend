@@ -1,0 +1,35 @@
+{
+  "paper_id": 125,
+  "title": "QOVIS: Understanding and Diagnosing Query Optimizer via a Visualization-assisted Approach",
+  "authors": "Zhengxin You, Qiaomu Shen, Man Lung Yiu, Bo Tang",
+  "summary": {
+    "objective": "시각화 지원 접근법으로 쿼리 최적화기의 버그/이슈를 식별하고 근본 원인을 조사",
+    "methodology": "데이터 전처리 계층, 변환 로직 계산 계층, 시각 분석 계층으로 구성된 QOVIS 제안. 쿼리 최적화 중 생성된 수천 개의 쿼리 계획 처리. 쿼리 계획 간 연산자 변경 추적",
+    "contributions": [
+      "쿼리 최적화기 이해/진단을 위한 QOVIS",
+      "변환 로직 계산으로 계획 간 관계 분석",
+      "시각 분석으로 근본 원인 탐색 지원"
+    ],
+    "experiments": "24명 DB 개발자/연구자 대상 사용자 연구에서 버그/오류 조사 시간 크게 감소 확인",
+    "limitations": "매우 복잡한 최적화기에서의 시각화 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "시각화가 쿼리 최적화기 진단에 효과적",
+    "변환 로직 추적이 근본 원인 파악에 핵심",
+    "전문가도 시각화 도움으로 생산성 향상"
+  ]
+}

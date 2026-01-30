@@ -1,0 +1,8 @@
+{
+  "paper_id": 288,
+  "title": "Accelerating Subgraph Matching through Fine-grained and Powerful Equivalences",
+  "authors": "Yujie Lu, Zhijie Zhang, Weiguo Zheng, Lei Zou",
+  "summary": {"objective": "세밀하고 강력한 동치를 통한 부분그래프 매칭 가속화", "methodology": "동치 관계를 활용하여 중복 계산 제거", "contributions": ["세밀한 동치 기반 매칭 가속", "중복 제거 최적화"], "experiments": "기존 매칭 방법 대비 성능 향상", "limitations": "특정 그래프 구조"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["동치 관계가 매칭 가속에 효과적", "세밀한 분석이 성능 향상에 기여"]
+}

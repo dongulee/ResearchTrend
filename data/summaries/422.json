@@ -1,0 +1,8 @@
+{
+  "paper_id": 422,
+  "title": "SDG-KG: A Framework to Compute SDG Indicator using Open Data",
+  "authors": "Wissal Benjira, Nicolas Travers, Bénédicte Bucher, Malika Grim-Yefsah, Faten Atigui",
+  "summary": {"objective": "오픈 데이터를 사용하여 SDG 지표를 계산하는 프레임워크", "methodology": "지식 그래프로 SDG 지표 계산 자동화", "contributions": ["SDG 지표 계산 프레임워크 SDG-KG", "오픈 데이터 활용"], "experiments": "SDG 지표 계산에서 효과 검증", "limitations": "데이터 가용성"},
+  "tags": [{"tag": "Knowledge Graphs", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["지식 그래프가 SDG 계산에 효과적", "오픈 데이터 활용 가능"]
+}

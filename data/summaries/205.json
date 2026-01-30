@@ -1,0 +1,8 @@
+{
+  "paper_id": 205,
+  "title": "Concurrency Control as a Service",
+  "authors": "Weixing Zhou, Yanfeng Zhang, Xinji Zhou",
+  "summary": {"objective": "동시성 제어를 서비스로 제공", "methodology": "동시성 제어를 독립 서비스로 분리. 다양한 데이터 저장소에서 활용", "contributions": ["동시성 제어 서비스화", "저장소 독립적"], "experiments": "다양한 저장소에서 일관된 CC 제공", "limitations": "서비스 호출 오버헤드"},
+  "tags": [{"tag": "Concurrency Control", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.9}],
+  "key_findings": ["CC 서비스화가 실용적", "저장소 독립성이 유연성 제공"]
+}

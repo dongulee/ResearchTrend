@@ -1,0 +1,8 @@
+{
+  "paper_id": 255,
+  "title": "Sonata: Multi-Database Transactions Made Fast and Serializable",
+  "authors": "Chuzhe Tang, Zhaoguo Wang, Jinyang Li, Haibo Chen",
+  "summary": {"objective": "다중 데이터베이스 트랜잭션의 빠르고 직렬화 가능한 처리", "methodology": "분산 서비스 환경에서 다중 DB 트랜잭션의 직렬화 보장", "contributions": ["다중 DB 트랜잭션 Sonata", "빠른 직렬화 가능 처리"], "experiments": "기존 방법 대비 성능과 일관성 향상", "limitations": "매우 높은 충돌률"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Concurrency Control", "confidence": 0.85}],
+  "key_findings": ["다중 DB 트랜잭션의 직렬화 가능", "성능과 일관성 동시 달성"]
+}

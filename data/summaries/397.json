@@ -1,0 +1,8 @@
+{
+  "paper_id": 397,
+  "title": "A Demonstration of QueryArtisan: Real-Time Data Lake Analysis via Dynamically Generated Data Manipulation Code",
+  "authors": "Wenhao Liu, Xiu Tang, Sai Wu, Chang Yao, Gongsheng Yuan, Gang Chen",
+  "summary": {"objective": "동적 생성 코드를 통한 실시간 데이터 레이크 분석", "methodology": "쿼리에 따라 데이터 조작 코드를 동적 생성", "contributions": ["동적 코드 생성 QueryArtisan", "실시간 레이크 분석"], "experiments": "데이터 레이크에서 분석 효과 검증", "limitations": "코드 생성 품질"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["동적 코드 생성이 레이크 분석에 효과적", "실시간 처리 가능"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 418,
+  "title": "GooseDB: A Database Engine that Optimally Refines Top-k Queries to Satisfy Representation Constraints",
+  "authors": "Zixuan Chen, Jinyang Li, H. V. Jagadish, Mirek Riedewald",
+  "summary": {"objective": "표현 제약을 만족하도록 Top-k 쿼리를 최적으로 정제하는 DB 엔진", "methodology": "공정성 제약을 만족하는 Top-k 결과 생성", "contributions": ["표현 제약 Top-k GooseDB", "최적 정제"], "experiments": "다양한 제약에서 정제 효과 검증", "limitations": "제약 정의"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["표현 제약 정제가 가능", "공정한 Top-k 결과 생성"]
+}

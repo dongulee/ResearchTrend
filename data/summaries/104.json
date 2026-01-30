@@ -1,0 +1,35 @@
+{
+  "paper_id": 104,
+  "title": "A Hybrid Approach to Integrating Deterministic and Non-deterministic Concurrency Control in Database Systems",
+  "authors": "Yinhao Hong, Hongyao Zhao, Wei Lu, Xiaoyong Du, Yuxing Chen, Anqun Pan, Zheng Lixiong",
+  "summary": {
+    "objective": "결정적(Calvin)과 비결정적(OCC) 동시성 제어 알고리즘을 동일 데이터베이스 시스템에서 적응적으로 통합",
+    "methodology": "배치 실행, 비대화형 트랜잭션 등 결정적 알고리즘의 엄격한 가정 극복. 잠금 공유, 전역 검증, 이중 로그 인터리빙 메커니즘으로 직렬화 가능성과 복구 정확성 보장. 규칙 기반 할당으로 워크로드에 따라 동적 선택",
+    "contributions": [
+      "Calvin과 OCC를 통합하는 하이브리드 접근법 HDCC",
+      "직렬화 가능성과 복구 정확성 보장 메커니즘",
+      "워크로드 특성 기반 규칙 기반 동적 선택"
+    ],
+    "experiments": "TPC-C와 YCSB 벤치마크에서 기존 하이브리드 접근법 대비 최대 3.1배 성능 향상",
+    "limitations": "규칙 기반 할당의 자동화 수준"
+  },
+  "tags": [
+    {
+      "tag": "Transaction Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Concurrency Control",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "결정적/비결정적 CC 통합이 다양한 워크로드에 효과적",
+    "잠금 공유와 이중 로그 인터리빙이 정확성 핵심",
+    "워크로드 적응적 선택이 성능 최적화에 중요"
+  ]
+}

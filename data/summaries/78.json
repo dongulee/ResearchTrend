@@ -1,0 +1,34 @@
+{
+  "paper_id": 78,
+  "title": "Most Similar Biclique Search at Scale",
+  "authors": "Deming Chu, Zhizhi Gao, Fan Zhang, Wenjie Zhang, Xuemin Lin, Zhihong Tian",
+  "summary": {
+    "objective": "이분 그래프에서 정점 간 유사도가 가장 높은 바이클릭(biclique) 찾기",
+    "methodology": "최대 바이클릭 대신 가장 유사한 바이클릭을 대안으로 제안. 지역 및 전역 가장 유사한 바이클릭 검색. NP-hard 문제에 대한 효율적 알고리즘 Mosib",
+    "contributions": [
+      "가장 유사한 바이클릭 개념",
+      "그래프 축소 규칙",
+      "유사도 우선 검색 규칙"
+    ],
+    "experiments": "효율적인 정확 및 근사 알고리즘",
+    "limitations": "매우 큰 이분 그래프에서의 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "유사도 기반 바이클릭이 의미 있는 커뮤니티 탐지에 효과적",
+    "축소 규칙이 검색 효율성 향상"
+  ]
+}

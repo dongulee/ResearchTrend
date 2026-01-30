@@ -1,0 +1,8 @@
+{
+  "paper_id": 423,
+  "title": "FedVSE: A Privacy-Preserving and Efficient Vector Search Engine for Federated Databases",
+  "authors": "Zeheng Fan, Yuxiang Zeng, Zhuanglin Zheng, Yongxin Tong",
+  "summary": {"objective": "연합 DB를 위한 프라이버시 보존하고 효율적인 벡터 검색 엔진", "methodology": "연합 환경에서 프라이버시 보존 벡터 검색", "contributions": ["프라이버시 보존 벡터 검색 FedVSE", "연합 DB 지원"], "experiments": "연합 환경에서 검색 효과 검증", "limitations": "통신 오버헤드"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Privacy", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["연합 벡터 검색이 가능", "프라이버시 보존 달성"]
+}

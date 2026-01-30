@@ -1,0 +1,14 @@
+{
+  "paper_id": 153,
+  "title": "SimRN: Trajectory Similarity Learning in Road Networks based on Distributed Deep Reinforcement Learning",
+  "authors": "Danlei Hu, Yilin Li, Lu Chen, Ziquan Fang, Yushuai Li, Yunjun Gao, Tianyi Li",
+  "summary": {
+    "objective": "분산 딥 강화학습 기반 도로 네트워크에서의 궤적 유사도 학습",
+    "methodology": "도로 네트워크의 구조적 특성을 고려한 궤적 유사도 학습. 분산 딥 강화학습으로 효율적 학습 및 추론",
+    "contributions": ["도로 네트워크 기반 궤적 유사도 학습 SimRN", "분산 딥 강화학습 활용", "구조적 특성 고려"],
+    "experiments": "기존 방법 대비 유사도 측정 정확도 향상",
+    "limitations": "매우 복잡한 도로 네트워크에서의 확장성"
+  },
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["강화학습이 궤적 유사도에 효과적", "분산 학습이 확장성 제공", "도로 네트워크 구조 활용이 정확도 향상"]
+}

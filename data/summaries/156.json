@@ -1,0 +1,14 @@
+{
+  "paper_id": 156,
+  "title": "The Power of Constraints in Natural Language to SQL Translation",
+  "authors": "Tonghui Ren, Chen Ke, Yuankai Fan, Yinan Jing, Zhenying He, Kai Zhang, X. Sean Wang",
+  "summary": {
+    "objective": "자연어에서 SQL 변환에서 제약조건의 역할 탐구",
+    "methodology": "데이터베이스 스키마 제약조건을 활용하여 NL2SQL 정확도 향상. 제약조건 기반 검증 및 수정 메커니즘",
+    "contributions": ["NL2SQL에서 제약조건 활용", "제약 기반 검증 메커니즘", "변환 정확도 향상"],
+    "experiments": "제약조건 활용으로 NL2SQL 정확도 크게 향상",
+    "limitations": "복잡한 제약조건 표현의 이해"
+  },
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["제약조건이 NL2SQL 정확도 향상에 핵심", "스키마 정보 활용이 변환 품질 향상", "제약 기반 검증이 오류 감소"]
+}

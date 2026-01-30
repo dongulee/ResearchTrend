@@ -1,0 +1,34 @@
+{
+  "paper_id": 52,
+  "title": "LEAP: A Low-cost Spark SQL Query Optimizer using Pairwise Comparison",
+  "authors": "Junhao Ye, Jiahui Li, Lu Chen, Yuren Mao, Yunjun Gao, Tianyi Li",
+  "summary": {
+    "objective": "Spark SQL에 특화된 학습 기반 쿼리 최적화기 개발",
+    "methodology": "비용 값 추정 대신 플랜 간 직접 비교로 실행 플랜 선택. 가지치기 기법을 사용한 효율적인 점진적 플랜 열거 알고리즘",
+    "contributions": [
+      "Spark SQL용 첫 학습 쿼리 최적화기 LEAP",
+      "추정 없는 쌍별 비교 방식",
+      "효율적인 점진적 플랜 열거"
+    ],
+    "experiments": "3개 공개 벤치마크에서 네이티브 대비 엔드투엔드 실행 시간 감소",
+    "limitations": "매우 복잡한 쿼리에서의 열거 비용"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "쌍별 비교가 비용 추정보다 신뢰성 높음",
+    "점진적 열거가 열거 비용 감소에 효과적"
+  ]
+}

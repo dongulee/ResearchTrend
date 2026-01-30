@@ -1,0 +1,8 @@
+{
+  "paper_id": 226,
+  "title": "HAKES: Scalable Vector Database for Embedding Search",
+  "authors": "Guoyu Hu, Shaofeng Cai, Anh Dinh, Zhongle Xie",
+  "summary": {"objective": "임베딩 검색을 위한 확장 가능한 벡터 데이터베이스", "methodology": "대규모 임베딩 검색을 위한 확장 가능한 아키텍처. 효율적 인덱싱과 검색", "contributions": ["확장 가능 벡터 DB HAKES", "효율적 검색"], "experiments": "기존 벡터 DB 대비 확장성과 성능 향상", "limitations": "매우 높은 차원에서의 효율성"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["확장성이 벡터 DB의 핵심 과제", "효율적 인덱싱이 검색 성능에 중요"]
+}

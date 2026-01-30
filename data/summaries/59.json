@@ -1,0 +1,34 @@
+{
+  "paper_id": 59,
+  "title": "A CPU-GPU Hybrid Labelling Algorithm for Massive Shortest Distance Queries on Road Networks",
+  "authors": "Li Jiajia, Yongzhi Chen, Mengxuan Zhang, Lei Li",
+  "summary": {
+    "objective": "도로 네트워크에서 대규모 최단 거리 쿼리를 위한 효율적인 hop-labeling 구축",
+    "methodology": "GPU 고병렬성을 활용한 G2H 인덱스. 하이브리드 파티션 스킴과 최적화된 노드 순서로 빠른 축소. 병렬 레이블 구축을 위한 레이블 가지치기 방법",
+    "contributions": [
+      "CPU-GPU 하이브리드 레이블링 알고리즘 G2H",
+      "그래프 파티션과 병렬화 최적화",
+      "레이블 가지치기로 워크로드 감소"
+    ],
+    "experiments": "대규모 도시 네트워크 수초 내 구축. 6M 정점 지역 네트워크 1분 내 구축. 초당 수억 쿼리 응답, 두 자릿수 가속",
+    "limitations": "매우 동적인 교통 상황에서의 인덱스 유지보수"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "GPU 병렬화가 hop-labeling 구축 가속에 효과적",
+    "하이브리드 파티션이 성능 최적화에 핵심"
+  ]
+}

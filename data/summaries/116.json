@@ -1,0 +1,35 @@
+{
+  "paper_id": 116,
+  "title": "A Systematic Study on Early Stopping Metrics in HPO and the Implications of Uncertainty",
+  "authors": "Jiawei Guan, Feng Zhang, Jiesong Liu, Xiaoyong Du, Xipeng Shen",
+  "summary": {
+    "objective": "조기 종료 기반 HPO에서 메트릭 선택이 조기 종료 결정의 신뢰성과 HPO 결과에 미치는 영향 체계적 탐구",
+    "methodology": "불확실성을 통합한 메트릭 세트 도입. 조기 훈련 단계에서 학습 손실과 검증 손실 비교. 불확실성 통합 효과 분석",
+    "contributions": [
+      "조기 종료 메트릭 선택의 체계적 연구",
+      "불확실성 통합 메트릭의 실용적 중요성 입증",
+      "대규모 HPO 시나리오에서의 자원 절약 및 확장성 향상"
+    ],
+    "experiments": "HPO/NAS 벤치마크에서 학습 손실이 검증 손실 대비 최대 24.76% HPO 결과 개선. 불확실성 통합으로 예산 제약 하 추가 4% 개선",
+    "limitations": "특정 모델 아키텍처에 대한 일반화"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "학습 손실이 조기 단계에서 검증 손실보다 효과적",
+    "불확실성 통합이 조기 종료 결정 신뢰성 향상",
+    "메트릭 선택이 HPO 결과에 큰 영향"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": 84,
+  "title": "AdaNDV: Adaptive Number of Distinct Value Estimation via Learning to Select and Fuse Estimators",
+  "authors": "Xianghong Xu, Tieying Zhang, Xiao He, Haoyang Li, Rong Kang, Wang Shuai, Xu Linhui, Zhimin Liang, Shangyu Luo, Lei Zhang, Jianjun Chen",
+  "summary": {
+    "objective": "주어진 시나리오에 가장 적합한 NDV(Number of Distinct Values) 추정기를 적응적으로 선택하고 융합하는 학습 기반 방법 개발",
+    "methodology": "과대추정과 과소추정 추정기를 구분하는 학습 모델 사용. 각 카테고리에서 적절한 추정기 선택. 선택된 추정기의 가중치를 예측하고 가중 합으로 병합하는 융합 접근법 제안",
+    "contributions": [
+      "기존 추정기를 적응적으로 선택하고 융합하는 AdaNDV 제안",
+      "과대/과소추정 추정기의 보완적 관점 통합",
+      "가중 합 기반 융합 접근법으로 정확도 향상"
+    ],
+    "experiments": "광범위한 실험을 통해 기존 NDV 직접 추정 방법 대비 우수한 성능 입증",
+    "limitations": "학습 모델의 훈련 데이터 의존성, 극단적 데이터 분포"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Statistics",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "과대/과소추정 추정기의 보완적 통합이 오류 수정에 효과적",
+    "학습 기반 가중치 예측이 추정기 융합 정확도 향상",
+    "적응적 추정기 선택이 직접 추정보다 우수"
+  ]
+}

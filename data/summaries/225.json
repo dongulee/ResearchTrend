@@ -1,0 +1,8 @@
+{
+  "paper_id": 225,
+  "title": "DocETL: Agentic Query Rewriting and Evaluation for Data Processing",
+  "authors": "Shreya Shankar, Tristan Chambers, Tarak Shah",
+  "summary": {"objective": "데이터 처리를 위한 에이전틱 쿼리 재작성 및 평가", "methodology": "에이전트가 자동으로 쿼리 재작성 및 품질 평가. 반복적 개선", "contributions": ["에이전틱 쿼리 처리 DocETL", "자동 재작성"], "experiments": "수동 재작성 대비 품질과 효율성 향상", "limitations": "매우 복잡한 데이터 변환에서의 재작성"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["에이전틱 접근이 쿼리 개선에 효과적", "자동화가 생산성 향상"]
+}

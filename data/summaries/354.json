@@ -1,0 +1,8 @@
+{
+  "paper_id": 354,
+  "title": "TuskFlow: An Efficient Graph Database for Long-Running Transactions",
+  "authors": "Georgios Theodorakis, Hugo Firth, James Clarkson, Natacha Crooks, Jim Webber",
+  "summary": {"objective": "장시간 트랜잭션을 위한 효율적 그래프 DB", "methodology": "많은 항목에 접근하는 장시간 트랜잭션 최적화", "contributions": ["장시간 트랜잭션 그래프 DB TuskFlow", "맘모스 트랜잭션 지원"], "experiments": "기존 그래프 DB 대비 장시간 트랜잭션 성능 향상", "limitations": "짧은 트랜잭션 오버헤드"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Transaction Processing", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["장시간 트랜잭션이 그래프 DB에서 중요", "최적화된 처리가 효과적"]
+}

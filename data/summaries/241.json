@@ -1,0 +1,8 @@
+{
+  "paper_id": 241,
+  "title": "Dynamic Range-Filtering Approximate Nearest Neighbor Search",
+  "authors": "Zhencan Peng, Miao Qiao, Wenchao Zhou, Feifei Li, Dong Deng",
+  "summary": {"objective": "동적 범위 필터링 근사 최근접 이웃 검색", "methodology": "범위 필터와 ANN 검색을 결합한 동적 인덱스 구조", "contributions": ["범위 필터링 ANN 검색", "동적 업데이트 지원"], "experiments": "기존 ANN 방법 대비 범위 쿼리 성능 향상", "limitations": "매우 높은 차원에서의 성능"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Indexing", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["범위 필터링이 ANN 검색에 중요", "동적 업데이트와 검색 효율 균형"]
+}

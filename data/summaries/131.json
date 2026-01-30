@@ -1,0 +1,35 @@
+{
+  "paper_id": 131,
+  "title": "K2: On Optimizing Distributed Transactions in a Multi-region Data Store with True-time Clocks",
+  "authors": "Haoze Song, Yongqi Wang, Xusheng Chen, Hao Feng, Yazhi Feng, Xieyun Fang, Heming Cui, Linghe Kong",
+  "summary": {
+    "objective": "TrueTime 클록(TTC)을 사용하여 다중 리전 데이터 저장소의 분산 트랜잭션 최적화",
+    "methodology": "소규모 시간 불확실성 경계를 제공하는 새로운 타임스탬프 생성 스킴. 읽기-쓰기 트랜잭션을 위한 다중 버전 타임스탬프 순서 동시성 제어 활성화. 복제본에서 효율적인 읽기를 위한 TTC 기반 가시성 제어 프로토콜",
+    "contributions": [
+      "TTC 시맨틱을 확장한 다중 리전 데이터 저장소 K2",
+      "스케일에서 작은 시간 불확실성 경계 제공",
+      "TTC 기반 가시성 제어로 효율적 복제본 읽기"
+    ],
+    "experiments": "다른 지리 분산 트랜잭션 프로토콜 대비 10배 이상 높은 트랜잭션 처리량. 비동기 복제본에서 낮은 가시성 지연",
+    "limitations": "TTC 하드웨어 의존성, 매우 넓은 지리적 분산"
+  },
+  "tags": [
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Transaction Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Concurrency Control",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "TTC가 다중 리전 트랜잭션에 효과적으로 활용 가능",
+    "가시성 제어가 복제본 읽기 효율성의 핵심",
+    "Google Spanner 대비 TTC 시맨틱 확장으로 성능 향상"
+  ]
+}

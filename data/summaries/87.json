@@ -1,0 +1,35 @@
+{
+  "paper_id": 87,
+  "title": "Sphinteract: Resolving Ambiguities in NL2SQL Through User Interaction",
+  "authors": "Fuheng Zhao, Shaleen Deep, Fotis Psallidas, Avrilia Floratou, Divy Agrawal, Amr El Abbadi",
+  "summary": {
+    "objective": "자연어 질문의 모호성을 해결하여 LLM이 사용자 의도를 정확히 반영하는 고품질 SQL을 생성하도록 지원",
+    "methodology": "최소한의 사용자 피드백을 대화형으로 고려하는 Sphinteract 프레임워크 제안. Summarize, Review, Ask(SRA) 패러다임으로 LLM이 모호성을 식별하고 타겟 질문 생성",
+    "contributions": [
+      "NL2SQL의 모호성 해결을 위한 Sphinteract 프레임워크",
+      "LLM이 모호성을 식별하는 SRA 패러다임 제안",
+      "사용자 피드백 처리 및 SQL 생성의 세 가지 방법 제시"
+    ],
+    "experiments": "KaggleDBQA와 BIRD 벤치마크에서 명확화 질문을 통해 최대 42% 정확도 향상 달성",
+    "limitations": "사용자 상호작용 비용, 복잡한 모호성 유형 처리"
+  },
+  "tags": [
+    {
+      "tag": "Natural Language Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "대화형 사용자 피드백이 NL2SQL 모호성 해결에 효과적",
+    "SRA 패러다임이 LLM의 모호성 식별 능력 향상",
+    "최소한의 사용자 상호작용으로 큰 정확도 향상 가능"
+  ]
+}

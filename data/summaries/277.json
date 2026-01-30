@@ -1,0 +1,8 @@
+{
+  "paper_id": 277,
+  "title": "The Accuracy of Cardinality Estimators: Unraveling the Evaluation Result Conundrum",
+  "authors": "Nazanin Rashedi, Guido Moerkotte",
+  "summary": {"objective": "카디널리티 추정기 정확도의 평가 결과 수수께끼 해명", "methodology": "기존 카디널리티 추정기 평가의 문제점 분석", "contributions": ["추정기 평가 방법론 분석", "정확한 평가 기준 제시"], "experiments": "다양한 추정기의 실제 정확도 분석", "limitations": "특정 워크로드에 편향"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["기존 평가 방법에 문제 존재", "정확한 평가가 중요"]
+}

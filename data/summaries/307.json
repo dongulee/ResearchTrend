@@ -1,0 +1,8 @@
+{
+  "paper_id": 307,
+  "title": "UniClean: A Scalable Data Cleaning Solution for Mixed Errors based on Unified Cleaners and Optimized Cleaning Workflow",
+  "authors": "Xiaoou Ding, Zekai Qian, Hongzhi Wang, Siying Chen, Yafeng Tang, Hongbin Su, Huan Hu, Chen Wang",
+  "summary": {"objective": "혼합 오류에 대한 확장 가능한 데이터 정제 솔루션", "methodology": "통합 클리너와 최적화된 정제 워크플로우", "contributions": ["통합 데이터 정제 UniClean", "혼합 오류 처리"], "experiments": "기존 방법 대비 정제 효율과 품질 향상", "limitations": "매우 복잡한 오류 패턴"},
+  "tags": [{"tag": "Data Cleaning", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["통합 접근이 혼합 오류에 효과적", "워크플로우 최적화가 중요"]
+}

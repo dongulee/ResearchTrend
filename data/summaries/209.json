@@ -1,0 +1,8 @@
+{
+  "paper_id": 209,
+  "title": "eXpath: Explaining Knowledge Graph Link Prediction",
+  "authors": "Ye Sun, Lei Shi, Yongxin Tong",
+  "summary": {"objective": "지식 그래프 링크 예측의 설명", "methodology": "링크 예측 결과에 대한 해석 가능한 설명 생성. 경로 기반 설명 제공", "contributions": ["링크 예측 설명 eXpath", "경로 기반 설명"], "experiments": "해석 가능하고 정확한 설명 제공", "limitations": "매우 복잡한 관계에서의 설명"},
+  "tags": [{"tag": "Knowledge Graphs", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["설명 가능성이 신뢰에 중요", "경로 기반 설명이 직관적"]
+}

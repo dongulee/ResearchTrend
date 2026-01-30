@@ -1,0 +1,8 @@
+{
+  "paper_id": 388,
+  "title": "FDepHunter: Harnessing Negative Examples to Expose Fakes and Reveal Ghosts",
+  "authors": "Pavel Koupil, Jáchym Bártík, Stefan Klessinger, André Conrad, Stefanie Scherzinger",
+  "summary": {"objective": "부정 예제를 활용한 가짜 및 유령 발견", "methodology": "함수 종속성 발견에서 부정 예제 활용", "contributions": ["부정 예제 활용 FDepHunter", "FD 발견 개선"], "experiments": "기존 FD 발견 대비 정확도 향상", "limitations": "부정 예제 부족"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Schema Design", "confidence": 0.85}],
+  "key_findings": ["부정 예제가 FD 발견에 효과적", "가짜와 유령 FD 탐지 가능"]
+}

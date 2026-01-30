@@ -1,0 +1,8 @@
+{
+  "paper_id": 328,
+  "title": "ThriftLLM: On Cost-Effective Selection of Large Language Models for Classification Queries",
+  "authors": "Keke Huang, Yimin Shi, Dujian Ding, Yifei Li, Yang Fei, Laks Lakshmanan, Xiaokui Xiao",
+  "summary": {"objective": "분류 쿼리를 위한 비용 효율적 LLM 선택", "methodology": "비용과 정확도를 고려한 LLM 선택 전략", "contributions": ["비용 효율 LLM 선택 ThriftLLM", "분류 쿼리 최적화"], "experiments": "기존 단일 LLM 대비 비용 절감", "limitations": "새로운 LLM 적응"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["LLM 선택이 비용에 중요", "비용-정확도 트레이드오프 최적화 가능"]
+}

@@ -1,0 +1,40 @@
+{
+  "paper_id": 23,
+  "title": "Can Graph Reordering Speed Up Graph Neural Network Training? An Experimental Study",
+  "authors": "Nikolai Merkel, Pierre Toussing, Ruben Mayer, Hans-Arno Jacobsen",
+  "summary": {
+    "objective": "그래프 재정렬이 GNN 학습 성능에 미치는 영향을 실험적으로 분석하는 것",
+    "methodology": "PyTorch Geometric과 Deep Graph Library에서 12개 재정렬 전략에 대한 실증 평가 수행. GNN 하이퍼파라미터(레이어 수, 히든 차원, 피처 크기)의 영향 분석. CPU와 GPU 기반 학습 비교",
+    "contributions": [
+      "12개 재정렬 전략에 대한 포괄적 실험 연구",
+      "GNN 하이퍼파라미터와 재정렬 효과의 관계 분석",
+      "CPU vs GPU 학습에서의 재정렬 효과 비교"
+    ],
+    "experiments": "CPU와 GPU 기반 학습 모두에서 재정렬이 학습 시간 단축에 효과적. 경량 재정렬이 GPU 기반 학습에 더 효과적. 재정렬 시간이 많은 경우 상각 가능",
+    "limitations": "특정 그래프 구조에 대한 최적 재정렬 전략 예측, 동적 그래프에서의 재정렬"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "그래프 재정렬이 GNN 학습 시간 단축에 효과적",
+    "GNN 하이퍼파라미터가 재정렬 효과에 영향",
+    "경량 재정렬이 GPU 학습에 더 적합",
+    "재정렬 투자 시간을 상각할 수 있는 경우가 많음"
+  ]
+}

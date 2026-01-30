@@ -1,0 +1,8 @@
+{
+  "paper_id": 400,
+  "title": "Can Surrogate Keys Negatively Impact Data Quality?",
+  "authors": "Mathilde Marcy, Jean-Marc Petit, Marian Scuturici, Jocelyn Bonjour, Camille Fertel, Gerald Cavalier",
+  "summary": {"objective": "대리 키가 데이터 품질에 부정적 영향을 줄 수 있는가", "methodology": "대리 키 사용의 데이터 품질 영향 분석", "contributions": ["대리 키 데이터 품질 분석", "영향 평가"], "experiments": "대리 키 사용 사례에서 품질 분석", "limitations": "특정 도메인"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Schema Design", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["대리 키가 품질에 영향 가능", "신중한 사용 필요"]
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": 49,
+  "title": "PRICE: A Pretrained Model for Cross-Database Cardinality Estimation",
+  "authors": "Tianjing Zeng, Junwei Lan, Jiahong Ma, Wenqing Wei, Rong Zhu, Pengfei Li, Bolin Ding, Defu Lian, Zhewei Wei, Jingren Zhou",
+  "summary": {
+    "objective": "다양한 데이터베이스에 전이 가능한 사전학습 카디널리티 추정 모델 개발",
+    "methodology": "데이터 분포와 쿼리 정보에 대한 저수준 전이 가능 특징 사용. 셀프 어텐션 모델로 메타 지식 학습. 30개 다양한 데이터셋으로 사전학습 후 특정 DB에 파인튜닝",
+    "contributions": [
+      "크로스 데이터베이스 카디널리티 추정 모델 PRICE",
+      "저수준 전이 가능 특징 설계",
+      "효율적인 사전학습-파인튜닝 파이프라인"
+    ],
+    "experiments": "5시간 사전학습, 40MB 모델 크기. 미지의 DB에서 최고 추정 정확도. 파인튜닝 후 최적에 가까운 플랜 생성",
+    "limitations": "매우 복잡한 쿼리에 대한 정확도"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "저수준 특징이 크로스 DB 전이에 효과적",
+    "사전학습이 준비 비용을 크게 감소"
+  ]
+}

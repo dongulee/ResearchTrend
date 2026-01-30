@@ -1,0 +1,8 @@
+{
+  "paper_id": 459,
+  "title": "Disaggregation: A New Architecture for Cloud Databases",
+  "authors": "Yu, Xiangyao",
+  "summary": {"objective": "클라우드 DB를 위한 분리 아키텍처", "methodology": "DB 컴포넌트 분리 아키텍처 분석", "contributions": ["분리 아키텍처 연구", "최적화 방향 제시"], "experiments": "다양한 분리 설계 분석", "limitations": "미개척 연구 영역"},
+  "tags": [{"tag": "Cloud Computing", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["분리 아키텍처가 클라우드 DB의 기반", "탄력성과 비용 효율성 제공"]
+}

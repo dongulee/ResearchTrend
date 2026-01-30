@@ -1,0 +1,8 @@
+{
+  "paper_id": 238,
+  "title": "GpJSON: High-performance JSON Data Processing on GPUs",
+  "authors": "Sacheendra Talluri, Guido Walter Di Donato, Luca Danelutti, Koen Vlaswinkel, Marco Arnaboldi, Arnaud Delamare, Marco Domenico Santambrogio, Daniele Bonetta",
+  "summary": {"objective": "GPU를 활용한 고성능 JSON 데이터 처리", "methodology": "GPU 병렬성을 활용하여 JSON 파싱 및 처리 가속화", "contributions": ["GPU 기반 JSON 처리 GpJSON", "대규모 JSON 데이터 가속"], "experiments": "CPU 기반 방법 대비 JSON 처리 성능 향상", "limitations": "GPU 메모리 제약"},
+  "tags": [{"tag": "Performance", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.85}, {"tag": "Storage Systems", "confidence": 0.8}],
+  "key_findings": ["GPU가 JSON 처리에 효과적", "대규모 JSON 데이터 처리 가속 가능"]
+}

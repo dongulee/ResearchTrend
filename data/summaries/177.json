@@ -1,0 +1,8 @@
+{
+  "paper_id": 177,
+  "title": "Weak-to-Strong Prompts with Lightweight-to-Powerful Models",
+  "authors": "Changlun Li, Chenyu Yang, Yuyu Luo, Ju Fan",
+  "summary": {"objective": "경량 모델에서 강력한 모델로의 프롬프트 전이", "methodology": "경량 모델로 생성한 약한 프롬프트를 강력한 모델에 적용. 비용 효율적인 프롬프트 개선", "contributions": ["약-강 프롬프트 전이", "비용 효율적 방법"], "experiments": "직접 강력한 모델 사용 대비 비용 절감", "limitations": "모델 간 능력 격차가 큰 경우의 전이 품질"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["프롬프트 전이가 비용 절감에 효과적", "경량 모델이 프롬프트 개선에 유용"]
+}

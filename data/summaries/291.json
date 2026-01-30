@@ -1,0 +1,8 @@
+{
+  "paper_id": 291,
+  "title": "Approximate 2-hop neighborhoods on incremental graphs: An efficient lazy approach",
+  "authors": "Luca Becchetti, Andrea Clementi, Luciano Gualà, Luca Pepè Sciarria, Alessandro Straziota, Matteo Stromieri",
+  "summary": {"objective": "증분 그래프에서 근사 2-hop 이웃: 효율적 지연 접근", "methodology": "지연 평가로 2-hop 이웃 근사 계산", "contributions": ["지연 2-hop 이웃 계산", "증분 그래프 지원"], "experiments": "기존 방법 대비 업데이트 효율 향상", "limitations": "매우 빈번한 업데이트"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["지연 접근이 증분 그래프에 효과적", "2-hop 근사가 실용적"]
+}

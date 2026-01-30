@@ -1,0 +1,8 @@
+{
+  "paper_id": 271,
+  "title": "Effective and Efficient Community Search for Complex Network Semantics Capture: From Coarse-Grain to Fine-Grain",
+  "authors": "Shuai Han, Yushi Tao, Jingwen Tan, Huanran Wang, Wu Yang, Yanmei Wang",
+  "summary": {"objective": "복잡 네트워크 의미 포착을 위한 효과적이고 효율적인 커뮤니티 검색", "methodology": "조밀에서 세밀까지 다단계 커뮤니티 검색", "contributions": ["다단계 커뮤니티 검색", "네트워크 의미 포착"], "experiments": "기존 방법 대비 검색 품질과 효율 향상", "limitations": "매우 동적인 네트워크"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Network Analysis", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["다단계 검색이 커뮤니티 발견에 효과적", "세밀한 의미 포착 가능"]
+}

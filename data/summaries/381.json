@@ -1,0 +1,8 @@
+{
+  "paper_id": 381,
+  "title": "AnalyticDB-PG: A Cloud-native High-performance Data Warehouse in Alibaba Cloud",
+  "authors": "Fangyuan Zhang, Caihua Yin, Hua Fan, Fenghua Fang, Yineng Chen, Xuqi Wang, Mengqi Wu, Bing Chen, Tianbo Jin, Sibo Wang, Wenchao Zhou, Feifei Li",
+  "summary": {"objective": "Alibaba Cloud의 클라우드 네이티브 고성능 데이터 웨어하우스", "methodology": "클라우드 네이티브 아키텍처와 PostgreSQL 기반", "contributions": ["클라우드 네이티브 DW AnalyticDB-PG", "고성능 분석"], "experiments": "Alibaba 프로덕션에서 성능 검증", "limitations": "Alibaba 인프라 의존"},
+  "tags": [{"tag": "Cloud Computing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["클라우드 네이티브 DW가 효과적", "PostgreSQL 기반 확장 가능"]
+}

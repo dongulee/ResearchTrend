@@ -1,0 +1,8 @@
+{
+  "paper_id": 453,
+  "title": "Database Perspective on LLM Inference Systems",
+  "authors": "James Pan, Guoliang Li",
+  "summary": {"objective": "LLM 추론 시스템의 데이터베이스 관점", "methodology": "DB 관점에서 LLM 추론 기법 분석", "contributions": ["LLM 추론 시스템 튜토리얼", "DB 관점 제시"], "experiments": "다양한 추론 시스템 분석", "limitations": "메모리 및 계산 비용"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["DB 기법이 LLM 추론에 적용 가능", "비용 절감 효과"]
+}

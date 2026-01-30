@@ -1,0 +1,8 @@
+{
+  "paper_id": 183,
+  "title": "OpenMEL: Unsupervised Multimodal Entity Linking Using LLMs",
+  "authors": "Xinyi Zhu, Yongqi Zhang, Lei Chen",
+  "summary": {"objective": "LLM을 사용한 비지도 멀티모달 엔티티 링킹", "methodology": "텍스트와 이미지 등 다중 모달리티를 활용한 엔티티 링킹. LLM으로 레이블 없이 학습", "contributions": ["비지도 멀티모달 엔티티 링킹 OpenMEL", "LLM 활용"], "experiments": "지도 방법과 유사한 성능으로 레이블 불필요", "limitations": "매우 모호한 엔티티에서의 링킹 정확도"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Deep Learning", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["LLM이 비지도 엔티티 링킹에 효과적", "멀티모달이 링킹 정확도 향상"]
+}

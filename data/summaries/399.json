@@ -1,0 +1,8 @@
+{
+  "paper_id": 399,
+  "title": "Styx in Action: Transactional Cloud Applications Made Easy",
+  "authors": "Kyriakos Psarakis, Oto Mraz, George Christodoulou, George Siachamis, Marios Fragkoulis, Asterios Katsifodimos",
+  "summary": {"objective": "트랜잭션 클라우드 애플리케이션을 쉽게 만들기", "methodology": "Styx 시스템을 사용한 트랜잭션 애플리케이션 구축", "contributions": ["트랜잭션 애플리케이션 Styx", "클라우드 지원"], "experiments": "다양한 클라우드 애플리케이션에서 효과 검증", "limitations": "애플리케이션 복잡성"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Cloud Computing", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["Styx가 트랜잭션 앱에 효과적", "클라우드 애플리케이션 개발 용이"]
+}

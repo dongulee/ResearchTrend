@@ -1,0 +1,8 @@
+{
+  "paper_id": 361,
+  "title": "SagaLLM: Context Management, Validation, and Transaction Guarantees for Multi-Agent LLM Planning",
+  "authors": "Edward Chang, Longling Geng",
+  "summary": {"objective": "멀티 에이전트 LLM 계획을 위한 컨텍스트 관리, 검증, 트랜잭션 보장", "methodology": "멀티 에이전트 LLM의 일관성과 검증 보장", "contributions": ["멀티 에이전트 LLM 관리 SagaLLM", "트랜잭션 보장"], "experiments": "멀티 에이전트 계획 정확도와 일관성 검증", "limitations": "에이전트 복잡성"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Transaction Processing", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["멀티 에이전트 LLM에 트랜잭션 보장 필요", "컨텍스트 관리가 중요"]
+}

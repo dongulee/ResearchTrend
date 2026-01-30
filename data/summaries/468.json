@@ -1,0 +1,8 @@
+{
+  "paper_id": 468,
+  "title": "Mayura: Exploiting Similarities in Motifs for Temporal Co-Mining",
+  "authors": "Sanjay Sri Vallabh Singapuram, Ronald Dreslinski, Nishil Talati",
+  "summary": {"objective": "시간적 모티프 공동 마이닝", "methodology": "모티프 유사성 활용한 중복 계산 제거", "contributions": ["Mayura 시스템 제안", "모티프 유사성 활용"], "experiments": "시간적 그래프에서 효과 검증", "limitations": "모티프 복잡성"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Network Analysis", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["모티프 유사성이 계산 효율 향상", "중복 계산 제거"]
+}

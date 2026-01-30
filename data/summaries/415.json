@@ -1,0 +1,8 @@
+{
+  "paper_id": 415,
+  "title": "DemandClean: A Multi-Objective Learning Framework for Balancing Model Tolerance to Data Authenticity and Diversity",
+  "authors": "Zekai Qian, Xiaoou Ding, Chen Wang, Hongzhi Wang",
+  "summary": {"objective": "데이터 진정성과 다양성에 대한 모델 허용도 균형을 위한 다목적 학습 프레임워크", "methodology": "데이터 정제와 ML 모델의 다목적 최적화", "contributions": ["다목적 학습 정제 DemandClean", "허용도 균형"], "experiments": "다양한 데이터에서 정제와 모델 성능 검증", "limitations": "목적 간 트레이드오프"},
+  "tags": [{"tag": "Data Cleaning", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["다목적 학습이 정제에 효과적", "진정성-다양성 균형 달성"]
+}

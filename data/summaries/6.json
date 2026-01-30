@@ -1,0 +1,43 @@
+{
+  "paper_id": 6,
+  "title": "Nitro: Boosting Distributed Reinforcement Learning with Serverless Computing",
+  "authors": "Hanfei Yu, Jacob Carter, Hao Wang, Devesh Tiwari, Jian Li, Seung-Jong Park",
+  "summary": {
+    "objective": "분산 심층 강화학습(DRL)의 학습 효율성을 서버리스 컴퓨팅을 활용하여 향상시키는 것",
+    "methodology": "AWS Lambda와 같은 서버리스 함수를 활용하여 특정 학습 라운드에서 동시 액터를 즉시 스폰하여 액터-환경 상호작용을 전략적으로 증가시킴. 경험적 메트릭을 정확하고 신속하게 감지하여 실시간 부스팅 기회를 포착하고, 비용 인식 부스팅 예산 할당을 위한 휴리스틱 액터 스케일링 알고리즘을 설계함",
+    "contributions": [
+      "서버리스 컴퓨팅을 활용한 분산 DRL 학습 엔진 Nitro 제안",
+      "학습 요구에 따라 동적으로 데이터 샘플링 전략을 조정하는 메커니즘 개발",
+      "비용 효율적인 휴리스틱 액터 스케일링 알고리즘 설계"
+    ],
+    "experiments": "AWS EC2와 Lambda에서 Mujoco 및 Atari 벤치마크로 평가. 최종 보상(학습 품질) 최대 6배 향상, 학습 비용 최대 42% 감소 달성",
+    "limitations": "서버리스 함수의 cold start 오버헤드, 특정 클라우드 플랫폼(AWS)에 대한 의존성"
+  },
+  "tags": [
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Cloud Computing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Serverless",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "특정 학습 라운드에서 일시적으로 더 많은 동시 액터를 생성하면 학습 효율성이 크게 향상됨",
+    "서버리스 컴퓨팅의 빠른 시작 시간과 적응성이 분산 DRL에 효과적임",
+    "기존 서버 기반 솔루션 대비 비용과 성능 모두에서 개선 달성"
+  ]
+}

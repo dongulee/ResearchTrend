@@ -1,0 +1,8 @@
+{
+  "paper_id": 240,
+  "title": "Access Control for Information-Theoretically Secure Data",
+  "authors": "Yin Li, Sharad Mehrotra, Shantanu Sharma, Komal Kumari",
+  "summary": {"objective": "정보이론적 보안 데이터를 위한 접근 제어", "methodology": "Shamir 비밀 공유 기반 키-값 저장소의 접근 제어 기법", "contributions": ["정보이론적 보안 접근 제어", "키 기반 접근 관리"], "experiments": "보안 유지하면서 효율적 접근 제어 달성", "limitations": "키 관리 복잡성"},
+  "tags": [{"tag": "Security", "confidence": 0.95}, {"tag": "Privacy", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["정보이론적 보안과 접근 제어 결합 가능", "Shamir 비밀 공유가 효과적"]
+}

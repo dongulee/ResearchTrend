@@ -1,0 +1,39 @@
+{
+  "paper_id": 12,
+  "title": "Fully Automated Correlated Time Series Forecasting in Minutes",
+  "authors": "Xinle Wu, Xingjian Wu, Dalin Zhang, Miao Zhang, Chenjuan Guo, Bin Yang, Christian S. Jensen",
+  "summary": {
+    "objective": "상관 시계열 예측을 위한 완전 자동화 프레임워크를 개발하여 검색과 학습을 수분 내에 완료하는 것",
+    "methodology": "데이터 기반 반복 전략으로 대규모 검색 공간을 자동 가지치기하여 새 예측 태스크에 맞는 고품질 검색 공간 획득. 제로샷 검색 전략으로 커스터마이즈된 검색 공간에서 최적 모델 효율적 식별. 빠른 파라미터 적응 전략으로 모델 학습 가속화",
+    "contributions": [
+      "인간 전문가 개입 없이 검색 공간을 자동으로 가지치기하는 전략 제안",
+      "제로샷 검색으로 최적 모델 효율적 식별",
+      "빠른 파라미터 적응으로 모델 학습 가속화"
+    ],
+    "experiments": "7개 벤치마크 데이터셋에서 최신 수준의 정확도 달성. 기존 방법 대비 훨씬 효율적인 성능",
+    "limitations": "매우 복잡한 시계열 패턴에 대한 일반화 성능, 실시간 스트리밍 데이터 지원"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Stream Processing",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "완전 자동화된 검색과 학습이 수분 내에 가능",
+    "자동 가지치기가 고품질 검색 공간을 효과적으로 생성",
+    "제로샷 검색이 최적 모델을 빠르게 식별"
+  ]
+}

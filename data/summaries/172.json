@@ -1,0 +1,8 @@
+{
+  "paper_id": 172,
+  "title": "TMLKD: Few-shot Trajectory Metric Learning via Knowledge Distillation",
+  "authors": "Danling Lai, Jiajie Xu, Jianfeng Qu, Pingfu Chao",
+  "summary": {"objective": "지식 증류를 통한 소량 샘플 궤적 메트릭 학습", "methodology": "지식 증류로 적은 레이블 데이터에서 효과적 궤적 유사도 학습. 교사-학생 네트워크 구조", "contributions": ["소량 샘플 궤적 메트릭 학습 TMLKD", "지식 증류 활용"], "experiments": "적은 레이블로 효과적 유사도 학습", "limitations": "매우 이질적인 궤적 유형에서의 일반화"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["지식 증류가 소량 샘플 학습에 효과적", "메트릭 학습이 궤적 유사도에 적합"]
+}

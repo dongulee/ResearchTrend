@@ -1,0 +1,35 @@
+{
+  "paper_id": 91,
+  "title": "Graph Neural Network Training Systems: A Performance Comparison of Full-Graph and Mini-Batch",
+  "authors": "Saurabh Bajaj, Hui Guan, Marco Serafini, Juelin Liu, Hojae Son",
+  "summary": {
+    "objective": "Full-graph 및 Mini-batch GNN 학습 시스템의 포괄적인 실증 비교 수행",
+    "methodology": "대표적인 full-graph와 mini-batch GNN 학습 시스템을 다양한 데이터셋, GNN 모델, 시스템 구성에서 비교. Time-to-accuracy 메트릭 사용",
+    "contributions": [
+      "Full-graph와 mini-batch GNN 학습 시스템의 포괄적 비교",
+      "Mini-batch 학습이 일관되게 더 빠른 수렴 달성 확인",
+      "Mini-batch 샘플링이 정확도에 해롭지 않음을 입증"
+    ],
+    "experiments": "Mini-batch 시스템이 full-graph 시스템보다 일관되게 빠르게 수렴. Mini-batch 기법이 유사하거나 더 높은 정확도 달성",
+    "limitations": "특정 GNN 아키텍처와 데이터셋에 대한 일반화"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "Mini-batch 학습이 full-graph보다 일관되게 빠른 수렴",
+    "Mini-batch 샘플링이 정확도에 부정적 영향 없음",
+    "Time-to-accuracy가 epoch time보다 적절한 비교 메트릭"
+  ]
+}

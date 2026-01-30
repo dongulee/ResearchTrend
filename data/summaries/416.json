@@ -1,0 +1,8 @@
+{
+  "paper_id": 416,
+  "title": "TARImpute: Task-Aware Auto-Recommender System for Missing Value Imputation Algorithms with Clustering Case Studies",
+  "authors": "Xiaoou Ding, Yanshuo Liu, Zhounan Chen, Hongzhi Wang, Chen Wang, Jianmin Wang",
+  "summary": {"objective": "클러스터링 사례 연구와 함께하는 결측치 대치 알고리즘을 위한 작업 인식 자동 추천 시스템", "methodology": "작업에 맞는 결측치 대치 알고리즘 자동 추천", "contributions": ["작업 인식 대치 추천 TARImpute", "클러스터링 지원"], "experiments": "다양한 작업에서 추천 효과 검증", "limitations": "작업 정의"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Cleaning", "confidence": 0.85}],
+  "key_findings": ["작업 인식 추천이 대치에 효과적", "알고리즘 자동 선택 가능"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 297,
+  "title": "What If: Causal Analysis with Graph Databases",
+  "authors": "Amedeo Pachera, Mattia Palmiotto, Angela Bonifati, Andrea Mauri",
+  "summary": {"objective": "그래프 데이터베이스를 활용한 인과 분석", "methodology": "그래프 DB에서 What-If 질문에 대한 인과 분석", "contributions": ["그래프 DB 인과 분석", "What-If 쿼리 지원"], "experiments": "인과 분석의 정확도와 효율성 검증", "limitations": "복잡한 인과 관계"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["그래프 DB가 인과 분석에 적합", "What-If 분석이 의사결정에 유용"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 425,
+  "title": "Demonstrating Matelda for Multi-Table Error Detection",
+  "authors": "Fatemeh Ahmadi, Julian Paulußen, Ziawasch Abedjan",
+  "summary": {"objective": "다중 테이블 오류 탐지를 위한 Matelda 시연", "methodology": "여러 테이블에 걸친 오류 자동 탐지", "contributions": ["다중 테이블 오류 탐지 Matelda", "자동 탐지"], "experiments": "다중 테이블 데이터에서 탐지 효과 시연", "limitations": "테이블 간 관계"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Data Cleaning", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["다중 테이블 오류 탐지가 가능", "자동화된 접근 효과적"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 476,
+  "title": "An Evaluation of N-Gram Selection Strategies for Regular Expression Indexing in Contemporary Text Analysis Tasks",
+  "authors": "Ling Zhang, Shaleen Deep, Jignesh Patel, Karthikeyan Sankaralingam",
+  "summary": {"objective": "정규식 인덱싱을 위한 N-Gram 선택 전략 평가", "methodology": "다양한 N-gram 선택 전략 비교 분석", "contributions": ["N-gram 선택 전략 평가", "텍스트 분석 최적화"], "experiments": "현대 텍스트 분석 작업에서 효과 검증", "limitations": "확장성 한계"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["N-gram 인덱스가 정규식 평가에 중요", "선택 전략이 성능에 영향"]
+}

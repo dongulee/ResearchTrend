@@ -1,0 +1,8 @@
+{
+  "paper_id": 330,
+  "title": "NaviX: A Native Vector Index Design for Graph DBMSs With Robust Predicate-Agnostic Search Performance",
+  "authors": "Gaurav Sehgal, Semih Salihoglu",
+  "summary": {"objective": "그래프 DBMS를 위한 네이티브 벡터 인덱스 설계", "methodology": "조건에 무관한 강건한 검색 성능을 가진 벡터 인덱스", "contributions": ["네이티브 벡터 인덱스 NaviX", "조건 무관 검색"], "experiments": "다양한 조건에서 검색 성능 검증", "limitations": "복잡한 조건 조합"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Indexing", "confidence": 0.85}],
+  "key_findings": ["네이티브 벡터 인덱스가 그래프 DBMS에 효과적", "조건 무관 성능이 중요"]
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": 97,
+  "title": "Esc: An Early-Stopping Checker for Budget-aware Index Tuning",
+  "authors": "Xiaoying Wang, Wentao Wu, Vivek Narasayya, Surajit Chaudhuri",
+  "summary": {
+    "objective": "예산 인식 인덱스 튜닝에서 허용 가능한 품질 손실 임계값 기반 조기 종료 도입",
+    "methodology": "인덱스 품질에 대한 '수확 체감' 현상 관찰. 남은 예산으로의 예상 손실이 임계값 이하면 튜닝 종료. 저오버헤드 조기 종료 검사기 Esc 제안",
+    "contributions": [
+      "예산 인식 인덱스 튜닝을 위한 조기 종료 개념 도입",
+      "저오버헤드 조기 종료 검사기 Esc 제안",
+      "산업 벤치마크와 실제 고객 워크로드에서 검증"
+    ],
+    "experiments": "what-if 호출 수를 크게 감소시키면서 개선 손실 최소화. 전체 인덱스 튜닝 시간 대비 낮은 추가 계산 오버헤드",
+    "limitations": "품질 손실 임계값 설정의 사용자 의존성"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "인덱스 튜닝에서 수확 체감 현상이 일반적",
+    "조기 종료가 튜닝 비용을 크게 절감",
+    "품질 손실 최소화하면서 what-if 호출 대폭 감소"
+  ]
+}

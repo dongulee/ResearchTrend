@@ -1,0 +1,8 @@
+{
+  "paper_id": 393,
+  "title": "Demonstration of ModelarDB: Model-Based Management of High-Frequency Time Series Across Edge, Cloud, and Client",
+  "authors": "Søren Kejser Jensen, Christian Schmidt Godiksen, Christian Thomsen, Torben Bach Pedersen",
+  "summary": {"objective": "엣지, 클라우드, 클라이언트에서 고빈도 시계열의 모델 기반 관리", "methodology": "모델 기반 시계열 압축 및 관리", "contributions": ["모델 기반 시계열 관리 ModelarDB", "다중 환경 지원"], "experiments": "재생 에너지 데이터에서 효과 검증", "limitations": "복잡한 시계열 패턴"},
+  "tags": [{"tag": "Real-time Analytics", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.85}],
+  "key_findings": ["모델 기반 관리가 시계열에 효과적", "다중 환경 지원 가능"]
+}

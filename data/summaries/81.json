@@ -1,0 +1,35 @@
+{
+  "paper_id": 81,
+  "title": "WeShap: Weak Supervision Source Evaluation with Shapley Values",
+  "authors": "Naiqing Guan, Nick Koudas",
+  "summary": {
+    "objective": "약한 감독 학습(PWS) 파이프라인에서 약한 감독 소스의 기여도를 평가하는 강건하고 효율적인 메트릭 개발",
+    "methodology": "Shapley 값의 이론적 기반을 활용하여 약한 감독 소스의 평균 기여도를 정량화하는 WeShap 값 제안. 동적 프로그래밍을 사용하여 약한 감독 소스 수에 대해 이차 계산 복잡도로 효율적 계산",
+    "contributions": [
+      "약한 감독 소스 평가를 위한 WeShap 값 메트릭 제안",
+      "동적 프로그래밍 기반 효율적 계산 방법",
+      "다양한 PWS 파이프라인 구성에 대한 일반화 가능성 입증"
+    ],
+    "experiments": "유익하거나 해로운 레이블링 함수 식별, PWS 파이프라인 개선, 잘못 레이블된 데이터 검사 등 다양한 응용에서 효과 입증. 기존 SOTA 대비 다운스트림 모델 정확도 평균 5.0 포인트 향상",
+    "limitations": "특정 프록시 PWS 파이프라인에서 도출된 메트릭의 범용성"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Integration",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "Shapley 값 기반 접근이 약한 감독 소스 평가에 효과적",
+    "동적 프로그래밍으로 이차 복잡도의 효율적 계산 가능",
+    "WeShap 값이 다양한 PWS 파이프라인에 일반화 가능"
+  ]
+}

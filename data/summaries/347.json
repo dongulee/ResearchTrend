@@ -1,0 +1,8 @@
+{
+  "paper_id": 347,
+  "title": "Stress-Testing ML Pipelines with Adversarial Data Corruption",
+  "authors": "Jiongli Zhu, Geyang Xu, Felipe Lorenzi, Boris Glavic, Babak Salimi",
+  "summary": {"objective": "적대적 데이터 손상으로 ML 파이프라인 스트레스 테스트", "methodology": "데이터 손상에 대한 ML 파이프라인 강건성 평가", "contributions": ["적대적 손상 스트레스 테스트", "ML 파이프라인 평가"], "experiments": "다양한 손상에서 파이프라인 강건성 검증", "limitations": "실제 손상 패턴"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.85}],
+  "key_findings": ["ML 파이프라인이 데이터 손상에 취약", "스트레스 테스트가 중요"]
+}

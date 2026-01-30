@@ -1,0 +1,8 @@
+{
+  "paper_id": 304,
+  "title": "RICH: Real-time Identification of negative Cycles for High-efficiency Arbitrage",
+  "authors": "Bingqiao Luo, Jiaxin Jiang, Yuhang Chen, Junyi Hou, Cheng Jun Tey, Ziyang Qiu, Bingsheng He, Spencer Xiao, Dominic Ong, Wee Howe Ang",
+  "summary": {"objective": "고효율 차익거래를 위한 실시간 음수 사이클 식별", "methodology": "실시간으로 그래프에서 음수 사이클(차익 기회) 탐지", "contributions": ["실시간 음수 사이클 탐지 RICH", "차익거래 지원"], "experiments": "기존 방법 대비 탐지 속도 향상", "limitations": "매우 빠르게 변화하는 시장"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Real-time Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["실시간 음수 사이클 탐지 가능", "차익거래에 실용적 적용"]
+}

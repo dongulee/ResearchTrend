@@ -1,0 +1,8 @@
+{
+  "paper_id": 333,
+  "title": "OasisDB: An Oblivious and Scalable System for Relational Data",
+  "authors": "Haseeb Ahmed, Nachiket Rao, Abdelkarim Kati, Florian Kerschbaum, Sujayya Maiyya",
+  "summary": {"objective": "관계형 데이터를 위한 무지성 확장 가능 시스템", "methodology": "ORAM 기반 무지성 관계형 데이터 처리", "contributions": ["무지성 관계형 시스템 OasisDB", "확장성 지원"], "experiments": "기존 무지성 시스템 대비 확장성 향상", "limitations": "ORAM 오버헤드"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Security", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["무지성 접근이 관계형 데이터에 적용 가능", "확장성 확보 가능"]
+}

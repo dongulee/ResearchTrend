@@ -1,0 +1,8 @@
+{
+  "paper_id": 322,
+  "title": "TreeCat: Standalone Catalog Engine for Large Data Systems",
+  "authors": "Keonwoo Oh, Pooja Nilangekar, Amol Deshpande",
+  "summary": {"objective": "대규모 데이터 시스템을 위한 독립형 카탈로그 엔진", "methodology": "다양한 데이터 시스템에서 사용할 수 있는 독립 카탈로그", "contributions": ["독립형 카탈로그 엔진 TreeCat", "대규모 지원"], "experiments": "다양한 시스템에서 카탈로그 성능 검증", "limitations": "시스템 통합 복잡성"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["독립 카탈로그가 다양한 시스템에 유용", "대규모 메타데이터 관리 지원"]
+}

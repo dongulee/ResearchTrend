@@ -1,0 +1,8 @@
+{
+  "paper_id": 195,
+  "title": "LobRA: Multi-tenant Fine-tuning over Heterogeneous Resources",
+  "authors": "Sheng Lin, Fangcheng Fu, Haoyang Li, Hao Wu",
+  "summary": {"objective": "이기종 리소스에서 다중 테넌트 미세조정", "methodology": "다양한 하드웨어 리소스를 활용한 효율적 다중 테넌트 LoRA 미세조정. 리소스 이질성 처리", "contributions": ["이기종 리소스 다중 테넌트 미세조정 LobRA", "리소스 이질성 처리"], "experiments": "이기종 환경에서 효율적 미세조정", "limitations": "매우 다양한 리소스 구성에서의 최적화"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.9}],
+  "key_findings": ["이기종 리소스 활용이 효율성 향상", "다중 테넌트 미세조정이 비용 효율적"]
+}

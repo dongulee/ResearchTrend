@@ -1,0 +1,35 @@
+{
+  "paper_id": 115,
+  "title": "BigVectorBench: Heterogeneous Data Embedding and Compound Queries are Essential in Evaluating Vector Databases",
+  "authors": "Guoxin Kang, Zhongxin Ge, Jingpei Hu, Xueya Zhang, Lei Wang, Jianfeng Zhan",
+  "summary": {
+    "objective": "이종 데이터 임베딩과 복합 쿼리를 평가하는 통합 벡터 데이터베이스 벤치마크 개발",
+    "methodology": "다양한 데이터 유형을 일관된 벡터 형식으로 변환하는 이종 데이터 임베딩 성능 정의 및 평가. 정밀한 제약 조건을 가진 멀티모달 또는 단일 모달 쿼리인 복합 쿼리 추상화",
+    "contributions": [
+      "벡터 데이터베이스 평가를 위한 BigVectorBench",
+      "이종 데이터 임베딩 성능 평가 프레임워크",
+      "복합 쿼리 추상화 및 평가"
+    ],
+    "experiments": "기존 벤치마크가 간과한 이종 데이터 임베딩과 복합 쿼리 평가 격차 해소",
+    "limitations": "새로운 임베딩 모델에 대한 지속적 업데이트 필요"
+  },
+  "tags": [
+    {
+      "tag": "Vector Search",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "이종 데이터 임베딩이 벡터 DB 성능의 핵심",
+    "복합 쿼리가 실제 응용에서 필수적",
+    "기존 벤치마크의 평가 격차 존재"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 441,
+  "title": "When Entity/Relationship Models Meet Graph Databases",
+  "authors": "Philipp Skavantzos, Sebastian Link",
+  "summary": {"objective": "E/R 모델과 그래프 데이터베이스 통합", "methodology": "전통적 E/R 모델링과 그래프 데이터 모델링 결합", "contributions": ["E/R 그래프 통합 튜토리얼", "데이터 무결성 지원"], "experiments": "그래프 데이터 모델 설계에서 효과 검증", "limitations": "모델링 복잡성"},
+  "tags": [{"tag": "Knowledge Graphs", "confidence": 0.95}, {"tag": "Schema Design", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["E/R 모델링이 그래프 DB 설계에 유용", "데이터 무결성 효율적 유지"]
+}

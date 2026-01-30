@@ -1,0 +1,34 @@
+{
+  "paper_id": 40,
+  "title": "Agent-OM: Leveraging LLM Agents for Ontology Matching",
+  "authors": "Zhangcheng Qiang, Weiqing Wang, Kerry Taylor",
+  "summary": {
+    "objective": "LLM 에이전트를 활용한 온톨로지 매칭 시스템 설계",
+    "methodology": "검색과 매칭을 위한 두 개의 Siamese 에이전트와 OM 도구 세트로 구성된 Agent-OM 프레임워크. 기존 지식 기반 전문가 시스템과 ML 기반 예측 시스템의 대안",
+    "contributions": [
+      "에이전트 기반 LLM OM 설계 패러다임 제안",
+      "Agent-OM 일반 프레임워크",
+      "복잡하고 few-shot OM 태스크 성능 향상"
+    ],
+    "experiments": "OAEI 3개 트랙에서 간단한 OM은 최고 성능에 근접, 복잡한/few-shot OM은 크게 향상",
+    "limitations": "매우 큰 온톨로지에서의 확장성, LLM 비용"
+  },
+  "tags": [
+    {
+      "tag": "Natural Language Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Integration",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "LLM 에이전트가 복잡한 OM에 효과적",
+    "few-shot 학습이 OM 성능 향상에 기여"
+  ]
+}

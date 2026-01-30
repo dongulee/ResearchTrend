@@ -1,0 +1,35 @@
+{
+  "paper_id": 126,
+  "title": "Unsupervised Anomaly Detection in Multivariate Time Series across Heterogeneous Domains",
+  "authors": "Vincent Jacob, Yanlei Diao",
+  "summary": {
+    "objective": "이종 도메인 간 도메인 이동 하에서 비지도 다변량 시계열 이상 탐지 수행",
+    "methodology": "비지도 이상 탐지 방법 벤치마킹을 위한 통합 프레임워크 제안. 도메인 일반화 프레임워크로 문제 정의. 도메인 불변 표현 학습을 위한 DIVAD(Domain-Invariant VAE for Anomaly Detection) 제안",
+    "contributions": [
+      "도메인 이동 하 이상 탐지를 위한 DIVAD 제안",
+      "비지도 AD 벤치마킹 통합 프레임워크",
+      "실제 AIOps 시나리오의 정상 행동 이동 문제 해결"
+    ],
+    "experiments": "Exathlon 벤치마크에서 최고 비지도 AD 방법 대비 최대 피크 F1-score 20%, 15% 향상. Application Server Dataset에서 범용성 입증",
+    "limitations": "매우 급격한 도메인 이동에서의 적응"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "도메인 불변 표현이 이종 도메인 AD에 효과적",
+    "VAE 기반 접근이 도메인 일반화에 적합",
+    "AIOps에서 정상 행동 이동이 주요 과제"
+  ]
+}

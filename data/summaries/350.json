@@ -1,0 +1,8 @@
+{
+  "paper_id": 350,
+  "title": "Turbocharging Vector Databases using Modern SSDs",
+  "authors": "Joobo Shim, Jaewon Oh, Hongchan Roh, Jaeyoung Do, Sang-Won Lee",
+  "summary": {"objective": "현대 SSD를 사용한 벡터 DB 가속", "methodology": "SSD의 특성을 활용한 벡터 검색 최적화", "contributions": ["SSD 기반 벡터 DB 가속", "현대 SSD 활용"], "experiments": "기존 방법 대비 검색 성능 향상", "limitations": "SSD 특성 의존"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["현대 SSD가 벡터 검색에 효과적", "SSD 특성 활용이 중요"]
+}

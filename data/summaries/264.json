@@ -1,0 +1,8 @@
+{
+  "paper_id": 264,
+  "title": "Towards Pattern-aware Data Augmentation for Temporal Knowledge Graph Completion",
+  "authors": "Jiasheng Zhang, Deqiang Ouyang, Shuang Liang, Jie Shao",
+  "summary": {"objective": "시간적 지식 그래프 완성을 위한 패턴 인식 데이터 증강", "methodology": "시간적 패턴을 인식하여 데이터 증강 수행", "contributions": ["패턴 인식 데이터 증강", "시간적 KG 완성 향상"], "experiments": "기존 증강 방법 대비 완성 성능 향상", "limitations": "불규칙한 시간 패턴"},
+  "tags": [{"tag": "Knowledge Graphs", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["패턴 인식 증강이 TKGC에 효과적", "시간적 패턴 활용이 중요"]
+}

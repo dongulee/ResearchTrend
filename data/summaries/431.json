@@ -1,0 +1,8 @@
+{
+  "paper_id": 431,
+  "title": "LETIndex: A Secure Learned Index with TEE",
+  "authors": "Shuting Cao, Zeping Niu, Guoliang Li",
+  "summary": {"objective": "TEE를 사용한 보안 학습 인덱스", "methodology": "신뢰 실행 환경에서 학습 인덱스 보안 운영", "contributions": ["보안 학습 인덱스 LETIndex", "TEE 활용"], "experiments": "TEE 환경에서 인덱스 효과 검증", "limitations": "TEE 오버헤드"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Security", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["TEE가 학습 인덱스 보안에 효과적", "보안과 성능 균형 달성"]
+}

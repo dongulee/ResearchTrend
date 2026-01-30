@@ -1,0 +1,8 @@
+{
+  "paper_id": 408,
+  "title": "Demonstration of Reflex: How SMPC Query Execution can be sped up through Efficient and Flexible Intermediate Result Size Trimming",
+  "authors": "Long Gu, Shaza Zeitouni, Carsten Binnig, Zsolt István",
+  "summary": {"objective": "효율적이고 유연한 중간 결과 크기 트리밍으로 SMPC 쿼리 실행 가속", "methodology": "보안 다자 계산에서 중간 결과 크기 최적화", "contributions": ["SMPC 중간 결과 트리밍 Reflex", "쿼리 가속"], "experiments": "SMPC 쿼리에서 가속 효과 검증", "limitations": "보안 보장"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Security", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["중간 결과 트리밍이 SMPC에 효과적", "쿼리 성능 크게 향상"]
+}

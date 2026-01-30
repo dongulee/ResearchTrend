@@ -1,0 +1,34 @@
+{
+  "paper_id": 2,
+  "title": "CUTTANA: Scalable Graph Partitioning for Faster Distributed Graph Databases and Analytics",
+  "authors": "Milad Rezaei Hajidehi, Sraavan Sridhar, Margo Seltzer",
+  "summary": {
+    "objective": "대규모 그래프(Web/Twitter 규모)를 위한 고품질 스트리밍 그래프 파티셔닝 기법 개발",
+    "methodology": "버퍼링 기법으로 정점의 조기 할당을 방지하고, 스케일러블한 coarsening 및 refinement 기법으로 전체 그래프 뷰를 확보하여 파티션 품질 향상",
+    "contributions": [
+      "새로운 버퍼링 기법으로 정점의 조기 파티션 할당 방지",
+      "스케일러블한 coarsening/refinement 기법 개발",
+      "기존 스트리밍 파티셔너와 유사한 지연 시간으로 병렬 버전 구현"
+    ],
+    "experiments": "edge-cut 및 통신 볼륨 지표에서 기존 스트리밍 파티셔너(HDRF, Fennel, Ginger, HeiStream) 대비 우수한 품질. 분산 그래프 분석에서 최대 59% 성능 향상, 그래프 DB에서 최대 23% 처리량 향상",
+    "limitations": "초대규모 그래프에서 메모리 사용량이 증가할 수 있음"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Graph Partitioning",
+      "confidence": 0.95
+    }
+  ],
+  "key_findings": [
+    "스트리밍 파티셔너의 조기 할당 문제를 버퍼링으로 해결",
+    "분산 그래프 분석 및 DB 워크로드에서 일관된 성능 향상 달성"
+  ]
+}

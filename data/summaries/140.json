@@ -1,0 +1,26 @@
+{
+  "paper_id": 140,
+  "title": "Fucci: Database Transaction Fuzzing via Random Conflict Construction and Multilevel Constraint Solving",
+  "authors": "Xiyue Gao, Zhuang Liu, Yiran Shen, Hui Li, Yingfan Liu, Hongjun Xiao, Yanguo Peng, Jiangtao Cui",
+  "summary": {
+    "objective": "상용 DBMS의 트랜잭션 관리 구현 내 버그를 효율적으로 탐지하는 퍼징 프레임워크 개발",
+    "methodology": "Random Conflict Construction(RCC)으로 케이스 유효성 보장. Multilevel Constraint Solving(MCS)로 제약 해결. Experience-driven Automatic Simplification(EAS)으로 단순화",
+    "contributions": [
+      "트랜잭션 버그 탐지를 위한 Fucci 퍼징 프레임워크",
+      "RCC로 읽기-쓰기/쓰기 충돌 보장",
+      "MCS와 EAS로 효율적 테스트 생성"
+    ],
+    "experiments": "MySQL, MariaDB, TiDB 등 주류 DB에서 ACID 위반 버그 발견",
+    "limitations": "복잡한 트랜잭션 시나리오의 완전한 커버리지"
+  },
+  "tags": [
+    {"tag": "Transaction Processing", "confidence": 0.95},
+    {"tag": "Security", "confidence": 0.9},
+    {"tag": "Data Quality", "confidence": 0.85}
+  ],
+  "key_findings": [
+    "주류 DB가 문서화된 ACID 보장을 위반할 수 있음",
+    "충돌 구성이 트랜잭션 버그 탐지에 핵심",
+    "자동화된 퍼징이 효율적인 버그 발견에 효과적"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": 57,
+  "title": "Laser: Buffer-Aware Learned Query Scheduling in Master-Standby Databases",
+  "authors": "Yuwei Huang, Guoliang Li",
+  "summary": {
+    "objective": "Master-Standby 데이터베이스에서 버퍼 인식 쿼리 스케줄링으로 전체 쿼리 성능 향상",
+    "methodology": "쿼리를 접근하는 데이터 블록에 매핑하는 경량 학습 모델. 버퍼 적중률 최대화와 부하 균형을 위한 적응형 쿼리 스케줄링 알고리즘. 사전 학습 불필요, 지속적 모델 업데이트로 워크로드 적응",
+    "contributions": [
+      "버퍼 인식 쿼리 스케줄링 시스템 Laser",
+      "쿼리-블록 매핑 학습 모델",
+      "적응형 스케줄링 알고리즘"
+    ],
+    "experiments": "기존 휴리스틱 방법 대비 쿼리 완료 시간 약 80% 감소",
+    "limitations": "매우 다양한 쿼리 패턴에서의 모델 적응"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "버퍼 재사용이 응답 시간 감소에 핵심",
+    "지속적 모델 업데이트가 적응성 제공"
+  ]
+}

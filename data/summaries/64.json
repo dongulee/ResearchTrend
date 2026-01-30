@@ -1,0 +1,34 @@
+{
+  "paper_id": 64,
+  "title": "The ParClusterers Benchmark Suite (PCBS): A Fine-Grained Analysis of Scalable Graph Clustering",
+  "authors": "Shangdi Yu, Jessica Shi, Jamison Meindl, David Eisenstat, Xiaoen Ju, Sasan Tavakkol, Laxman Dhulipala, Jakub Łącki, Vahab Mirrokni, Julian Shun",
+  "summary": {
+    "objective": "확장 가능한 병렬 그래프 클러스터링 알고리즘과 벤치마킹 도구 모음 제공",
+    "methodology": "커뮤니티 탐지, 분류, 밀집 서브그래프 마이닝 등 다양한 사용 사례를 위한 알고리즘 포함. 실행 시간과 품질 측면에서 여러 알고리즘 인스턴스를 쉽게 실행/평가",
+    "contributions": [
+      "병렬 그래프 클러스터링 벤치마크 PCBS",
+      "다양한 클러스터링 사용 사례 지원",
+      "품질과 속도 모두 평가"
+    ],
+    "experiments": "비교 라이브러리 대비 평균 4배 이상 빠름. 상관 클러스터링 알고리즘이 대부분 데이터셋에서 최고 품질",
+    "limitations": "새로운 클러스터링 목표에 대한 확장"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "병렬화가 클러스터링 확장성에 핵심",
+    "LambdaCC 목표 최적화가 품질에 효과적"
+  ]
+}

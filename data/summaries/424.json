@@ -1,0 +1,8 @@
+{
+  "paper_id": 424,
+  "title": "APEX-DAG: Library and Language independent Pipeline EXtraction",
+  "authors": "Sebastian Eggers, Nina Żukowska, Ziawasch Abedjan",
+  "summary": {"objective": "라이브러리와 언어에 독립적인 파이프라인 추출", "methodology": "코드에서 데이터 파이프라인을 자동 추출", "contributions": ["독립적 파이프라인 추출 APEX-DAG", "언어/라이브러리 무관"], "experiments": "다양한 코드에서 추출 효과 검증", "limitations": "복잡한 코드 구조"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["독립적 추출이 가능", "다양한 환경 지원"]
+}

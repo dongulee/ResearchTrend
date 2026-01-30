@@ -1,0 +1,34 @@
+{
+  "paper_id": 80,
+  "title": "IncrCP: Decomposing and Orchestrating Incremental Checkpoints for Effective Recommendation Model Training",
+  "authors": "Qingyin Lin, Jiangsu Du, Rui Li, Zhiguang Chen, Wenguang Chen, Nong Xiao",
+  "summary": {
+    "objective": "추천 모델 학습을 위한 효율적인 체크포인팅 시스템 개발",
+    "methodology": "각 반복에서 변경되는 파라미터 비율이 작다는 점을 활용한 증분 체크포인팅. 효율적인 저장 활용과 빠른 복구를 위한 2-D 청크 접근법. 변경된 파라미터를 사전에 기록",
+    "contributions": [
+      "추천 모델용 체크포인팅 시스템 IncrCP",
+      "증분 체크포인팅 전략",
+      "2-D 청크 접근법"
+    ],
+    "experiments": "저장 및 I/O 오버헤드 감소. 빠른 복구 달성",
+    "limitations": "매우 빈번한 파라미터 변경에서의 오버헤드"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "증분 체크포인팅이 추천 모델에 효과적",
+    "2-D 청크가 저장/복구 균형에 핵심"
+  ]
+}

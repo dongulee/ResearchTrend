@@ -1,0 +1,8 @@
+{
+  "paper_id": 227,
+  "title": "Path-centric Cardinality Estimation for Subgraph Matching",
+  "authors": "Zhengdong Wang, Qiang Yin, Longbin Lai",
+  "summary": {"objective": "서브그래프 매칭을 위한 경로 중심 카디널리티 추정", "methodology": "경로 기반 접근으로 서브그래프 매칭 카디널리티 추정. 효율적 추정", "contributions": ["경로 중심 카디널리티 추정", "서브그래프 매칭 최적화"], "experiments": "기존 추정 대비 정확도 향상", "limitations": "매우 복잡한 서브그래프 패턴"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.9}, {"tag": "Statistics", "confidence": 0.85}],
+  "key_findings": ["경로 중심이 효과적", "서브그래프 매칭에 특화된 추정 필요"]
+}

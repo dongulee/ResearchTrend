@@ -1,0 +1,8 @@
+{
+  "paper_id": 391,
+  "title": "Graph Compression for Interpretable Graph Neural Network Inference At Scale",
+  "authors": "Yangxin Fan, Haolai Che, Mingjian Lu, Yinghui Wu",
+  "summary": {"objective": "대규모 해석 가능한 GNN 추론을 위한 그래프 압축", "methodology": "해석 가능성을 유지하면서 그래프 압축", "contributions": ["해석 가능 GNN 추론 ExGIS", "그래프 압축"], "experiments": "기존 방법 대비 추론 효율과 해석 가능성 향상", "limitations": "압축과 해석 가능성 트레이드오프"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Deep Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["그래프 압축이 해석 가능 추론에 효과적", "대규모 지원 가능"]
+}

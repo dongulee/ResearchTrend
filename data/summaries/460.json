@@ -1,0 +1,8 @@
+{
+  "paper_id": 460,
+  "title": "Still Asking: How Good Are Query Optimizers, Really?",
+  "authors": "Leis, Viktor, Gubichev, Andrey, Mirchev, Atanas, Boncz, Peter, Kemper, Alfons, Neumann, Thomas",
+  "summary": {"objective": "쿼리 최적화기 성능 재검토", "methodology": "2015년 연구의 회고와 현재 분석", "contributions": ["JOB 벤치마크 회고", "현재 최적화기 분석"], "experiments": "계획 열거, 비용 모델링 실험", "limitations": "최적화기 개선 여전히 필요"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["쿼리 최적화가 여전히 과제", "JOB 벤치마크 영향력"]
+}

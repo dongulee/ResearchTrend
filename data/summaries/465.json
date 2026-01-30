@@ -1,0 +1,8 @@
+{
+  "paper_id": 465,
+  "title": "SunStorm: Geographically distributed transactions over Aurora-style systems",
+  "authors": "Cuong Nguyen, Pooja Nilangekar, Heikki Linnakangas, Daniel Abadi",
+  "summary": {"objective": "Aurora 스타일 시스템에서 지리적 분산 트랜잭션", "methodology": "지리적 분산 환경에서 트랜잭션 처리", "contributions": ["SunStorm 시스템 제안", "Aurora 스타일 확장"], "experiments": "지리적 분산 환경에서 효과 검증", "limitations": "네트워크 지연"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Transaction Processing", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.85}],
+  "key_findings": ["지리적 분산 트랜잭션 가능", "Aurora 아키텍처 확장"]
+}

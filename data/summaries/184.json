@@ -1,0 +1,8 @@
+{
+  "paper_id": 184,
+  "title": "Unraveling the Impact of Window Semantics: Optimizing Stream Processing",
+  "authors": "Ariane Ziehn, Jan Szlang, Steffen Zeuch, Volker Markl",
+  "summary": {"objective": "윈도우 시맨틱스가 스트림 처리에 미치는 영향 분석 및 최적화", "methodology": "다양한 윈도우 시맨틱스의 성능 영향 분석. 최적화 기회 식별 및 활용", "contributions": ["윈도우 시맨틱스 영향 분석", "스트림 처리 최적화"], "experiments": "최적화로 처리 효율성 향상", "limitations": "매우 복잡한 윈도우 정의에서의 최적화"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["윈도우 시맨틱스가 성능에 큰 영향", "시맨틱스 이해가 최적화 핵심"]
+}

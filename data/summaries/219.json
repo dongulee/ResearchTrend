@@ -1,0 +1,8 @@
+{
+  "paper_id": 219,
+  "title": "Decentralized Actor Scheduling and Reference-based Message Passing",
+  "authors": "Weizheng Lu, Chao Hui, Yunhai Wang, Feng Guan",
+  "summary": {"objective": "분산 액터 스케줄링과 참조 기반 메시지 전달", "methodology": "중앙 집중 없이 액터 스케줄링. 참조 기반으로 효율적 메시지 전달", "contributions": ["분산 액터 스케줄링", "참조 기반 메시지 전달"], "experiments": "중앙 집중 방식 대비 확장성 향상", "limitations": "복잡한 의존성에서의 스케줄링"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["분산 스케줄링이 확장성 제공", "참조 기반이 효율적 메시지 전달"]
+}

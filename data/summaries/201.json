@@ -1,0 +1,8 @@
+{
+  "paper_id": 201,
+  "title": "Efficient and Accurate Subgraph Counting: A Bottom-up Approach",
+  "authors": "Qiuyu Guo, Jianye Yang, Wenjie Zhang, Haoran Luo",
+  "summary": {"objective": "효율적이고 정확한 서브그래프 카운팅을 위한 상향식 접근", "methodology": "상향식 열거 방식으로 서브그래프 카운팅. 중복 계산 최소화", "contributions": ["상향식 서브그래프 카운팅", "효율적 열거"], "experiments": "기존 방법 대비 정확도와 효율성 향상", "limitations": "매우 밀집한 그래프에서의 성능"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["상향식이 효율적", "중복 최소화가 핵심"]
+}

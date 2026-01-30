@@ -1,0 +1,39 @@
+{
+  "paper_id": 99,
+  "title": "OpenFGL: A Comprehensive Benchmark for Federated Graph Learning",
+  "authors": "Xunkai Li, Yinlin Zhu, Boyang Pang, Guochen Yan, Yeyu Yan, Zening Li, Zhengyu Wu, Wentao Zhang, Ronghua Li, Guoren Wang",
+  "summary": {
+    "objective": "주요 FGL 시나리오(Graph-FL, Subgraph-FL)를 위한 통합 벤치마크 제공",
+    "methodology": "18개 응용 도메인의 42개 그래프 데이터셋. 다양한 그래프 속성을 강조하는 8가지 연합 데이터 시뮬레이션 전략. 5가지 그래프 기반 다운스트림 태스크와 18개 SOTA FGL 알고리즘",
+    "contributions": [
+      "FGL을 위한 종합 벤치마크 OpenFGL 제안",
+      "42개 데이터셋, 8가지 시뮬레이션 전략, 5가지 태스크 지원",
+      "18개 SOTA FGL 알고리즘의 사용자 친화적 API"
+    ],
+    "experiments": "FGL의 효과성, 견고성, 효율성에 대한 철저한 비교 및 평가. 잠재적 한계점 강조",
+    "limitations": "특정 그래프 유형에 대한 최적 알고리즘 가이드라인"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "FGL이 다양한 시나리오에서 효과적",
+    "데이터 시스템과 FGL 간 학제간 협력 필요",
+    "표준화된 벤치마크가 공정한 평가에 필수적"
+  ]
+}

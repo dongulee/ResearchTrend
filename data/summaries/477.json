@@ -1,0 +1,8 @@
+{
+  "paper_id": 477,
+  "title": "Graph Transformers for Query Plan Representation: Potentials and Challenges",
+  "authors": "Chenghao Lyu, Guillaume Lachaud, Gabriel Lozano, Yanlei Diao",
+  "summary": {"objective": "쿼리 계획 표현을 위한 그래프 트랜스포머", "methodology": "트랜스포머 아키텍처의 QPR 적용 분석", "contributions": ["그래프 트랜스포머 QPR 분석", "모델 비교"], "experiments": "다양한 워크로드 모델링에서 효과 검증", "limitations": "최적 모델 불확실"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Deep Learning", "confidence": 0.85}],
+  "key_findings": ["트랜스포머가 QPR에 잠재력 있음", "추가 연구 필요"]
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": 47,
+  "title": "RDPro: Distributed Processing of Big Raster Data",
+  "authors": "Zhuocheng Shang, Samriddhi Singla, Ahmed Eldawy, Elia Scudiero",
+  "summary": {
+    "objective": "대규모 래스터 데이터셋을 효율적으로 처리하고 분석하는 Spark 기반 시스템 개발",
+    "methodology": "분산 공유 없음 환경에서 데이터 의존성을 위한 새로운 데이터 모델. Spark 내 핵심 래스터 연산 최적화. 복잡한 데이터 과학 워크플로 통합 지원",
+    "contributions": [
+      "Spark 기반 래스터 처리 시스템 RDPro",
+      "분산 환경용 래스터 데이터 모델",
+      "핵심 래스터 연산 최적화"
+    ],
+    "experiments": "기존 시스템 대비 최대 두 자릿수 성능 향상",
+    "limitations": "매우 고해상도 데이터에서의 메모리 제한"
+  },
+  "tags": [
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Integration",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "분산 래스터 처리가 효과적으로 확장 가능",
+    "데이터 의존성 해결이 성능에 핵심"
+  ]
+}

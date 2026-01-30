@@ -1,0 +1,39 @@
+{
+  "paper_id": 85,
+  "title": "UNIFY: Unified Index for Range Filtered Approximate Nearest Neighbors Search",
+  "authors": "Anqi Liang, Pengcheng Zhang, Bin Yao, Zhongpu Chen, Yitong Song, Guangxu Cheng",
+  "summary": {
+    "objective": "속성 값 범위 필터링과 함께 고차원 벡터에서 근사 최근접 이웃 검색(RF-ANNS)을 위한 효율적이고 확장 가능한 프레임워크 개발",
+    "methodology": "pre-, post-, hybrid 필터링 전략을 원활하게 지원하는 통합 근접 그래프(PG) 기반 인덱스 UNIFY 제안. 속성 값으로 데이터셋을 분할하는 SIG(Segmented Inclusive Graph)와 계층 구조의 HSIG 도입",
+    "contributions": [
+      "세 가지 필터링 전략을 통합 지원하는 UNIFY 프레임워크",
+      "세그먼트 조합의 PG가 서브그래프가 되는 SIG 구조",
+      "HNSW 영감의 계층 구조로 로그 복잡도 하이브리드 필터링"
+    ],
+    "experiments": "쿼리 범위 변화에 따른 성능 저하 문제 해결. 인덱스 일관성과 유지보수 문제 없이 최적 전략 자동 선택",
+    "limitations": "매우 높은 차원에서의 확장성, 동적 데이터 업데이트"
+  },
+  "tags": [
+    {
+      "tag": "Vector Search",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "통합 인덱스가 쿼리 범위 변화에 따른 성능 저하 문제 해결",
+    "SIG 구조가 효율적인 하이브리드 필터링 가능",
+    "HSIG의 계층 구조가 로그 복잡도 달성"
+  ]
+}

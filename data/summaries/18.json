@@ -1,0 +1,40 @@
+{
+  "paper_id": 18,
+  "title": "Less is More: Efficient Time Series Dataset Condensation via Two-fold Modal Matching",
+  "authors": "Hao Miao, Ziqiao Liu, Yan Zhao, Chenjuan Guo, Bin Yang, Kai Zheng, Christian S. Jensen",
+  "summary": {
+    "objective": "대규모 시계열 데이터셋을 축소하여 원본 데이터로 학습한 것과 유사한 성능을 달성하는 것",
+    "methodology": "주파수 매칭과 학습 궤적 매칭을 결합한 이중 모달 매칭 방식. 시계열 특징 추출 및 분해 기반 주파수 매칭으로 복잡한 시간적 의존성 보존. 커리큘럼 학습 궤적 매칭으로 효과적이고 일반화된 데이터셋 압축. 메모리 오버플로 방지를 위한 전문가 버퍼 활용",
+    "contributions": [
+      "시계열 데이터셋 압축 프레임워크 TimeDC 제안",
+      "주파수 매칭으로 복잡한 시간적 의존성 보존",
+      "커리큘럼 학습 궤적 매칭으로 일반화된 압축 실현",
+      "전문가 버퍼로 효율적인 압축 비용 관리"
+    ],
+    "experiments": "실제 데이터에 대한 광범위한 실험으로 제안 솔루션의 효과성과 효율성 검증",
+    "limitations": "매우 긴 시계열에 대한 확장성, 다변량 시계열 간 상관관계 보존"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "이중 모달 매칭이 효과적인 시계열 압축에 핵심",
+    "주파수 도메인 매칭이 시간적 의존성 보존에 효과적",
+    "전문가 버퍼가 메모리 효율성을 크게 개선"
+  ]
+}

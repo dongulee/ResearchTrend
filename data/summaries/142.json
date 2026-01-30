@@ -1,0 +1,22 @@
+{
+  "paper_id": 142,
+  "title": "Infinite Stream Estimation under Personalized w-Event Privacy",
+  "authors": "Leilei Du, Peng Cheng, Lei Chen, Heng Tao Shen, Xuemin Lin, Wei Xi",
+  "summary": {
+    "objective": "무한 데이터 스트림에서 개인화된 w-event 프라이버시 보호 하 스트림 추정 개발",
+    "methodology": "사용자마다 다른 프라이버시 요구사항을 허용하는 개인화된 w-event 프라이버시 보호 제안. 사용자가 일정한 프라이버시 요구사항을 유지할 수 있는 메커니즘 설계",
+    "contributions": [
+      "개인화된 w-event 프라이버시 보호 개념",
+      "이종 프라이버시 요구사항 지원 메커니즘",
+      "무한 스트림에서의 정확한 추정 유지"
+    ],
+    "experiments": "데이터 수집에서 높은 정확도 유지하면서 개별 프라이버시 보호",
+    "limitations": "매우 다양한 프라이버시 요구사항에서의 효율성"
+  },
+  "tags": [
+    {"tag": "Privacy", "confidence": 0.95},
+    {"tag": "Stream Processing", "confidence": 0.9},
+    {"tag": "Statistics", "confidence": 0.85}
+  ],
+  "key_findings": ["개인화된 프라이버시가 동종 요구사항보다 실용적", "w-event 프라이버시가 시간 윈도우 내 보호에 효과적", "정확도와 프라이버시 균형 가능"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 315,
+  "title": "TxnSails: Achieving Serializable Transaction Scheduling with Self-Adaptive Isolation Level Selection",
+  "authors": "Qiyu Zhuang, Wei Lu, Shuang Liu, Yuxing Chen, Xinyue Shi, Zhanhao Zhao, Yipeng Sun, Anqun Pan, Xiaoyong Du",
+  "summary": {"objective": "자체 적응 격리 수준 선택으로 직렬화 가능한 트랜잭션 스케줄링", "methodology": "워크로드에 따라 격리 수준을 동적으로 선택", "contributions": ["자체 적응 격리 수준 TxnSails", "직렬화 가능 스케줄링"], "experiments": "기존 고정 격리 수준 대비 성능 향상", "limitations": "격리 수준 전환 오버헤드"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Concurrency Control", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["자체 적응 격리 수준이 효과적", "워크로드에 따른 동적 선택이 중요"]
+}

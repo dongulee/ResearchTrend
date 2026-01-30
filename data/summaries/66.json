@@ -1,0 +1,34 @@
+{
+  "paper_id": 66,
+  "title": "RankPQO: Learning-to-Rank for Parametric Query Optimization",
+  "authors": "Songsong Mo, Yue Zhao, Zhifeng Bao, Quanqing Xu, Chuanhui Yang, Gao Cong",
+  "summary": {
+    "objective": "파라미터화된 쿼리를 효율적으로 처리하기 위한 파라메트릭 쿼리 최적화(PQO) 개선",
+    "methodology": "카디널리티와 조인 순서를 모두 조정하는 하이브리드 플랜 열거 알고리즘. 최소 예측 지연 대신 상대적 순위를 더 신뢰할 수 있는 성능 지표로 사용하는 Learning-to-Rank 모델",
+    "contributions": [
+      "하이브리드 플랜 열거 알고리즘",
+      "Learning-to-Rank 기반 플랜 선택",
+      "PostgreSQL 통합"
+    ],
+    "experiments": "파라미터 바인딩 변화에도 효과적인 플랜 선택",
+    "limitations": "매우 복잡한 쿼리에서의 열거 비용"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "상대적 순위가 절대적 지연 예측보다 신뢰성 높음",
+    "하이브리드 열거가 플랜 다양성 향상"
+  ]
+}

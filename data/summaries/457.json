@@ -1,0 +1,8 @@
+{
+  "paper_id": 457,
+  "title": "Panel on Neural Relational Data: Tabular Foundation Models, LLMs... or both?",
+  "authors": "Papotti, Paolo, Binnig, Carsten",
+  "summary": {"objective": "신경망 관계형 데이터: TFM vs LLM", "methodology": "테이블 기반 모델과 LLM 비교 토론", "contributions": ["패널 토론", "하이브리드 접근 논의"], "experiments": "다양한 관점 수집", "limitations": "최적 접근법 불확실"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["TFM과 LLM 모두 장단점 존재", "하이브리드 접근 가능성"]
+}

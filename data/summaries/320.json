@@ -1,0 +1,8 @@
+{
+  "paper_id": 320,
+  "title": "SSD-iq: Uncovering the Hidden Side of SSD Performance",
+  "authors": "Gabriel Haas, Bohyun Lee, Philippe Bonnet, Viktor Leis",
+  "summary": {"objective": "SSD 성능의 숨겨진 면 분석", "methodology": "SSD 성능의 복잡한 특성 심층 분석", "contributions": ["SSD 성능 분석 SSD-iq", "숨겨진 특성 발견"], "experiments": "다양한 SSD에서 성능 특성 분석", "limitations": "SSD 다양성"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.85}],
+  "key_findings": ["SSD 성능이 복잡한 특성 가짐", "숨겨진 요인이 성능에 영향"]
+}

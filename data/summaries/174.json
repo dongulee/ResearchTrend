@@ -1,0 +1,8 @@
+{
+  "paper_id": 174,
+  "title": "Hermes: Off-the-Shelf Real-Time Transactional Analytics",
+  "authors": "Elena Milkai, Xiangyao Yu, Jignesh Patel",
+  "summary": {"objective": "즉시 사용 가능한 실시간 트랜잭션 분석", "methodology": "기존 시스템에 추가 가능한 실시간 분석 지원. 트랜잭션과 분석 워크로드 동시 처리", "contributions": ["실시간 트랜잭션 분석 Hermes", "기존 시스템 통합"], "experiments": "전용 시스템에 근접한 성능으로 통합 용이", "limitations": "매우 무거운 분석 워크로드에서의 간섭"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Real-time Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}],
+  "key_findings": ["HTAP가 off-the-shelf로 제공 가능", "트랜잭션과 분석 격리가 핵심"]
+}

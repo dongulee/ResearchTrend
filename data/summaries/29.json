@@ -1,0 +1,34 @@
+{
+  "paper_id": 29,
+  "title": "Discovering Leitmotifs in Multidimensional Time Series",
+  "authors": "Patrick Schäfer, Ulf Leser",
+  "summary": {
+    "objective": "다차원 시계열에서 반복 패턴(라이트모티프)을 효율적으로 발견하는 것",
+    "methodology": "차원 선택과 패턴 발견을 공동으로 접근하는 LAMA 알고리즘 제안. 라이트모티프가 미지의 서브차원에서만 나타난다는 원리 활용. 차원과 패턴을 독립적이 아닌 공동으로 탐색",
+    "contributions": [
+      "다차원 시계열용 LAMA 알고리즘 제안",
+      "차원 선택과 패턴 발견의 공동 접근",
+      "14개 실제 데이터셋 벤치마크 구축"
+    ],
+    "experiments": "14개 실제 데이터셋에서 4개 최신 베이스라인 대비 우수한 성능. 계산 복잡도 증가 없음",
+    "limitations": "매우 고차원 시계열에서의 확장성, 다양한 길이의 패턴 동시 발견"
+  },
+  "tags": [
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "차원과 패턴의 공동 탐색이 독립 탐색보다 효과적",
+    "서브차원 발견이 패턴 품질에 핵심"
+  ]
+}

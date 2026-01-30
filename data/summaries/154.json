@@ -1,0 +1,14 @@
+{
+  "paper_id": 154,
+  "title": "BIRDIE: Natural Language-Driven Table Discovery Using Differentiable Search Index",
+  "authors": "Yuxiang Guo, Zhonghao Hu, Yuren Mao, Baihua Zheng, Yunjun Gao, Mingwei Zhou",
+  "summary": {
+    "objective": "미분 가능한 검색 인덱스를 사용한 자연어 기반 테이블 발견",
+    "methodology": "자연어 쿼리를 기반으로 관련 테이블을 발견하는 미분 가능한 검색 인덱스. 효율적이고 정확한 테이블 검색 지원",
+    "contributions": ["자연어 기반 테이블 발견 BIRDIE", "미분 가능한 검색 인덱스", "효율적인 테이블 검색"],
+    "experiments": "자연어 쿼리에 대한 정확한 테이블 발견",
+    "limitations": "매우 모호한 자연어 쿼리에서의 정확도"
+  },
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["미분 가능 인덱스가 테이블 발견에 효과적", "자연어가 테이블 검색 접근성 향상", "end-to-end 학습이 정확도 향상"]
+}

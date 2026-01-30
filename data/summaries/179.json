@@ -1,0 +1,8 @@
+{
+  "paper_id": 179,
+  "title": "Federated Data Shift Distance Estimation",
+  "authors": "Graham Cormode, Daniel Ting",
+  "summary": {"objective": "연합 환경에서 데이터 이동 거리 추정", "methodology": "분산 데이터에서 프라이버시 보존하면서 데이터 분포 이동 추정. 중앙 집중 없이 거리 계산", "contributions": ["연합 데이터 이동 거리 추정", "프라이버시 보존"], "experiments": "중앙 집중 방식과 유사한 정확도로 프라이버시 보장", "limitations": "매우 이질적인 분포에서의 추정 정확도"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Statistics", "confidence": 0.9}],
+  "key_findings": ["연합 환경에서 데이터 이동 추정 가능", "프라이버시와 정확도 균형 가능"]
+}

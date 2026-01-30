@@ -1,0 +1,8 @@
+{
+  "paper_id": 318,
+  "title": "Effective and Efficient Attributed Hypergraph Embedding on Nodes and Hyperedges",
+  "authors": "Yiran Li, Gongyao Guo, Chen Feng, Jieming Shi",
+  "summary": {"objective": "노드와 하이퍼엣지에 대한 효과적이고 효율적인 속성 하이퍼그래프 임베딩", "methodology": "속성 하이퍼그래프의 노드와 하이퍼엣지 동시 임베딩", "contributions": ["속성 하이퍼그래프 임베딩", "노드-하이퍼엣지 동시 처리"], "experiments": "기존 방법 대비 임베딩 품질과 효율 향상", "limitations": "매우 큰 하이퍼그래프"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Deep Learning", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["하이퍼그래프 임베딩이 효과적", "노드와 하이퍼엣지 동시 처리 가능"]
+}

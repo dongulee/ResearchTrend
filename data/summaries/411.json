@@ -1,0 +1,8 @@
+{
+  "paper_id": 411,
+  "title": "MLN-geeWhiz: A Dashboard for Supporting Complete Life-Cycle of Complex Data Analysis using Multilayer Networks",
+  "authors": "Amey Shinde, Viraj Sabhaya, Kevin Farokhrouz, Fariba Irany, Ali Khan, Sanjukta Bhowmick, Abhishek Santra, Sharma Chakravarthy",
+  "summary": {"objective": "다층 네트워크를 사용한 복잡한 데이터 분석의 전체 수명 주기 지원 대시보드", "methodology": "다층 네트워크 분석의 전 과정을 지원하는 대시보드", "contributions": ["다층 네트워크 대시보드 MLN-geeWhiz", "전체 수명 주기 지원"], "experiments": "다양한 분석 시나리오에서 효과 검증", "limitations": "복잡한 네트워크 시각화"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Network Analysis", "confidence": 0.85}],
+  "key_findings": ["대시보드가 다층 네트워크 분석에 효과적", "전체 수명 주기 지원 가능"]
+}

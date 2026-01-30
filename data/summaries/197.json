@@ -1,0 +1,8 @@
+{
+  "paper_id": 197,
+  "title": "CatDB: Data-catalog-guided, LLM-based Generation of Text-to-SQL",
+  "authors": "Saeed Fathollahzadeh, Essam Mansour, Matteo Lissandrini",
+  "summary": {"objective": "데이터 카탈로그 기반 LLM Text-to-SQL 생성", "methodology": "데이터 카탈로그의 메타데이터를 활용하여 LLM의 Text-to-SQL 정확도 향상", "contributions": ["데이터 카탈로그 기반 Text-to-SQL CatDB", "메타데이터 활용"], "experiments": "카탈로그 활용으로 변환 정확도 향상", "limitations": "불완전한 카탈로그에서의 성능"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["데이터 카탈로그가 NL2SQL에 유용", "메타데이터가 정확도 향상의 핵심"]
+}

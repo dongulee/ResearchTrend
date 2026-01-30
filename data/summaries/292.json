@@ -1,0 +1,8 @@
+{
+  "paper_id": 292,
+  "title": "Cracking Vector Search Indexes",
+  "authors": "Vasilis Mageirakos, Bowen Wu, Gustavo Alonso",
+  "summary": {"objective": "벡터 검색 인덱스 크래킹", "methodology": "RAG 시스템에서 벡터 인덱스의 점진적 구축", "contributions": ["벡터 인덱스 크래킹", "점진적 인덱스 구축"], "experiments": "기존 전체 인덱스 구축 대비 초기 쿼리 성능 향상", "limitations": "장기 쿼리 성능"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Indexing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["크래킹이 벡터 인덱스에 적용 가능", "점진적 구축이 초기 성능에 유리"]
+}

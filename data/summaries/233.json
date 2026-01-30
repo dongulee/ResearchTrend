@@ -1,0 +1,8 @@
+{
+  "paper_id": 233,
+  "title": "Cuckoo Heavy Keeper and the balancing act of maintaining sketches",
+  "authors": "Vinh Ngo, Marina Papatriantafilou",
+  "summary": {"objective": "스케치 유지의 균형 잡기: Cuckoo Heavy Keeper", "methodology": "Cuckoo 해싱과 Heavy Keeper를 결합한 스케치 구조. 효율적 유지보수", "contributions": ["Cuckoo Heavy Keeper", "효율적 스케치 유지"], "experiments": "기존 스케치 대비 성능 향상", "limitations": "매우 편향된 데이터 분포"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Statistics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["Cuckoo 해싱이 스케치에 효과적", "유지보수 효율성이 중요"]
+}

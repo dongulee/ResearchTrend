@@ -1,0 +1,8 @@
+{
+  "paper_id": 444,
+  "title": "Data Disovery in Data Lakes: Operations, Indexes, Systems",
+  "authors": "Ziawasch Abedjan, Mahdi Esmailoghli, Sainyam Galhorta",
+  "summary": {"objective": "데이터 레이크에서의 데이터 발견", "methodology": "데이터 발견 연산, 인덱스, 시스템 분석", "contributions": ["데이터 발견 튜토리얼", "인덱싱 및 알고리즘 분석"], "experiments": "다양한 데이터 발견 작업 평가", "limitations": "연합 환경 지원"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Indexing", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["데이터 발견이 데이터 레이크에 중요", "효율적 인덱싱 필요"]
+}

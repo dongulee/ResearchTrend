@@ -1,0 +1,8 @@
+{
+  "paper_id": 461,
+  "title": "Alphabets, Grammars, Calculators, and the End of Hand-Crafted Systems",
+  "authors": "Idreos, Stratos",
+  "summary": {"objective": "수작업 시스템의 종말과 자동 설계", "methodology": "자기 설계 시스템 필요성 주장", "contributions": ["자동 시스템 설계 비전", "설계 공간 분석"], "experiments": "10^100 설계 대안 분석", "limitations": "완전 자동화 어려움"},
+  "tags": [{"tag": "Performance", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["자기 설계 시스템 필요", "수작업 한계 극복"]
+}

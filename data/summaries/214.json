@@ -1,0 +1,8 @@
+{
+  "paper_id": 214,
+  "title": "Why Are Learned Indexes So Effective but Sometimes Fail?",
+  "authors": "Qiyu Liu, Siyuan Han, Yanlin Qi, Jingshu Peng",
+  "summary": {"objective": "학습 인덱스의 효과성과 실패 원인 분석", "methodology": "학습 인덱스가 효과적인 이유와 실패하는 조건 분석", "contributions": ["학습 인덱스 분석", "실패 조건 식별"], "experiments": "다양한 데이터셋에서 효과성과 한계 분석", "limitations": "새로운 학습 인덱스 유형에 대한 분석"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.85}],
+  "key_findings": ["학습 인덱스에 명확한 한계 존재", "데이터 특성이 효과성에 중요"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 273,
+  "title": "Doctopus: Budget-aware Structural Table Extraction from Unstructured Documents",
+  "authors": "Chengliang Chai, Jiajun Li, Yuhao Deng, Yuanhao Zhong, Ye Yuan, Guoren Wang, Lei Cao",
+  "summary": {"objective": "비정형 문서에서 예산 인식 구조적 테이블 추출", "methodology": "예산 제약 하에서 문서에서 테이블 구조 추출", "contributions": ["예산 인식 테이블 추출 Doctopus", "비정형 문서 처리"], "experiments": "기존 방법 대비 비용 효율과 정확도 향상", "limitations": "매우 복잡한 문서 레이아웃"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["예산 인식 추출이 실용적", "비정형 문서에서 테이블 추출 가능"]
+}

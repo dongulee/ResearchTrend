@@ -1,0 +1,8 @@
+{
+  "paper_id": 220,
+  "title": "STsCache: An Efficient Semantic Caching Scheme for Spatio-Temporal Data",
+  "authors": "Tao Kong, Hui Li, Yuxuan Zhao, Liping Li",
+  "summary": {"objective": "시공간 데이터를 위한 효율적 시맨틱 캐싱", "methodology": "시공간 데이터의 시맨틱을 고려한 캐싱 전략. 쿼리 재사용 향상", "contributions": ["시공간 시맨틱 캐싱 STsCache", "쿼리 재사용"], "experiments": "기존 캐싱 대비 히트율 향상", "limitations": "동적으로 변화하는 시공간 데이터"},
+  "tags": [{"tag": "Real-time Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["시맨틱 캐싱이 시공간에 효과적", "쿼리 재사용이 성능 향상"]
+}

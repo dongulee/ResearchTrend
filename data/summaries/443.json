@@ -1,0 +1,8 @@
+{
+  "paper_id": 443,
+  "title": "Large Language Models for Spatial Analysis Queries",
+  "authors": "Youssef Hussein, Mohamed Hemdan, Mohamed Mokbel",
+  "summary": {"objective": "공간 분석 쿼리를 위한 LLM 활용", "methodology": "LLM을 공간 분석 쿼리에 적용하는 다양한 방법", "contributions": ["공간 쿼리 LLM 튜토리얼", "연구 방향 제시"], "experiments": "공간 분석 벤치마크에서 효과 검증", "limitations": "LLM 공간 이해 한계"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["LLM이 공간 쿼리에 활용 가능", "다양한 적용 방법 존재"]
+}

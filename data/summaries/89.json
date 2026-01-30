@@ -1,0 +1,35 @@
+{
+  "paper_id": 89,
+  "title": "RCRank: Multimodal Ranking of Root Causes of Slow Queries in Cloud Database Systems",
+  "authors": "Biao Ouyang, Yingying Zhang, Cheng Hanyin, Yang Shu, Chenjuan Guo, Bin Yang, Qingsong Wen, Lunting Fan, Christian S. Jensen",
+  "summary": {
+    "objective": "클라우드 데이터베이스 시스템에서 느린 쿼리의 근본 원인을 식별하고 영향력에 따라 순위화",
+    "methodology": "근본 원인 분석을 멀티모달 ML 문제로 공식화한 RCRank 프레임워크 제안. 쿼리문, 실행 계획, 실행 로그, KPI의 멀티모달 정보 활용. 교차 모달 정렬을 위한 자기지도 사전학습과 적응적 융합을 위한 교차 트랜스포머 통합",
+    "contributions": [
+      "근본 원인 분석을 위한 멀티모달 RCRank 프레임워크",
+      "교차 모달 정렬 강화를 위한 자기지도 사전학습",
+      "근본 원인 적응적 교차 트랜스포머로 이종 모달 융합"
+    ],
+    "experiments": "느린 쿼리의 근본 원인 유형 식별 및 영향력 순위화에서 우수한 성능",
+    "limitations": "새로운 근본 원인 유형에 대한 적응, 실시간 진단 지연"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Cloud Computing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "멀티모달 정보 활용이 근본 원인 진단 정확도 향상",
+    "자기지도 사전학습이 교차 모달 정렬에 효과적",
+    "영향력 기반 순위화가 느린 쿼리 수정 효율성 향상"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 302,
+  "title": "Environmental Footprints of Query Processing: A Vision for Sustainable Database Architectures",
+  "authors": "Michail Bachras, Hans-Arno Jacobsen",
+  "summary": {"objective": "쿼리 처리의 환경 발자국: 지속 가능한 DB 아키텍처 비전", "methodology": "데이터베이스 시스템의 환경 영향 분석 및 개선 방향", "contributions": ["DB 환경 영향 분석", "지속 가능 아키텍처 비전"], "experiments": "쿼리 처리의 에너지 소비 분석", "limitations": "정확한 환경 영향 측정"},
+  "tags": [{"tag": "Performance", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.85}],
+  "key_findings": ["DB 시스템의 환경 영향이 상당", "지속 가능성 고려 필요"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 250,
+  "title": "Sectric: Towards Accurate, Privacy-preserving and Efficient Triangle Counting",
+  "authors": "Minze Xu, Zhentai Xie, Zhibin Wang, Guangzhan Wang, Longbin Lai, Yuan Zhang, Chen Tian, Sheng Zhong",
+  "summary": {"objective": "정확하고 프라이버시 보존하는 효율적 삼각형 카운팅", "methodology": "보안 다자 계산을 활용한 프라이버시 보존 삼각형 카운팅", "contributions": ["프라이버시 보존 삼각형 카운팅 Sectric", "정확성과 효율성 균형"], "experiments": "기존 프라이버시 방법 대비 정확도와 효율 향상", "limitations": "매우 큰 그래프에서의 확장성"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Security", "confidence": 0.85}],
+  "key_findings": ["프라이버시 보존 삼각형 카운팅 가능", "정확성과 프라이버시 동시 달성"]
+}

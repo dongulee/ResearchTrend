@@ -1,0 +1,8 @@
+{
+  "paper_id": 276,
+  "title": "Not Small Enough? SegPQ: A Learned Approach to Compress Product Quantization Codebooks",
+  "authors": "Qiyu Liu, Yanlin Qi, Siyuan Han, Jingshu Peng, Jin Li, Lei Chen",
+  "summary": {"objective": "제품 양자화 코드북 압축을 위한 학습 기반 접근", "methodology": "학습을 통해 PQ 코드북을 더 작게 압축", "contributions": ["학습 기반 코드북 압축 SegPQ", "메모리 효율 향상"], "experiments": "기존 PQ 대비 압축률 향상 및 검색 품질 유지", "limitations": "학습 오버헤드"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["학습 기반 압축이 PQ에 효과적", "메모리 사용량 크게 감소"]
+}

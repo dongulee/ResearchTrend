@@ -1,0 +1,35 @@
+{
+  "paper_id": 103,
+  "title": "VerIso: Verifiable Isolation Guarantees for Database Transactions",
+  "authors": "Shabnam Ghasemirad, Si Liu, Christoph Sprenger, Luca Multazzu, David Basin",
+  "summary": {
+    "objective": "데이터베이스 트랜잭션의 격리 보장을 수학적으로 엄밀하게 검증하는 프레임워크 개발",
+    "methodology": "정리 증명기 Isabelle/HOL 내에서 VerIso 프레임워크 개발. 엄격한 2단계 잠금 프로토콜을 모델링하고 엄격한 직렬화 가능성 격리 보장 검증. 프로토콜 설계 중 격리 버그 식별 지원",
+    "contributions": [
+      "최초의 검증 가능한 격리 보장 프레임워크 VerIso",
+      "Isabelle/HOL 기반 수학적으로 엄밀한 검증",
+      "TAPIR 프로토콜의 새로운 반례 발견"
+    ],
+    "experiments": "S2PL 프로토콜의 엄격한 직렬화 가능성 검증. TAPIR 프로토콜이 원자적 가시성 격리 수준도 위반함을 증명",
+    "limitations": "복잡한 프로토콜의 모델링 비용"
+  },
+  "tags": [
+    {
+      "tag": "Transaction Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Concurrency Control",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Security",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "형식 검증이 격리 버그 발견에 효과적",
+    "TAPIR 프로토콜이 주장된 격리 수준 미달성",
+    "설계 수준 결함 탐지에 검증 도구 필수적"
+  ]
+}

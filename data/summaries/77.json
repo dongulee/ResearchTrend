@@ -1,0 +1,34 @@
+{
+  "paper_id": 77,
+  "title": "Revisiting CNNs for Trajectory Similarity Learning",
+  "authors": "Zhihao Chang, Linzhu Yu, Huan Li, Sai Wu, Gang Chen, Dongxiang Zhang",
+  "summary": {
+    "objective": "CNN을 재방문하여 궤적 유사도 학습의 효율성 개선",
+    "methodology": "궤적을 순차 데이터로 취급하는 대신 지역 유사도의 중요성 발견. 순차 및 지리 분포 특징을 캡처하는 1D/2D 컨볼루션 결합 ConvTraj",
+    "contributions": [
+      "CNN 기반 궤적 유사도 학습 ConvTraj",
+      "1D+2D 컨볼루션 결합",
+      "지역 유사도 중요성 발견"
+    ],
+    "experiments": "RNN/Transformer 대비 효율적인 유사도 학습",
+    "limitations": "매우 긴 궤적에서의 컨볼루션 효율성"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "지역 유사도가 전역 의존성보다 중요",
+    "CNN이 궤적 유사도에 효과적"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 467,
+  "title": "AXE: A Task Decomposition Approach to Learned LSM Tuning",
+  "authors": "Andy Huynh, Anwesha Saha, Harshal Chaudhari, Manos Athanassoulis",
+  "summary": {"objective": "학습 기반 LSM 트리 튜닝", "methodology": "작업 분해 접근법으로 LSM 튜닝", "contributions": ["AXE 시스템 제안", "작업 분해 튜닝"], "experiments": "다양한 환경에서 효과 검증", "limitations": "튜닝 복잡성"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["작업 분해가 LSM 튜닝에 효과적", "대규모 튜닝 지원"]
+}

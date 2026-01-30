@@ -1,0 +1,8 @@
+{
+  "paper_id": 349,
+  "title": "OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale",
+  "authors": "Haoyang Li, Shang Wu, Xiaokang Zhang, Xinmei Huang, Jing Zhang, Fuxin Jiang, Shuai Wang, Tieying Zhang, Jianjun Chen, Rui Shi, Hong Chen, Cuiping Li",
+  "summary": {"objective": "대규모 고품질 Text-to-SQL 데이터 합성", "methodology": "Text-to-SQL 훈련을 위한 고품질 데이터 자동 생성", "contributions": ["대규모 데이터 합성 OmniSQL", "고품질 훈련 데이터"], "experiments": "합성 데이터로 Text-to-SQL 성능 향상", "limitations": "합성 데이터 품질 편향"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["대규모 합성이 Text-to-SQL에 효과적", "고품질 데이터 생성 가능"]
+}

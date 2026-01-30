@@ -1,0 +1,8 @@
+{
+  "paper_id": 380,
+  "title": "Workload Insights From the Snowflake Data Cloud: What Do Production Analytic Queries Really Look Like?",
+  "authors": "Jan Vincent Szlang, Sebastian Breß, Sebastian Cattes, Jonathan Dees, Florian Funke, Max Heimel, Michel Oleynik, Ismail Oukid, Tobias Maltenberger",
+  "summary": {"objective": "Snowflake 데이터 클라우드의 워크로드 인사이트", "methodology": "실제 분석 쿼리 워크로드 특성 분석", "contributions": ["프로덕션 워크로드 분석", "쿼리 특성 인사이트"], "experiments": "Snowflake 프로덕션 워크로드 분석", "limitations": "Snowflake 특화"},
+  "tags": [{"tag": "Benchmarking", "confidence": 0.95}, {"tag": "Cloud Computing", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["실제 워크로드가 벤치마크와 다름", "인사이트가 최적화에 유용"]
+}

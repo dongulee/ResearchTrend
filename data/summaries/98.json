@@ -1,0 +1,39 @@
+{
+  "paper_id": 98,
+  "title": "Jodes: Efficient Oblivious Join in the Distributed Setting",
+  "authors": "Yilei Wang, Xiangdong Zeng, Sheng Wang, Feifei Li",
+  "summary": {
+    "objective": "분산 환경에서 네트워크와 엔클레이브 양쪽의 누출을 방지하는 효율적인 난독화 조인 알고리즘 개발",
+    "methodology": "TEE 환경에서 접근 패턴 누출 방지를 위한 난독화 계산. 네트워크 적대자에 대한 전송량 누출 방지. 입력/출력 크기만 공개하는 높은 보안 수준 제공",
+    "contributions": [
+      "분산 환경용 효율적 난독화 조인 Jodes 제안",
+      "네트워크와 엔클레이브 양쪽 누출 방지",
+      "기존 알고리즘 대비 점근적으로 우수한 통신/계산 비용"
+    ],
+    "experiments": "16대 서버 분산 환경에서 SOTA 조인 알고리즘 대비 최대 6배 성능 향상",
+    "limitations": "TEE 환경 의존성, 매우 큰 테이블에서의 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Privacy",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Security",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "난독화 조인이 분산 환경에서 효율적으로 구현 가능",
+    "높은 보안 수준에서도 우수한 성능 달성",
+    "점근적으로 최적의 통신 및 계산 비용"
+  ]
+}

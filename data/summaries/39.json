@@ -1,0 +1,34 @@
+{
+  "paper_id": 39,
+  "title": "Goku: A Schemaless Time Series Database for Large Scale Monitoring at Pinterest",
+  "authors": "Monil Mukesh Sanghavi, Ming-May Hu, Zhenxiao Luo, Xiao Li, Kapil Bajaj",
+  "summary": {
+    "objective": "Pinterest의 대규모 모니터링을 위한 스키마리스 시계열 데이터베이스 구축",
+    "methodology": "계층형 저장소로 새/자주 쿼리되는 데이터는 메모리에, 오래된 데이터는 SSD/HDD에 저장. 쓰기 시간에 메트릭 집계 및 낮은 시간 세분화로 롤업. TTL, 롤업 세분화, 백필 등 구성 수정 지원",
+    "contributions": [
+      "Pinterest용 스키마리스 시계열 DB Goku",
+      "계층형 저장소로 효율성과 비용 최적화",
+      "쓰기 시간 집계로 저지연 쿼리"
+    ],
+    "experiments": "Pinterest 규모의 모니터링 요구사항 충족. 고가용성과 내결함성 달성",
+    "limitations": "매우 높은 카디널리티 메트릭, 복잡한 분석 쿼리"
+  },
+  "tags": [
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "계층형 저장소가 비용-성능 균형에 효과적",
+    "쓰기 시간 집계가 저지연 쿼리에 핵심"
+  ]
+}

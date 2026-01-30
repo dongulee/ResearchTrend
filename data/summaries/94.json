@@ -1,0 +1,35 @@
+{
+  "paper_id": 94,
+  "title": "RGS-Sketch: An Accurate, Invertible, and Mergeable Sketch for Online Super Spreader Detection in High-speed Data Streams",
+  "authors": "Boyu Zhang, He Huang, Yu-E Sun, Guoju Gao",
+  "summary": {
+    "objective": "고속 데이터 스트림에서 온라인 슈퍼 스프레더 탐지를 위한 정확하고 역변환 가능하며 병합 가능한 스케치 설계",
+    "methodology": "레지스터 그룹 공유(register group sharing)라는 새로운 병합 가능 메모리 공유 설계 제안. 그룹 상태의 실시간 획득으로 온라인 탐지 지원. 작은 플로우의 레지스터 업데이트를 차단하는 제한적 레지스터 업데이트 전략",
+    "contributions": [
+      "레지스터 그룹 공유 기반 RGS-Sketch 제안",
+      "온라인 탐지와 역변환 가능성 지원",
+      "제한적 레지스터 업데이트로 탐지 정확도 향상"
+    ],
+    "experiments": "4개 실제 데이터셋에서 가장 정확한 베이스라인 대비 F1 점수 최대 0.643 향상. 다중 포인트/기간에서 최대 0.472 향상",
+    "limitations": "매우 높은 스트림 속도에서의 처리량"
+  },
+  "tags": [
+    {
+      "tag": "Stream Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Network Analysis",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "레지스터 그룹 공유가 높은 메모리 효율성 제공",
+    "제한적 레지스터 업데이트가 노이즈 감소에 효과적",
+    "병합 가능성이 분산 측정 시나리오에서 유용"
+  ]
+}

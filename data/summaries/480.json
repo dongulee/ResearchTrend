@@ -1,0 +1,8 @@
+{
+  "paper_id": 480,
+  "title": "Errata for \"CGgraph: An Ultra-Fast Graph Processing System on Modern Commodity CPU-GPU Co-processor\"",
+  "authors": "Pengjie Cui, Haotian Liu, Bo Tang, Ye Yuan",
+  "summary": {"objective": "CGgraph 논문의 오류 정정", "methodology": "이전 논문의 EFG 성능 수치 수정", "contributions": ["오류 정정", "정확한 수치 제공"], "experiments": "수정된 실험 결과 제시", "limitations": "원 논문 신뢰성 영향"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}, {"tag": "Benchmarking", "confidence": 0.8}],
+  "key_findings": ["EFG 성능 수치 오류 확인", "정정된 값 제공"]
+}

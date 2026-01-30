@@ -1,0 +1,14 @@
+{
+  "paper_id": 155,
+  "title": "SkyStore: Cost-Optimized Object Storage Across Regions and Clouds",
+  "authors": "Shu Liu, Xiangxi Mo, Moshik Hershcovitch, Henric Zhang, Audrey Cheng, Guy Girmonsky, Gil Vernik, Michael Factor, Tiemo Bang, Soujanya Ponnapalli, Natacha Crooks, Joseph Gonzalez, Danny Harnik, Ion Stoica",
+  "summary": {
+    "objective": "리전과 클라우드 간 비용 최적화된 객체 저장소 개발",
+    "methodology": "멀티 리전, 멀티 클라우드 환경에서 비용 최적화. 데이터 배치 및 복제 전략 최적화",
+    "contributions": ["비용 최적화 객체 저장소 SkyStore", "멀티 리전/클라우드 지원", "데이터 배치 최적화"],
+    "experiments": "기존 방법 대비 비용 절감 달성",
+    "limitations": "매우 동적인 접근 패턴에서의 최적화"
+  },
+  "tags": [{"tag": "Cloud Computing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}],
+  "key_findings": ["멀티 클라우드가 비용 최적화 기회 제공", "데이터 배치가 비용의 핵심 요소", "자동 최적화가 수동 관리 대체"]
+}

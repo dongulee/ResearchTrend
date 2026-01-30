@@ -1,0 +1,35 @@
+{
+  "paper_id": 132,
+  "title": "Maximum Inner Product is Query-Scaled Nearest Neighbor",
+  "authors": "Tingyang Chen, Cong Fu, Kun Wang, Xiangyu Ke, Yunjun Gao, Wenchao Zhou, Yabo Ni, Anxiang Zeng",
+  "summary": {
+    "objective": "공간 변환 없이 MIPS를 NNS로 동치시키는 새로운 이론적 프레임워크 개발",
+    "methodology": "고급 그래프 기반 NNS 인덱스와 효율적인 에지 프루닝 전략 활용. 큰 노름 벡터 주변 MIPS 솔루션 클러스터링 문제를 위한 PSP(Proximity Graph with Spherical Pathway). 정확도 병목에 도달하면 탐색을 효율적으로 중단하는 AET(Adaptive Early Termination)",
+    "contributions": [
+      "공간 변환 없이 MIPS를 NNS로 동치시키는 프레임워크",
+      "큰 노름 벡터 문제를 위한 PSP",
+      "탐색 효율화를 위한 AET"
+    ],
+    "experiments": "기존 SOTA 대비 검색 효율성, 확장성, 실용성에서 우수",
+    "limitations": "매우 불균일한 노름 분포에서의 성능"
+  },
+  "tags": [
+    {
+      "tag": "Vector Search",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "MIPS가 공간 변환 없이 NNS로 환원 가능",
+    "그래프 기반 인덱스가 MIPS에 효과적",
+    "적응적 조기 종료가 탐색 효율성 향상"
+  ]
+}

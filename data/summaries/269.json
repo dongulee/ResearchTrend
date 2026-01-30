@@ -1,0 +1,8 @@
+{
+  "paper_id": 269,
+  "title": "Fused Gromov-Wasserstein Alignment for Graph Edit Distance Computation and Beyond",
+  "authors": "Jianheng Tang, Xi Zhao, Lemin Kong, Xiaofang Zhou, Jia Li",
+  "summary": {"objective": "그래프 편집 거리 계산을 위한 Fused Gromov-Wasserstein 정렬", "methodology": "FGW 정렬을 활용한 그래프 편집 거리 근사", "contributions": ["FGW 기반 그래프 편집 거리", "효율적 그래프 비교"], "experiments": "기존 GED 방법 대비 정확도와 효율 향상", "limitations": "매우 다른 크기의 그래프"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["FGW가 GED 계산에 효과적", "그래프 비교 성능 향상"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 410,
+  "title": "RadlER: Deduplicated Sampling On-Demand",
+  "authors": "Luca Zecchini, Ziawasch Abedjan, Vasilis Efthymiou, Giovanni Simonini",
+  "summary": {"objective": "온디맨드 중복 제거 샘플링", "methodology": "샘플링 시 중복을 실시간으로 제거", "contributions": ["중복 제거 샘플링 RadlER", "온디맨드 처리"], "experiments": "기존 샘플링 대비 품질 향상", "limitations": "중복 탐지 정확도"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Data Cleaning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["온디맨드 중복 제거가 효과적", "샘플 품질 향상"]
+}

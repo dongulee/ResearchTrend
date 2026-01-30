@@ -1,0 +1,8 @@
+{
+  "paper_id": 295,
+  "title": "Towards Designing Future-Proof Data Processing Systems",
+  "authors": "Michael Jungmair, Jana Giceva",
+  "summary": {"objective": "미래 대비 데이터 처리 시스템 설계", "methodology": "하드웨어와 사용 패턴 변화에 적응하는 시스템 설계 원칙", "contributions": ["미래 대비 시스템 설계 원칙", "적응형 아키텍처"], "experiments": "다양한 시나리오에서 적응성 검증", "limitations": "예측 불가능한 변화"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["적응형 설계가 중요", "미래 변화에 대비한 유연성 필요"]
+}

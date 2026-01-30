@@ -1,0 +1,8 @@
+{
+  "paper_id": 290,
+  "title": "Diva: Dynamic Range Filter for Var-Length Keys and Queries",
+  "authors": "Navid Eslami, Ioana Bercea, Niv Dayan",
+  "summary": {"objective": "가변 길이 키와 쿼리를 위한 동적 범위 필터", "methodology": "가변 길이 키를 지원하는 근사 범위 필터", "contributions": ["가변 길이 지원 범위 필터 Diva", "동적 업데이트 지원"], "experiments": "기존 범위 필터 대비 유연성과 성능 향상", "limitations": "매우 긴 키"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["가변 길이 지원이 실용적", "동적 필터가 유연성 제공"]
+}

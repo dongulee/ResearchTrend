@@ -1,0 +1,8 @@
+{
+  "paper_id": 301,
+  "title": "BURST: Rendering Clustering Techniques Suitable for Evolving Streams",
+  "authors": "Apostolos Giannoulidis, Anastasios Gounaris, John Paparrizos",
+  "summary": {"objective": "진화하는 스트림에 적합한 클러스터링 기법 제공", "methodology": "스트림 데이터의 변화에 적응하는 클러스터링", "contributions": ["스트림 적응 클러스터링 BURST", "진화 대응"], "experiments": "기존 스트림 클러스터링 대비 적응성 향상", "limitations": "급격한 개념 변화"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["진화하는 스트림에 적응 가능", "클러스터링 품질 유지"]
+}

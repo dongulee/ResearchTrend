@@ -1,0 +1,8 @@
+{
+  "paper_id": 439,
+  "title": "LASEK: LLM-Assisted Style Exploration Kit for Geospatial Data",
+  "authors": "Tarlan Bahadori, Ahmed Eldawy, Sai Sreekar Sarvepalli",
+  "summary": {"objective": "LLM 지원 지리공간 데이터 스타일 탐색", "methodology": "LLM을 활용한 지도 시각화 스타일 자동 설정", "contributions": ["LLM 기반 스타일 탐색 LASEK", "지리공간 시각화 지원"], "experiments": "다양한 지리공간 데이터에서 효과 검증", "limitations": "LLM 비용"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["LLM이 시각화 스타일 설정에 효과적", "사용자 의도 이해"]
+}

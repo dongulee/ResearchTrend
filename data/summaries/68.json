@@ -1,0 +1,34 @@
+{
+  "paper_id": 68,
+  "title": "Towards Scalable and Practical Batch-Dynamic Connectivity",
+  "authors": "Quinten De Man, Laxman Dhulipala, Adam Karczmarz, Jakub Łącki, Julian Shun, Zhongqi Wang",
+  "summary": {
+    "objective": "엣지 삽입/삭제 시 연결 컴포넌트를 동적으로 유지하는 확장 가능한 알고리즘 개발",
+    "methodology": "작업 효율적이고 배치 업데이트를 지원하며 다대수 깊이로 실행되고 선형 공간만 사용하는 첫 병렬 알고리즘. 클러스터 포레스트 알고리즘의 첫 구현",
+    "contributions": [
+      "첫 병렬 배치-동적 연결성 알고리즘",
+      "클러스터 포레스트 알고리즘 첫 구현",
+      "선형 공간 복잡도"
+    ],
+    "experiments": "level-set 알고리즘 대비 최대 19.7배 적은 공간, 최대 6.2배 빠름",
+    "limitations": "매우 빈번한 업데이트에서의 오버헤드"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "선형 공간으로 다대수 업데이트 시간 달성",
+    "클러스터 포레스트가 실용적임을 입증"
+  ]
+}

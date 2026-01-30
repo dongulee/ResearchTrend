@@ -1,0 +1,8 @@
+{
+  "paper_id": 353,
+  "title": "LEADRE: Multi-Faceted Knowledge Enhanced LLM Empowered Display Advertisement Recommender System",
+  "authors": "Fengxin Li, Yi Li, Yue Liu, Chao Zhou, Yuan Wang, Xiaoxiang Deng, Wei Xue, Dapeng Liu, Lei Xiao, Haijie Gu, Jie Jiang, Hongyan Liu, Biao Qin, Jun He",
+  "summary": {"objective": "다면적 지식 강화 LLM 기반 디스플레이 광고 추천 시스템", "methodology": "다양한 지식과 LLM을 결합한 광고 추천", "contributions": ["지식 강화 LLM 추천 LEADRE", "디스플레이 광고 최적화"], "experiments": "기존 추천 시스템 대비 성능 향상", "limitations": "LLM 비용"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Knowledge Graphs", "confidence": 0.85}],
+  "key_findings": ["다면적 지식이 추천에 효과적", "LLM 강화가 성능 향상에 기여"]
+}

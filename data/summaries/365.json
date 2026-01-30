@@ -1,0 +1,8 @@
+{
+  "paper_id": 365,
+  "title": "Automatic Indexing in Oracle",
+  "authors": "Sunil Chakkappen, Shreya Kunjibettu, Daniel Mcgreer, Masoomeh Kishi, Hong Su, Mohamed Ziauddin, Mohamed Zait, Zhan Li, Yuying Zhang",
+  "summary": {"objective": "Oracle에서 자동 인덱싱", "methodology": "워크로드를 분석하여 자동으로 인덱스 생성 및 관리", "contributions": ["Oracle 자동 인덱싱", "DBA 부담 감소"], "experiments": "Oracle 프로덕션에서 효과 검증", "limitations": "예측 불가능한 워크로드"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["자동 인덱싱이 Oracle에서 효과적", "DBA 부담 크게 감소"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 171,
+  "title": "GraphSparseNet: a Novel Method for Large Scale Traffic Flow Prediction",
+  "authors": "Weiyang Kong, Wu Kaiqi, Sen Zhang, Yubao Liu",
+  "summary": {"objective": "대규모 교통 흐름 예측을 위한 새로운 방법", "methodology": "희소 그래프 구조를 활용한 효율적 교통 예측. 대규모 도로 네트워크에 확장 가능", "contributions": ["대규모 교통 예측 GraphSparseNet", "희소 그래프 활용", "확장 가능한 아키텍처"], "experiments": "기존 방법 대비 대규모 데이터에서 효율성 향상", "limitations": "매우 희소한 관측에서의 예측 정확도"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9), ("Real-time Analytics", 0.9}],
+  "key_findings": ["희소 그래프가 대규모 확장에 효과적", "교통 예측에 그래프 구조 활용 중요"]
+}

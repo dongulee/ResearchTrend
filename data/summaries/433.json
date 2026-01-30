@@ -1,0 +1,8 @@
+{
+  "paper_id": 433,
+  "title": "Vadacode: A Logician-friendly IDE for Datalog+/-",
+  "authors": "Luigi Bellomarini, Andrea Gentili, Davide Magnanimi, Emanuel Sallinger",
+  "summary": {"objective": "Datalog+/-를 위한 논리학자 친화적 IDE", "methodology": "Datalog+/- 개발을 위한 전용 IDE", "contributions": ["Datalog+/- IDE Vadacode", "논리학자 친화적"], "experiments": "Datalog+/- 개발에서 IDE 효과 검증", "limitations": "언어 특화"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Knowledge Graphs", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["전용 IDE가 Datalog+/-에 효과적", "개발 생산성 향상"]
+}

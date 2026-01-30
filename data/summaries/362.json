@@ -1,0 +1,8 @@
+{
+  "paper_id": 362,
+  "title": "Unlocking the Power of CI/CD for Data Pipelines in Distributed Data Warehouses",
+  "authors": "Hongtao Yang, Zhichen Xu, Sergey Yudin, Andrew Davidson",
+  "summary": {"objective": "분산 데이터 웨어하우스의 데이터 파이프라인을 위한 CI/CD", "methodology": "데이터 파이프라인에 CI/CD 원칙 적용", "contributions": ["데이터 파이프라인 CI/CD", "신뢰성 향상"], "experiments": "Google 환경에서 효과 검증", "limitations": "기존 파이프라인 적응"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.85}],
+  "key_findings": ["CI/CD가 데이터 파이프라인에 효과적", "신뢰성과 생산성 향상"]
+}

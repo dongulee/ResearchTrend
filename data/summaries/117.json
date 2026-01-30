@@ -1,0 +1,35 @@
+{
+  "paper_id": 117,
+  "title": "TELESAFE - Detecting Private/Work Boundary Crossings in Energy Consumption Trails in Telework",
+  "authors": "Haoying Zhang, Mariem Brahem, Nicolas Anciaux, Benjamin Nguyen, Jose Maria De Fuentes",
+  "summary": {
+    "objective": "과도한 감시 없이 재택근무에서 사생활/업무 경계 교차를 탐지하는 솔루션 개발",
+    "methodology": "사전 훈련이나 가정 내 계측 없이 작동하는 경계 교차 탐지기 TELESAFE 제안. 전력 소비 추적을 통해 근무 조건에 대한 자체 및 제3자 평가 가능. 자원 제약 장치에서 로컬 실행 가능",
+    "contributions": [
+      "훈련 불필요 경계 교차 탐지기 TELESAFE",
+      "전력 소비 추적 기반 개인 활동 식별",
+      "ML/DL 접근법 대비 복잡한 설정에서 우수한 성능"
+    ],
+    "experiments": "실제 데이터셋에서 하나 이상의 장치를 포함한 개인 활동 식별 F-score 90% 이상. 복잡한 설정에서 ML/DL 능가",
+    "limitations": "매우 복잡한 전력 소비 패턴에서의 정확도"
+  },
+  "tags": [
+    {
+      "tag": "Privacy",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "전력 소비 추적이 경계 교차 탐지에 효과적",
+    "훈련 불필요 접근이 ML/DL보다 견고",
+    "개인정보 보호와 근로 조건 모니터링 균형"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 369,
+  "title": "DECK: Experiences on Delta Checkpointing for Industrial Recommendation Systems",
+  "authors": "Xin Gao, Sibasish Acharya, Sihui Han, Yongxiong Ren, Yanli Zhao, Liang Luo, Chucheng Wang, Pradeep Fernando, Saurabh Mishra, Siqi Yan, Yicong Du, Elzbieta Krepska, Intaik Park, Min Ni, Qunshu Zhang, Shen Li",
+  "summary": {"objective": "산업 추천 시스템을 위한 델타 체크포인팅 경험", "methodology": "추천 모델의 효율적 체크포인팅", "contributions": ["델타 체크포인팅 DECK", "추천 시스템 지원"], "experiments": "Meta 프로덕션에서 효과 검증", "limitations": "모델 크기 증가"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["델타 체크포인팅이 효율적", "대규모 추천 모델에 필수"]
+}

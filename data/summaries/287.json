@@ -1,0 +1,8 @@
+{
+  "paper_id": 287,
+  "title": "PBench: Workload Synthesizer with Real Statistics for Cloud Analytics Benchmarking",
+  "authors": "Yan Zhou, Chunwei Liu, Bhuvan Urgaonkar, Zhengle Wang, Magnus Mueller, Chao Zhang, Songyue Zhang, Pascal Pfeil, Dominik Horn, Zhengchun Liu, Davide Pagano, Tim Kraska, Samuel Madden, Ju Fan",
+  "summary": {"objective": "클라우드 분석 벤치마킹을 위한 실제 통계 기반 워크로드 합성기", "methodology": "실제 워크로드 통계를 사용하여 벤치마크 워크로드 생성", "contributions": ["실제 통계 워크로드 합성기 PBench", "클라우드 분석 벤치마킹"], "experiments": "실제 워크로드와 유사한 합성 워크로드 생성", "limitations": "특정 클라우드 환경에 편향"},
+  "tags": [{"tag": "Benchmarking", "confidence": 0.95}, {"tag": "Cloud Computing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["실제 통계 기반 합성이 효과적", "클라우드 벤치마킹에 유용"]
+}

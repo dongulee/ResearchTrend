@@ -1,0 +1,35 @@
+{
+  "paper_id": 101,
+  "title": "On More Efficiently and Versatilely Querying Historical k-Cores",
+  "authors": "Zhi Wang, Ming Zhong, Yuanyuan Zhu, Tieyun Qian, Mengchi Liu, Jeffrey Xu Yu",
+  "summary": {
+    "objective": "시간 그래프에서 역사적 k-core 쿼리를 더 효율적이고 다양하게 처리하는 인덱스 개발",
+    "methodology": "정점의 코어 시간에 대한 계층 구조를 나타내는 'core time shell' 개념 제안. 시간-공간 균형 MCTS-index(Merged Core Time Shell) 설계. 기존 'what' 쿼리 외에 새로운 'when' 역사적 k-core 쿼리 지원",
+    "contributions": [
+      "Core time shell 개념과 MCTS-index 제안",
+      "근사적으로 최적의 쿼리 성능과 공간 복잡도 보장",
+      "새로운 'when' 역사적 k-core 쿼리 지원"
+    ],
+    "experiments": "10개 실제 시간 그래프에서 'what' 쿼리의 우수한 효율성과 'when' 쿼리의 효과성 입증",
+    "limitations": "매우 빠르게 변화하는 시간 그래프에서의 인덱스 유지보수"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "Core time shell이 역사적 k-core 쿼리 최적화에 효과적",
+    "MCTS-index가 시간-공간 균형을 잘 달성",
+    "'when' 쿼리가 새로운 분석 가능성 제공"
+  ]
+}

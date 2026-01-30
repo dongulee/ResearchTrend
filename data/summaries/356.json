@@ -1,0 +1,8 @@
+{
+  "paper_id": 356,
+  "title": "Towards Principled, Practical Document Database Design",
+  "authors": "Michael Carey, Wail Alkowaileet, Nick Digeronimo, Peeyush Gupta, Sachin Smotra, Till Westmann",
+  "summary": {"objective": "원칙적이고 실용적인 문서 DB 설계", "methodology": "문서 데이터베이스의 스키마 설계 원칙과 방법론", "contributions": ["문서 DB 설계 원칙", "실용적 설계 방법론"], "experiments": "다양한 사용 사례에서 설계 방법론 검증", "limitations": "도메인 특화 요구"},
+  "tags": [{"tag": "Schema Design", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["원칙적 설계가 문서 DB에 필요", "실용적 방법론 제시"]
+}

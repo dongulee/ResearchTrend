@@ -1,0 +1,35 @@
+{
+  "paper_id": 88,
+  "title": "Noise Matters: Cross Contrastive Learning for Flink Anomaly Detection",
+  "authors": "Zhihao Zhuang, Yingying Zhang, Kai Zhao, Chenjuan Guo, Bin Yang, Qingsong Wen, Lunting Fan",
+  "summary": {
+    "objective": "Flink 클러스터의 핫스팟 문제 탐지를 위한 비정상 시계열 탐지, 특히 Flink 특화 이상(slow-rising, high-level) 탐지",
+    "methodology": "각 타임스탬프의 컨텍스트 정보를 학습하는 교차 대조 학습(cross-contrastive) 접근법 제안. 노이즈 이상에 대응하기 위해 사전 지식 기반 이상 경계 설정",
+    "contributions": [
+      "Flink 특화 이상 탐지를 위한 교차 대조 학습 접근법",
+      "노이즈 데이터에서 이상 패턴 학습 방지를 위한 이상 경계 설정",
+      "Flink 시나리오와 공개 벤치마크에서 SOTA 달성"
+    ],
+    "experiments": "Flink 시나리오에서 기존 방법 대비 우수한 성능. 공개 벤치마크 데이터셋에서도 SOTA 결과 달성",
+    "limitations": "다른 스트림 처리 시스템으로의 일반화"
+  },
+  "tags": [
+    {
+      "tag": "Stream Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "기존 UTAD 방법이 Flink 핫스팟 시나리오에서 비효과적",
+    "교차 대조 학습이 Flink 특화 이상 탐지에 효과적",
+    "노이즈 데이터에서의 이상 경계 설정이 중요"
+  ]
+}

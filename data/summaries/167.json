@@ -1,0 +1,8 @@
+{
+  "paper_id": 167,
+  "title": "EinDecomp: Decomposition of Declaratively-Specified Tensor Programs",
+  "authors": "Daniel Bourgeois, Zhimin Ding, Dimitrije Jankov",
+  "summary": {"objective": "선언적으로 지정된 텐서 프로그램의 분해", "methodology": "Einstein 표기법으로 지정된 텐서 연산의 자동 분해. 효율적인 실행 계획 생성", "contributions": ["텐서 프로그램 분해 EinDecomp", "선언적 지정", "자동 최적화"], "experiments": "수동 최적화 대비 유사한 성능으로 프로그래밍 용이", "limitations": "매우 복잡한 텐서 연산에서의 분해 품질"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.9}, {"tag": "Deep Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["선언적 지정이 프로그래밍 용이", "자동 분해가 효율적 실행 제공"]
+}

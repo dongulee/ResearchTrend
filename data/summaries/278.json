@@ -1,0 +1,8 @@
+{
+  "paper_id": 278,
+  "title": "LogLite: Lightweight Plug-and-Play Streaming Log Compression",
+  "authors": "Benzhao Tang, Shiyu Yang, Zhitao Shen, Wenjie Zhang, Xuemin Lin, Zhihong Tian",
+  "summary": {"objective": "경량 플러그앤플레이 스트리밍 로그 압축", "methodology": "스트리밍 환경에서 실시간 로그 압축", "contributions": ["경량 로그 압축 LogLite", "플러그앤플레이 지원"], "experiments": "기존 압축 방법 대비 효율과 압축률 향상", "limitations": "매우 다양한 로그 형식"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["스트리밍 로그 압축 가능", "경량화로 적용 용이"]
+}

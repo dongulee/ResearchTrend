@@ -1,0 +1,8 @@
+{
+  "paper_id": 221,
+  "title": "Cache Coherence Over Disaggregated Memory",
+  "authors": "Ruihong Wang, Jianguo Wang, Walid Aref",
+  "summary": {"objective": "분리된 메모리에서의 캐시 일관성", "methodology": "분리 메모리 아키텍처에서 캐시 일관성 프로토콜 설계", "contributions": ["분리 메모리 캐시 일관성", "효율적 프로토콜"], "experiments": "기존 방법 대비 일관성 유지하면서 성능 향상", "limitations": "매우 큰 메모리 풀에서의 확장성"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["분리 메모리에 특화된 일관성 필요", "기존 프로토콜이 비효율적"]
+}

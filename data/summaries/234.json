@@ -1,0 +1,8 @@
+{
+  "paper_id": 234,
+  "title": "Rebirth-Retire: A Concurrency Control Protocol Adaptive to Workload Shift",
+  "authors": "Qian Zhang, Yiwen Xiang, Jianhao Wei, Yan Zheng",
+  "summary": {"objective": "워크로드 변화에 적응하는 동시성 제어 프로토콜", "methodology": "워크로드 변화를 감지하고 적응하는 CC 프로토콜. 재탄생-은퇴 메커니즘", "contributions": ["워크로드 적응 CC Rebirth-Retire", "동적 적응"], "experiments": "워크로드 변화에서 기존 방법 대비 성능 유지", "limitations": "매우 급격한 워크로드 변화"},
+  "tags": [{"tag": "Concurrency Control", "confidence": 0.95}, {"tag": "Transaction Processing", "confidence": 0.9), ("Performance", 0.9}],
+  "key_findings": ["워크로드 적응이 실제 환경에 중요", "동적 CC가 유연성 제공"]
+}

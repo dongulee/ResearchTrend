@@ -1,0 +1,35 @@
+{
+  "paper_id": 128,
+  "title": "Quantum Data Management in the NISQ Era",
+  "authors": "Rihan Hai, Shih-Han Hung, Tim Coopmans, Tim Littau, Floris Geerts",
+  "summary": {
+    "objective": "NISQ 시대 양자 컴퓨팅을 위한 데이터 관리 과제와 패러다임 탐구",
+    "methodology": "양자 데이터와 고전 데이터의 차별화. NISQ 시대 및 그 이후의 현재와 미래 데이터 관리 패러다임 개요. 근기 양자 컴퓨팅의 새로운 요구에서 발생하는 데이터 관리 과제 해결",
+    "contributions": [
+      "양자 지향 데이터 관리 연구의 명확한 경로 제시",
+      "양자 데이터와 고전 데이터 차별화",
+      "NISQ 시대 데이터 관리 과제 식별"
+    ],
+    "experiments": "비전 논문으로서 개념적 프레임워크와 연구 방향 제시에 초점",
+    "limitations": "실제 양자 시스템에서의 구현 및 검증 필요"
+  },
+  "tags": [
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Data Integration",
+      "confidence": 0.8
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.75
+    }
+  ],
+  "key_findings": [
+    "양자 데이터 관리가 양자 컴퓨팅 발전의 초석",
+    "NISQ 시대 큐비트의 취약성과 규모 제한 인식 필요",
+    "양자 기법이 고전 DB 과제에 적용 가능"
+  ]
+}

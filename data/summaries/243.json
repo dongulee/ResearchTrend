@@ -1,0 +1,8 @@
+{
+  "paper_id": 243,
+  "title": "Déjà Vu: Efficient Video-Language Query Engine with Learning-based Inter-Frame Computation Reuse",
+  "authors": "Jinwoo Hwang, Daeun Kim, Sangyeop Lee, Yoonsung Kim, Guseul Heo, Hojoon Kim, Yunseok Jeong, Tadiwos Meaza, Eunhyeok Park, Jeongseob Ahn, Jongse Park",
+  "summary": {"objective": "프레임 간 계산 재사용을 통한 비디오-언어 쿼리 엔진 효율화", "methodology": "학습 기반 프레임 간 계산 재사용으로 비디오 처리 가속", "contributions": ["계산 재사용 비디오 쿼리 엔진 Déjà Vu", "효율적 비디오 분석"], "experiments": "기존 방법 대비 비디오 처리 속도 향상", "limitations": "빠르게 변화하는 비디오에서의 재사용률"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Natural Language Processing", "confidence": 0.85}],
+  "key_findings": ["프레임 간 계산 재사용이 효과적", "비디오 쿼리 처리 효율 크게 향상"]
+}

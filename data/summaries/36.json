@@ -1,0 +1,34 @@
+{
+  "paper_id": 36,
+  "title": "MILLION: A General Multi-Objective Framework with Controllable Risk for Portfolio Management",
+  "authors": "Liwei Deng, Tianfu Wang, Yan Zhao, Kai Zheng",
+  "summary": {
+    "objective": "포트폴리오 관리에서 위험과 수익의 균형을 맞추는 제어 가능한 다목적 프레임워크 개발",
+    "methodology": "수익 관련 최대화와 위험 제어의 두 단계. 수익률 예측과 순위를 보조 목표로 도입하여 과적합 완화. 포트폴리오 보간과 개선 방법으로 세밀한 위험 제어",
+    "contributions": [
+      "다목적 포트폴리오 관리 프레임워크 MILLION",
+      "포트폴리오 보간으로 이론적 위험 제어 보장",
+      "포트폴리오 개선으로 동일 위험 수준에서 높은 수익"
+    ],
+    "experiments": "3개 실제 데이터셋에서 효과성 입증. 위험 제어와 수익 균형 달성",
+    "limitations": "극단적 시장 상황에서의 성능, 실시간 거래 비용 고려"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "보조 목표가 과적합 완화에 효과적",
+    "포트폴리오 보간이 이론적 위험 제어 보장"
+  ]
+}

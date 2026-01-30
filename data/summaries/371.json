@@ -1,0 +1,8 @@
+{
+  "paper_id": 371,
+  "title": "FDBKeeper: Enabling Scalable Coordination Services for Metadata Management using Distributed Key-Value Databases",
+  "authors": "Jun-Peng Zhu, Lingfeng Zhang, Peng Cai, Xuan Zhou, Peisen Zhao, Xue Wang, Linpeng Tang",
+  "summary": {"objective": "분산 키-값 DB를 사용한 메타데이터 관리를 위한 확장 가능한 코디네이션 서비스", "methodology": "FoundationDB를 기반으로 한 코디네이션 서비스", "contributions": ["확장 가능한 코디네이션 서비스 FDBKeeper", "메타데이터 관리"], "experiments": "ZooKeeper 대비 확장성 향상", "limitations": "일관성 모델 차이"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["분산 KV DB가 코디네이션에 효과적", "확장성 크게 향상"]
+}

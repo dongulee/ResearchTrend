@@ -1,0 +1,35 @@
+{
+  "paper_id": 118,
+  "title": "FB+-tree: A Memory-Optimized B+-tree with Latch-Free Update",
+  "authors": "Yuan Chen, Ao Li, Wenhai Li, Lingfeng Deng",
+  "summary": {
+    "objective": "캐시 효율성과 동시성을 개선한 고성능 B+-tree 변형 개발",
+    "methodology": "공통 접두사 이후 여러 바이트(features)를 각 내부 노드 레벨에서 점진적으로 고려하는 Feature B+-tree 제안. 링크 기법과 낙관적 잠금을 결합한 동기화 프로토콜. 원자적 연산을 통한 래치 없는 업데이트",
+    "contributions": [
+      "B+-tree와 trie의 장점을 결합한 FB+-tree",
+      "접두사 편향성을 활용한 효율적 분기 연산",
+      "래치 없는 업데이트를 위한 동기화 프로토콜"
+    ],
+    "experiments": "다양한 워크로드에서 기존 B+-tree 및 trie 기반 인덱스 대비 우수한 성능",
+    "limitations": "균일 분포 키에서의 이점 감소"
+  },
+  "tags": [
+    {
+      "tag": "Indexing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Concurrency Control",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "Feature 기반 분기가 캐시 효율성 향상",
+    "B+-tree와 trie 사이의 적응적 동작",
+    "래치 없는 업데이트가 동시성 크게 향상"
+  ]
+}

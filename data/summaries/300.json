@@ -1,0 +1,8 @@
+{
+  "paper_id": 300,
+  "title": "Relational Data Models for Genetic VCF data",
+  "authors": "Mohamed Sabri Hafidi, Ozan Kahramanoğulları, Anton Dignös, Johann Gamper",
+  "summary": {"objective": "유전자 VCF 데이터를 위한 관계형 데이터 모델", "methodology": "VCF 유전체 데이터를 관계형 모델로 표현", "contributions": ["VCF용 관계형 모델", "유전체 데이터 쿼리 지원"], "experiments": "다양한 유전체 쿼리에서 모델 효율 검증", "limitations": "매우 큰 유전체 데이터"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Schema Design", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["관계형 모델이 VCF 데이터에 적용 가능", "유전체 분석 쿼리 지원"]
+}

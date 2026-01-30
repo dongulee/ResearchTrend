@@ -1,0 +1,26 @@
+{
+  "paper_id": 137,
+  "title": "Mining Platoon Patterns from Traffic Videos",
+  "authors": "Yijun Bei, Teng Ma, Dongxiang Zhang, Sai Wu, Kian-Lee Tan, Gang Chen",
+  "summary": {
+    "objective": "도시 규모 비디오 데이터에서 함께 이동하는 객체 그룹(공동 이동 패턴) 발견",
+    "methodology": "연속성 요구사항을 제거하고 그룹 내 객체에 대해 일정 수의 누락된 카메라를 허용하는 완화된 공동 이동 패턴 정의. 새로운 열거 프레임워크 제안",
+    "contributions": [
+      "비디오 데이터에서 완화된 공동 이동 패턴 정의",
+      "객체 가림이나 차량 불일치로 인한 누락 패턴 해결",
+      "효율적인 열거 프레임워크"
+    ],
+    "experiments": "실제 교통 비디오 데이터에서 공동 이동 패턴 효과적 발견",
+    "limitations": "매우 혼잡한 교통 상황에서의 정확도"
+  },
+  "tags": [
+    {"tag": "Real-time Analytics", "confidence": 0.95},
+    {"tag": "Deep Learning", "confidence": 0.85},
+    {"tag": "Data Quality", "confidence": 0.8}
+  ],
+  "key_findings": [
+    "연속성 제거가 누락 패턴 문제 해결",
+    "비디오 기반 패턴 마이닝이 스마트시티에 유용",
+    "카메라 누락 허용이 실용성 향상"
+  ]
+}

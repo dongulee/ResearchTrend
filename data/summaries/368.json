@@ -1,0 +1,8 @@
+{
+  "paper_id": 368,
+  "title": "Magnus: A Holistic Approach to Data Management for Large-Scale Machine Learning Workloads",
+  "authors": "Jun Song, Jingyi Ding, Irshad Kandy, Yanghao Lin, Zhongjia Wei, Zilong Zhou, Zhiwei Peng, Jixi Shan, Hongyue Mao, Xiuqi Huang, Xun Song, Cheng Chen, Yanjia Li, Tianhao Yang, Wei Jia, Xiaohong Dong, Kang Lei, Rui Shi, Pengwei Zhao, Wei Chen",
+  "summary": {"objective": "대규모 ML 워크로드를 위한 전체론적 데이터 관리", "methodology": "ML 파이프라인 전 과정의 데이터 관리 통합", "contributions": ["전체론적 ML 데이터 관리 Magnus", "대규모 지원"], "experiments": "ByteDance 프로덕션에서 효과 검증", "limitations": "특정 인프라 의존"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["전체론적 접근이 ML에 효과적", "대규모 데이터 관리 가능"]
+}

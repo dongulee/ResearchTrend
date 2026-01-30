@@ -1,0 +1,39 @@
+{
+  "paper_id": 11,
+  "title": "COLOR: A Framework for Applying Graph Coloring to Subgraph Cardinality Estimation",
+  "authors": "Kyle B Deeds, Diandre Miguel B Sabale, Moe Kayali, Dan Suciu",
+  "summary": {
+    "objective": "그래프 컬러링 이론을 서브그래프 카디널리티 추정에 적용하여 쿼리 최적화를 개선하는 것",
+    "methodology": "그래프 압축 이론의 통찰을 활용하여 데이터 그래프의 전역 토폴로지를 캡처하는 컴팩트한 요약 생성. 대규모 쿼리 그래프에서도 추정이 가능하도록 핵심 최적화 기법 적용. 리프트된 그래프(lifted graph)에서 카디널리티 추정 수행",
+    "contributions": [
+      "그래프 컬러링 기반의 서브그래프 카디널리티 추정 프레임워크 COLOR 제안",
+      "대규모 쿼리 그래프에서 효율적인 추정을 위한 최적화 기법 개발",
+      "업데이트 시에도 정확도가 점진적으로 저하되는 견고한 설계"
+    ],
+    "experiments": "모든 경쟁 방법 대비 최대 1000배 정확도 향상. 빠른 추론, 작은 메모리 풋프린트, 효율적인 구축, 업데이트 시 점진적 성능 저하 유지",
+    "limitations": "매우 동적인 그래프에서의 요약 업데이트 비용, 특정 그래프 구조에 대한 최적화 필요"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "그래프 컬러링 기반 요약이 전역 토폴로지를 효과적으로 캡처",
+    "기존 방법 대비 최대 1000배 정확도 향상 달성",
+    "리프트된 그래프에서 효율적인 카디널리티 추정 가능"
+  ]
+}

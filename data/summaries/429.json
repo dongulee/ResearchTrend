@@ -1,0 +1,8 @@
+{
+  "paper_id": 429,
+  "title": "Simulating a Transactional Server for Multi-Model Systems",
+  "authors": "Zenon Zacouris, Maribel Acosta",
+  "summary": {"objective": "다중 모델 시스템을 위한 트랜잭션 서버 시뮬레이션", "methodology": "다중 모델 시스템의 트랜잭션 동작 시뮬레이션", "contributions": ["트랜잭션 서버 시뮬레이터 M2TS", "다중 모델 지원"], "experiments": "다중 모델 트랜잭션에서 시뮬레이션 효과 검증", "limitations": "시뮬레이션 정확도"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.85}],
+  "key_findings": ["시뮬레이션이 다중 모델에 유용", "트랜잭션 동작 분석 가능"]
+}

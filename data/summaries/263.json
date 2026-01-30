@@ -1,0 +1,8 @@
+{
+  "paper_id": 263,
+  "title": "PS-MI: Accurate, Efficient, and Private Data Valuation in Vertical Federated Learning",
+  "authors": "Xiaokai Zhou, Xiao Yan, Fangcheng Fu, Ziwen Fu, Tieyun Qian, Yuanyuan Zhu, Qinbo Zhang, Bin Cui, Jiawei Jiang",
+  "summary": {"objective": "수직 연합 학습에서 정확하고 효율적이며 프라이버시 보존하는 데이터 가치 평가", "methodology": "프라이버시를 보존하면서 데이터 가치를 정확히 평가하는 기법", "contributions": ["프라이버시 보존 데이터 가치 평가 PS-MI", "수직 연합 학습 지원"], "experiments": "기존 방법 대비 정확도와 효율성 향상", "limitations": "매우 많은 참여자"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["프라이버시 보존 데이터 가치 평가 가능", "수직 연합 학습에서 효과적"]
+}

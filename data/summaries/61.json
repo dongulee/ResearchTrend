@@ -1,0 +1,34 @@
+{
+  "paper_id": 61,
+  "title": "MLP-Mixer based Masked Autoencoders Are Effective, Explainable and Robust for Time Series Anomaly Detection",
+  "authors": "Tang Qideng, Dai Chaofan, Wu Yahui, Zhou Haohao",
+  "summary": {
+    "objective": "효과적이고 설명 가능하며 견고한 시계열 이상 탐지 딥러닝 프레임워크 개발",
+    "methodology": "MLP-Mixer 백본과 Masked Autoencoder 기반 이상 탐지 접근법 결합. 기존 모델의 10-20배 큰 입력 윈도우 크기 허용. 미묘한 이상 탐지를 위한 대조 학습 모듈. 오탐 감소를 위한 동적 이상 필터링",
+    "contributions": [
+      "MLP-Mixer+MAE 프레임워크 MMA",
+      "대조 학습으로 미묘한 이상 탐지",
+      "동적 이상 필터링으로 오탐 감소"
+    ],
+    "experiments": "단변량/다변량 시계열에서 효과성 입증. 긴 지속시간의 서브시퀀스 이상 탐지 가능",
+    "limitations": "매우 긴 시계열에서의 계산 비용"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "큰 입력 윈도우가 긴 이상 탐지에 핵심",
+    "대조 학습이 미묘한 이상 탐지에 효과적"
+  ]
+}

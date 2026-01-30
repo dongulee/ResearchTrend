@@ -1,0 +1,8 @@
+{
+  "paper_id": 252,
+  "title": "Improving Time Series Data Compression in Apache IoTDB",
+  "authors": "Yuxin Tang, Feng Zhang, Jiawei Guan, Yuan Tian, Xiangdong Huang, Chen Wang, Jianmin Wang, Xiaoyong Du",
+  "summary": {"objective": "Apache IoTDB에서 시계열 데이터 압축 개선", "methodology": "IoTDB에 최적화된 시계열 압축 기법", "contributions": ["IoTDB 시계열 압축 개선", "저장 효율 향상"], "experiments": "기존 압축 방법 대비 압축률 향상", "limitations": "매우 불규칙한 시계열 패턴"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Real-time Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["IoTDB에서 압축 개선 가능", "시계열 특성에 맞는 압축이 중요"]
+}

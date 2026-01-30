@@ -1,0 +1,40 @@
+{
+  "paper_id": 13,
+  "title": "From Logs to Causal Inference: Diagnosing Large Systems",
+  "authors": "Markos Markakis, Brit Youngmann, Trinity Gao, Ziyu Zhang, Rana Shahout, Peter Baile Chen, Chunwei Liu, Ibrahim Sabek, Michael Cafarella",
+  "summary": {
+    "objective": "로그 데이터에 인과 추론을 적용하여 대규모 시스템의 문제를 원리적으로 진단하고 개입을 평가하는 것",
+    "methodology": "Candidate Cause Ranker로 전체 인과 발견 알고리즘 없이 변수의 원인 결정. Interactive Causal Graph Refiner로 광범위한 수동 인과 그래프 검증 없이 관심 효과의 편향되지 않은 추정. Log Converter로 원시 로그를 인과 추론에 적합한 테이블 형식으로 변환",
+    "contributions": [
+      "로그 기반 인과 추론 프레임워크 LOGos 제안",
+      "Candidate Cause Ranker로 효율적인 원인 순위 결정",
+      "Interactive Causal Graph Refiner로 최소한의 인과 판단으로 효과 추정",
+      "Log Converter로 원시 로그를 테이블 형식으로 자동 변환"
+    ],
+    "experiments": "Candidate Cause Ranker가 베이스라인 대비 1.08-18배 높은 평균 정밀도. Interactive Causal Graph Refiner가 베이스라인 대비 1.61-16.83배 적은 인과 판단 필요. Log Converter 지연이 로그 복잡도에 선형적으로 확장",
+    "limitations": "매우 복잡한 인과 관계 네트워크에서의 확장성, 도메인 전문 지식 필요"
+  },
+  "tags": [
+    {
+      "tag": "Data Quality",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Data Cleaning",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "전체 인과 그래프의 일부만으로도 관심 효과를 정확히 정량화 가능",
+    "인간-루프 접근으로 효율적인 인과 분석 실현",
+    "원시 로그에서 테이블 형식으로의 자동 변환이 실용적"
+  ]
+}

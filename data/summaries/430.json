@@ -1,0 +1,8 @@
+{
+  "paper_id": 430,
+  "title": "TableCopilot: A Table Assistant Empowered by Natural Language Conditional Table Discovery",
+  "authors": "Lingxi Cui, Guanyu Jiang, Huan Li, Ke Chen, Lidan Shou, Gang Chen",
+  "summary": {"objective": "자연어 조건 테이블 발견으로 강화된 테이블 어시스턴트", "methodology": "자연어로 테이블을 검색하고 발견하는 어시스턴트", "contributions": ["테이블 어시스턴트 TableCopilot", "자연어 발견"], "experiments": "테이블 발견에서 어시스턴트 효과 검증", "limitations": "자연어 이해"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["자연어 테이블 발견이 효과적", "어시스턴트가 사용성 향상"]
+}

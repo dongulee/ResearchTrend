@@ -1,0 +1,8 @@
+{
+  "paper_id": 479,
+  "title": "Finding Time-Proximity Communities in Temporal Heterogeneous Information Networks",
+  "authors": "Yifu Tang, Chengfei Liu, Lu Chen, Rui Zhou, Jianxin Li",
+  "summary": {"objective": "시간적 이질 정보 네트워크에서 커뮤니티 탐색", "methodology": "(k, Tq, Pδ)-core 모델로 시간 근접 커뮤니티 탐색", "contributions": ["THCS 문제 제안", "시간 근접 커뮤니티 모델"], "experiments": "다양한 네트워크에서 효과 검증", "limitations": "시간 복잡성"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Network Analysis", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["시간적 동적 고려가 중요", "실제 상호작용 반영"]
+}

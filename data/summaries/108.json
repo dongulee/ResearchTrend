@@ -1,0 +1,35 @@
+{
+  "paper_id": 108,
+  "title": "Searching and Detecting Structurally Similar Communities in Large Heterogeneous Information Networks",
+  "authors": "Shu Wang, Yixiang Fang, Wensheng Luo",
+  "summary": {
+    "objective": "이종 정보 네트워크에서 정점 간 구조적 유사성을 명시적으로 고려하는 커뮤니티 모델 개발",
+    "methodology": "구조적으로 유사한 커뮤니티(SSC) 모델 제안. 다양한 구조적 유사도 측정 지원. 정점의 역할(cores, non-cores, hubs, outliers) 식별. 빠른 온라인 및 인덱스 기반 알고리즘 개발",
+    "contributions": [
+      "구조적 유사성 기반 SSC 커뮤니티 모델",
+      "정점 역할 식별 기능",
+      "효율적인 검색 및 탐지 알고리즘"
+    ],
+    "experiments": "실제 데이터셋에서 SSC의 효과성 입증. 검색과 탐지 모두에서 효율적 성능",
+    "limitations": "매우 다양한 스키마를 가진 HIN에서의 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Knowledge Graphs",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "구조적 유사성이 HIN 커뮤니티 모델링에 중요",
+    "정점 역할 식별이 커뮤니티 이해에 유용",
+    "인덱스 기반 접근이 대규모 HIN에서 효율적"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": 112,
+  "title": "Explaining Black-Box Clustering Pipelines With Cluster-Explorer",
+  "authors": "Sariel Ofek, Amit Somech",
+  "summary": {
+    "objective": "블랙박스 클러스터링 파이프라인의 결과를 설명하는 새로운 설명 가능성 도구 개발",
+    "methodology": "클러스터 설명을 클러스터 데이터 포인트의 커버리지를 최대화하면서 다른 클러스터와의 분리를 최소화하는 간결한 술어 결합 식별로 공식화. 일반화된 빈발 항목집합 마이닝(gFIM)으로 문제 축소",
+    "contributions": [
+      "블랙박스 클러스터링을 위한 Cluster-Explorer 도구",
+      "gFIM으로의 문제 축소를 통한 효율적 해결",
+      "속성 선택으로 계산 비용 추가 감소"
+    ],
+    "experiments": "98개 클러스터링 결과 벤치마크에서 XAI 베이스라인 대비 설명 품질과 실행 시간 모두에서 우수",
+    "limitations": "매우 고차원 데이터에서의 설명 품질"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "gFIM이 클러스터 설명에 효과적으로 적용 가능",
+    "기존 XAI 솔루션이 클러스터 설명에 비효과적",
+    "속성 선택이 효율성 향상에 핵심"
+  ]
+}

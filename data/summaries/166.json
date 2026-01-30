@@ -1,0 +1,8 @@
+{
+  "paper_id": 166,
+  "title": "Time Series Motif Discovery: A Comprehensive Evaluation",
+  "authors": "Valerio Guerrini, Thibaut Germain, Charles Truong",
+  "summary": {"objective": "시계열 모티프 발견 방법의 포괄적 평가", "methodology": "다양한 모티프 발견 방법 비교. 벤치마크 데이터셋과 평가 지표 제시", "contributions": ["모티프 발견 포괄적 평가", "벤치마크 프레임워크", "방법 비교"], "experiments": "다양한 방법의 강점과 약점 식별", "limitations": "새로운 모티프 발견 방법에 대한 업데이트"},
+  "tags": [{"tag": "Real-time Analytics", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["포괄적 평가가 방법 선택에 필수적", "데이터 특성에 따라 최적 방법 다름"]
+}

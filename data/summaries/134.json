@@ -1,0 +1,35 @@
+{
+  "paper_id": 134,
+  "title": "GQL and SQL/PGQ: Theoretical Models and Expressive Power",
+  "authors": "Amelie Gheerbrant, Leonid Libkin, Liat Peterfreund, Alexandra Rogova",
+  "summary": {
+    "objective": "SQL/PGQ와 GQL의 형식적 연구를 위한 간결한 기초 모델과 표현력 분석",
+    "methodology": "새로운 표준의 본질을 포착하는 간단한 핵심 언어 Core PGQ와 Core GQL 정의. PGQ의 상향식 평가와 GQL의 선형/파이프라인 접근 간 차이 명확화. 표현력 격차와 결함 원인 식별",
+    "contributions": [
+      "SQL/PGQ와 GQL을 위한 Core PGQ, Core GQL",
+      "표현력 격차와 결함 원인 식별",
+      "이론 분석을 보완하는 실험 연구"
+    ],
+    "experiments": "기존 워크로드에서 표현력 격차의 실제 영향 입증",
+    "limitations": "표준의 지속적 발전에 따른 모델 업데이트 필요"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Schema Design",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "형식 모델이 SQL/PGQ와 GQL 분석에 필수적",
+    "표현력 격차가 언어 확장의 필요성 확인",
+    "상향식 vs 파이프라인 평가가 핵심 차이"
+  ]
+}

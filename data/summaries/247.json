@@ -1,0 +1,8 @@
+{
+  "paper_id": 247,
+  "title": "X-Blossom: Massive Parallelization of Graph Maximum Matching",
+  "authors": "Dayi Fan, Rubao Lee, Xiaodong Zhang",
+  "summary": {"objective": "그래프 최대 매칭의 대규모 병렬화", "methodology": "Blossom 알고리즘의 대규모 병렬 구현", "contributions": ["병렬 Blossom X-Blossom", "대규모 그래프 매칭 가속"], "experiments": "기존 순차 알고리즘 대비 대폭 성능 향상", "limitations": "매우 희소한 그래프에서의 병렬 효율"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["Blossom 알고리즘 병렬화 가능", "대규모 그래프 매칭 성능 크게 향상"]
+}

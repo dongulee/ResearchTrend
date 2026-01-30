@@ -1,0 +1,8 @@
+{
+  "paper_id": 169,
+  "title": "Wolverine: Highly Efficient Monotonic Search Path Generation for Graph-based ANN Search",
+  "authors": "Dawei Liu, Bolong Zheng, Ziyang Yue, Fuhua Yan",
+  "summary": {"objective": "그래프 기반 ANN 검색을 위한 고효율 단조 검색 경로 생성", "methodology": "검색 경로의 단조성을 보장하여 효율성 향상. 불필요한 노드 방문 감소", "contributions": ["단조 검색 경로 생성 Wolverine", "검색 효율성 향상"], "experiments": "기존 그래프 기반 ANN 대비 검색 효율성 향상", "limitations": "매우 불규칙한 그래프 구조에서의 단조성"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Indexing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["단조 경로가 검색 효율성 향상", "불필요한 노드 방문 감소가 핵심"]
+}

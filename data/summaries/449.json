@@ -1,0 +1,8 @@
+{
+  "paper_id": 449,
+  "title": "Learned Cost Models for Query Optimization: From Batch to Streaming Systems",
+  "authors": "Roman Heinrich, Xiao Li, Manisha Luthra, Zoi Kaoudi",
+  "summary": {"objective": "학습 비용 모델의 배치에서 스트리밍까지", "methodology": "배치 및 스트리밍 시스템의 학습 비용 모델 분석", "contributions": ["학습 비용 모델 튜토리얼", "통합 개요 제공"], "experiments": "다양한 시스템에서 효과 검증", "limitations": "실시간 적응"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Stream Processing", "confidence": 0.85}],
+  "key_findings": ["학습 비용 모델이 정확도 향상", "스트리밍 적용 확대"]
+}

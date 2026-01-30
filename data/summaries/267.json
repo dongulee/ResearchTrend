@@ -1,0 +1,8 @@
+{
+  "paper_id": 267,
+  "title": "Authenticated Aggregate Queries with Boolean Range Predicates on Blockchains",
+  "authors": "Weijie Sun, Zihuan Xu, Wangze Ni, Lei Chen, Peng Cheng, Chen Jason Zhang",
+  "summary": {"objective": "블록체인에서 불리언 범위 조건을 가진 인증된 집계 쿼리", "methodology": "블록체인 데이터에 대한 인증 가능한 집계 쿼리 처리", "contributions": ["블록체인 인증 집계 쿼리", "불리언 범위 조건 지원"], "experiments": "기존 방법 대비 쿼리 효율과 인증 성능 향상", "limitations": "복잡한 쿼리 조건"},
+  "tags": [{"tag": "Security", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["블록체인에서 인증된 쿼리 가능", "범위 조건 집계의 효율적 처리"]
+}

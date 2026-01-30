@@ -1,0 +1,8 @@
+{
+  "paper_id": 268,
+  "title": "FSMDTW: A Fast Index-free Subsequence Matching Algorithm for Dynamic Time Warping",
+  "authors": "Zemin Chao, Qiaoyi Zheng, Zhixin Qi, Hongzhi Wang",
+  "summary": {"objective": "DTW를 위한 빠른 인덱스 없는 부분 시퀀스 매칭 알고리즘", "methodology": "인덱스 없이 DTW 기반 부분 시퀀스 매칭 가속화", "contributions": ["인덱스 없는 DTW 매칭 FSMDTW", "빠른 부분 시퀀스 검색"], "experiments": "기존 방법 대비 매칭 속도 향상", "limitations": "매우 긴 시계열"},
+  "tags": [{"tag": "Real-time Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["인덱스 없이 빠른 DTW 매칭 가능", "부분 시퀀스 검색 효율 향상"]
+}

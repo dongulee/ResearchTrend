@@ -1,0 +1,35 @@
+{
+  "paper_id": 124,
+  "title": "BiST: A Lightweight and Efficient Bi-directional Model for Spatiotemporal Prediction",
+  "authors": "Jiaming Ma, Binwu Wang, Pengkun Wang, Zhengyang Zhou, Xu Wang, Yang Wang",
+  "summary": {
+    "objective": "입력-레이블 시공간 일관성 가정을 극복하고 효율성과 성능을 향상시키는 경량 시공간 예측 모델 개발",
+    "methodology": "순방향 시공간 학습 과정과 역방향 수정 과정을 통합한 양방향 학습 패러다임. 순방향에서 MLP만으로 입력 상관관계 모델링. 역방향에서 시공간 분리 모듈로 잔차 편차 학습",
+    "contributions": [
+      "양방향 시공간 예측 모델 BiST 제안",
+      "시공간 분리 모듈로 잔차 모델링",
+      "확산 모듈로 잔차 평활화 및 수정"
+    ],
+    "experiments": "경쟁력 있는 성능을 달성하면서 경량화 유지",
+    "limitations": "매우 복잡한 시공간 패턴에서의 수정 효과"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "양방향 학습이 시공간 예측에 효과적",
+    "MLP만으로 효율적인 순방향 학습 가능",
+    "시공간 분리가 잔차 모델링에 핵심"
+  ]
+}

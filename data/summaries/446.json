@@ -1,0 +1,8 @@
+{
+  "paper_id": 446,
+  "title": "Natural Language to SQL: State of the Art and Open Problems",
+  "authors": "Yuyu Luo, Guoliang Li, Ju Fan, Chengliang Chai, Nan Tang",
+  "summary": {"objective": "자연어를 SQL로 변환하는 현황과 과제", "methodology": "NL2SQL 기술의 발전과 LLM 활용 분석", "contributions": ["NL2SQL 튜토리얼", "연구 과제 제시"], "experiments": "다양한 NL2SQL 벤치마크 분석", "limitations": "복잡한 쿼리 처리"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["LLM이 NL2SQL 성능 향상", "여전히 과제 존재"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 245,
+  "title": "Twisted Twin: A Collaborative and Competitive Memory Management Approach in HTAP Systems",
+  "authors": "Jiani Yang, Sai Wu, Yong Wang, Dongxiang Zhang, Yifei Liu, Xiu Tang, Gang Chen",
+  "summary": {"objective": "HTAP 시스템에서 협력-경쟁 메모리 관리", "methodology": "OLTP와 OLAP 워크로드 간 메모리 관리의 협력과 경쟁 균형", "contributions": ["협력-경쟁 메모리 관리 Twisted Twin", "HTAP 성능 최적화"], "experiments": "기존 방법 대비 HTAP 워크로드 성능 향상", "limitations": "극단적 워크로드 편향"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["협력-경쟁 접근이 HTAP에 효과적", "메모리 관리가 HTAP 성능에 중요"]
+}

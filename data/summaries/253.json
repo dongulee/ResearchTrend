@@ -1,0 +1,8 @@
+{
+  "paper_id": 253,
+  "title": "On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing",
+  "authors": "Jianwei Wang, Kai Wang, Ying Zhang, Wenjie Zhang, Xiwei Xu, Xuemin Lin",
+  "summary": {"objective": "LLM과 고차 메시지 패싱을 활용한 혼합 타입 데이터 대치", "methodology": "LLM과 그래프 기반 고차 메시지 패싱 결합", "contributions": ["LLM 강화 혼합 타입 대치", "고차 메시지 패싱 활용"], "experiments": "기존 대치 방법 대비 품질 향상", "limitations": "LLM 비용과 지연"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["LLM이 데이터 대치에 효과적", "고차 메시지 패싱이 품질 향상에 기여"]
+}

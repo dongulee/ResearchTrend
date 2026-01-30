@@ -1,0 +1,8 @@
+{
+  "paper_id": 327,
+  "title": "Beyond Compression: A Comprehensive Evaluation of Lossless Floating-Point Compression",
+  "authors": "Kaisei Hishida, Chunwei Liu, John Paparrizos, Aaron Elmore",
+  "summary": {"objective": "무손실 부동소수점 압축의 종합 평가", "methodology": "다양한 부동소수점 압축 방법 체계적 평가", "contributions": ["부동소수점 압축 종합 평가", "압축 방법 비교"], "experiments": "다양한 데이터에서 압축률과 속도 비교", "limitations": "특정 데이터 유형"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.85}],
+  "key_findings": ["압축 방법에 따라 성능 차이", "데이터 특성에 맞는 선택 중요"]
+}

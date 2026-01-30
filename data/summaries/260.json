@@ -1,0 +1,8 @@
+{
+  "paper_id": 260,
+  "title": "Accelerating Approximate Nearest Neighbor Search in Hierarchical Graphs: Efficient Level Navigation with Shortcuts",
+  "authors": "Zengyang Gong, Yuxiang Zeng, Lei Chen",
+  "summary": {"objective": "계층적 그래프에서 ANN 검색 가속화: 단축키를 통한 효율적 레벨 탐색", "methodology": "계층적 그래프에 단축키 추가로 탐색 효율 향상", "contributions": ["단축키 기반 ANN 검색 가속", "효율적 레벨 탐색"], "experiments": "기존 HNSW 대비 검색 성능 향상", "limitations": "메모리 오버헤드"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Indexing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["단축키가 계층적 그래프 탐색에 효과적", "ANN 검색 성능 크게 향상"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 299,
+  "title": "Federated and Balanced Clustering for High-dimensional Data",
+  "authors": "Yushuai Ji, Shengkun Zhu, Shixun Huang, Zepeng Liu, Sheng Wang, Zhiyong Peng",
+  "summary": {"objective": "고차원 데이터를 위한 연합 및 균형 클러스터링", "methodology": "연합 학습 환경에서 균형 잡힌 클러스터링", "contributions": ["연합 균형 클러스터링", "고차원 데이터 지원"], "experiments": "기존 연합 클러스터링 대비 균형과 품질 향상", "limitations": "매우 이질적인 데이터 분포"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Privacy", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["연합 환경에서 균형 클러스터링 가능", "고차원에서도 효과적"]
+}

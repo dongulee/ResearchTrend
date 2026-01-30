@@ -1,0 +1,8 @@
+{
+  "paper_id": 473,
+  "title": "LiquidCache: Efficient Pushdown Caching for Cloud-Native Data Analytics",
+  "authors": "Xiangpeng Hao, Andrew Lamb, Yibo Wu, Andrea Arpaci-Dusseau, Remzi Arpaci-Dusseau",
+  "summary": {"objective": "클라우드 네이티브 분석을 위한 푸시다운 캐싱", "methodology": "캐시 서버에서 필터 평가 후 전송", "contributions": ["LiquidCache 시스템 제안", "Liquid 포맷 변환"], "experiments": "다양한 분석 워크로드에서 효과 검증", "limitations": "포맷 변환 오버헤드"},
+  "tags": [{"tag": "Cloud Computing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["푸시다운 캐싱이 효율적", "데이터 디코딩이 병목"]
+}

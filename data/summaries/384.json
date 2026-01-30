@@ -1,0 +1,8 @@
+{
+  "paper_id": 384,
+  "title": "Ursa: A Lakehouse-Native Data Streaming Engine for Kafka",
+  "authors": "Sijie Guo, Matteo Merli, Hang Chen, Neng Lu, Penghui Li",
+  "summary": {"objective": "Kafka를 위한 레이크하우스 네이티브 데이터 스트리밍 엔진", "methodology": "레이크하우스와 Kafka를 통합한 스트리밍 엔진", "contributions": ["레이크하우스 네이티브 스트리밍 Ursa", "Kafka 통합"], "experiments": "레이크하우스 환경에서 성능 검증", "limitations": "Kafka 의존"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["레이크하우스 네이티브 스트리밍이 효과적", "Kafka 통합 가능"]
+}

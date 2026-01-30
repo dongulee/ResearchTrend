@@ -1,0 +1,8 @@
+{
+  "paper_id": 254,
+  "title": "Meaningful Data Erasure in the Presence of Dependencies",
+  "authors": "Vishal Chakraborty, Youri Kaminsky, Sharad Mehrotra, Felix Naumann, Faisal Nawab, Primal Pappachan, Mohammad Sadoghi, Nalini Venkatasubramanian",
+  "summary": {"objective": "의존성이 있는 상황에서 의미 있는 데이터 삭제", "methodology": "데이터 의존성을 고려한 삭제 정책 및 메커니즘", "contributions": ["의존성 고려 데이터 삭제", "의미 있는 삭제 보장"], "experiments": "의존성 고려 삭제의 일관성과 효율성 검증", "limitations": "복잡한 의존성 그래프"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["의존성이 데이터 삭제에 중요", "의미 있는 삭제를 위한 체계적 접근 필요"]
+}

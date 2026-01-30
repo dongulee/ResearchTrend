@@ -1,0 +1,35 @@
+{
+  "paper_id": 100,
+  "title": "Evaluating Continuous Queries with Inconsistency Annotations",
+  "authors": "Samuele Langhi, Angela Bonifati, Riccardo Tommasini",
+  "summary": {
+    "objective": "무한 데이터 스트림 처리 연속 쿼리에서 출처 기반 기법으로 비일관성을 최소 오버헤드로 추적",
+    "methodology": "출처 기반 기법으로 입력 스트림의 위반을 CQ 결과에 매핑. 연속적 데이터 흐름 보장하면서 분석 무결성 유지. 그래프 기반 접근법으로 주석 영향 최소화",
+    "contributions": [
+      "스트리밍 데이터에 출처 기반 비일관성 주석 적용",
+      "연속 쿼리 결과에 위반 매핑 메커니즘",
+      "메모리 부하 증가에도 안정적 처리량 유지"
+    ],
+    "experiments": "베이스라인 대비 중간 크기 버퍼에서 10%, 무거운 부하에서 최대 80% 처리량 향상. 주석이 총 실행 시간의 최대 25%만 차지",
+    "limitations": "매우 복잡한 스트리밍 조인에서의 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Stream Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "출처 기반 기법이 스트리밍 환경에서도 효과적",
+    "비일관성 주석이 최소 오버헤드로 가능",
+    "그래프 기반 접근이 효율성 향상에 핵심"
+  ]
+}

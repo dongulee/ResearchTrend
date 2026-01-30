@@ -1,0 +1,35 @@
+{
+  "paper_id": 127,
+  "title": "NeutronTask: Scalable and Efficient Multi-GPU GNN Training with Task Parallelism",
+  "authors": "Zhenbo Fu, Xin Ai, Qiange Wang, Yanfeng Zhang, Shizhan Lu, Chaoyi Chen, Chunyu Cao, Hao Yuan, Zhewei Wei, Yu Gu, Yingyou Wen, Ge Yu",
+  "summary": {
+    "objective": "다중 GPU GNN 학습에서 이웃 복제와 중간 데이터로 인한 메모리 소비 문제 해결",
+    "methodology": "그래프 구조를 파티셔닝하는 대신 각 레이어의 학습 태스크를 GPU 간에 파티셔닝하는 GNN 태스크 병렬처리 제안. 이웃 복제를 줄이면서 그래프 데이터만 파티셔닝",
+    "contributions": [
+      "GNN 태스크 병렬처리 NeutronTask 제안",
+      "이웃 복제를 줄여 메모리 소비 감소",
+      "확장 가능하고 효율적인 다중 GPU 학습"
+    ],
+    "experiments": "이웃 복제와 중간 데이터(일반적으로 메모리의 80% 이상 차지) 크게 감소",
+    "limitations": "매우 깊은 GNN에서의 태스크 의존성"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "태스크 병렬처리가 그래프 파티셔닝보다 메모리 효율적",
+    "이웃 복제가 GNN 학습 메모리의 주요 병목",
+    "레이어별 태스크 파티셔닝이 확장성 향상"
+  ]
+}

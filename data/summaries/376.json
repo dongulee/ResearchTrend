@@ -1,0 +1,8 @@
+{
+  "paper_id": 376,
+  "title": "ScaleCache: Scalable and Production-grade Buffer Management for Disk-based Database Systems",
+  "authors": "Mingyu Liu, Junbin Kang, Kai Wang, Lu Zhang, Haibo Chen, Xiuchang Li, Tianhong Ding",
+  "summary": {"objective": "디스크 기반 DB 시스템을 위한 확장 가능하고 프로덕션급 버퍼 관리", "methodology": "확장 가능한 버퍼 관리 기법", "contributions": ["확장 가능한 버퍼 관리 ScaleCache", "프로덕션급 품질"], "experiments": "기존 버퍼 관리 대비 확장성과 성능 향상", "limitations": "메모리 오버헤드"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Transaction Processing", "confidence": 0.85}],
+  "key_findings": ["확장 가능한 버퍼 관리가 중요", "프로덕션 환경에서 효과적"]
+}

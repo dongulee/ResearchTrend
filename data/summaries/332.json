@@ -1,0 +1,8 @@
+{
+  "paper_id": 332,
+  "title": "Robust Recursive Query Parallelism in Graph Database Management Systems",
+  "authors": "Anurag Chakraborty, Semih Salihoglu",
+  "summary": {"objective": "그래프 DBMS에서 강건한 재귀 쿼리 병렬성", "methodology": "재귀 조인 쿼리의 효율적 병렬 처리", "contributions": ["강건한 재귀 쿼리 병렬화", "그래프 DBMS 최적화"], "experiments": "기존 방법 대비 병렬 처리 성능 향상", "limitations": "극단적 그래프 구조"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["재귀 쿼리 병렬화가 가능", "강건성이 실제 워크로드에 중요"]
+}

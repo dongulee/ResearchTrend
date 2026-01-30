@@ -1,0 +1,8 @@
+{
+  "paper_id": 363,
+  "title": "veDB-HTAP: a Highly Integrated, Efficient and Adaptive HTAP System",
+  "authors": "Jianjun Chen, Li Zhang, Yu Xie, Wei Ding, Lixun Cao, Ye Liu, Yonghua Ding, Fangshi Li, Ke Wu, Haibo Xiu, Kui Wei, Le Cai, Rui Chang, Yuxiang Chen, Yuanjin Lin, Shangyu Luo, Jianfeng Qian, Xu Wang, Zikang Wang, Jian Zhang, Mingyi Zhang, Shicai Zeng, Jason Sun, Lei Zhang, Rui Shi, Pengwei Zhao",
+  "summary": {"objective": "고도로 통합되고 효율적이며 적응적인 HTAP 시스템", "methodology": "OLTP와 OLAP를 통합한 적응형 시스템", "contributions": ["통합 HTAP 시스템 veDB-HTAP", "적응형 처리"], "experiments": "다양한 워크로드에서 HTAP 성능 검증", "limitations": "극단적 워크로드 편향"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["고도로 통합된 HTAP가 효과적", "적응형 처리가 유연성 제공"]
+}

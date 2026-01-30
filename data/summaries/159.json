@@ -1,0 +1,14 @@
+{
+  "paper_id": 159,
+  "title": "Falcon: Advancing Asynchronous BFT Consensus for Lower Latency and Enhanced Throughput",
+  "authors": "Xiaohai Dai, Chaozheng Ding, Wei Li, Jiang Xiao, Bolin Zhang, Chen Yu, Albert Zomaya, Hai Jin",
+  "summary": {
+    "objective": "낮은 지연과 향상된 처리량을 위한 비동기 BFT 합의 발전",
+    "methodology": "기존 BFT 합의의 지연과 처리량 문제 해결. 비동기 환경에서의 효율적 합의 프로토콜 Falcon 제안",
+    "contributions": ["비동기 BFT 합의 Falcon", "낮은 지연 달성", "향상된 처리량"],
+    "experiments": "기존 BFT 합의 대비 지연 감소와 처리량 향상",
+    "limitations": "매우 적대적인 네트워크 환경에서의 성능"
+  },
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Concurrency Control", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["비동기 합의가 지연 감소에 효과적", "BFT 합의의 실용적 성능 개선 가능", "처리량과 지연 동시 개선"]
+}

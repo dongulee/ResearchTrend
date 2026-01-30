@@ -1,0 +1,8 @@
+{
+  "paper_id": 370,
+  "title": "GRewriter: Practical Query Rewriting with Automatic Rule Set Expansion in GaussDB",
+  "authors": "Zhe Jiang, Zhaoguo Wang, Haoning Lan, Chuzhe Tang, Haoran Ding, Lefeng Wang, Songyun Zou, Zhuoran Wei, Yongcun Liu, Xiang Yu, Yang Ren, Guoliang Li, Haibo Chen",
+  "summary": {"objective": "GaussDB에서 자동 규칙 확장을 통한 실용적 쿼리 재작성", "methodology": "규칙 세트를 자동으로 확장하여 쿼리 재작성", "contributions": ["자동 규칙 확장 쿼리 재작성 GRewriter", "GaussDB 적용"], "experiments": "기존 규칙 기반 대비 성능 향상", "limitations": "규칙 품질 보장"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["자동 규칙 확장이 효과적", "실용적 쿼리 재작성 가능"]
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": 133,
+  "title": "Migration-Free Elastic Storage of Time Series in Apache IoTDB",
+  "authors": "Rongzhao Chen, Xiangpeng Hu, Xiangdong Huang, Chen Wang, Shaoxu Song, Jianmin Wang",
+  "summary": {
+    "objective": "IoT 시나리오에서 기존 파티션 마이그레이션 없이 저장소 균형을 복원하는 시계열 데이터 분할 및 할당 전략 개발",
+    "methodology": "TTL로 만료 데이터 자동 언로드를 활용하여 마이그레이션 대신 동적 샤드 확장. 입증된 내결함성을 가진 저장소 균형 복제본 배치 알고리즘. 쓰기 균형 리더 선택 알고리즘",
+    "contributions": [
+      "마이그레이션 없는 데이터 분할 및 할당 전략",
+      "내결함성 보장 복제본 배치 알고리즘",
+      "쓰기 균형 리더 선택 알고리즘"
+    ],
+    "experiments": "Apache IoTDB 버전 1.3부터 배포. 가용성과 성능에서 우수성 입증",
+    "limitations": "TTL이 없는 시나리오에서의 적용"
+  },
+  "tags": [
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "TTL 활용이 마이그레이션 없는 재균형의 핵심",
+    "동적 샤드 확장이 파티션 마이그레이션을 대체 가능",
+    "리더 선택이 쓰기 부하 균형에 중요"
+  ]
+}

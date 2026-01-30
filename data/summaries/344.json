@@ -1,0 +1,8 @@
+{
+  "paper_id": 344,
+  "title": "The FastLanes File Format",
+  "authors": "Azim Afroozeh, Peter Boncz",
+  "summary": {"objective": "현대 데이터 병렬 실행을 위한 FastLanes 파일 포맷", "methodology": "SIMD/GPU에 최적화된 새로운 빅데이터 파일 포맷", "contributions": ["FastLanes 파일 포맷", "데이터 병렬 최적화"], "experiments": "Parquet 대비 디코딩 성능 향상", "limitations": "기존 시스템 호환성"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["SIMD 최적화가 파일 포맷에 효과적", "디코딩 성능 크게 향상"]
+}

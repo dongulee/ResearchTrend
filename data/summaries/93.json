@@ -1,0 +1,35 @@
+{
+  "paper_id": 93,
+  "title": "DumpKV: Learning based lifetime aware garbage collection for key value separation in LSM-tree",
+  "authors": "Zhutao Zhuang, Zhiguang Chen, Xinqi Zeng",
+  "summary": {
+    "objective": "LSM-tree의 키-값 분리에서 낮은 쓰기 증폭을 달성하는 학습 기반 수명 인식 가비지 컬렉션 메커니즘 개발",
+    "methodology": "키의 접근 이력 기반 ML 모델 훈련으로 각 키의 수명 예측. 예측된 수명을 가비지 컬렉션 가이드로 활용. L0-L1 컴팩션 중 피처 수집으로 쓰기 처리량 간섭 최소화",
+    "contributions": [
+      "학습 기반 수명 인식 가비지 컬렉션 DumpKV 제안",
+      "키 수명 예측을 위한 경량 ML 모델",
+      "L0-L1 컴팩션 중 피처 수집으로 쓰기 간섭 최소화"
+    ],
+    "experiments": "실제 워크로드에서 GC 쓰기 크기 25.7%-53.3% 감소. 합성 워크로드에서 19%-65% 감소",
+    "limitations": "예측 모델의 워크로드 변화 적응"
+  },
+  "tags": [
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "키 수명 예측이 가비지 컬렉션 효율성 향상",
+    "KV 분리 환경에서 LSM-tree가 작아 피처 수집 용이",
+    "학습 기반 접근이 정적 정책보다 낮은 쓰기 증폭 달성"
+  ]
+}

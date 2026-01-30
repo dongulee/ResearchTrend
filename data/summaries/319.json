@@ -1,0 +1,8 @@
+{
+  "paper_id": 319,
+  "title": "Subgraph Matching: A New Decomposition Based Approach",
+  "authors": "Qiyan Li, Jeffrey Yu, Zongyan He",
+  "summary": {"objective": "부분그래프 매칭: 새로운 분해 기반 접근", "methodology": "패턴을 분해하여 부분그래프 매칭 최적화", "contributions": ["분해 기반 매칭 접근", "매칭 효율 향상"], "experiments": "기존 매칭 방법 대비 성능 향상", "limitations": "복잡한 패턴 분해"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["분해 기반 접근이 매칭에 효과적", "패턴 분해가 성능에 기여"]
+}

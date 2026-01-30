@@ -1,0 +1,34 @@
+{
+  "paper_id": 73,
+  "title": "Towards Ideal Temporal Graph Neural Networks: Evaluations and Conclusions after 10,000 GPU Hours",
+  "authors": "Yuxin Yang, Hongkuan Zhou, Rajgopal Kannan, Viktor Prasanna",
+  "summary": {
+    "objective": "10,000 GPU 시간의 평가를 통해 이상적인 시간적 그래프 신경망(TGNN) 설계 탐색",
+    "methodology": "통합되고 최적화된 코드 구현을 기반으로 잘 알려진 TGNN 모듈에 대한 설계 공간 검색. 효율성과 정확도 비교를 위한 실용적 비교 평가 프레임워크",
+    "contributions": [
+      "TGNN 설계 공간 검색 프레임워크",
+      "10,000 GPU 시간의 포괄적 평가",
+      "TGNN 설계 질문에 대한 답변"
+    ],
+    "experiments": "효율성과 정확도 측면에서 다양한 TGNN 모듈 비교",
+    "limitations": "새로운 TGNN 아키텍처에 대한 확장"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "기존 벤치마크가 오해를 유발할 수 있음",
+    "통합 구현이 공정한 비교에 필수"
+  ]
+}

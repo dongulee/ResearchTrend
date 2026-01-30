@@ -1,0 +1,8 @@
+{
+  "paper_id": 164,
+  "title": "Optimal Sharding for Scalable Blockchains with Decentralization",
+  "authors": "Jianting Zhang, Zhongtang Luo, Raghavendra Ramesh",
+  "summary": {"objective": "분산화를 유지하면서 확장 가능한 블록체인을 위한 최적 샤딩", "methodology": "분산화와 확장성을 균형잡는 최적 샤딩 전략. 이론적 분석과 실용적 알고리즘", "contributions": ["최적 블록체인 샤딩", "분산화 유지 전략"], "experiments": "기존 샤딩 대비 확장성과 분산화 균형", "limitations": "매우 동적인 노드 참여에서의 재샤딩"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Security", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["샤딩이 블록체인 확장성 핵심", "분산화와 확장성 균형 가능"]
+}

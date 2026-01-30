@@ -1,0 +1,14 @@
+{
+  "paper_id": 152,
+  "title": "Efficient Discovery of Relaxed Functional Dependencies",
+  "authors": "Mengran Li, Zijing Tan, Honghui Yang, Shuai Ma",
+  "summary": {
+    "objective": "완화된 함수 종속성(RFD)의 효율적 발견 방법 개발",
+    "methodology": "기존 함수 종속성 발견 방법의 확장으로 일정 비율의 위반을 허용하는 RFD 발견. 효율적인 탐색 알고리즘 제안",
+    "contributions": ["완화된 함수 종속성 발견 방법", "효율적인 탐색 알고리즘", "실제 데이터의 노이즈 처리"],
+    "experiments": "실제 데이터셋에서 효과적인 RFD 발견",
+    "limitations": "매우 높은 위반율에서의 의미있는 RFD 식별"
+  },
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Schema Design", "confidence": 0.85}],
+  "key_findings": ["RFD가 실제 데이터의 노이즈 처리에 효과적", "효율적 탐색이 대규모 데이터에 필수적", "완화된 제약이 더 실용적인 종속성 발견"]
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": 34,
+  "title": "Finding Convincing Views to Endorse a Claim",
+  "authors": "Shunit Agmon, Amir Gilad, Brit Youngmann, Shahar Zoarets, Benny Kimelfeld",
+  "summary": {
+    "objective": "주어진 주장을 지지하는 유용한 데이터 뷰를 찾는 것",
+    "methodology": "여러 자연스러움 측정 기준 제안 및 각 기준 하에서 최적 뷰 추출. 빠른 계산 특징을 사용한 속성 조합 순위 목록 사전 구축. 각 속성 조합 기반 효율적인 뷰 검색",
+    "contributions": [
+      "주장 지지 뷰 발견 문제 정의",
+      "자연스러움 측정 기준 제안",
+      "효율적인 anytime 알고리즘 개발"
+    ],
+    "experiments": "품질과 실행 비용 측면에서 알고리즘 효과성 입증. 사용자 연구로 유용성 검증",
+    "limitations": "매우 큰 데이터셋에서의 확장성, 복잡한 주장에 대한 뷰 발견"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Data Integration",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "자연스러운 뷰 정의가 설득력에 중요",
+    "사전 순위화가 검색 효율성 향상에 핵심"
+  ]
+}

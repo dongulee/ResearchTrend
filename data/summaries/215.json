@@ -1,0 +1,8 @@
+{
+  "paper_id": 215,
+  "title": "Still More Shades of Null: An Evaluation Suite for Missing Values",
+  "authors": "Falaah Arif Khan, Denys Herasymuk, Nazarin Kavakebi",
+  "summary": {"objective": "결측값 처리를 위한 평가 스위트", "methodology": "다양한 결측값 패턴과 처리 방법 평가. 체계적 벤치마크", "contributions": ["결측값 평가 스위트", "다양한 패턴 지원"], "experiments": "결측값 처리 방법 체계적 비교", "limitations": "새로운 결측 패턴에 대한 확장"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Data Cleaning", "confidence": 0.9}],
+  "key_findings": ["결측값 패턴이 다양함", "처리 방법 선택이 중요"]
+}

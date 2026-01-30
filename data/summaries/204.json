@@ -1,0 +1,8 @@
+{
+  "paper_id": 204,
+  "title": "Saving Private Hash Join",
+  "authors": "Laurens Kuiper, Paul Gross, Peter Boncz, Hannes Mühleisen",
+  "summary": {"objective": "해시 조인의 효율성 개선", "methodology": "해시 조인의 성능 병목 분석 및 최적화. 메모리와 CPU 효율성 향상", "contributions": ["해시 조인 최적화", "성능 병목 해결"], "experiments": "기존 해시 조인 대비 성능 향상", "limitations": "매우 큰 테이블에서의 메모리 제약"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.95}],
+  "key_findings": ["해시 조인 최적화 여지 존재", "메모리 효율성이 핵심"]
+}

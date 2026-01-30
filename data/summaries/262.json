@@ -1,0 +1,8 @@
+{
+  "paper_id": 262,
+  "title": "LakeVisage: Towards Scalable, Flexible and Interactive Visualization Recommendation for Data Discovery over Data Lakes",
+  "authors": "Yihao Hu, Jin Wang, Sajjadur Rahman",
+  "summary": {"objective": "데이터 레이크 탐색을 위한 확장 가능하고 유연한 시각화 추천", "methodology": "데이터 레이크에서 데이터 발견을 위한 인터랙티브 시각화 추천", "contributions": ["데이터 레이크 시각화 추천 LakeVisage", "확장성과 유연성 지원"], "experiments": "기존 시각화 추천 대비 사용성과 효율 향상", "limitations": "매우 이질적인 데이터"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.85}, {"tag": "Data Quality", "confidence": 0.8}],
+  "key_findings": ["시각화 추천이 데이터 발견에 효과적", "데이터 레이크 탐색 효율 향상"]
+}

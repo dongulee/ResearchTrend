@@ -1,0 +1,35 @@
+{
+  "paper_id": 92,
+  "title": "Discovering Approximate Inclusion Dependencies",
+  "authors": "Qingdong Su, Zhikang Wang, Zijing Tan, Shuai Ma",
+  "summary": {
+    "objective": "주어진 오류율 임계값 이하의 포함 종속성(IND)을 식별하는 근사 IND(AIND) 발견에 대한 포괄적 연구",
+    "methodology": "삭제 의미론 기반 새로운 AIND 정의 제안(기존 삽입 의미론 외). 메모리에 동시에 적재할 수 없는 테이블 처리를 위한 파티셔닝 기법. 3계층 필터링 구조로 효율성 향상",
+    "contributions": [
+      "삭제 의미론 기반 AIND 정의 제안",
+      "파티션 테이블에서 AIND 위반 정량화 접근법",
+      "3계층 필터링 구조로 효율적인 발견"
+    ],
+    "experiments": "삽입 의미론 기반 기존 방법 대비 크게 우수한 성능. 삽입/삭제 의미론 발견이 상호 보완적 결과 제공",
+    "limitations": "매우 큰 테이블에서의 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Data Quality",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Integration",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Schema Design",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "삭제 의미론 AIND가 삽입 의미론과 보완적 결과 제공",
+    "3계층 필터링이 효율적인 AIND 발견에 핵심",
+    "파티셔닝 기법이 대규모 테이블 처리 가능"
+  ]
+}

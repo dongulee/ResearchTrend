@@ -1,0 +1,34 @@
+{
+  "paper_id": 75,
+  "title": "GTI: Graph-based Tree Index with Logarithm Updates for Nearest Neighbor Search in High-Dimensional Spaces",
+  "authors": "Ruiyao Ma, Yifan Zhu, Baihua Zheng, Lu Chen, Congcong Ge, Yunjun Gao",
+  "summary": {
+    "objective": "고차원 공간에서 NNS를 위한 경량 동적 그래프 기반 트리 인덱스 개발",
+    "methodology": "전체 데이터셋에 걸친 트리 인덱스 구축. 트리 레벨 1에서 경량 그래프 인덱스 사용하여 그래프 구축 비용 대폭 감소. 로그 시간 실시간 업데이트를 위한 삽입/삭제 알고리즘",
+    "contributions": [
+      "경량 동적 그래프 기반 트리 인덱스 GTI",
+      "로그 시간 업데이트 알고리즘",
+      "효과적인 NNS 알고리즘"
+    ],
+    "experiments": "그래프 구축 비용 대폭 감소. 로그 시간 실시간 업데이트",
+    "limitations": "매우 고차원 데이터에서의 트리 깊이"
+  },
+  "tags": [
+    {
+      "tag": "Indexing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "트리+그래프 결합이 구축 비용 감소에 효과적",
+    "로그 업데이트가 동적 데이터에 핵심"
+  ]
+}

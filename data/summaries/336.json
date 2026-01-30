@@ -1,0 +1,8 @@
+{
+  "paper_id": 336,
+  "title": "Scaling GPU-Accelerated Databases beyond GPU Memory Size",
+  "authors": "Yinan Li, Bailu Ding, Ziyun Wei, Lukas Maas, Momin Al-Ghosien, Spyros Blanas, Nicolas Bruno, Carlo Curino, Matteo Interlandi, Craig Peeper, Kaushik Rajan, Surajit Chaudhuri, Johannes Gehrke",
+  "summary": {"objective": "GPU 메모리 크기를 초과하는 GPU 가속 DB 확장", "methodology": "GPU 메모리보다 큰 데이터의 효율적 처리", "contributions": ["GPU 메모리 초과 확장", "대규모 데이터 처리"], "experiments": "기존 GPU DB 대비 데이터 크기 확장", "limitations": "데이터 전송 오버헤드"},
+  "tags": [{"tag": "Performance", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["GPU 메모리 초과 처리 가능", "효율적 데이터 관리가 핵심"]
+}

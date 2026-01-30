@@ -1,0 +1,40 @@
+{
+  "paper_id": 8,
+  "title": "Accurate and Fast Approximate Graph Pattern Mining at Scale",
+  "authors": "Anna A Arpaci-Dusseau, Zixiang Zhou, Xuhao Chen",
+  "summary": {
+    "objective": "대규모 그래프에서 정확하고 빠른 근사 그래프 패턴 마이닝(A-GPM) 시스템을 구축하는 것",
+    "methodology": "온라인 수렴 감지 메커니즘으로 안정적인 종료와 신뢰도 보장 제공. Eager-verify 기법으로 유망하지 않은 후보를 조기에 가지치기하여 샘플링 적중률 향상. 세밀한 샘플링과 거친 샘플링 중 더 나은 방식을 자동 선택하는 하이브리드 샘플링 적용",
+    "contributions": [
+      "이론적 신뢰도 보장이 있는 온라인 수렴 감지 메커니즘 제안",
+      "Eager-verify 기법으로 \"needle-in-the-hay\" 문제 해결",
+      "하이브리드 샘플링으로 상황에 따른 최적 샘플링 방식 자동 선택"
+    ],
+    "experiments": "최신 A-GPM 시스템 Arya 대비 평균 565배(최대 610,169배) 속도 향상. 수십억 규모의 그래프를 수초 내에 처리하며, 기존 시스템은 메모리 부족이나 수시간 내 미완료",
+    "limitations": "특정 패턴 유형에 대한 최적화 필요, 메모리 사용량 최적화 여지"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.8
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.75
+    }
+  ],
+  "key_findings": [
+    "온라인 수렴 감지로 안정적이고 빠른 종료 달성",
+    "Eager-verify가 샘플링 적중률을 크게 개선",
+    "하이브리드 샘플링이 다양한 케이스에서 최적 방식을 정확히 선택",
+    "수십억 규모 그래프를 수초 내 처리 가능"
+  ]
+}

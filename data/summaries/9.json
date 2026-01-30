@@ -1,0 +1,39 @@
+{
+  "paper_id": 9,
+  "title": "QueryArtisan: Generating Data Manipulation Codes for Ad-hoc Analysis in Data Lakes",
+  "authors": "Xiu Tang, Wenhao Liu, Sai Wu, Chang Yao, Gongsheng Yuan, Shanshan Ying, Gang Chen",
+  "summary": {
+    "objective": "데이터 레이크에서 자연어를 사용하여 직접 쿼리할 수 있는 LLM 기반 분석 도구 개발",
+    "methodology": "LLM을 활용하여 데이터셋별 쿼리를 위한 즉석(just-in-time) 코드 생성. 다양한 모달리티의 데이터를 처리할 수 있는 이종 연산자 개발. 비용 모델 기반 쿼리 최적화 기법으로 효율적인 코드 생성",
+    "contributions": [
+      "중간 스키마 없이 자연어로 데이터 레이크를 직접 쿼리하는 방식 제안",
+      "다양한 데이터 모달리티를 처리하는 이종 연산자 세트 개발",
+      "비용 모델 기반 쿼리 최적화로 효율적인 코드 생성 실현"
+    ],
+    "experiments": "실제 데이터셋으로 평가한 결과, 기존 솔루션 대비 효과성, 효율성, 사용성에서 현저한 우위",
+    "limitations": "LLM 의존성으로 인한 비용과 지연, 복잡한 쿼리에 대한 정확도 제한"
+  },
+  "tags": [
+    {
+      "tag": "Natural Language Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Integration",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "LLM으로 전통적인 ETL 프로세스를 우회하여 데이터 레이크 직접 쿼리 가능",
+    "이종 연산자가 다양한 데이터 형식을 효과적으로 처리",
+    "비용 모델 기반 최적화가 쿼리 효율성을 크게 향상"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 358,
+  "title": "The HANA Native Query Engine for Lakehouse Systems",
+  "authors": "Daniel Ritter, Mihnea Andrei, Sukhyeun Cho, Maik Goergens, Taehyung Lee, Norman May, Amit Pathak, Paul Willems",
+  "summary": {"objective": "레이크하우스 시스템을 위한 HANA 네이티브 쿼리 엔진", "methodology": "데이터 레이크의 Parquet 파일에 대한 네이티브 쿼리 처리", "contributions": ["HANA 네이티브 레이크하우스 쿼리", "Parquet 네이티브 지원"], "experiments": "기존 방법 대비 레이크하우스 쿼리 성능 향상", "limitations": "HANA 의존성"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.85}],
+  "key_findings": ["네이티브 쿼리가 레이크하우스에 효과적", "Parquet 직접 처리가 성능 향상"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 213,
+  "title": "Keigo: Co-designing Log-Structured Merge Key-Value Stores",
+  "authors": "Rúben Adão, Zhongjie Wu, Changjun Zhou",
+  "summary": {"objective": "LSM 키-값 저장소의 공동 설계", "methodology": "하드웨어와 소프트웨어를 함께 고려한 LSM 저장소 설계", "contributions": ["LSM KV 공동 설계 Keigo", "하드웨어-소프트웨어 최적화"], "experiments": "기존 LSM 저장소 대비 성능 향상", "limitations": "특정 하드웨어에 대한 의존성"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["공동 설계가 성능 최적화에 효과적", "하드웨어 특성 활용이 중요"]
+}

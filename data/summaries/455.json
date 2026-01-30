@@ -1,0 +1,8 @@
+{
+  "paper_id": 455,
+  "title": "Where Does Academic Database Research Go From Here?",
+  "authors": "Wu, Eugene, Castro Fernandez, Raul",
+  "summary": {"objective": "학술 데이터베이스 연구의 미래 방향", "methodology": "산업, 타 커뮤니티, AI 맥락에서 미래 논의", "contributions": ["공개 포럼 토론", "연구 방향 제시"], "experiments": "학술 커뮤니티 분석", "limitations": "명확한 결론 부재"},
+  "tags": [{"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}, {"tag": "Data Integration", "confidence": 0.8}],
+  "key_findings": ["학술 DB 연구 방향 논의 필요", "AI 시대 적응 중요"]
+}

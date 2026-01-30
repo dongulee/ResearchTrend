@@ -1,0 +1,8 @@
+{
+  "paper_id": 335,
+  "title": "Benchmarking Adaptive Multidimensional Indices",
+  "authors": "Konstantinos Lampropoulos, Fatemeh Zardbani, Nikos Mamoulis, Panagiotis Karras",
+  "summary": {"objective": "적응형 다차원 인덱스 벤치마킹", "methodology": "적응형 인덱싱 방법의 체계적 평가", "contributions": ["적응형 인덱스 벤치마크", "방법론 비교"], "experiments": "다양한 워크로드에서 인덱스 성능 비교", "limitations": "특정 워크로드 편향"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["적응형 인덱싱 방법에 차이 존재", "워크로드에 맞는 선택 중요"]
+}

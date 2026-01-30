@@ -1,0 +1,8 @@
+{
+  "paper_id": 440,
+  "title": "A Demonstration of Q2O: Quantum-augmented Query Optimizer",
+  "authors": "Hanwen Liu, Federico Spedalieri, Ibrahim Sabek",
+  "summary": {"objective": "양자 컴퓨팅 기반 쿼리 최적화", "methodology": "양자 메커니즘을 활용한 조인 순서 최적화", "contributions": ["양자 증강 쿼리 최적화기 Q2O", "양자 컴퓨팅 활용"], "experiments": "대규모 쿼리에서 효과 검증", "limitations": "양자 하드웨어 제약"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["양자 컴퓨팅이 쿼리 최적화에 활용 가능", "대규모 검색 공간 탐색"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 472,
+  "title": "Algorithmic Data Minimization for Machine Learning over Internet-of-Things Data Streams",
+  "authors": "Ted Shaowang, Shinan Liu, Jonatas Marques, Nick Feamster, Sanjay Krishnan",
+  "summary": {"objective": "IoT 데이터 스트림의 알고리즘적 데이터 최소화", "methodology": "ML을 위한 관련 데이터만 수집", "contributions": ["데이터 최소화 알고리즘 제안", "프라이버시 보호"], "experiments": "IoT 데이터셋에서 효과 검증", "limitations": "정확도와 최소화 균형"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Stream Processing", "confidence": 0.85}],
+  "key_findings": ["데이터 최소화가 프라이버시에 중요", "ML 정확도 유지 가능"]
+}

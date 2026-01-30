@@ -1,0 +1,22 @@
+{
+  "paper_id": 146,
+  "title": "Anarchy in the Database: A Survey and Evaluation of Database Management System Extensibility",
+  "authors": "Abigale Kim, Marco Slot, David Andersen, Andrew Pavlo",
+  "summary": {
+    "objective": "DBMS 확장성 설계 연구 및 평가, 포괄적 분류 체계 제공",
+    "methodology": "DBMS 확장성 유형의 포괄적 분류. 6개 DBMS(PostgreSQL, MySQL, MariaDB, SQLite, Redis, DuckDB) 확장성 검토. 확장이 DBMS와 통합되는 방식에 대한 정적/동적 정보 수집하는 자동화 분석 도구",
+    "contributions": [
+      "DBMS 확장성 분류 체계",
+      "6개 DBMS 확장성 비교 분석",
+      "확장 분석 자동화 도구"
+    ],
+    "experiments": "400개 이상 PostgreSQL 확장 평가. 16.8%가 다른 확장과 호환 불가하여 시스템 실패 가능",
+    "limitations": "새로운 DBMS 아키텍처에 대한 확장성 평가"
+  },
+  "tags": [
+    {"tag": "Storage Systems", "confidence": 0.95},
+    {"tag": "Benchmarking", "confidence": 0.9},
+    {"tag": "Data Quality", "confidence": 0.8}
+  ],
+  "key_findings": ["확장 호환성 문제가 시스템 실패 유발 가능", "DBMS 확장 환경이 위험할 수 있음", "자동화 분석이 호환성 평가에 필수적"]
+}

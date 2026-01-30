@@ -1,0 +1,8 @@
+{
+  "paper_id": 395,
+  "title": "Opening The Black-Box: Explaining Learned Cost Models For Databases",
+  "authors": "Roman Heinrich, Oleksandr Havrylov, Manisha Luthra, Johannes Wehrstein, Carsten Binnig",
+  "summary": {"objective": "블랙박스 열기: DB 학습 비용 모델 설명", "methodology": "학습된 비용 모델의 예측 설명", "contributions": ["학습 비용 모델 설명", "블랙박스 해석"], "experiments": "비용 모델 예측의 설명 가능성 검증", "limitations": "복잡한 모델"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["학습 모델 설명이 가능", "설명 가능성이 신뢰에 중요"]
+}

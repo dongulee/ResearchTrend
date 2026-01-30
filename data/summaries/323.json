@@ -1,0 +1,8 @@
+{
+  "paper_id": 323,
+  "title": "Select Edges Wisely: Monotonic Path Aware Graph Layout Optimization for Disk-based ANN Search",
+  "authors": "Ziyang Yue, Bolong Zheng, Ling Xu, Kanru Xu, Shuhao Zhang, Yajuan Du, Yunjun Gao, Xiaofang Zhou, Christian Jensen",
+  "summary": {"objective": "디스크 기반 ANN 검색을 위한 단조 경로 인식 그래프 레이아웃 최적화", "methodology": "단조 경로를 고려한 그래프 레이아웃으로 디스크 I/O 최적화", "contributions": ["단조 경로 인식 레이아웃", "디스크 기반 ANN 최적화"], "experiments": "기존 레이아웃 대비 검색 성능 향상", "limitations": "레이아웃 구축 비용"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["레이아웃 최적화가 디스크 ANN에 중요", "단조 경로가 I/O 효율에 기여"]
+}

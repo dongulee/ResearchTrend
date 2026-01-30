@@ -1,0 +1,8 @@
+{
+  "paper_id": 281,
+  "title": "Fast Graph Vector Search via Hardware Acceleration and Delayed-Synchronization Traversal",
+  "authors": "Wenqi Jiang, Hang Hu, Torsten Hoefler, Gustavo Alonso",
+  "summary": {"objective": "하드웨어 가속과 지연 동기화 순회를 통한 빠른 그래프 벡터 검색", "methodology": "FPGA/GPU 가속과 지연 동기화로 검색 최적화", "contributions": ["하드웨어 가속 벡터 검색", "지연 동기화 순회"], "experiments": "기존 CPU 방법 대비 검색 속도 향상", "limitations": "하드웨어 비용"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Graph Analytics", "confidence": 0.85}],
+  "key_findings": ["하드웨어 가속이 벡터 검색에 효과적", "지연 동기화가 성능 향상에 기여"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 212,
+  "title": "Locality-Aware Cache Replacement Policy for Graph Neural Networks",
+  "authors": "Zeynep Korkmaz, Tamer Özsu, Khuzaima Daudjee",
+  "summary": {"objective": "GNN을 위한 지역성 인식 캐시 교체 정책", "methodology": "GNN의 접근 패턴 지역성을 고려한 캐시 교체 정책. 히트율 향상", "contributions": ["GNN용 지역성 인식 캐시", "히트율 향상"], "experiments": "기존 캐시 정책 대비 GNN 성능 향상", "limitations": "동적으로 변화하는 그래프에서의 적응"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["GNN에 특화된 캐시 정책 필요", "지역성 활용이 성능 핵심"]
+}

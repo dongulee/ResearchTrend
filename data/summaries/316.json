@@ -1,0 +1,8 @@
+{
+  "paper_id": 316,
+  "title": "No Cap, This Memory Slaps: Breaking Through the Memory Wall of Transactional Database Systems with Processing-in-Memory",
+  "authors": "Hyoungjoo Kim, Yiwei Zhao, Andrew Pavlo, Phillip B. Gibbons",
+  "summary": {"objective": "PIM으로 트랜잭션 DB의 메모리 벽 돌파", "methodology": "Processing-in-Memory를 활용한 트랜잭션 처리 가속", "contributions": ["PIM 기반 트랜잭션 처리", "메모리 벽 해결"], "experiments": "기존 CPU 기반 대비 처리량 향상", "limitations": "PIM 하드웨어 제약"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["PIM이 메모리 벽 해결에 효과적", "트랜잭션 처리량 크게 향상"]
+}

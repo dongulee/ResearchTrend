@@ -1,0 +1,8 @@
+{
+  "paper_id": 187,
+  "title": "HoliPaxos: Towards More Predictable Performance in Paxos",
+  "authors": "Zhiying Liang, Vahab Jabrayilov, Abutalib Aghayev",
+  "summary": {"objective": "Paxos에서 더 예측 가능한 성능 달성", "methodology": "Paxos의 성능 변동성 원인 분석. 예측 가능성을 높이는 최적화 기법", "contributions": ["예측 가능 Paxos HoliPaxos", "성능 변동성 감소"], "experiments": "기존 Paxos 대비 성능 예측성 향상", "limitations": "극단적 부하에서의 예측 가능성"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Concurrency Control", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["성능 예측 가능성이 운영에 중요", "변동성 원인 이해가 최적화 핵심"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 387,
+  "title": "TCO2: Analyzing the Carbon Footprint of Database Server Replacements",
+  "authors": "Marc Baeuerle, Thomas Bodner, Martin Boissier, Tilmann Rabl, Ricardo Salazar Diaz, Florian Schmeller, Nils Straßenburg, Ilin Tolovski, Marcel Weisgut, Wang Yue",
+  "summary": {"objective": "DB 서버 교체의 탄소 발자국 분석", "methodology": "서버 교체 시 환경 영향 총합 분석", "contributions": ["탄소 발자국 분석 TCO2", "환경 영향 평가"], "experiments": "다양한 교체 시나리오에서 탄소 분석", "limitations": "정확한 환경 데이터"},
+  "tags": [{"tag": "Performance", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["서버 교체가 환경에 영향", "탄소 발자국 고려 필요"]
+}

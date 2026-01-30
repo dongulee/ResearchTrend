@@ -1,0 +1,8 @@
+{
+  "paper_id": 186,
+  "title": "The Limits of Graph Samplers for Training Inductive GNNs",
+  "authors": "Theis Jendal, Matteo Lissandrini, Peter Boncz",
+  "summary": {"objective": "유도 GNN 훈련을 위한 그래프 샘플러의 한계 연구", "methodology": "다양한 그래프 샘플링 방법의 GNN 훈련 효과 분석. 샘플러의 한계와 최적 사용 조건 식별", "contributions": ["그래프 샘플러 한계 분석", "최적 사용 조건 식별"], "experiments": "샘플러별 GNN 훈련 품질 비교", "limitations": "새로운 샘플링 방법에 대한 업데이트"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}],
+  "key_findings": ["그래프 샘플러에 명확한 한계 존재", "샘플러 선택이 GNN 품질에 중요"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 229,
+  "title": "Effective and Efficient Distributed Temporal Graph Processing",
+  "authors": "Longjiao Zhang, Rui Wang, Tongya Zheng",
+  "summary": {"objective": "효과적이고 효율적인 분산 시간 그래프 처리", "methodology": "시간 정보를 고려한 분산 그래프 처리. 효율적 분산 알고리즘", "contributions": ["분산 시간 그래프 처리", "효율적 알고리즘"], "experiments": "기존 방법 대비 성능 향상", "limitations": "매우 동적인 시간 그래프"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["시간 정보 활용이 분석에 중요", "분산 처리가 대규모에 필수적"]
+}

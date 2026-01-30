@@ -1,0 +1,8 @@
+{
+  "paper_id": 346,
+  "title": "Efficiently Joining Large Relations on Multi-GPU Systems",
+  "authors": "Tobias Maltenberger, Ilin Tolovski, Tilmann Rabl",
+  "summary": {"objective": "다중 GPU 시스템에서 대규모 관계 효율적 조인", "methodology": "다중 GPU를 활용한 대규모 조인 연산 최적화", "contributions": ["다중 GPU 조인", "대규모 관계 지원"], "experiments": "단일 GPU 대비 조인 성능 향상", "limitations": "GPU 간 통신 오버헤드"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["다중 GPU 조인이 대규모 데이터에 효과적", "GPU 간 데이터 전송 최적화 중요"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 334,
+  "title": "CEDAR: A System for Cost-Efficient Data-Driven Claim Verification",
+  "authors": "Tharushi Jayasekara, Immanuel Trummer",
+  "summary": {"objective": "비용 효율적 데이터 기반 주장 검증 시스템", "methodology": "데이터에서 주장을 효율적으로 검증", "contributions": ["비용 효율 검증 시스템 CEDAR", "데이터 기반 검증"], "experiments": "기존 방법 대비 검증 비용과 정확도 향상", "limitations": "복잡한 주장"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["데이터 기반 검증이 효과적", "비용 효율 달성 가능"]
+}

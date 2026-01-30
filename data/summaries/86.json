@@ -1,0 +1,35 @@
+{
+  "paper_id": 86,
+  "title": "In-depth Analysis of Densest Subgraph Discovery in a Unified Framework",
+  "authors": "Yingli Zhou, Qingshuo Guo, Yi Yang, Yixiang Fang, Chenhao Ma, Laks Lakshmanan",
+  "summary": {
+    "objective": "Densest Subgraph Discovery(DSD) 알고리즘들을 통합 프레임워크 내에서 체계적이고 포괄적으로 비교 분석",
+    "methodology": "모든 DSD 알고리즘을 통합하는 고수준 프레임워크 제안. 소규모부터 십억 규모까지의 다양한 그래프에서 대표적인 DSD 알고리즘들을 광범위하게 비교",
+    "contributions": [
+      "DSD 알고리즘을 위한 통합 프레임워크 제안",
+      "소규모부터 십억 규모까지 다양한 그래프에서의 포괄적 실험",
+      "기존 기법 결합으로 SOTA 대비 최대 10배 빠른 새로운 알고리즘 변형 발견"
+    ],
+    "experiments": "다양한 스케일의 그래프에서 정확 및 근사 알고리즘 비교. 동일 정확도 보장하에서 최대 10배 속도 향상 확인",
+    "limitations": "특정 그래프 특성에 따른 최적 알고리즘 선택 가이드라인"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "통합 프레임워크가 DSD 알고리즘 비교에 효과적",
+    "기존 기법 결합으로 새로운 최적 알고리즘 변형 발견 가능",
+    "그래프 스케일에 따른 알고리즘 성능 특성 파악"
+  ]
+}

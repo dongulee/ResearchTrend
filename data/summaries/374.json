@@ -1,0 +1,8 @@
+{
+  "paper_id": 374,
+  "title": "Design and Modular Verification of Distributed Transactions in MongoDB",
+  "authors": "William Schultz, Murat Demirbas",
+  "summary": {"objective": "MongoDB에서 분산 트랜잭션의 설계와 모듈식 검증", "methodology": "분산 트랜잭션의 점진적 설계와 형식 검증", "contributions": ["MongoDB 분산 트랜잭션 설계", "모듈식 검증"], "experiments": "MongoDB 프로덕션에서 검증", "limitations": "검증 복잡성"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["모듈식 검증이 분산 트랜잭션에 효과적", "점진적 설계가 실용적"]
+}

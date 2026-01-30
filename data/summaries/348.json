@@ -1,0 +1,8 @@
+{
+  "paper_id": 348,
+  "title": "PrivAGM: Secure Construction of Differentially Private Directed Attributed Graph Models on Decentralized Social Graphs",
+  "authors": "Songlei Wang, Yifeng Zheng, Xiaohua Jia, Haibo Hu",
+  "summary": {"objective": "분산 소셜 그래프에서 차등 프라이버시 방향 속성 그래프 모델 구축", "methodology": "분산 환경에서 프라이버시 보존 그래프 모델 생성", "contributions": ["프라이버시 보존 그래프 모델 PrivAGM", "분산 환경 지원"], "experiments": "프라이버시 유지하면서 모델 품질 검증", "limitations": "통신 오버헤드"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["분산 환경에서 프라이버시 보존 가능", "방향 그래프 모델 지원"]
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": 45,
+  "title": "How Reliable Are Streams? End-to-End Processing-Guarantee Validation and Performance Benchmarking of Stream Processing Systems",
+  "authors": "Jawad Tahir, Ruben Mayer, Christoph Doblander, Hans-Arno Jacobsen",
+  "summary": {
+    "objective": "스트림 처리 시스템(SPS)의 처리 보장을 엔드투엔드로 검증하고 벤치마킹하는 것",
+    "methodology": "SPS 보장을 엔드투엔드 검증하는 PGVal 도구 개발. 신뢰성, 신뢰 처리량, 장애 비용 등 새 메트릭과 정제된 지연 정의. 종합적인 장애 모델로 내결함성 벤치마킹",
+    "contributions": [
+      "SPS 보장 검증 도구 PGVal",
+      "새로운 SPS 메트릭 정의",
+      "종합적인 장애 모델"
+    ],
+    "experiments": "Kafka Streams, Apache Storm, Apache Flink 벤치마킹. 신뢰성이 데이터율, 파티션, 토폴로지, 병렬 계수에 따라 변동",
+    "limitations": "새로운 SPS에 대한 적응, 복잡한 장애 시나리오"
+  },
+  "tags": [
+    {
+      "tag": "Stream Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "SPS 신뢰성이 다양한 특성에 따라 변동",
+    "장애가 신뢰성과 성능에 다양하게 영향"
+  ]
+}

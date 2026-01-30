@@ -1,0 +1,14 @@
+{
+  "paper_id": 160,
+  "title": "Scalable Pre-Training of Compact Urban Spatio-Temporal Predictive Models on Large-Scale Multi-Domain Data",
+  "authors": "Jindong Han, Hao Wang, Hui Xiong, Hao Liu",
+  "summary": {
+    "objective": "대규모 다중 도메인 데이터에서 컴팩트한 도시 시공간 예측 모델의 확장 가능한 사전 훈련",
+    "methodology": "다중 도메인 데이터를 활용한 사전 훈련으로 도시 시공간 예측 모델 개발. 컴팩트하면서도 효과적인 모델 구조",
+    "contributions": ["확장 가능한 시공간 모델 사전 훈련", "다중 도메인 데이터 활용", "컴팩트한 모델 구조"],
+    "experiments": "다양한 도시 예측 태스크에서 효과적 성능",
+    "limitations": "매우 다른 도메인 간 전이 학습"
+  },
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Real-time Analytics", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["다중 도메인 사전 훈련이 효과적", "컴팩트 모델로 효율성 확보", "확장 가능한 훈련이 대규모 데이터에 필수적"]
+}

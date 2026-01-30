@@ -1,0 +1,34 @@
+{
+  "paper_id": 55,
+  "title": "Explaining GNN-based Recommendations in Logic",
+  "authors": "Wenfei Fan, Lihang Fan, Dandan Lin, Min Xie",
+  "summary": {
+    "objective": "GNN 기반 추천 모델의 예측을 논리적으로 설명하는 것",
+    "methodology": "그래프 패턴 Q와 종속성으로 정의된 REPs(Rules for ExPlanations) 클래스 제안. 1-WL 테스트 기반 REPs 정의. 전역/지역 설명을 위한 알고리즘 개발",
+    "contributions": [
+      "GNN 추천 설명을 위한 논리 접근법 Makex",
+      "REPs 클래스 정의",
+      "top-k 지역 설명 알고리즘"
+    ],
+    "experiments": "실제 그래프에서 기존 설명 방법 대비 충실도, 희소성, 효율성 우수",
+    "limitations": "매우 복잡한 GNN 아키텍처에 대한 적용"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "논리적 규칙이 GNN 설명에 효과적",
+    "그래프 패턴과 종속성 결합이 설명력 향상"
+  ]
+}

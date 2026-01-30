@@ -1,0 +1,8 @@
+{
+  "paper_id": 231,
+  "title": "CXL Memory Performance for In-Memory Data Processing",
+  "authors": "Marcel Weisgut, Daniel Ritter, Pinar Tözün",
+  "summary": {"objective": "인메모리 데이터 처리를 위한 CXL 메모리 성능 분석", "methodology": "CXL 메모리의 인메모리 데이터 처리 성능 특성 분석", "contributions": ["CXL 메모리 성능 분석", "인메모리 처리 특성"], "experiments": "다양한 워크로드에서 CXL 성능 측정", "limitations": "CXL 하드웨어 다양성"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}],
+  "key_findings": ["CXL이 메모리 확장에 유망", "성능 특성 이해가 활용에 중요"]
+}

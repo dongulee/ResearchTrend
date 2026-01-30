@@ -1,0 +1,35 @@
+{
+  "paper_id": 16,
+  "title": "Maximum Defective Clique Computation: Improved Time Complexities and Practical Performance",
+  "authors": "Lijun Chang",
+  "summary": {
+    "objective": "k-defective clique(최대 k개의 엣지가 없는 완화된 클릭) 중 최대 크기를 찾는 문제의 시간 복잡도와 실용적 성능 개선",
+    "methodology": "기존 알고리즘의 시간 복잡도를 O*(γₖⁿ)에서 O*(γₖ₋₁ⁿ)로 개선하는 정교한 분석 제시. 큰 k-defective clique의 직경-2 속성을 활용하여 degeneracy 파라미터화 기반 개선. 새로운 degree-sequence 기반 축소 규칙 설계",
+    "contributions": [
+      "시간 복잡도 기저를 γₖ에서 γₖ₋₁로 감소시키는 증명 기법 제시",
+      "직경-2 속성을 활용한 효율적 알고리즘 설계",
+      "효과적인 degree-sequence 기반 축소 규칙 개발"
+    ],
+    "experiments": "3개 벤치마크 그래프 컬렉션(총 290개 그래프)에서 기존 모든 알고리즘 대비 수 자릿수 성능 향상",
+    "limitations": "매우 희소한 그래프에서의 성능, 동적 그래프 시나리오 미고려"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "시간 복잡도 기저를 γₖ에서 γₖ₋₁로 줄이는 것이 가능",
+    "대부분의 실제 그래프는 ωₖ(G) ≥ k+2 조건을 만족",
+    "새로운 축소 규칙이 기존 규칙보다 효과적"
+  ]
+}

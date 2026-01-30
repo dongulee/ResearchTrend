@@ -1,0 +1,8 @@
+{
+  "paper_id": 232,
+  "title": "LLMLog: Advanced Log Template Generation via LLM-driven Approach",
+  "authors": "Fei Teng, Haoyang Li, Lei Chen",
+  "summary": {"objective": "LLM 기반 고급 로그 템플릿 생성", "methodology": "LLM을 활용하여 로그에서 템플릿 자동 생성. 다양한 로그 형식 지원", "contributions": ["LLM 기반 로그 템플릿 생성 LLMLog", "자동화"], "experiments": "기존 방법 대비 템플릿 품질 향상", "limitations": "매우 비정형 로그에서의 생성"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["LLM이 로그 템플릿 생성에 효과적", "자동화가 생산성 향상"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 329,
+  "title": "Sphinx: A Succinct Perfect Hash Index for x86",
+  "authors": "Sajad Faghfoor Maghrebi, Niv Dayan",
+  "summary": {"objective": "x86를 위한 간결한 완전 해시 인덱스", "methodology": "메모리 효율적인 완전 해시 인덱스 구현", "contributions": ["간결한 완전 해시 인덱스 Sphinx", "x86 최적화"], "experiments": "기존 인덱스 대비 메모리 사용량 감소", "limitations": "동적 업데이트"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["간결한 해시 인덱스가 메모리 효율적", "x86 최적화로 성능 향상"]
+}

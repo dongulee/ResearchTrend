@@ -1,0 +1,34 @@
+{
+  "paper_id": 56,
+  "title": "Efficient Computation of Hyper-triangles on Hypergraphs",
+  "authors": "Haozhe Yin, Kai Wang, Wenjie Zhang, Ying Zhang, Ruijia Wu, Xuemin Lin",
+  "summary": {
+    "objective": "하이퍼그래프에서 하이퍼삼각형(세 개의 완전 연결된 하이퍼엣지)을 효율적으로 계산하는 것",
+    "methodology": "하이퍼엣지→하이퍼웨지→하이퍼삼각형의 새로운 형성 경로 발견. 하이퍼웨지 기반 하이퍼삼각형 패턴 분류. 중복 하이퍼엣지 조합 검사를 줄이는 2단계 프레임워크",
+    "contributions": [
+      "하이퍼삼각형 형성 경로 발견",
+      "하이퍼웨지 기반 패턴 분류",
+      "특정 패턴 계산을 위한 효율적 알고리즘"
+    ],
+    "experiments": "근사 알고리즘으로 추정 카운트 지원. 기존 방법 대비 효율성 향상",
+    "limitations": "매우 큰 하이퍼엣지에서의 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "하이퍼웨지 경유가 효율적인 계산에 핵심",
+    "패턴별 특화 알고리즘이 효과적"
+  ]
+}

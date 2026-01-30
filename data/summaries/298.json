@@ -1,0 +1,8 @@
+{
+  "paper_id": 298,
+  "title": "AnyBlox: A Framework for Self-Decoding Datasets",
+  "authors": "Mateusz Gienieczko, Maximilian Kuschewski, Thomas Neumann, Viktor Leis, Jana Giceva",
+  "summary": {"objective": "자체 디코딩 데이터셋을 위한 프레임워크", "methodology": "데이터와 함께 디코딩 로직을 포함하는 데이터셋", "contributions": ["자체 디코딩 데이터셋 AnyBlox", "포맷 독립성"], "experiments": "다양한 포맷에서 디코딩 효율 검증", "limitations": "디코더 보안"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["자체 디코딩이 포맷 유연성 제공", "데이터 이식성 향상"]
+}

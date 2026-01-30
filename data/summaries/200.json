@@ -1,0 +1,8 @@
+{
+  "paper_id": 200,
+  "title": "Magneto: Combining Small and Large Language Models for Data Discovery",
+  "authors": "Yurong Liu, Eduardo Pena, Aecio Santos",
+  "summary": {"objective": "데이터 발견을 위한 소형 및 대형 언어 모델 결합", "methodology": "소형 모델로 초기 필터링 후 대형 모델로 정제. 비용과 품질 균형", "contributions": ["소형/대형 LM 결합 Magneto", "비용 효율적 데이터 발견"], "experiments": "대형 모델만 사용 대비 비용 절감", "limitations": "소형 모델의 필터링 품질에 의존"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.9}],
+  "key_findings": ["모델 결합이 비용 효율적", "소형 모델이 필터링에 효과적"]
+}

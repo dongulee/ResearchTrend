@@ -1,0 +1,8 @@
+{
+  "paper_id": 366,
+  "title": "Cloudy With a Chance of JSON",
+  "authors": "Murtadha Al Hubail, Ali Alsuliman, Wail Alkowaileet, Michael Blow, Michael Carey, Savyasach Enukonda, Peeyush Gupta, Santosh Hegde, Kamini Jagtiani, Abhishek Jindal, Nawazish Kahn, Mehnaz Mahin, Ian Maxon, M Muralikrishna, Keshav Murthy, Daniel Nagy, Preetham Poluparthi, Ankit Prabhu, Ritik Raj, Vijay Sarathy, Shahrzad Shirazi, Utsav Singh, Hussain Towaileb, Ayush Tripathi, Janhavi Tripurwar, Bo-Chun Wang, Till Westmann",
+  "summary": {"objective": "클라우드 환경에서 JSON 데이터 처리", "methodology": "클라우드 기반 JSON 데이터 관리 및 쿼리", "contributions": ["클라우드 JSON 처리", "확장 가능한 아키텍처"], "experiments": "대규모 JSON 데이터에서 성능 검증", "limitations": "복잡한 JSON 구조"},
+  "tags": [{"tag": "Cloud Computing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["클라우드에서 JSON 처리 효과적", "확장 가능한 아키텍처가 중요"]
+}

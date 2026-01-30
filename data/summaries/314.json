@@ -1,0 +1,8 @@
+{
+  "paper_id": 314,
+  "title": "Continuous Publication of Weighted Graphs with Local Differential Privacy",
+  "authors": "Wen Xu, Pengpeng Qiao, Shang Liu, Zhirun Zheng, Yang Cao, Zhetao Li",
+  "summary": {"objective": "로컬 차등 프라이버시를 가진 가중 그래프의 연속 발행", "methodology": "연속적으로 변화하는 가중 그래프의 프라이버시 보존 발행", "contributions": ["연속 가중 그래프 발행", "로컬 DP 지원"], "experiments": "프라이버시 유지하면서 그래프 유용성 검증", "limitations": "빠른 업데이트 빈도"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Stream Processing", "confidence": 0.85}],
+  "key_findings": ["연속 발행에서 프라이버시 보장 가능", "가중 그래프 지원"]
+}

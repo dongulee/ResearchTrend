@@ -1,0 +1,8 @@
+{
+  "paper_id": 339,
+  "title": "QUEST: Query Optimization in Unstructured Document Analysis",
+  "authors": "Zhaoze Sun, Chengliang Chai, Qiyan Deng, Kaisen Jin, Xinyu Guo, Han Han, Ye Yuan, Guoren Wang, Lei Cao",
+  "summary": {"objective": "비정형 문서 분석에서 쿼리 최적화", "methodology": "LLM 기반 비정형 문서 쿼리의 비용 최적화", "contributions": ["비정형 문서 쿼리 최적화 QUEST", "LLM 비용 절감"], "experiments": "기존 방법 대비 비용과 정확도 향상", "limitations": "매우 복잡한 문서"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["비정형 문서 쿼리 최적화 가능", "LLM 비용 절감 중요"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 230,
+  "title": "Stochastic SketchRefine: Scaling In-Database Decision Making",
+  "authors": "Riddho Ridwanul Haque, Anh Mai, Matteo Brucato",
+  "summary": {"objective": "데이터베이스 내 의사결정 확장을 위한 확률적 스케치 정제", "methodology": "확률적 접근으로 대규모 데이터에서 의사결정 지원. 스케치 기반 효율적 처리", "contributions": ["확률적 SketchRefine", "대규모 의사결정"], "experiments": "기존 방법 대비 확장성 향상", "limitations": "정확도와 효율성 균형"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.9}, {"tag": "Statistics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["스케치가 대규모 의사결정에 효과적", "확률적 접근이 확장성 제공"]
+}

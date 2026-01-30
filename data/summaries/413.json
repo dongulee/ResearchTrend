@@ -1,0 +1,8 @@
+{
+  "paper_id": 413,
+  "title": "ClaimIt: Finding Convincing Views to Endorse a Claim",
+  "authors": "Shunit Agmon, David Avigdor, Brit Youngmann, Amir Gilad, Benny Kimelfeld",
+  "summary": {"objective": "주장을 지지하는 설득력 있는 뷰 찾기", "methodology": "데이터에서 주장을 지지하는 뷰 자동 탐색", "contributions": ["주장 지지 뷰 탐색 ClaimIt", "설득력 있는 증거"], "experiments": "다양한 주장에서 뷰 탐색 효과 검증", "limitations": "주장 정의"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["뷰 탐색이 주장 지지에 효과적", "자동화된 증거 발견 가능"]
+}

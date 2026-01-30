@@ -1,0 +1,8 @@
+{
+  "paper_id": 182,
+  "title": "QPET: A Versatile and Portable Quantity-of-Interest Framework",
+  "authors": "Jinyang Liu, Pu Jiao, Kai Zhao, Xin Liang",
+  "summary": {"objective": "다목적 이식 가능한 관심량 프레임워크 개발", "methodology": "다양한 관심량(QoI)을 통합적으로 처리하는 프레임워크. 이식성을 고려한 설계", "contributions": ["다목적 QoI 프레임워크 QPET", "이식성 확보"], "experiments": "다양한 응용에서 효과적 QoI 처리", "limitations": "매우 복잡한 QoI 정의에서의 확장성"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85), ("Performance", 0.85}],
+  "key_findings": ["통합 프레임워크가 QoI 처리 간소화", "이식성이 다양한 환경 적용 가능"]
+}

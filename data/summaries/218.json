@@ -1,0 +1,8 @@
+{
+  "paper_id": 218,
+  "title": "A Comprehensive Survey and Experimental Study of Learned Cardinality Estimation",
+  "authors": "Xiaoxuan Gou, Weiguo Zheng, Yuxiang Wang",
+  "summary": {"objective": "학습 카디널리티 추정의 포괄적 조사 및 실험 연구", "methodology": "다양한 학습 기반 카디널리티 추정 방법 조사 및 실험 비교", "contributions": ["학습 CE 포괄적 조사", "실험적 비교"], "experiments": "방법별 강점과 약점 체계적 분석", "limitations": "새로운 방법에 대한 업데이트"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}],
+  "key_findings": ["학습 CE에 다양한 접근 존재", "데이터/쿼리 특성에 따라 최적 방법 다름"]
+}

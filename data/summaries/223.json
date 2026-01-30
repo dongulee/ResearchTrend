@@ -1,0 +1,8 @@
+{
+  "paper_id": 223,
+  "title": "The LDBC Financial Benchmark: Transaction Workload",
+  "authors": "Shipeng Qi, Bing Tong, Jiatao Hu, Heng Liu",
+  "summary": {"objective": "금융 트랜잭션 워크로드를 위한 LDBC 벤치마크", "methodology": "금융 도메인 특화 트랜잭션 벤치마크 설계. 실제 금융 워크로드 반영", "contributions": ["LDBC 금융 벤치마크", "금융 워크로드"], "experiments": "금융 시스템 체계적 평가", "limitations": "특정 금융 규제 반영"},
+  "tags": [{"tag": "Benchmarking", "confidence": 0.95}, {"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["금융 특화 벤치마크가 필요", "도메인 워크로드 반영이 중요"]
+}

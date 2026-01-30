@@ -1,0 +1,35 @@
+{
+  "paper_id": 105,
+  "title": "From Genesis to Maturity: Managing Knowledge Graph Ecosystems Through Life Cycles",
+  "authors": "Sandra Geisler, Cinzia Cappiello, Irene Celino, David Chaves-Fraga, Anastasia Dimou, Ana Iglesias-Molina, Maurizio Lenzerini, Anisa Rula, Dylan Van Assche, Sascha Welten, Maria-Esther Vidal",
+  "summary": {
+    "objective": "지식 그래프 관리의 핵심 과제를 해결하기 위한 생태계 및 생애주기 개념 제안",
+    "methodology": "데이터 통합, 표준화, 지속적 업데이트, 효율적 쿼리, 출처 추적 등의 작업을 체계적으로 관리하는 KG 생태계와 생애주기 개념 제안",
+    "contributions": [
+      "지식 그래프 생태계 개념 제안",
+      "KG 생애주기 관리 프레임워크",
+      "조직의 KG 정확성, 일관성, 신뢰성 향상 방안"
+    ],
+    "experiments": "비전 논문으로서 개념적 프레임워크 제시에 초점",
+    "limitations": "구체적 구현 및 평가 필요"
+  },
+  "tags": [
+    {
+      "tag": "Knowledge Graphs",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Data Integration",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "KG 생태계 관점이 체계적 관리에 효과적",
+    "생애주기 접근이 투명성과 책임성 보장",
+    "이종 데이터 통합에서 KG의 핵심 역할"
+  ]
+}

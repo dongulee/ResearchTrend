@@ -1,0 +1,8 @@
+{
+  "paper_id": 447,
+  "title": "New Trends in Data Forgetting for Sustainable Data Management",
+  "authors": "Ramon Rico, Arno Siebes, Yannis Velegrakis",
+  "summary": {"objective": "지속 가능한 데이터 관리를 위한 데이터 망각", "methodology": "데이터 축소 및 망각 기법 분석", "contributions": ["데이터 망각 튜토리얼", "지속 가능성 관점"], "experiments": "다양한 데이터 축소 기법 비교", "limitations": "정보 손실 균형"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Privacy", "confidence": 0.85}],
+  "key_findings": ["데이터 망각이 지속 가능성에 중요", "전략적 데이터 보존 필요"]
+}

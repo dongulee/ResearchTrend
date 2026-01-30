@@ -1,0 +1,35 @@
+{
+  "paper_id": 114,
+  "title": "FLEET: High-Performance Durable Replicated State Machines using Scattered and Coordinated Log Entries",
+  "authors": "Hua Fan, Hao Tan, Wenchao Zhou, Feifei Li",
+  "summary": {
+    "objective": "빠른 복구와 높은 병렬성을 보장하는 고성능 내구성 복제 상태 머신(RSM) 프로토콜 개발",
+    "methodology": "분산 엔트리의 동기식 영속성과 정렬 엔트리의 비동기식 영속성을 결합하는 하이브리드 분산 엔트리 로그와 비동기 정렬 로그 제안. etcd를 위한 병렬 적용 최적화 pre-apply 제안",
+    "contributions": [
+      "하이브리드 분산-정렬 로그 기반 Fleet 프로토콜",
+      "빠른 복구와 높은 병렬성 동시 보장",
+      "etcd를 위한 pre-apply 병렬 적용 최적화"
+    ],
+    "experiments": "Raft, Scalog 대비 처리량, 지연 시간에서 크게 우수. 특정 구성에서 최대 10배 처리량. pre-apply로 순차 적용 대비 10배 처리량 향상",
+    "limitations": "리더 실패 시 5% 복구 시간 오버헤드"
+  },
+  "tags": [
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Transaction Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "분산-정렬 로그 하이브리드가 성능과 내구성 균형",
+    "완전 정렬 로그 요구사항이 병렬성 제한",
+    "비동기 정렬이 병렬성 증가의 핵심"
+  ]
+}

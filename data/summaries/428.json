@@ -1,0 +1,8 @@
+{
+  "paper_id": 428,
+  "title": "ContextCache: Context-Aware Semantic Cache for Multi-Turn Queries in Large Language Models",
+  "authors": "Jianxin Yan, Wangze Ni, Lei Chen, Xuemin Lin, Peng Cheng, Zhan Qin, Kui Ren",
+  "summary": {"objective": "LLM 다중 턴 쿼리를 위한 컨텍스트 인식 시맨틱 캐시", "methodology": "대화 컨텍스트를 고려한 LLM 응답 캐싱", "contributions": ["컨텍스트 인식 캐시 ContextCache", "다중 턴 지원"], "experiments": "LLM 쿼리에서 캐시 효과 검증", "limitations": "컨텍스트 변화"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["컨텍스트 인식 캐시가 LLM에 효과적", "다중 턴 쿼리 가속"]
+}

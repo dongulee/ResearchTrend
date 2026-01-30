@@ -1,0 +1,8 @@
+{
+  "paper_id": 283,
+  "title": "TabulaX: Leveraging Large Language Models for Multi-Class Table Transformations",
+  "authors": "Arash Dargahi Nobari, Davood Rafiei",
+  "summary": {"objective": "다중 클래스 테이블 변환을 위한 LLM 활용", "methodology": "LLM을 사용하여 다양한 형식의 테이블 변환 자동화", "contributions": ["LLM 기반 테이블 변환 TabulaX", "다중 클래스 지원"], "experiments": "기존 변환 방법 대비 정확도와 범용성 향상", "limitations": "매우 복잡한 변환 규칙"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["LLM이 테이블 변환에 효과적", "다양한 형식 지원 가능"]
+}

@@ -1,0 +1,22 @@
+{
+  "paper_id": 150,
+  "title": "Vive la Différence: Practical Diff Testing of Stateful Applications",
+  "authors": "Kexin Zhu, Michael Whittaker, Srdjan Petrovic, Robert Grandl, Sanjay Ghemawat",
+  "summary": {
+    "objective": "상태를 가진 애플리케이션의 롤아웃을 테스트하기 위한 실용적 프레임워크 개발",
+    "methodology": "새 버전이 기존 버전과 동일하게 동작하는지 diff 테스팅으로 검증. Postgres 위에 데이터베이스 브랜칭 구현. 두 데이터베이스 브랜치를 diff하는 효율적 알고리즘",
+    "contributions": [
+      "상태 있는 애플리케이션 diff 테스팅 프레임워크",
+      "Postgres 기반 데이터베이스 브랜칭",
+      "효율적 브랜치 diff 알고리즘"
+    ],
+    "experiments": "소프트웨어 롤아웃 중 미묘하고 치명적인 버그 탐지",
+    "limitations": "매우 복잡한 상태 변경에서의 diff 정확도"
+  },
+  "tags": [
+    {"tag": "Data Quality", "confidence": 0.95},
+    {"tag": "Storage Systems", "confidence": 0.9},
+    {"tag": "Security", "confidence": 0.8}
+  ],
+  "key_findings": ["공유 영속 상태가 롤아웃 테스팅 어렵게 함", "데이터베이스 브랜칭이 안전한 비교 가능", "diff 테스팅이 롤아웃 버그 탐지에 효과적"]
+}

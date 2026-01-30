@@ -1,0 +1,8 @@
+{
+  "paper_id": 275,
+  "title": "Lighter-X: An Efficient and Plug-and-play Strategy for Graph-based Recommendation through Decoupled Propagation",
+  "authors": "Yanping Zheng, Zhewei Wei, Frank De Hoo, Xu Chen, Hongteng Xu, Yuhang Ye, Jiadeng Huang",
+  "summary": {"objective": "분리된 전파를 통한 효율적이고 플러그앤플레이 가능한 그래프 기반 추천", "methodology": "전파와 변환을 분리하여 효율성 향상", "contributions": ["분리 전파 추천 Lighter-X", "플러그앤플레이 지원"], "experiments": "기존 GNN 추천 대비 효율과 성능 향상", "limitations": "매우 밀집된 상호작용 그래프"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["분리 전파가 추천에 효과적", "플러그앤플레이로 적용 용이"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 248,
+  "title": "Data Imputation with Limited Data Redundancy Using Data Lakes",
+  "authors": "Chenyu Yang, Yuyu Luo, Chuanxuan Cui, Ju Fan, Chengliang Chai, Nan Tang",
+  "summary": {"objective": "데이터 레이크를 활용한 제한된 중복 데이터 결측치 대치", "methodology": "데이터 레이크의 외부 데이터를 활용하여 결측치 대치", "contributions": ["데이터 레이크 기반 결측치 대치", "제한된 중복 활용"], "experiments": "기존 대치 방법 대비 품질 향상", "limitations": "관련 데이터 부재 시 성능"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.8}],
+  "key_findings": ["데이터 레이크가 결측치 대치에 유용", "외부 데이터 활용이 품질 향상에 기여"]
+}

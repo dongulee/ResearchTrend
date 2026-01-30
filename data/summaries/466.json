@@ -1,0 +1,8 @@
+{
+  "paper_id": 466,
+  "title": "Sampling-based Predictive Database Buffer Management",
+  "authors": "Theo Vanderkooy, Mohammad Khalaji, Runsheng Benson Guo, Khuzaima Daudjee",
+  "summary": {"objective": "샘플링 기반 예측적 버퍼 관리", "methodology": "OLAP 워크로드를 위한 예측적 버퍼 관리", "contributions": ["예측적 버퍼 관리 제안", "샘플링 기반 접근"], "experiments": "동시 스캔 워크로드에서 효과 검증", "limitations": "워크로드 예측 정확도"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["예측적 버퍼 관리가 히트율 향상", "쿼리 지연 감소"]
+}

@@ -1,0 +1,22 @@
+{
+  "paper_id": 141,
+  "title": "Streaming Time Series Subsequence Anomaly Detection: A Glance and Focus Approach",
+  "authors": "Wenjing Wang, Ziyang Yue, Bolong Zheng",
+  "summary": {
+    "objective": "스트리밍 시계열 서브시퀀스 이상 탐지를 위한 정확하고 효율적인 프레임워크 개발",
+    "methodology": "전역 및 지역 정보를 모두 고려하는 glance and focus 이상 점수 함수 제안. 역 파일 인덱스와 제품 양자화 코드북을 동적으로 유지하여 서브시퀀스 인덱싱 및 압축",
+    "contributions": [
+      "전역/지역 정보 결합 이상 점수 함수 Sirloin",
+      "스트리밍 시나리오에 적응 가능한 동적 인덱스",
+      "제품 양자화로 효율적 압축"
+    ],
+    "experiments": "기존 방법 대비 정확도와 효율성 모두 향상",
+    "limitations": "매우 긴 서브시퀀스에서의 성능"
+  },
+  "tags": [
+    {"tag": "Stream Processing", "confidence": 0.95},
+    {"tag": "Real-time Analytics", "confidence": 0.95},
+    {"tag": "Machine Learning", "confidence": 0.85}
+  ],
+  "key_findings": ["전역/지역 정보 결합이 탐지 정확도 향상", "동적 인덱스가 스트리밍 적응에 핵심", "제품 양자화가 메모리 효율성 제공"]
+}

@@ -1,0 +1,39 @@
+{
+  "paper_id": 25,
+  "title": "Calibrating Noise for Group Privacy in Subsampled Mechanisms",
+  "authors": "Yangfan Jiang, Xinjian Luo, Yin Yang, Xiaokui Xiao",
+  "summary": {
+    "objective": "서브샘플링이 포함된 그룹 프라이버시 메커니즘에 대한 정밀한 프라이버시 회계 프레임워크 개발",
+    "methodology": "블랙박스 DP 메커니즘을 GP로 변환하는 대신, 서브샘플링 메커니즘의 내재적 무작위성을 분석하고 활용. 그룹 프라이버시에 대한 프라이버시 손실 경계를 크게 개선",
+    "contributions": [
+      "서브샘플링된 GP 메커니즘을 위한 새로운 분석 프레임워크 제안",
+      "기존 블랙박스 DP-to-GP 변환의 과도한 비관적 분석 문제 해결",
+      "다양한 서브샘플링 기반 메커니즘에 적용 가능한 솔루션"
+    ],
+    "experiments": "실제 데이터셋에서 베이스라인 대비 10배 이상의 노이즈 감소 달성. 딥 뉴럴 네트워크 학습 포함 여러 실용적 설정에서 검증",
+    "limitations": "매우 큰 그룹 크기에 대한 확장성, 복잡한 서브샘플링 패턴 지원"
+  },
+  "tags": [
+    {
+      "tag": "Privacy",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Security",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "기존 DP-to-GP 변환이 서브샘플링 시 과도하게 비관적",
+    "서브샘플링의 내재적 무작위성을 활용하면 노이즈를 크게 감소 가능",
+    "딥러닝 학습(DP-SGD)에서 특히 효과적"
+  ]
+}

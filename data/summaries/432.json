@@ -1,0 +1,8 @@
+{
+  "paper_id": 432,
+  "title": "Play2Win: A Windowing Playground for Continuous Queries",
+  "authors": "Alessandro Ferri, Mauro Famà, Samuele Langhi, Riccardo Tommasini, Angela Bonifati",
+  "summary": {"objective": "연속 쿼리를 위한 윈도우 플레이그라운드", "methodology": "스트림 처리 윈도우의 인터랙티브 학습 환경", "contributions": ["윈도우 플레이그라운드 Play2Win", "연속 쿼리 학습"], "experiments": "윈도우 학습에서 효과 검증", "limitations": "실제 워크로드"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["플레이그라운드가 학습에 효과적", "윈도우 개념 이해 지원"]
+}

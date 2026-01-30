@@ -1,0 +1,34 @@
+{
+  "paper_id": 38,
+  "title": "cedar: Optimized and Unified Machine Learning Input Data Pipelines",
+  "authors": "Mark Zhao, Emanuel Adamiak, Christos Kozyrakis",
+  "summary": {
+    "objective": "ML 학습 작업의 입력 데이터 파이프라인을 최적화하고 통합하는 것",
+    "methodology": "합성 가능한 연산자로 데이터 파이프라인 정의. 확장 가능한 옵티마이저로 성능 최적화 체계적 적용. 로컬/분산 컴퓨팅 자원 간 파이프라인 처리 오케스트레이션",
+    "contributions": [
+      "통합 ML 입력 데이터 프레임워크 cedar",
+      "확장 가능한 파이프라인 옵티마이저",
+      "구성 가능한 로컬/분산 자원 오케스트레이션"
+    ],
+    "experiments": "8개 파이프라인에서 최신 시스템 대비 1.87-10.65배 성능 향상",
+    "limitations": "매우 복잡한 변환에서의 최적화 한계"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "체계적 최적화가 ML 데이터 파이프라인 성능에 핵심",
+    "통합 프레임워크가 다양한 ML 프레임워크 지원"
+  ]
+}

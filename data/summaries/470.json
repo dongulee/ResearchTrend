@@ -1,0 +1,8 @@
+{
+  "paper_id": 470,
+  "title": "In-depth Analysis of Graph-based RAG in a Unified Framework",
+  "authors": "Yingli Zhou, Yaodong Su, Youran Sun, Shu Wang, Taotao Wang, Runyuan He, Yongwei Zhang, Sicong Liang, Xilin Liu, Yuchi Ma, Yixiang Fang",
+  "summary": {"objective": "그래프 기반 RAG 통합 분석", "methodology": "통합 프레임워크에서 그래프 RAG 분석", "contributions": ["통합 분석 프레임워크 제안", "그래프 RAG 비교"], "experiments": "다양한 그래프 RAG 방법 비교", "limitations": "방법 다양성"},
+  "tags": [{"tag": "Knowledge Graphs", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["그래프 RAG가 LLM 성능 향상", "통합 분석 필요"]
+}

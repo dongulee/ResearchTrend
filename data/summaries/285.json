@@ -1,0 +1,8 @@
+{
+  "paper_id": 285,
+  "title": "Efficient Graph Data Access for Out-of-Memory GPU Streaming Graph Processing",
+  "authors": "Qiange Wang, Yongze Yan, Hongshi Tan, Cheng Chen, Cheng Zhao, Jiaming Tian, Jiaxin Jiang, Xiaoliang Cong, Yanfeng Zhang, Ge Yu, Weng-Fai Wong, Bingsheng He",
+  "summary": {"objective": "GPU 메모리 초과 스트리밍 그래프 처리를 위한 효율적 데이터 접근", "methodology": "GPU 메모리를 초과하는 그래프의 효율적 스트리밍 처리", "contributions": ["GPU 스트리밍 그래프 처리", "메모리 초과 지원"], "experiments": "기존 GPU 방법 대비 대규모 그래프 처리 가능", "limitations": "극단적으로 큰 그래프"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["GPU 메모리 초과 그래프 처리 가능", "스트리밍 접근이 효과적"]
+}

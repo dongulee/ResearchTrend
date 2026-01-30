@@ -1,0 +1,8 @@
+{
+  "paper_id": 191,
+  "title": "Efficient and Adaptive Estimation of Local Triadic Closure",
+  "authors": "Ilie Sarpe, Aristides Gionis",
+  "summary": {"objective": "로컬 삼자 폐쇄의 효율적이고 적응적인 추정", "methodology": "그래프의 삼자 폐쇄 계수를 효율적으로 추정. 적응적 샘플링으로 정확도 향상", "contributions": ["로컬 삼자 폐쇄 추정", "적응적 샘플링"], "experiments": "정확하고 효율적인 추정 달성", "limitations": "매우 희소한 그래프에서의 추정"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Statistics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["적응적 샘플링이 추정 정확도 향상", "로컬 분석이 전역보다 효율적"]
+}

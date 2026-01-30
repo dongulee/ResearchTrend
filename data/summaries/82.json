@@ -1,0 +1,39 @@
+{
+  "paper_id": 82,
+  "title": "Are Joins over LSM-trees Ready: Take RocksDB as an Example",
+  "authors": "Weiping Yu, Fan Wang, Xuwei Zhang, Siqiang Luo",
+  "summary": {
+    "objective": "LSM-tree 기반 데이터 저장소에서 조인 연산의 성능을 체계적으로 분석하고 벤치마크 제공",
+    "methodology": "조인 알고리즘, 보조 인덱스 유형, 일관성 전략을 포함하는 조인 방법 구성 공간 정의. RocksDB 기반 통합 플랫폼에서 모든 조인 방법 구현 및 광범위한 실험 수행",
+    "contributions": [
+      "LSM-tree 조인에 대한 체계적 연구 및 포괄적 벤치마크",
+      "조인 방법 구성 공간 정의 및 이론적 분석",
+      "LSM 기반 저장소에 특화된 조인 방법 선택 가이드라인"
+    ],
+    "experiments": "다양한 조인 알고리즘, 보조 인덱스 유형, 일관성 전략 조합에 대한 성능 비교. 작업 조건에 따른 적절한 조인 방법 선택을 위한 인사이트 제공",
+    "limitations": "특정 워크로드 패턴에 대한 일반화, 분산 LSM-tree 환경"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "LSM-tree의 읽기/쓰기 특성이 조인 방법 성능에 큰 영향",
+    "기존 관계형 DB 관행이 LSM 기반 저장소에 항상 최적이 아님",
+    "작업 조건에 따라 적절한 조인 방법 선택이 중요"
+  ]
+}

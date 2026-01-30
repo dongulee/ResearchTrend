@@ -1,0 +1,8 @@
+{
+  "paper_id": 256,
+  "title": "MOMENTI: Scalable Motif Mining in Multidimensional Time Series",
+  "authors": "Matteo Ceccarello, Francesco Pio Monaco, Francesco Silvestri",
+  "summary": {"objective": "다차원 시계열에서 확장 가능한 모티프 마이닝", "methodology": "다차원 시계열의 반복 패턴(모티프) 발견 알고리즘", "contributions": ["확장 가능한 모티프 마이닝 MOMENTI", "다차원 시계열 지원"], "experiments": "기존 방법 대비 확장성과 정확도 향상", "limitations": "매우 높은 차원의 시계열"},
+  "tags": [{"tag": "Real-time Analytics", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["다차원 시계열 모티프 마이닝 가능", "확장성이 실용적 적용에 중요"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 210,
+  "title": "The LAW theorem: Local Reads and Linearizable Async Writes",
+  "authors": "Emmanouil Giortamis, Antonios Katsarakis, Nikos Ntarmos",
+  "summary": {"objective": "로컬 읽기와 선형화 가능 비동기 쓰기의 이론적 분석", "methodology": "LAW 정리로 로컬 읽기와 비동기 쓰기의 가능성/불가능성 조건 분석", "contributions": ["LAW 정리 제안", "이론적 한계 식별"], "experiments": "이론적 분석 및 증명", "limitations": "실제 시스템에서의 적용 조건"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Concurrency Control", "confidence": 0.9), ("Transaction Processing", 0.85}],
+  "key_findings": ["LAW 정리가 설계 제약 명확화", "이론적 한계 이해가 설계에 중요"]
+}

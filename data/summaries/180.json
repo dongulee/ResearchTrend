@@ -1,0 +1,8 @@
+{
+  "paper_id": 180,
+  "title": "Instance-Optimal Acyclic Join Processing Without Reordering",
+  "authors": "Liese Bekkers, Frank Neven, Stijn Vansummeren",
+  "summary": {"objective": "재정렬 없이 인스턴스 최적 비순환 조인 처리", "methodology": "조인 순서 재정렬 없이 인스턴스 최적 성능 달성. 이론적 보장과 실용적 알고리즘", "contributions": ["재정렬 없는 인스턴스 최적 조인", "이론적 보장"], "experiments": "기존 방법 대비 유사한 성능으로 재정렬 비용 제거", "limitations": "순환 조인에 대한 확장"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["재정렬 없이 인스턴스 최적 가능", "비순환 조인에서 이론적 보장 제공"]
+}

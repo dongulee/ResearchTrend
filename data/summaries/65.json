@@ -1,0 +1,34 @@
+{
+  "paper_id": 65,
+  "title": "Semantic Conformance Testing of Relational DBMS",
+  "authors": "Shuang Liu, Chenglin Tian, Jun Sun, Ruifeng Wang, Wei Lu, Yongxin Zhao, Yinxing Xue, Junjie Wang, Xiaoyong Du",
+  "summary": {
+    "objective": "RDBMS 구현이 SQL 표준을 준수하는지 자동으로 검증하는 것",
+    "methodology": "SQL의 표시적 의미를 형식적으로 정의하고 Prolog로 구현. 실행 가능한 참조 RDBMS 생성. 형식적 의미 기반 3가지 커버리지 기준과 커버리지 기반 쿼리 생성 알고리즘",
+    "contributions": [
+      "RDBMS 의미적 적합성 테스트 방법",
+      "SQL 형식적 의미의 Prolog 구현",
+      "커버리지 기반 쿼리 생성 알고리즘"
+    ],
+    "experiments": "6개 널리 사용되는 RDBMS에 적용",
+    "limitations": "매우 복잡한 SQL 기능에 대한 의미 정의"
+  },
+  "tags": [
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "형식적 의미가 자동 적합성 테스트에 핵심",
+    "커버리지 기반 생성이 철저한 테스트에 효과적"
+  ]
+}

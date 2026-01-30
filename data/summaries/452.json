@@ -1,0 +1,8 @@
+{
+  "paper_id": 452,
+  "title": "Machine Learning for Graph Data Management and Query Processing",
+  "authors": "Hanchen Wang, Ying Zhang, Wenjie Zhang",
+  "summary": {"objective": "그래프 데이터 관리와 쿼리 처리를 위한 ML", "methodology": "ML 기법을 그래프 DB 최적화에 적용", "contributions": ["그래프 ML 튜토리얼", "최적화 기법 분석"], "experiments": "다양한 그래프 작업에서 효과 검증", "limitations": "NP-hard 문제"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["ML이 그래프 DB 최적화에 효과적", "기존 한계 극복"]
+}

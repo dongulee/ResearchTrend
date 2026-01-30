@@ -1,0 +1,8 @@
+{
+  "paper_id": 373,
+  "title": "R-Bot: An LLM-based Query Rewrite System",
+  "authors": "Zhaoyan Sun, Xuanhe Zhou, Guoliang Li, Xiang Yu, Jianhua Feng, Yong Zhang",
+  "summary": {"objective": "LLM 기반 쿼리 재작성 시스템", "methodology": "LLM을 사용하여 쿼리를 자동으로 재작성", "contributions": ["LLM 기반 쿼리 재작성 R-Bot", "자동 최적화"], "experiments": "기존 규칙 기반 대비 재작성 품질 향상", "limitations": "LLM 비용과 지연"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["LLM이 쿼리 재작성에 효과적", "자동화된 최적화 가능"]
+}

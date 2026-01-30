@@ -1,0 +1,34 @@
+{
+  "paper_id": 48,
+  "title": "Approximate Anchored Densest Subgraph Search on Large Static and Dynamic Graphs",
+  "authors": "Qi Zhang, Yalong Zhang, Ronghua Li, Guoren Wang",
+  "summary": {
+    "objective": "대규모 정적/동적 그래프에서 앵커 최밀 서브그래프(ADS) 검색의 효율성 개선",
+    "methodology": "정수 R-서브그래프 밀도 개념 도입으로 ADS에 대한 가산적 근사 제공. 재지향 네트워크 플로우와 이진 검색을 결합한 효율적 알고리즘. 동적 그래프에서 효율적 유지보수",
+    "contributions": [
+      "근사 앵커 최밀 서브그래프(AADS) 개념",
+      "효율적인 전역 알고리즘 개발",
+      "동적 그래프 유지보수 지원"
+    ],
+    "experiments": "그래프 크기에 다항 시간으로 동작. 동적 그래프에서 효율적 업데이트",
+    "limitations": "매우 밀집된 그래프에서의 성능"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "정수 밀도가 효율적 근사에 핵심",
+    "동적 그래프 유지보수가 실용적"
+  ]
+}

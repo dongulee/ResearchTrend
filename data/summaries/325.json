@@ -1,0 +1,8 @@
+{
+  "paper_id": 325,
+  "title": "TSB-AutoAD: Towards Automated Solutions for Time-Series Anomaly Detection",
+  "authors": "Qinghua Liu, Seunghak Lee, Paparrizos John",
+  "summary": {"objective": "시계열 이상 탐지를 위한 자동화된 솔루션", "methodology": "자동화된 이상 탐지기 선택 및 파라미터 튜닝", "contributions": ["자동화 이상 탐지 TSB-AutoAD", "탐지기 자동 선택"], "experiments": "다양한 이상 유형에서 탐지 성능 검증", "limitations": "새로운 이상 유형"},
+  "tags": [{"tag": "Real-time Analytics", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.85}],
+  "key_findings": ["자동화가 이상 탐지에 효과적", "탐지기 선택이 성능에 중요"]
+}

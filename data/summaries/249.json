@@ -1,0 +1,8 @@
+{
+  "paper_id": 249,
+  "title": "Chimera: Mitigating Ownership Transfers in Multi-Primary Shared-Storage Cloud-Native Databases",
+  "authors": "Huang Chunyue, Shuang Liu, Xinyi Zhang, Wenhao Li, Wei Lu, Xiaoyong Du",
+  "summary": {"objective": "다중 프라이머리 공유 스토리지 DB에서 소유권 전송 완화", "methodology": "소유권 전송을 최소화하는 클라우드 네이티브 DB 설계", "contributions": ["소유권 전송 완화 Chimera", "다중 프라이머리 효율화"], "experiments": "기존 방법 대비 소유권 전송 오버헤드 감소", "limitations": "매우 높은 쓰기 충돌"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Cloud Computing", "confidence": 0.9}, {"tag": "Transaction Processing", "confidence": 0.85}],
+  "key_findings": ["소유권 전송이 성능 병목", "Chimera로 효율적 다중 프라이머리 지원"]
+}

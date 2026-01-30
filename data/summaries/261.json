@@ -1,0 +1,8 @@
+{
+  "paper_id": 261,
+  "title": "Federated Incomplete Tabular Data Prediction with Missing Complementarity",
+  "authors": "Yan Zhang, Shuwei Liang, Xiaoye Miao, Yangyang Wu, Jianwei Yin",
+  "summary": {"objective": "결측 상보성을 활용한 연합 불완전 테이블 데이터 예측", "methodology": "연합 학습에서 결측 데이터의 상보성 활용", "contributions": ["결측 상보성 연합 학습", "불완전 데이터 예측 향상"], "experiments": "기존 연합 학습 대비 예측 성능 향상", "limitations": "극심한 결측률"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Privacy", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["결측 상보성이 연합 학습에 유용", "불완전 데이터에서도 효과적 예측 가능"]
+}

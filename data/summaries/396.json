@@ -1,0 +1,8 @@
+{
+  "paper_id": 396,
+  "title": "Horizon: Robust Checks for SQL Migration Using LLMs",
+  "authors": "Venkatesh Emani, Wenjing Wang, Zi Ye, Jia He, Neel Ball, Kumaraswamy Boora, Carlo Curino, Avrilia Floratou, Manan Goenka, Paridhi Gupta, Vivek Gupta, Katherine Lin, Nick Litombe, Jared Meade, Suryakant Mutnal, Raghu Ramakrishnan, Sudhir Raparla, Dhruv Relwani, Shyam Sai, Vaibhave Sekar, Roneet Shaw, Harmeet Singh, Prasanna Sridharan, Mark Taylor, Sunidhi Tiwari, Yiwen Zhu",
+  "summary": {"objective": "LLM을 사용한 SQL 마이그레이션의 강건한 검사", "methodology": "LLM으로 SQL 마이그레이션 정확성 검증", "contributions": ["LLM 기반 마이그레이션 검사 Horizon", "강건한 검증"], "experiments": "다양한 마이그레이션에서 검사 효과 검증", "limitations": "LLM 정확도"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["LLM이 SQL 마이그레이션 검사에 효과적", "강건한 검증 가능"]
+}

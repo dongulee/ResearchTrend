@@ -1,0 +1,8 @@
+{
+  "paper_id": 161,
+  "title": "HADES: Range-Filtered Private Aggregation on Public Data",
+  "authors": "Xiaoyuan Liu, Ni Trieu, Trinabh Gupta, Ishwarya Ananthabhotla",
+  "summary": {"objective": "공개 데이터에서 범위 필터링 프라이빗 집계 수행", "methodology": "범위 쿼리와 프라이빗 집계를 결합한 효율적 프로토콜", "contributions": ["범위 필터링 프라이빗 집계 HADES", "효율적인 암호화 프로토콜"], "experiments": "기존 방법 대비 효율성과 프라이버시 보장", "limitations": "매우 큰 데이터셋에서의 확장성"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Security", "confidence": 0.9}],
+  "key_findings": ["범위 필터링과 프라이빗 집계 결합 가능", "공개 데이터에서 프라이버시 보호 가능"]
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": 33,
+  "title": "Themis: A GPU-accelerated Relational Query Execution Engine",
+  "authors": "Kijae Hong, Kyoungmin Kim, Young-Koo Lee, Yang-Sae Moon, Sourav S Bhowmick, Wook-Shin Han",
+  "summary": {
+    "objective": "GPU에서 비균일 데이터 분포로 인한 부하 불균형을 최소화하는 관계형 쿼리 실행 엔진 개발",
+    "methodology": "워프 내 부하 불균형(intra-WLI): 워프 내 스레드 간 튜플 재분배. 워프 간 부하 불균형(inter-WLI): 무거운 워크로드의 튜플을 유휴 워프로 재분배",
+    "contributions": [
+      "intra-WLI와 inter-WLI 모두 최소화하는 Themis 제안",
+      "워프 내 튜플 재분배 기법",
+      "워프 간 부하 균형 기법"
+    ],
+    "experiments": "다양한 워크로드에서 부하 불균형 최소화. 기존 GPU 쿼리 엔진 대비 성능 향상",
+    "limitations": "매우 복잡한 쿼리 계획에서의 오버헤드"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "워프 내/간 부하 균형이 GPU 쿼리 성능에 핵심",
+    "튜플 재분배가 부하 불균형 해결에 효과적"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 451,
+  "title": "ML-Asset Management: Curation, Discovery, and Utilization",
+  "authors": "Mengying Wang, Moming Duan, Yicong Huang, Chen Li, Bingsheng He, Yinghui Wu",
+  "summary": {"objective": "ML 자산 관리: 큐레이션, 발견, 활용", "methodology": "모델, 데이터셋, 메타데이터 관리 분석", "contributions": ["ML 자산 관리 튜토리얼", "활용 방법 제시"], "experiments": "다양한 ML 워크플로우에서 효과 검증", "limitations": "파편화된 문서"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["ML 자산 관리가 중요", "체계적 관리 필요"]
+}

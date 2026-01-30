@@ -1,0 +1,8 @@
+{
+  "paper_id": 286,
+  "title": "Extensible and Robust Evaluation of Similarity Queries",
+  "authors": "Daniel Schmitt, Thomas Hütter, Nikolaus Augsten",
+  "summary": {"objective": "유사성 쿼리의 확장 가능하고 강건한 평가", "methodology": "유사성 조인 문제를 시스템 관점에서 분석", "contributions": ["유사성 쿼리 평가 프레임워크", "확장성과 강건성 지원"], "experiments": "다양한 유사성 쿼리 방법 비교 평가", "limitations": "특정 유사성 함수에 편향"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["유사성 쿼리 평가에 체계적 접근 필요", "확장성이 실용적 적용에 중요"]
+}

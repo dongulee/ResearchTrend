@@ -1,0 +1,22 @@
+{
+  "paper_id": 145,
+  "title": "mLoRA: Fine-Tuning LoRA Adapters via Highly-Efficient Pipeline Parallelism in Multiple GPUs",
+  "authors": "Zhengmao Ye, Dengchun Li, Zetao Hu, Tingfeng Lan, Jian Sha, Shicong Zhang, Lei Duan, Jie Zuo, Hui Lu, Yuanchun Zhou, Mingjie Tang",
+  "summary": {
+    "objective": "다중 GPU에서 고효율 파이프라인 병렬처리를 통한 LoRA 어댑터 미세조정",
+    "methodology": "기존 모델 병렬처리의 높은 통신 오버헤드 문제 해결. 여러 다운스트림 태스크에 기본 LLM을 동시에 적응시키는 LoRA 미세조정. LLM 플랫폼에서 동시에 여러 모델 미세조정 지원",
+    "contributions": [
+      "다중 GPU LoRA 미세조정을 위한 mLoRA",
+      "효율적인 파이프라인 병렬처리",
+      "통신 오버헤드 감소"
+    ],
+    "experiments": "기존 방법 대비 높은 효율성으로 다중 모델 동시 미세조정",
+    "limitations": "매우 큰 모델에서의 메모리 제약"
+  },
+  "tags": [
+    {"tag": "Deep Learning", "confidence": 0.95},
+    {"tag": "Distributed Systems", "confidence": 0.9},
+    {"tag": "Performance", "confidence": 0.9}
+  ],
+  "key_findings": ["파이프라인 병렬처리가 LoRA 미세조정에 효과적", "통신 오버헤드 감소가 효율성의 핵심", "동시 다중 모델 미세조정 가능"]
+}

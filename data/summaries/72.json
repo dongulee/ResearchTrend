@@ -1,0 +1,34 @@
+{
+  "paper_id": 72,
+  "title": "FaDE: More Than a Million What-ifs Per Second",
+  "authors": "Haneen Mohammed, Eugene Wu, Alexander Yao, Charlie Summers, Lampros Flokas, Gromit Yeuk-Yin Chan, Subrata Mitra, Hongbin Zhong",
+  "summary": {
+    "objective": "초당 백만 개 이상의 가상 시나리오(what-if) 분석을 가능하게 하는 것",
+    "methodology": "출처(provenance) 기반 개입으로 교차 필터 시각화 지원. 쿼리 결과에 출처 다항식 주석. 벡터화된 개입 로직 생성",
+    "contributions": [
+      "FaDE 시스템 개발",
+      "출처 기반 개입 방법",
+      "벡터화된 개입 로직"
+    ],
+    "experiments": "초당 백만 개 이상의 what-if 분석 달성",
+    "limitations": "매우 복잡한 쿼리 체인에서의 출처 추적"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "출처 다항식이 효율적인 개입에 핵심",
+    "벡터화가 대규모 what-if 분석에 효과적"
+  ]
+}

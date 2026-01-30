@@ -1,0 +1,8 @@
+{
+  "paper_id": 251,
+  "title": "When Speed meets Accuracy: an Efficient and Effective Graph Model for Temporal Link Prediction",
+  "authors": "Haoyang Li, Yuming Xu, Yiming Li, Hanmo Liu, Darian Li, Chen Jason Zhang, Lei Chen, Qing Li",
+  "summary": {"objective": "동적 그래프에서 효율적이고 효과적인 시간적 링크 예측", "methodology": "속도와 정확도를 균형 잡는 그래프 모델", "contributions": ["효율적 시간적 링크 예측 모델", "속도-정확도 균형"], "experiments": "기존 방법 대비 속도와 정확도 모두 향상", "limitations": "매우 긴 시간 범위의 예측"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Deep Learning", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["시간적 링크 예측에서 속도-정확도 균형 가능", "효율적 모델이 실용적 적용에 중요"]
+}

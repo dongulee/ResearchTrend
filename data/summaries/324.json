@@ -1,0 +1,8 @@
+{
+  "paper_id": 324,
+  "title": "Powerful GPUs or Fast Interconnects: Analyzing Relational Workloads on Modern GPUs",
+  "authors": "Marko Kabić, Bowen Wu, Jonas Dann, Gustavo Alonso",
+  "summary": {"objective": "현대 GPU에서 관계형 워크로드 분석: 강력한 GPU vs 빠른 인터커넥트", "methodology": "GPU 성능과 인터커넥트 영향 분석", "contributions": ["GPU 관계형 워크로드 분석", "인터커넥트 영향 연구"], "experiments": "다양한 GPU 구성에서 워크로드 성능 비교", "limitations": "특정 GPU 아키텍처에 의존"},
+  "tags": [{"tag": "Performance", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Benchmarking", "confidence": 0.85}],
+  "key_findings": ["인터커넥트가 GPU 성능에 중요", "워크로드 특성에 따라 최적 구성 다름"]
+}

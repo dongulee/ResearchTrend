@@ -1,0 +1,35 @@
+{
+  "paper_id": 96,
+  "title": "Dandelion: Smaller Clusters, Bigger Speeds—Distributed Transactions Redefined",
+  "authors": "Antonios Katsarakis, Vasilis Gavrielatos, Chris Jensen, Nikos Ntarmos",
+  "summary": {
+    "objective": "소규모 배포(5-10대)에서 성능을 크게 향상시키는 인메모리 RDMA 지원 트랜잭션 KVS 개발",
+    "methodology": "소규모 배포의 지역성 기회 활용. 동일 수신자에 대한 다중 요청을 하나의 네트워크 패킷으로 투명하게 배칭. 소프트웨어 프리페칭으로 메모리 지연 중첩. 백업에서의 강한 일관성 로컬 읽기 지원",
+    "contributions": [
+      "소규모 배포 최적화 트랜잭션 KVS Dandelion 제안",
+      "투명한 네트워크 패킷 배칭으로 처리량 향상",
+      "백업 노드에서의 강한 일관성 로컬 읽기 지원"
+    ],
+    "experiments": "5대 배포에서 SOTA 시스템 FaSST 대비 최대 6.5배 처리량 향상. 10대까지 3.5배 높은 처리량 유지",
+    "limitations": "대규모 클러스터로의 확장성"
+  },
+  "tags": [
+    {
+      "tag": "Transaction Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "소규모 배포의 지역성 기회가 큰 성능 향상 제공",
+    "투명한 배칭이 네트워크 효율성 대폭 향상",
+    "CXL 등 메모리 확장 기술이 소규모 고메모리 배포 가능"
+  ]
+}

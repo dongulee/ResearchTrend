@@ -1,0 +1,40 @@
+{
+  "paper_id": 15,
+  "title": "Unleash the Power of Ellipsis: Accuracy-enhanced Sparse Vector Technique with Exponential Noise and Optimal Threshold Correction",
+  "authors": "Yuhan Liu, Sheng Wang, Yixuan Liu, Feifei Li, Hong Chen",
+  "summary": {
+    "objective": "차등 프라이버시의 핵심 기법인 Sparse Vector Technique(SVT)의 정확도를 지수 노이즈와 최적 임계값 보정을 통해 향상시키는 것",
+    "methodology": "SVT의 덜 정보적인 특성을 고려한 새로운 프라이버시 분석 제공. 지수 노이즈가 평가된 모든 노이즈 중 최적임을 식별. 노이즈 분포로 인한 편향을 완화하기 위해 유틸리티 지향 최적 임계값 보정 방법과 추가 전략 개발",
+    "contributions": [
+      "SVT에 적용 가능한 노이즈 유형 범위 확장",
+      "지수 노이즈가 SVT에 최적임을 이론적으로 증명",
+      "유틸리티 지향 최적 임계값 보정 방법 개발",
+      "정밀도와 재현율 향상을 위한 추가 전략 제안"
+    ],
+    "experiments": "평가된 지표에서 최대 50%의 유의미한 개선. 이론적, 경험적으로 제안 방법의 효과 검증",
+    "limitations": "매우 작은 프라이버시 예산에서의 성능, 복잡한 쿼리 워크로드에 대한 일반화"
+  },
+  "tags": [
+    {
+      "tag": "Privacy",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Security",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.8
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.75
+    }
+  ],
+  "key_findings": [
+    "기존 프라이버시 분석은 SVT의 프라이버시 위험을 과대평가함",
+    "지수 노이즈가 라플라시안/가우시안 노이즈보다 SVT에 효과적",
+    "최적 임계값 보정이 정밀도와 재현율을 크게 향상"
+  ]
+}

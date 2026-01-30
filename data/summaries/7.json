@@ -1,0 +1,40 @@
+{
+  "paper_id": 7,
+  "title": "RED: Effective Trajectory Representation Learning with Comprehensive Information",
+  "authors": "Silin Zhou, Shuo Shang, Lisi Chen, Christian S. Jensen, Panos Kalnis",
+  "summary": {
+    "objective": "궤적(trajectory)을 다양한 다운스트림 태스크에 활용할 수 있는 효과적인 벡터 표현으로 학습하는 것",
+    "methodology": "Transformer를 백본 모델로 사용하여 마스크드 오토인코더(MAE) 방식으로 학습. Road-aware 마스킹 전략으로 궤적의 핵심 경로를 유지하고, 공간-시간-사용자 정보를 함께 인코딩하는 임베딩 체계 적용. 인코더는 다음 세그먼트 예측, 디코더는 전체 궤적 재구성의 이중 목표 학습 수행",
+    "contributions": [
+      "Road-aware 마스킹 전략으로 궤적의 이동 패턴 보존",
+      "공간-시간-사용자 정보를 통합한 임베딩 체계 설계",
+      "이중 목표 학습(다음 세그먼트 예측 + 궤적 재구성) 프레임워크 제안",
+      "Transformer의 어텐션 메커니즘을 수정하여 공간-시간 상관관계 반영"
+    ],
+    "experiments": "3개의 실제 데이터셋에서 4개의 다운스트림 태스크로 9개의 최신 TRL 방법과 비교. 최고 성능 베이스라인 대비 5% 이상의 정확도 향상",
+    "limitations": "로드 네트워크에 매핑된 궤적을 필요로 함, 대규모 궤적 데이터셋에 대한 학습 비용"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Natural Language Processing",
+      "confidence": 0.75
+    }
+  ],
+  "key_findings": [
+    "궤적의 포괄적인 정보(공간, 시간, 사용자)를 활용하면 표현 품질이 크게 향상됨",
+    "Road-aware 마스킹이 무작위 마스킹보다 효과적",
+    "이중 목표 학습이 단일 목표 학습보다 더 나은 표현을 생성"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 199,
+  "title": "Is Integer Linear Programming All You Need for Deletion Propagation?",
+  "authors": "Neha Makhija, Wolfgang Gatterbauer",
+  "summary": {"objective": "삭제 전파를 위한 정수 선형 프로그래밍의 충분성 연구", "methodology": "ILP가 삭제 전파 문제 해결에 충분한지 분석. 이론적 한계와 실용성 검토", "contributions": ["ILP 기반 삭제 전파 분석", "충분성 조건 식별"], "experiments": "ILP 접근의 효과성과 한계 분석", "limitations": "매우 큰 문제에서의 ILP 확장성"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Query Optimization", "confidence": 0.85}],
+  "key_findings": ["ILP가 많은 경우 충분", "특정 조건에서 한계 존재"]
+}

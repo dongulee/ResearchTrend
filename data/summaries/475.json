@@ -1,0 +1,8 @@
+{
+  "paper_id": 475,
+  "title": "Analyzing Near-Network Hardware Acceleration with Co-Processing on DPUs",
+  "authors": "Dimitrios Giouroukis, Dwi Nugroho, Varun Pandey, Steffen Zeuch, Volker Markl",
+  "summary": {"objective": "DPU를 활용한 네트워크 근접 하드웨어 가속", "methodology": "DPU에서 데이터 처리 가속 분석", "contributions": ["DPU 공동 처리 분석", "네트워크 근접 계산"], "experiments": "다양한 DPU 설정에서 효과 검증", "limitations": "하드웨어 제약"},
+  "tags": [{"tag": "Performance", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["DPU가 데이터 처리에 효과적", "CPU 부하 감소"]
+}

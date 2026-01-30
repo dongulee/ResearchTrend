@@ -1,0 +1,8 @@
+{
+  "paper_id": 478,
+  "title": "Exploring Exploratory Querying",
+  "authors": "Marcelo Arenas, Enrico Franconi, Janik Hammerer, Olaf Hartig, Katja Hose, Laura Koesten, George Konstantinidis, Leonid Libkin, Wim Martens, Yuya Sasaki, Stefanie Scherzinger, Katherine Thornton, Hsiang-Yun Wu",
+  "summary": {"objective": "탐색적 쿼리의 탐색", "methodology": "탐색적 쿼리의 다양한 측면 분석", "contributions": ["탐색적 쿼리 연구", "다양한 관점 통합"], "experiments": "쿼리 탐색 시나리오 분석", "limitations": "정형화 어려움"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Knowledge Graphs", "confidence": 0.85}],
+  "key_findings": ["탐색적 쿼리가 데이터 발견에 중요", "다양한 접근법 존재"]
+}

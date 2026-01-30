@@ -1,0 +1,8 @@
+{
+  "paper_id": 266,
+  "title": "GORAM: Graph-oriented ORAM for Efficient Ego-centric Queries on Federated Graphs",
+  "authors": "Xiaoyu Fan, Kun Chen, Jiping Yu, Xiaowei Zhu, Yunyi Chen, Huanchen Zhang, Wei Xu",
+  "summary": {"objective": "연합 그래프에서 효율적 에고 중심 쿼리를 위한 그래프 지향 ORAM", "methodology": "ORAM을 그래프 쿼리에 최적화하여 프라이버시 보존 쿼리 지원", "contributions": ["그래프 지향 ORAM GORAM", "에고 중심 쿼리 효율화"], "experiments": "기존 ORAM 대비 그래프 쿼리 성능 향상", "limitations": "매우 큰 그래프에서의 오버헤드"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Security", "confidence": 0.85}],
+  "key_findings": ["그래프 지향 ORAM이 효과적", "에고 중심 쿼리에 최적화 가능"]
+}

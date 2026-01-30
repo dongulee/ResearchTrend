@@ -1,0 +1,34 @@
+{
+  "paper_id": 1,
+  "title": "The Key to Effective UDF Optimization: Before Inlining, First Perform Outlining",
+  "authors": "Samuel Arch, Yuchen Liu, Todd Mowry, Jignesh Patel, Andrew Pavlo",
+  "summary": {
+    "objective": "UDF(사용자 정의 함수)의 최적화 효율성을 향상시키기 위해 UDF outlining이라는 새로운 기법을 제안",
+    "methodology": "UDF를 작은 조각으로 분해하고 최적화에 도움이 되는 부분만 선택적으로 인라인하는 outlining 기법을 개발. PRISM이라는 구현체를 통해 검증",
+    "contributions": [
+      "UDF outlining 기법 제안 - 전체 인라인 대신 선택적 인라인으로 최적화 효과 극대화",
+      "PRISM 시스템 구현 - DuckDB에서 1.29배, SQL Server에서 298.73배 성능 향상",
+      "불필요한 조인 회피, 효과적인 unnesting, 데이터 스킵핑 개선"
+    ],
+    "experiments": "DuckDB와 SQL Server에서 실험. Outlining이 기존 인라인 방식보다 평균 1.29배(DuckDB), 298.73배(SQL Server) 빠른 성능 달성",
+    "limitations": "특정 DBMS 최적화기의 특성에 의존할 수 있음"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "UDF",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "전체 UDF를 인라인하는 것보다 선택적으로 인라인하는 것이 더 효과적",
+    "Outlining을 통해 쿼리 최적화기가 더 나은 실행 계획을 생성할 수 있음"
+  ]
+}

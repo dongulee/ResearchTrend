@@ -1,0 +1,8 @@
+{
+  "paper_id": 185,
+  "title": "Deduplicated Sampling On-Demand",
+  "authors": "Luca Zecchini, Vasilis Efthymiou, Felix Naumann",
+  "summary": {"objective": "중복 제거된 온디맨드 샘플링", "methodology": "샘플링 시 중복을 제거하여 대표성 향상. 온디맨드 방식으로 효율적 처리", "contributions": ["중복 제거 온디맨드 샘플링", "대표성 향상"], "experiments": "일반 샘플링 대비 품질 향상", "limitations": "매우 높은 중복률에서의 효율성"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Statistics", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["중복 제거가 샘플 품질 향상", "온디맨드가 효율적 처리 제공"]
+}

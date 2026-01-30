@@ -1,0 +1,38 @@
+{
+  "paper_id": 4,
+  "title": "Chameleon: a Heterogeneous and Disaggregated Accelerator System for Retrieval-Augmented Language Models",
+  "authors": "Wenqi Jiang, Marco Zeller, Roger Waleffe, Torsten Hoefler, Gustavo Alonso",
+  "summary": {
+    "objective": "RALM(Retrieval-Augmented Language Model)을 효율적으로 서빙하기 위한 이기종 분산 가속기 시스템 개발",
+    "methodology": "LLM 추론은 GPU에, 벡터 검색은 FPGA에 할당하는 이기종 가속기 시스템을 disaggregated 아키텍처로 설계. CPU가 클러스터 코디네이터 역할 수행",
+    "contributions": [
+      "RALM 서빙을 위한 이기종(GPU+FPGA) 분산 가속기 시스템 설계",
+      "LLM 추론과 벡터 검색 가속기의 독립적 스케일링 지원",
+      "Disaggregated 아키텍처로 다양한 RALM 요구사항 충족"
+    ],
+    "experiments": "다양한 RALM에서 테스트. CPU-GPU 하이브리드 대비 지연 시간 최대 2.16배 감소, 처리량 최대 3.18배 향상",
+    "limitations": "FPGA 프로그래밍 복잡성 및 하드웨어 비용"
+  },
+  "tags": [
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Natural Language Processing",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "이기종 가속기가 RALM 서빙에서 CPU-GPU 구성보다 효율적",
+    "Disaggregated 아키텍처가 LLM과 벡터 검색의 독립적 확장에 유리"
+  ]
+}

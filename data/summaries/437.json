@@ -1,0 +1,8 @@
+{
+  "paper_id": 437,
+  "title": "Sort it Like You Mean It: Discovering Semantically Interesting Attribute Augmentations to Sort Tables",
+  "authors": "Akash Khatri, Mahathir Mohammad, El Kindi Rezig",
+  "summary": {"objective": "의미론적으로 흥미로운 정렬 속성 발견", "methodology": "테이블 분석을 통한 정렬 속성 증강 제안", "contributions": ["의미적 정렬 발견", "속성 증강 제안"], "experiments": "다양한 테이블에서 효과 검증", "limitations": "도메인 지식 의존"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["의미적 정렬이 데이터 분석에 유용", "자동 속성 증강 가능"]
+}

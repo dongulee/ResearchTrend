@@ -1,0 +1,34 @@
+{
+  "paper_id": 32,
+  "title": "Privacy-Enhanced Database Synthesis for Benchmark Publishing",
+  "authors": "Yongrui Zhong, Yunqing Ge, Jianbin Qin, Shuyuan Zheng, Bo Tang, Yu-Xuan Qiu, Rui Mao, Ye Yuan, Makoto Onizuka, Chuan Xiao",
+  "summary": {
+    "objective": "벤치마크 배포를 위한 차등 프라이버시 기반 데이터베이스 합성",
+    "methodology": "Sum-product networks(SPNs) 기반 PrivBench 프레임워크로 데이터 분포와 쿼리 런타임 성능 모두에서 원본과 유사한 합성 데이터베이스 생성",
+    "contributions": [
+      "벤치마크용 차등 프라이버시 합성 프레임워크 PrivBench",
+      "데이터 분포와 쿼리 성능 모두 보존",
+      "SPN 기반 고품질 합성"
+    ],
+    "experiments": "데이터 분포와 쿼리 런타임 성능에서 원본과 유사한 벤치마크 데이터베이스 생성",
+    "limitations": "복잡한 쿼리 패턴에 대한 성능 보존, 매우 큰 데이터베이스 합성 비용"
+  },
+  "tags": [
+    {
+      "tag": "Privacy",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Benchmarking",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "SPN이 데이터 분포 보존에 효과적",
+    "쿼리 런타임 성능 보존이 벤치마크에 중요"
+  ]
+}

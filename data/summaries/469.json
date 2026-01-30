@@ -1,0 +1,8 @@
+{
+  "paper_id": 469,
+  "title": "Mix & Match: Subgraph Matching for Absolute Coverage",
+  "authors": "Konstantinos Skitsas, Yuya Sasaki, Davide Mottin, Panagiotis Karras",
+  "summary": {"objective": "절대적 커버리지를 위한 서브그래프 매칭", "methodology": "전체 그래프 커버리지 우선 매칭", "contributions": ["Mix & Match 알고리즘 제안", "커버리지 우선 접근"], "experiments": "대규모 그래프에서 효과 검증", "limitations": "NP-hard 문제"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["커버리지 우선 매칭이 분석에 유용", "기존 방법 한계 극복"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 377,
+  "title": "Towards Automated Cross-domain Exploratory Data Analysis through Large Language Models",
+  "authors": "Jun-Peng Zhu, Boyan Niu, Peng Cai, Zheming Ni, Jianwei Wan, Kai Xu, Jiajun Huang, Shengbo Ma, Bing Wang, Xuan Zhou, Guanglei Bao, Donghui Zhang, Liu Tang, Qi Liu",
+  "summary": {"objective": "LLM을 통한 자동화된 교차 도메인 탐색적 데이터 분석", "methodology": "LLM으로 다양한 도메인의 데이터 탐색 자동화", "contributions": ["교차 도메인 EDA 자동화", "LLM 활용"], "experiments": "다양한 도메인에서 EDA 효과 검증", "limitations": "도메인 지식 부족"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["LLM이 EDA 자동화에 효과적", "교차 도메인 지원 가능"]
+}

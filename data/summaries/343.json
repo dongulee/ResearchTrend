@@ -1,0 +1,8 @@
+{
+  "paper_id": 343,
+  "title": "Selective Late Materialization in Modern Analytical Databases",
+  "authors": "Yihao Liu, Shaoxuan Tang, Yulong Hui, Hangrui Zhou, Huanchen Zhang",
+  "summary": {"objective": "현대 분석 DB에서 선택적 늦은 물질화", "methodology": "쿼리에 따라 늦은 물질화를 선택적으로 적용", "contributions": ["선택적 늦은 물질화", "분석 쿼리 최적화"], "experiments": "기존 방법 대비 쿼리 성능 향상", "limitations": "선택 휴리스틱의 정확도"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["선택적 물질화가 성능에 효과적", "쿼리 특성에 따른 적용이 중요"]
+}

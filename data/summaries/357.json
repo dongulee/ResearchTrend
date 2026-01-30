@@ -1,0 +1,8 @@
+{
+  "paper_id": 357,
+  "title": "Scribe: How Meta transports zettabytes per day in real time",
+  "authors": "Manos Karpathiotakis, Vlassios Rizopoulos, Artem Gelun, Tiziano Carotti, Hazem Nada, Basri Kahveci, Yuri Dolgov",
+  "summary": {"objective": "Meta의 실시간 제타바이트급 데이터 전송 방법", "methodology": "대규모 실시간 로그 수집 및 전송 시스템", "contributions": ["제타바이트 규모 전송 Scribe", "실시간 로그 처리"], "experiments": "Meta 프로덕션 환경에서 성능 검증", "limitations": "특정 인프라 의존"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["제타바이트 규모 실시간 전송 가능", "대규모 인프라에서 검증됨"]
+}

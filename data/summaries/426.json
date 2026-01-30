@@ -1,0 +1,8 @@
+{
+  "paper_id": 426,
+  "title": "DBPecker: A Graph-Based Compound Anomaly Diagnosis System for Distributed RDBMSs",
+  "authors": "Qingliu Wu, Qingfeng Xiang, Yingxia Shao, Qiyao Luo, Quanqing Xu",
+  "summary": {"objective": "분산 RDBMS를 위한 그래프 기반 복합 이상 진단 시스템", "methodology": "그래프 분석으로 복합 이상 자동 진단", "contributions": ["그래프 기반 이상 진단 DBPecker", "복합 이상 지원"], "experiments": "분산 DB에서 이상 진단 효과 검증", "limitations": "복잡한 이상 패턴"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["그래프 기반 진단이 복합 이상에 효과적", "분산 RDBMS 지원"]
+}

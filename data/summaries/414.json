@@ -1,0 +1,8 @@
+{
+  "paper_id": 414,
+  "title": "DortDB: Bridging Query Languages for Multi-Model Data Ponds",
+  "authors": "Filip Ježek, Pavel Koupil, Michal Kopecký, Jáchym Bártík, Irena Holubová",
+  "summary": {"objective": "다중 모델 데이터 연못을 위한 쿼리 언어 연결", "methodology": "다양한 쿼리 언어를 통합하는 다중 모델 시스템", "contributions": ["쿼리 언어 연결 DortDB", "다중 모델 지원"], "experiments": "다중 모델 쿼리에서 효과 검증", "limitations": "언어 간 변환"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["쿼리 언어 연결이 다중 모델에 효과적", "통합 쿼리 가능"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 284,
+  "title": "Bonspiel: Low Tail Latency Transactions in Geo-Distributed Databases",
+  "authors": "Fan Cui, Eric Lo, Srijan Srivastava, Ziliang Lai",
+  "summary": {"objective": "지리 분산 DB에서 낮은 꼬리 지연 트랜잭션", "methodology": "SLO 충족을 위한 꼬리 지연 최소화 기법", "contributions": ["낮은 꼬리 지연 트랜잭션 Bonspiel", "지리 분산 최적화"], "experiments": "기존 방법 대비 꼬리 지연 감소", "limitations": "극단적 네트워크 지연"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Transaction Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["꼬리 지연이 SLO에 중요", "지리 분산에서 최적화 가능"]
+}

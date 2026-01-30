@@ -1,0 +1,8 @@
+{
+  "paper_id": 419,
+  "title": "NeuroFlinkCEP: Neurosymbolic Complex Event Recognition Optimized across IoT Platforms",
+  "authors": "Ourania Ntouni, Dimitrios Banelas, Nikos Giatrakos",
+  "summary": {"objective": "IoT 플랫폼에서 최적화된 신경-기호 복합 이벤트 인식", "methodology": "신경망과 기호적 CEP를 결합한 하이브리드 시스템", "contributions": ["신경-기호 CEP NeuroFlinkCEP", "IoT 최적화"], "experiments": "IoT 환경에서 CEP 효과 검증", "limitations": "플랫폼 다양성"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["신경-기호 결합이 CEP에 효과적", "IoT 환경에 적합"]
+}

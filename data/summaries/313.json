@@ -1,0 +1,8 @@
+{
+  "paper_id": 313,
+  "title": "Practical and Accurate Local Edge Differentially Private Graph Algorithms",
+  "authors": "Pranay Mundra, Charalampos Papamanthou, Julian Shun, Quanquan Liu",
+  "summary": {"objective": "실용적이고 정확한 로컬 엣지 차등 프라이버시 그래프 알고리즘", "methodology": "로컬 엣지 차등 프라이버시 하에서 그래프 알고리즘 실행", "contributions": ["로컬 엣지 DP 그래프 알고리즘", "실용성과 정확도 균형"], "experiments": "기존 DP 방법 대비 정확도 향상", "limitations": "매우 높은 프라이버시 요구"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.9}, {"tag": "Security", "confidence": 0.85}],
+  "key_findings": ["로컬 엣지 DP가 그래프에 적용 가능", "실용적 정확도 달성"]
+}

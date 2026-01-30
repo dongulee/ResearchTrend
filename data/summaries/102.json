@@ -1,0 +1,35 @@
+{
+  "paper_id": 102,
+  "title": "GeoBloom: Revisiting Lightweight Models for Geographic Information Retrieval",
+  "authors": "Yi Li, Gao Cong",
+  "summary": {
+    "objective": "적은 레이블 또는 레이블 없이 PLM을 능가하는 경량 지리 정보 검색 프레임워크 개발",
+    "methodology": "Bloom 필터로 텍스트를 세밀한 용어 수준에서 인코딩. 교차 비트로 견고한 비지도 텍스트 유사도 메트릭 생성. 각 교차 비트의 중요도를 평가하는 Bloom Filter Evaluator. 트리 기반 인덱스로 검색 공간 분할",
+    "contributions": [
+      "Bloom 필터 기반 경량 GIR 프레임워크 GeoBloom",
+      "비지도 및 소량 레이블 설정 모두에서 SOTA 능가",
+      "Bloom 필터의 희소성 활용한 저복잡도 검색"
+    ],
+    "experiments": "비지도 설정에서 최대 15.66%, 지도 설정에서 최대 10.94% 향상. 시간/공간 효율성 대폭 개선",
+    "limitations": "복잡한 지리적 관계 모델링"
+  },
+  "tags": [
+    {
+      "tag": "Natural Language Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "Bloom 필터가 GIR에서 효과적인 경량 대안",
+    "비지도 학습에서도 PLM 능가 가능",
+    "희소성 활용이 효율성 향상의 핵심"
+  ]
+}

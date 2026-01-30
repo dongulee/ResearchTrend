@@ -1,0 +1,8 @@
+{
+  "paper_id": 188,
+  "title": "Data-Agnostic Cardinality Learning from Imperfect Training Data",
+  "authors": "Peizhi Wu, Rong Kang, Tieying Zhang, Jianjun Chen",
+  "summary": {"objective": "불완전한 훈련 데이터에서 데이터 불가지론적 카디널리티 학습", "methodology": "노이즈가 있는 훈련 데이터에서도 효과적인 카디널리티 추정. 데이터 특성에 의존하지 않는 학습", "contributions": ["불완전 데이터에서 카디널리티 학습", "데이터 불가지론적 접근"], "experiments": "노이즈 있는 훈련 데이터에서도 정확한 추정", "limitations": "매우 높은 노이즈 수준에서의 학습"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.85}],
+  "key_findings": ["불완전 데이터에서도 학습 가능", "데이터 불가지론이 범용성 제공"]
+}

@@ -1,0 +1,34 @@
+{
+  "paper_id": 26,
+  "title": "Outback: Fast and Communication-efficient Index for Key-Value Store on Disaggregated Memory",
+  "authors": "Yi Liu, Minghao Xie, Shouqian Shi, Yuanchao Xu, Heiner Litz, Chen Qian",
+  "summary": {
+    "objective": "분리형 메모리에서 단일 라운드트립 RDMA 기반 KV 스토어 인덱싱 솔루션 개발",
+    "methodology": "동적 최소 완전 해싱을 활용하여 인덱스를 두 컴포넌트로 분리. 컴퓨트 노드에는 메모리 효율적/계산 집약적 컴포넌트, 메모리 노드에는 메모리 집약적/계산 효율적 컴포넌트 배치",
+    "contributions": [
+      "분리형 완전 해싱 인덱스를 통한 단일 라운드트립 통신",
+      "메모리 노드에서 계산 부담 제거",
+      "기존 RDMA 솔루션 대비 1.06-5.03배 처리량 향상"
+    ],
+    "experiments": "퍼블릭 클라우드에서 one-sided/two-sided RDMA 기반 KVS 대비 1.06-5.03배 처리량 향상",
+    "limitations": "해시 충돌 처리, 동적 데이터 업데이트 비용"
+  },
+  "tags": [
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "분리형 해싱이 RDMA 통신 효율성 향상에 핵심",
+    "메모리 노드 계산 부담 제거로 분리형 메모리 원칙 준수"
+  ]
+}

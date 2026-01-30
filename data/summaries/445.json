@@ -1,0 +1,8 @@
+{
+  "paper_id": 445,
+  "title": "Systems for Scalable Graph Analytics and Machine Learning: Trends and Methods",
+  "authors": "Da Yan, Lyuheng Yuan, Akhlaque Ahmad, Saugat Adhikari",
+  "summary": {"objective": "확장 가능한 그래프 분석 및 ML 시스템", "methodology": "그래프 병렬 시스템의 트렌드와 방법 분석", "contributions": ["그래프 분석 시스템 튜토리얼", "ML 시스템 분석"], "experiments": "대규모 그래프 분석에서 효과 검증", "limitations": "복잡한 문제 지원"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["그래프 병렬 시스템이 발전 중", "ML 통합 중요"]
+}

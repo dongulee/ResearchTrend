@@ -1,0 +1,35 @@
+{
+  "paper_id": 119,
+  "title": "VStream: A Distributed Streaming Vector Search System",
+  "authors": "Shenghao Gong, Haobo Sun, Ziquan Fang, Liu Liu, Lu Chen, Yunjun Gao",
+  "summary": {
+    "objective": "스트리밍 처리 시나리오를 위한 분산 스트리밍 벡터 검색 시스템 개발",
+    "methodology": "벡터 스트림의 데이터 분포 변화에 적응하는 동적 파티셔너. 스트리밍 상태 관리를 통한 4단계 저장 매체의 계층적 저장 아키텍처. 접근 빈도 등 동적 핫-콜드 패턴 활용 분리 메커니즘",
+    "contributions": [
+      "스트리밍 벡터 검색 시스템 VStream 제안",
+      "데이터 분포 변화 적응 동적 파티셔너",
+      "핫-콜드 분리 메커니즘으로 쿼리 효율성 향상"
+    ],
+    "experiments": "기존 벡터 검색 시스템 대비 쿼리 효율성 251-373배 향상, CPU 사용량 2.2-2.5배 절감, 메모리 오버헤드 1.5-2.0배 감소",
+    "limitations": "매우 높은 업데이트 비율에서의 인덱스 유지보수"
+  },
+  "tags": [
+    {
+      "tag": "Vector Search",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Stream Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "스트리밍 적응이 벡터 검색 성능의 핵심",
+    "핫-콜드 분리가 쿼리 효율성 대폭 향상",
+    "계층적 저장이 다양한 접근 패턴에 효과적"
+  ]
+}

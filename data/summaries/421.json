@@ -1,0 +1,8 @@
+{
+  "paper_id": 421,
+  "title": "Mining Meaningful Keys and Foreign Keys with High Precision and Recall",
+  "authors": "Henning Koehler, Sebastian Link",
+  "summary": {"objective": "높은 정밀도와 재현율로 의미 있는 키와 외래키 마이닝", "methodology": "데이터에서 의미 있는 키/외래키 관계 자동 발견", "contributions": ["의미 있는 키 마이닝", "높은 정밀도/재현율"], "experiments": "다양한 데이터에서 마이닝 효과 검증", "limitations": "노이즈 데이터"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Schema Design", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["의미 있는 키 마이닝이 가능", "높은 정밀도와 재현율 달성"]
+}

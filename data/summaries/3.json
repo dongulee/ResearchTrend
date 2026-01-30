@@ -1,0 +1,34 @@
+{
+  "paper_id": 3,
+  "title": "Cardinality Estimation for Having-Clauses",
+  "authors": "Guido Moerkotte",
+  "summary": {
+    "objective": "GROUP BY-HAVING 쿼리의 결과 카디널리티 추정 방법 개발",
+    "methodology": "Extended Simple Profile(eSP)을 도입하여 count(*), sum, avg, min, max 집계 함수에 대한 카디널리티 추정 방법 제시. WHERE 절 유무와 AND/OR 조합도 처리",
+    "contributions": [
+      "다양한 집계 함수(count, sum, avg, min, max)에 대한 카디널리티 추정 방법 제시",
+      "Extended Simple Profile(eSP) 도입",
+      "WHERE 절과 AND/OR 조합을 포함한 HAVING 절 처리 방법 제공"
+    ],
+    "experiments": "TPC-H 벤치마크 데이터(SF=1)와 Query 18 변형을 사용하여 추정 정확도 검증",
+    "limitations": "균등 분포 가정에 기반하여 실제 데이터 분포와 차이가 있을 수 있음"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Cardinality Estimation",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "HAVING 절 카디널리티 추정에 대한 체계적인 방법론 최초 제시",
+    "eSP를 통해 기존 Simple Profile을 확장하여 더 정확한 추정 가능"
+  ]
+}

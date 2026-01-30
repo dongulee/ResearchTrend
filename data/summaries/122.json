@@ -1,0 +1,35 @@
+{
+  "paper_id": 122,
+  "title": "Holistic query Approximation via RL Modeling",
+  "authors": "Susan Davidson, Tova Milo, Kathy Razmadze, Gal Zeevi",
+  "summary": {
+    "objective": "집계 및 비집계 쿼리 모두를 처리하는 전체론적 근사 쿼리 처리 접근법 개발",
+    "methodology": "쿼리 결과 품질을 최대화하면서 더 작은 데이터 세트를 사용하는 최적화된 근사 집합 탐색. 강화학습 기반 솔루션 HARLM 제안. 큰 행동 공간과 알려진 쿼리 워크로드 너머로의 일반화 문제 해결",
+    "contributions": [
+      "전체론적 근사 쿼리 처리 문제 형식화",
+      "NP-완전성 증명 및 RL 기반 HARLM 솔루션",
+      "비집계와 집계 쿼리 모두 지원"
+    ],
+    "experiments": "비집계 및 집계 벤치마크에서 베이스라인 대비 정확도 30% 향상, 효율성 10-35배 향상",
+    "limitations": "RL 기반으로 이론적 보장 부재"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "전체론적 접근이 집계/비집계 쿼리 모두에 효과적",
+    "RL이 큰 행동 공간 문제 해결에 적합",
+    "근사 집합이 쿼리 실행 시간 크게 감소"
+  ]
+}

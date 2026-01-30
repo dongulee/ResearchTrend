@@ -1,0 +1,8 @@
+{
+  "paper_id": 383,
+  "title": "Cost-Effective, Low Latency Vector Search with Azure Cosmos DB",
+  "authors": "Nitish Upreti, Harsha Simhadri, Hari Sundar, Krishnan Sundaram, Samer Boshra, Bala Perumalswamy, Shivam Atri, Martin Chisholm, Revti Singh, Greg Yang, Tamara Hass, Nitesh Dudhey, Subramanyam Pattipaka, Mark Hildebrand, Magdalen Manohar, Jack Moffitt, Haiyang Xu, Naren Datha, Suryansh Gupta, Ravi Krishnaswamy, Prashant Gupta, Abhishek Sahu, Hemeswari Varada, Sudhanshu Barthwal, Ritika Mor, James Codella, Shaun Cooper, Kevin Pilch, Simon Moreno, Aayush Kataria, Santosh Kulkarni, Neil Deshpande, Amar Sagare, Dinesh Billa, Zishan Fu, Vipul Vishal",
+  "summary": {"objective": "Azure Cosmos DB를 통한 비용 효율적이고 낮은 지연 벡터 검색", "methodology": "Cosmos DB에 벡터 검색 기능 통합", "contributions": ["Cosmos DB 벡터 검색", "비용 효율과 낮은 지연"], "experiments": "Azure 프로덕션에서 성능 검증", "limitations": "Cosmos DB 의존"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Cloud Computing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["Cosmos DB 벡터 검색이 효과적", "비용 효율 달성"]
+}

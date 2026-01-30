@@ -1,0 +1,8 @@
+{
+  "paper_id": 351,
+  "title": "SIEVE: Effective Filtered Vector Search with Collection of Indexes",
+  "authors": "Zhaoheng Li, Silu Huang, Wei Ding, Yongjoo Park, Jianjun Chen",
+  "summary": {"objective": "인덱스 컬렉션을 통한 효과적 필터 벡터 검색", "methodology": "다중 인덱스를 조합한 필터 벡터 검색", "contributions": ["인덱스 컬렉션 필터 검색 SIEVE", "효과적 필터링"], "experiments": "기존 필터 검색 대비 성능 향상", "limitations": "인덱스 관리 복잡성"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Indexing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["인덱스 컬렉션이 필터 검색에 효과적", "다중 인덱스 조합이 성능에 기여"]
+}

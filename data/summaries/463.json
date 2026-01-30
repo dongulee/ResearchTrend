@@ -1,0 +1,8 @@
+{
+  "paper_id": 463,
+  "title": "Bringing the Operational and Analytical Worlds Together with Lakebase",
+  "authors": "Matei Zaharia",
+  "summary": {"objective": "Lakebase로 운영과 분석 세계 통합", "methodology": "OLTP와 분석 통합 아키텍처 제안", "contributions": ["Lakebase 아키텍처 소개", "OLTP-분석 통합"], "experiments": "오픈 포맷 및 클라우드 저장소 활용", "limitations": "one size fits all 함정"},
+  "tags": [{"tag": "Cloud Computing", "confidence": 0.95}, {"tag": "Transaction Processing", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["OLTP와 분석 통합 가능", "오픈 포맷 활용 중요"]
+}

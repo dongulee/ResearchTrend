@@ -1,0 +1,8 @@
+{
+  "paper_id": 389,
+  "title": "VIDEX: A Disaggregated and Extensible Virtual Index for Cloud-Native and AI-Driven Databases",
+  "authors": "Rong Kang, Shuai Wang, Tieying Zhang, Xianghong Xu, Linhui Xu, Zhimin Liang, Lei Zhang, Rui Shi, Jianjun Chen",
+  "summary": {"objective": "클라우드 네이티브 및 AI 기반 DB를 위한 분리된 확장 가능 가상 인덱스", "methodology": "인덱스를 분리하여 가상화하고 확장 가능하게 설계", "contributions": ["분리된 가상 인덱스 VIDEX", "클라우드 네이티브 지원"], "experiments": "클라우드 환경에서 성능 검증", "limitations": "가상화 오버헤드"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Cloud Computing", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["가상 인덱스가 클라우드에 효과적", "분리된 설계가 확장성 제공"]
+}

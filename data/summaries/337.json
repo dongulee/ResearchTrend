@@ -1,0 +1,8 @@
+{
+  "paper_id": 337,
+  "title": "PAR2QO: Parametric Penalty-Aware Robust Query Optimization",
+  "authors": "Haibo Xiu, Yang Li, Qianyu Yang, Pankaj Agarwal, Jun Yang",
+  "summary": {"objective": "파라미터릭 페널티 인식 강건 쿼리 최적화", "methodology": "추정 오류에 강건한 파라미터릭 쿼리 최적화", "contributions": ["페널티 인식 강건 최적화 PAR2QO", "파라미터릭 쿼리 지원"], "experiments": "기존 PQO 대비 강건성과 성능 향상", "limitations": "훈련 비용"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["페널티 인식이 강건성에 효과적", "파라미터릭 최적화 개선"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 403,
+  "title": "UmbraPerf - Profiling Results Tailored for DBMS Developers",
+  "authors": "Alexander Beischl, Thomas Neumann",
+  "summary": {"objective": "DBMS 개발자를 위한 맞춤형 프로파일링 결과", "methodology": "코드 생성 DBMS를 위한 프로파일링 도구", "contributions": ["DBMS 맞춤 프로파일링 UmbraPerf", "개발자 지원"], "experiments": "Umbra DBMS에서 프로파일링 효과 검증", "limitations": "특정 DBMS 의존"},
+  "tags": [{"tag": "Performance", "confidence": 0.95}, {"tag": "Benchmarking", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["맞춤 프로파일링이 개발에 효과적", "코드 생성 DBMS 지원"]
+}

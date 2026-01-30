@@ -1,0 +1,8 @@
+{
+  "paper_id": 196,
+  "title": "Robust Plan Evaluation based on Approximate Probabilistic Models",
+  "authors": "Amin Kamali, Verena Kantere, Calisto Zuzarte",
+  "summary": {"objective": "근사 확률 모델 기반 견고한 계획 평가", "methodology": "카디널리티 추정의 불확실성을 고려한 쿼리 계획 평가. 확률 모델로 견고성 향상", "contributions": ["확률 모델 기반 계획 평가", "견고성 향상"], "experiments": "추정 오류에 견고한 계획 선택", "limitations": "매우 복잡한 쿼리에서의 확률 모델링"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Statistics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["불확실성 고려가 계획 품질 향상", "확률 모델이 견고성에 효과적"]
+}

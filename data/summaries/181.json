@@ -1,0 +1,8 @@
+{
+  "paper_id": 181,
+  "title": "Asymmetric Linearizable Local Reads",
+  "authors": "Myles Thiessen, Guy Khazma, Sam Toueg, Ethan Kirsch",
+  "summary": {"objective": "비대칭 선형화 가능 로컬 읽기 프로토콜 개발", "methodology": "복제본에서 로컬 읽기를 허용하면서 선형화 가능성 보장. 비대칭 접근으로 성능과 일관성 균형", "contributions": ["비대칭 선형화 가능 로컬 읽기", "성능과 일관성 균형"], "experiments": "원격 읽기 대비 지연 감소", "limitations": "매우 높은 쓰기 비율에서의 성능"},
+  "tags": [{"tag": "Distributed Systems", "confidence": 0.95}, {"tag": "Concurrency Control", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["로컬 읽기가 지연 감소에 효과적", "비대칭 접근이 실용적 균형 제공"]
+}

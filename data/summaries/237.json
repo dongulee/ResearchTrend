@@ -1,0 +1,8 @@
+{
+  "paper_id": 237,
+  "title": "Inference-friendly Graph Compression for Graph Neural Networks",
+  "authors": "Yangxin Fan, Haolai Che, Yinghui Wu",
+  "summary": {"objective": "GNN 추론을 위한 그래프 압축", "methodology": "GNN 추론 과정에서 효율성을 위한 그래프 압축 기법. 정확도 유지하면서 압축", "contributions": ["추론 친화적 그래프 압축", "GNN 효율성 향상"], "experiments": "기존 방법 대비 추론 속도 향상 및 정확도 유지", "limitations": "매우 밀집된 그래프에서의 압축률"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Deep Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["그래프 압축이 GNN 추론에 효과적", "정확도를 유지하면서 효율성 향상 가능"]
+}

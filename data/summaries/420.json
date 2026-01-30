@@ -1,0 +1,8 @@
+{
+  "paper_id": 420,
+  "title": "mlidea: Interactively Improving ML Data Preparation Code via Shadow Pipelines",
+  "authors": "Stefan Grafberger, Paul Groth, Sebastian Schelter",
+  "summary": {"objective": "섀도우 파이프라인을 통한 ML 데이터 준비 코드 인터랙티브 개선", "methodology": "섀도우 파이프라인으로 데이터 준비 코드 테스트 및 개선", "contributions": ["섀도우 파이프라인 mlidea", "인터랙티브 개선"], "experiments": "ML 파이프라인에서 개선 효과 검증", "limitations": "파이프라인 복잡성"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["섀도우 파이프라인이 개선에 효과적", "인터랙티브 테스트 가능"]
+}

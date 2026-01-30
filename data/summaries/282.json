@@ -1,0 +1,8 @@
+{
+  "paper_id": 282,
+  "title": "Fremer: Lightweight and Effective Frequency Transformer for Workload Forecasting in Cloud Services",
+  "authors": "Hengyu Ye, Jiadong Chen, Xiao He, Fuxin Jiang, Tieying Zhang, Jianjun Chen, Xiaofeng Gao",
+  "summary": {"objective": "클라우드 서비스 워크로드 예측을 위한 경량 주파수 트랜스포머", "methodology": "주파수 도메인에서 워크로드 패턴 학습", "contributions": ["경량 주파수 트랜스포머 Fremer", "워크로드 예측 효율화"], "experiments": "기존 예측 모델 대비 정확도와 효율 향상", "limitations": "급격한 워크로드 변화"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Cloud Computing", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["주파수 기반 접근이 예측에 효과적", "경량 모델로 실용적 적용 가능"]
+}

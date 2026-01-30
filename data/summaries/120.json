@@ -1,0 +1,35 @@
+{
+  "paper_id": 120,
+  "title": "Efficient Historical Butterfly Counting in Large Temporal Bipartite Networks via Graph Structure-aware Index",
+  "authors": "Qiuyang Mang, Jingbang Chen, Hangrui Zhou, Yu Gao, Yingli Zhou, Qingyu Shi, Richard Peng, Yixiang Fang, Chenhao Ma",
+  "summary": {
+    "objective": "시간 이분 그래프에서 주어진 시간 간격 내 버터플라이 모티프를 효율적으로 카운팅",
+    "methodology": "메모리 풋프린트가 버터플라이 수와 웨지 수에 의존하는 두 가지 새로운 인덱스 설계. 그래프 구조 인식 인덱싱 접근법으로 메모리 사용 크게 감소하면서 효율성 유지",
+    "contributions": [
+      "역사적 버터플라이 카운팅을 위한 두 가지 새로운 인덱스",
+      "그래프 구조 인식 인덱싱 접근법",
+      "메모리 사용 감소와 효율성 보존의 균형"
+    ],
+    "experiments": "기존 알고리즘 대비 효율적인 역사적 버터플라이 카운팅 달성",
+    "limitations": "매우 동적인 그래프에서의 인덱스 업데이트 비용"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "버터플라이 모티프가 이분 네트워크 분석에 중요",
+    "그래프 구조 인식 인덱싱이 메모리 효율적",
+    "시간 차원이 네트워크 동역학 이해에 필수적"
+  ]
+}

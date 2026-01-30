@@ -1,0 +1,8 @@
+{
+  "paper_id": 279,
+  "title": "Enabling Efficient Attack Investigation via Human-in-the-Loop Security Analysis",
+  "authors": "Saimon Tsegai, Xinyu Yang, Haoyuan Liu, Peng Gao",
+  "summary": {"objective": "휴먼인더루프 보안 분석을 통한 효율적 공격 조사", "methodology": "인간 전문가와 자동화된 분석의 결합", "contributions": ["휴먼인더루프 보안 분석", "효율적 공격 조사"], "experiments": "기존 자동화 방법 대비 조사 효율과 정확도 향상", "limitations": "전문가 가용성"},
+  "tags": [{"tag": "Security", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.85}, {"tag": "Machine Learning", "confidence": 0.8}],
+  "key_findings": ["휴먼인더루프가 보안 분석에 효과적", "인간-자동화 결합이 중요"]
+}

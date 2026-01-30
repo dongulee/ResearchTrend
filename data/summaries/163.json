@@ -1,0 +1,8 @@
+{
+  "paper_id": 163,
+  "title": "Truss Decomposition in Hypergraphs",
+  "authors": "Hongchao Qin, Guang Zeng, Ronghua Li, Long Yuan",
+  "summary": {"objective": "하이퍼그래프에서의 트러스 분해 연구", "methodology": "일반 그래프의 트러스 분해를 하이퍼그래프로 확장. 효율적인 분해 알고리즘 개발", "contributions": ["하이퍼그래프 트러스 분해", "효율적인 알고리즘"], "experiments": "대규모 하이퍼그래프에서 효과적 분해", "limitations": "매우 높은 차수의 하이퍼에지"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["트러스 분해가 하이퍼그래프에도 효과적", "하이퍼그래프의 구조적 특성 활용 가능"]
+}

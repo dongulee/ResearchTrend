@@ -1,0 +1,35 @@
+{
+  "paper_id": 129,
+  "title": "G-View: View Management for Graph Databases",
+  "authors": "Yunjia Zheng, Charlotte Sacré, Mohanna Shahrad, Owen Lipchitz, Yuting Gu, Bettina Kemme",
+  "summary": {
+    "objective": "그래프 데이터베이스 시스템(GDBS)에서 뷰 정의 및 사용 방법 탐구",
+    "methodology": "널리 사용되는 그래프 쿼리 언어 Cypher에 대한 뷰 기반 확장 제안. 다양한 뷰 유형 탐구. 뷰 구체화를 위한 여러 구현 전략 개요",
+    "contributions": [
+      "GDBS를 위한 뷰 관리 시스템 G-View",
+      "Cypher에 대한 뷰 기반 확장",
+      "다양한 뷰 유형과 구체화 전략"
+    ],
+    "experiments": "마이크로/매크로 벤치마크로 다양한 뷰 유형의 표현력과 구현 전략의 효과성 평가",
+    "limitations": "매우 큰 그래프에서의 뷰 구체화 비용"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "뷰가 GDBS에서 강력한 추상화 도구",
+    "구체화된 뷰가 쿼리 성능 크게 향상",
+    "다양한 뷰 유형이 쿼리 표현에 유연성 제공"
+  ]
+}

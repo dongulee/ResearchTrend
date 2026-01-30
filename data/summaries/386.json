@@ -1,0 +1,8 @@
+{
+  "paper_id": 386,
+  "title": "SQL:Trek Automated Index Design at Airbnb",
+  "authors": "Sam Lightstone, Ping Wang",
+  "summary": {"objective": "Airbnb에서 자동화된 인덱스 설계", "methodology": "워크로드 분석 기반 자동 인덱스 추천", "contributions": ["Airbnb 자동 인덱스 설계 SQL:Trek", "인덱스 자동화"], "experiments": "Airbnb 프로덕션에서 효과 검증", "limitations": "워크로드 변화 적응"},
+  "tags": [{"tag": "Indexing", "confidence": 0.95}, {"tag": "Query Optimization", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["자동 인덱스 설계가 효과적", "DBA 부담 감소"]
+}

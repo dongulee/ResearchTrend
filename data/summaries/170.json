@@ -1,0 +1,8 @@
+{
+  "paper_id": 170,
+  "title": "Detecting Schema-Related Logic Bugs in Relational Databases",
+  "authors": "Jiansen Song, Wensheng Dou, Yingying Zheng",
+  "summary": {"objective": "관계형 데이터베이스에서 스키마 관련 논리 버그 탐지", "methodology": "스키마 변경과 관련된 논리 버그 자동 탐지. 테스트 케이스 생성 및 검증", "contributions": ["스키마 관련 버그 탐지", "자동 테스트 생성"], "experiments": "실제 DBMS에서 논리 버그 발견", "limitations": "복잡한 스키마 진화 시나리오에서의 커버리지"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Schema Design", "confidence": 0.9}, {"tag": "Security", "confidence": 0.85}],
+  "key_findings": ["스키마 관련 버그가 실제로 존재", "자동 탐지가 수동보다 효과적"]
+}

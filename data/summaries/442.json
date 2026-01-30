@@ -1,0 +1,8 @@
+{
+  "paper_id": 442,
+  "title": "Synthetic Tabular Data: methods, attacks and defenses",
+  "authors": "Graham Cormode, Shripad Gade, Samuel Maddock, Enayat Ullah",
+  "summary": {"objective": "합성 테이블 데이터 생성 방법과 보안", "methodology": "합성 데이터 생성 기법 및 공격/방어 분석", "contributions": ["합성 데이터 튜토리얼", "공격 및 방어 분석"], "experiments": "다양한 합성 데이터 기법 비교", "limitations": "프라이버시 보장 한계"},
+  "tags": [{"tag": "Privacy", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Security", "confidence": 0.85}],
+  "key_findings": ["합성 데이터가 프라이버시 보호에 효과적", "공격 가능성 존재"]
+}

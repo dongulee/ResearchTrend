@@ -1,0 +1,8 @@
+{
+  "paper_id": 175,
+  "title": "Approximation-First Timeseries Query At Scale",
+  "authors": "Zeying Zhu, Jonathan Chamberlain, Kenny Zhu",
+  "summary": {"objective": "대규모 시계열 쿼리를 위한 근사 우선 접근", "methodology": "정확한 결과 전에 근사 결과를 먼저 제공. 점진적 정확도 향상으로 사용자 경험 개선", "contributions": ["근사 우선 시계열 쿼리", "점진적 정확도", "대규모 확장성"], "experiments": "정확한 쿼리 대비 빠른 초기 응답", "limitations": "근사 품질과 최종 정확도 균형"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Real-time Analytics", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["근사 우선이 사용자 경험 향상", "점진적 접근이 대규모에 효과적"]
+}

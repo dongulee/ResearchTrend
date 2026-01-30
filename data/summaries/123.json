@@ -1,0 +1,35 @@
+{
+  "paper_id": 123,
+  "title": "Unleashing Graph Partitioning for Large-Scale Nearest Neighbor Search",
+  "authors": "Lars Gottesbueren, Laxman Dhulipala, Rajesh Jayaram, Jakub Łącki",
+  "summary": {
+    "objective": "대규모 근사 최근접 이웃 검색(ANNS)을 이웃 보존 샤드로 분해하는 근본 문제 해결",
+    "methodology": "클러스터링과 지역 민감 해싱(LSH) 기반의 단순하고 효율적인 라우팅 방법 설계. LSH 기반 방법에 대한 강력한 이론적 보장. 모듈형 라우팅 알고리즘으로 균형 그래프 파티셔닝과 결합 가능",
+    "contributions": [
+      "클러스터링 및 LSH 기반 효율적 라우팅 방법",
+      "파티셔닝 방법과 무관한 모듈형 라우팅",
+      "균형 그래프 파티셔닝과 결합 가능한 최초의 실용적 라우팅"
+    ],
+    "experiments": "대규모 데이터에서 효율적 훈련 및 라우팅 성능 입증",
+    "limitations": "매우 높은 차원에서의 라우팅 효율성"
+  },
+  "tags": [
+    {
+      "tag": "Vector Search",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "모듈형 라우팅이 다양한 파티셔닝과 결합 가능",
+    "그래프 파티셔닝이 고품질 샤딩 제공",
+    "LSH 기반 라우팅에 이론적 보장 가능"
+  ]
+}

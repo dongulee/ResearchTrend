@@ -1,0 +1,8 @@
+{
+  "paper_id": 409,
+  "title": "Enter the Warp: Fast and Adaptive Data Transfer with XDBC",
+  "authors": "Haralampos Gavriilidis, Joel Ziegler, Midhun Kaippillil Venugopalan, Benedikt Didrich, Matthias Boehm, Volker Markl",
+  "summary": {"objective": "빠르고 적응적인 데이터 전송 XDBC", "methodology": "데이터 전송을 가속화하는 새로운 연결 방식", "contributions": ["적응적 데이터 전송 XDBC", "빠른 연결"], "experiments": "기존 JDBC/ODBC 대비 전송 성능 향상", "limitations": "호환성"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["XDBC가 데이터 전송에 효과적", "적응적 전송이 성능 향상"]
+}

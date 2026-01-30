@@ -1,0 +1,8 @@
+{
+  "paper_id": 207,
+  "title": "Heta: Distributed Training of Heterogeneous Graph Neural Networks",
+  "authors": "Yuchen Zhong, Junwei Su, Chuan Wu, Mingjie Tang",
+  "summary": {"objective": "이종 그래프 신경망의 분산 훈련", "methodology": "다양한 노드/에지 유형을 가진 이종 그래프에서 효율적 분산 GNN 훈련", "contributions": ["이종 GNN 분산 훈련 Heta", "효율적 분산 처리"], "experiments": "기존 방법 대비 훈련 효율성 향상", "limitations": "매우 복잡한 스키마의 이종 그래프"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}],
+  "key_findings": ["이종 그래프에 특화된 분산 훈련 필요", "노드/에지 유형 다양성 처리가 핵심"]
+}

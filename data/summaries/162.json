@@ -1,0 +1,8 @@
+{
+  "paper_id": 162,
+  "title": "Optimized Batch Prompting for Cost-effective LLMs",
+  "authors": "Zhaoxuan Ji, Xinlu Wang, Zhaojing Luo, Zhifeng Bao",
+  "summary": {"objective": "비용 효율적인 LLM 사용을 위한 최적화된 배치 프롬프팅", "methodology": "다수의 요청을 배치로 처리하여 API 호출 비용 절감. 최적 배치 크기 및 구성 결정", "contributions": ["비용 최적화 배치 프롬프팅", "최적 배치 구성 알고리즘"], "experiments": "개별 호출 대비 비용 크게 절감", "limitations": "매우 다양한 쿼리 유형에서의 배치 효율성"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["배치 프롬프팅이 LLM 비용 절감에 효과적", "최적 배치 크기가 품질과 비용 균형"]
+}

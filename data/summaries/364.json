@@ -1,0 +1,8 @@
+{
+  "paper_id": 364,
+  "title": "From FASTER to F2: Evolving Concurrent Key-Value Store Designs for Large Skewed Workloads",
+  "authors": "Konstantinos Kanellis, Badrish Chandramouli, Ted Hart, Shivaram Venkataraman",
+  "summary": {"objective": "대규모 편향 워크로드를 위한 동시 키-값 저장소 설계 진화", "methodology": "FASTER에서 F2로 진화한 설계", "contributions": ["편향 워크로드 키-값 저장소 F2", "동시성 향상"], "experiments": "편향 워크로드에서 FASTER 대비 성능 향상", "limitations": "균일 워크로드"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Concurrency Control", "confidence": 0.85}],
+  "key_findings": ["편향 워크로드에 최적화 가능", "설계 진화가 성능 향상에 기여"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 258,
+  "title": "Efficient k-Clique Densest Subgraph Discovery: Towards Bridging Practice and Theory",
+  "authors": "Yingli Zhou, Qingshuo Guo, Yixiang Fang",
+  "summary": {"objective": "효율적인 k-클리크 최밀 부분그래프 발견", "methodology": "이론과 실제를 연결하는 k-클리크 최밀 부분그래프 알고리즘", "contributions": ["효율적 k-클리크 DSD", "이론-실제 격차 해소"], "experiments": "기존 방법 대비 효율성과 확장성 향상", "limitations": "매우 큰 k 값에서의 성능"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["k-클리크 DSD의 실용적 알고리즘 가능", "이론과 실제 성능 격차 해소"]
+}

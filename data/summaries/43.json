@@ -1,0 +1,34 @@
+{
+  "paper_id": 43,
+  "title": "Efficient Top-k Frequent Subgraph Mining Using Tight Upper and Lower Bounds",
+  "authors": "Seonho Lee, Yeunjun Lee, Kunsoo Park",
+  "summary": {
+    "objective": "MNI 기반 top-k 빈발 서브그래프 마이닝의 효율성 개선",
+    "methodology": "MNI 값의 타이트한 상한으로 MNI 계산 필요 서브그래프 수 대폭 감소. MNI 하한과 상한 모두 활용하여 MNI 계산 자체 개선",
+    "contributions": [
+      "Minting 알고리즘 제안",
+      "타이트한 상한으로 후보 감소",
+      "상/하한 활용 MNI 계산 최적화"
+    ],
+    "experiments": "최신 알고리즘 대비 최대 세 자릿수 속도 향상. 큰 k에서도 실행 가능",
+    "limitations": "매우 밀집된 그래프에서의 성능"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "타이트한 경계가 후보 감소에 핵심",
+    "상/하한 동시 활용이 MNI 계산 효율화"
+  ]
+}

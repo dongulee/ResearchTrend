@@ -1,0 +1,8 @@
+{
+  "paper_id": 331,
+  "title": "DIM-SUM: Dynamic IMputation for Smart Utility Management",
+  "authors": "Ryan Hildebrant, Rahul Bhope, Sharad Mehrotra, Christopher Tull, Nalini Venkatasubramanian",
+  "summary": {"objective": "스마트 유틸리티 관리를 위한 동적 결측치 대치", "methodology": "유틸리티 데이터의 동적 결측치 대치", "contributions": ["동적 대치 DIM-SUM", "스마트 유틸리티 지원"], "experiments": "유틸리티 데이터에서 대치 품질 검증", "limitations": "센서 고장 패턴"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Real-time Analytics", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["동적 대치가 유틸리티 데이터에 효과적", "실시간 대치 가능"]
+}

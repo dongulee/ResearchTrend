@@ -1,0 +1,8 @@
+{
+  "paper_id": 165,
+  "title": "Auto-Prep: Holistic Prediction of Data Preparation",
+  "authors": "Eugenie Lai, Yeye He, Surajit Chaudhuri",
+  "summary": {"objective": "데이터 준비 단계의 전체론적 예측", "methodology": "데이터 특성 분석을 통해 필요한 준비 작업 자동 예측. 전체 파이프라인 최적화", "contributions": ["데이터 준비 예측 Auto-Prep", "전체론적 접근", "자동화된 파이프라인"], "experiments": "수동 데이터 준비 대비 시간 절감", "limitations": "매우 복잡한 데이터 변환에서의 예측 정확도"},
+  "tags": [{"tag": "Data Quality", "confidence": 0.95}, {"tag": "Data Integration", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["데이터 준비 자동화가 생산성 향상", "전체론적 접근이 단계별보다 효과적"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 310,
+  "title": "Suna: Scalable Causal Confounder Discovery over Relational Data",
+  "authors": "Jiaxiang Liu, Siyuan Xia, Daniel Alabi, Eugene Wu",
+  "summary": {"objective": "관계형 데이터에서 확장 가능한 인과 교란 변수 발견", "methodology": "관계형 데이터에서 인과 관계의 교란 변수 식별", "contributions": ["확장 가능한 교란 변수 발견 Suna", "관계형 데이터 지원"], "experiments": "기존 방법 대비 발견 효율과 정확도 향상", "limitations": "복잡한 인과 구조"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["관계형 데이터에서 교란 변수 발견 가능", "확장성이 실용적 적용에 중요"]
+}

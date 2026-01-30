@@ -1,0 +1,8 @@
+{
+  "paper_id": 392,
+  "title": "Query running too slow? Rewrite it with Quorion!",
+  "authors": "Bingnan Chen, Binyang Dai, Qichen Wang, Ke Yi",
+  "summary": {"objective": "느린 쿼리를 Quorion으로 재작성", "methodology": "쿼리 재작성을 통한 성능 최적화 데모", "contributions": ["쿼리 재작성 시스템 Quorion", "성능 최적화"], "experiments": "느린 쿼리에서 재작성 효과 검증", "limitations": "재작성 가능한 쿼리 범위"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["쿼리 재작성이 성능에 효과적", "자동화된 최적화 가능"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 228,
+  "title": "A Comprehensive Study of Shapley Value in Data Analytics",
+  "authors": "Hong Lin, Shixin Wan, Zhongle Xie, Ke Chen",
+  "summary": {"objective": "데이터 분석에서 Shapley 값의 포괄적 연구", "methodology": "데이터 분석의 다양한 응용에서 Shapley 값 활용 분석. 계산 효율성과 응용", "contributions": ["Shapley 값 포괄적 연구", "응용 분석"], "experiments": "다양한 데이터 분석 태스크에서 효과 분석", "limitations": "대규모 데이터에서의 계산 비용"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Statistics", "confidence": 0.9}],
+  "key_findings": ["Shapley 값이 다양한 분석에 유용", "계산 효율성이 실용화의 핵심"]
+}

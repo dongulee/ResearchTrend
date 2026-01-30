@@ -1,0 +1,8 @@
+{
+  "paper_id": 379,
+  "title": "Freely Moving Between the OLTP and OLAP Worlds: Hermes – an High-Performance OLAP Accelerator for MySQL",
+  "authors": "Tim Gubner, Rune Humborstad, Manyi Lu",
+  "summary": {"objective": "MySQL을 위한 고성능 OLAP 가속기 Hermes", "methodology": "OLTP DB에서 OLAP 쿼리를 가속화하는 별도 엔진", "contributions": ["MySQL OLAP 가속기 Hermes", "OLTP-OLAP 이동"], "experiments": "MySQL에서 OLAP 성능 향상", "limitations": "데이터 동기화"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Transaction Processing", "confidence": 0.85}],
+  "key_findings": ["OLAP 가속기가 MySQL에 효과적", "OLTP-OLAP 전환 용이"]
+}

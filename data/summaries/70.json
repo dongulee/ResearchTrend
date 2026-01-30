@@ -1,0 +1,34 @@
+{
+  "paper_id": 70,
+  "title": "Representative Time Series Discovery for Data Exploration",
+  "authors": "Ge Lee, Shixun Huang, Zhifeng Bao, Yanchang Zhao",
+  "summary": {
+    "objective": "데이터 탐색에서 대표 시계열 발견 작업 해결",
+    "methodology": "사용자 정의 임계값을 충족하는 유사성 경계 대표 시계열 정의. 지정된 비율의 전체 시계열을 대표할 수 있는 최소 집합 찾기. NP-hard 문제에 대한 이론적 보장이 있는 근사 방법",
+    "contributions": [
+      "유사성 경계 대표 시계열 정의",
+      "이론적 보장이 있는 근사 알고리즘",
+      "비학습 기반 및 학습 기반 방법"
+    ],
+    "experiments": "대규모 데이터에서 효율적이고 효과적인 대표 시계열 발견",
+    "limitations": "매우 이질적인 시계열 집합에서의 대표성"
+  },
+  "tags": [
+    {
+      "tag": "Real-time Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "유사성 경계가 대표성 제어에 효과적",
+    "최소 대표 집합이 탐색 효율성 향상"
+  ]
+}

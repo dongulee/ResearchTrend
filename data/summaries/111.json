@@ -1,0 +1,35 @@
+{
+  "paper_id": 111,
+  "title": "Efficient Concurrent Updates to Persistent Randomized Binary Search Trees",
+  "authors": "Guanhao Hou, Jinchao Huang, Fangyuan Zhang, Sibo Wang",
+  "summary": {
+    "objective": "멀티코어 플랫폼에서 고속 업데이트와 효율적인 역사적 쿼리를 모두 지원하는 영속적 이진 검색 트리 개발",
+    "methodology": "n개 요소의 BST에서 m개 업데이트를 O(log n) 스레드로 O(log n + m) 시간에 완료하는 동시 업데이트 전략 제안. 확장성과 실용적 성능 향상을 위한 하이브리드 동시 전략",
+    "contributions": [
+      "업데이트와 쿼리 성능을 균형 잡는 동시 업데이트 전략",
+      "하이브리드 동시 전략으로 확장성 향상",
+      "다양한 데이터 분포와 업데이트-쿼리 비율에서 우수한 성능"
+    ],
+    "experiments": "다양한 데이터 분포와 업데이트-쿼리 비율에서 기존 솔루션 대비 우수한 업데이트-쿼리 성능 균형 달성",
+    "limitations": "매우 높은 업데이트 비율에서의 성능"
+  },
+  "tags": [
+    {
+      "tag": "Indexing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Concurrency Control",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "동시 업데이트 전략이 업데이트-쿼리 균형에 효과적",
+    "영속적 데이터 구조가 역사적 쿼리 지원에 핵심",
+    "하이브리드 접근이 실용적 성능 향상"
+  ]
+}

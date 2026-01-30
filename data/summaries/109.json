@@ -1,0 +1,35 @@
+{
+  "paper_id": 109,
+  "title": "Cabinet: Dynamically Weighted Consensus Made Fast",
+  "authors": "Gengrui Zhang, Shiquan Zhang, Michail Bachras, Yuqiu Zhang, Hans-Arno Jacobsen",
+  "summary": {
+    "objective": "대규모 분산 시스템에서 동적 가중 합의를 통해 기존 합의 알고리즘의 비효율성 해결",
+    "methodology": "실패 임계값에 따라 노드에 가중치를 할당하는 동적 가중 합의 알고리즘 Cabinet 제안. 노드 응답성에 따라 동적으로 가중치 조정. 빠른 노드에 높은 가중치 할당",
+    "contributions": [
+      "동적 가중 합의 알고리즘 Cabinet 제안",
+      "노드 응답성 기반 동적 가중치 조정",
+      "대규모 이기종 시스템에서 최적 성능 유지"
+    ],
+    "experiments": "MongoDB, PostgreSQL에서 YCSB, TPC-C 워크로드로 평가. Raft 대비 처리량, 지연 시간에서 우수. 동종/이기종 클러스터 모두에서 성능 향상",
+    "limitations": "가중치 조정 오버헤드, 매우 동적인 환경"
+  },
+  "tags": [
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Concurrency Control",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.9
+    }
+  ],
+  "key_findings": [
+    "동적 가중치가 대규모 시스템에서 효과적",
+    "노드 응답성 기반 할당이 이기종 환경에 적합",
+    "기존 합의 알고리즘의 다수결 대기 문제 해결"
+  ]
+}

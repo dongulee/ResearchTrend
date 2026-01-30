@@ -1,0 +1,8 @@
+{
+  "paper_id": 308,
+  "title": "ShaRP: Explaining Rankings and Preferences with Shapley Values",
+  "authors": "Venetia Pliatsika, Joao Fonseca, Kateryna Akhynko, Ivan Shevchenko, Julia Stoyanovich",
+  "summary": {"objective": "Shapley 값을 사용한 순위 및 선호도 설명", "methodology": "게임 이론의 Shapley 값으로 순위 결과 설명", "contributions": ["Shapley 기반 순위 설명 ShaRP", "선호도 분석"], "experiments": "다양한 순위 시스템에서 설명 품질 검증", "limitations": "계산 복잡도"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["Shapley 값이 순위 설명에 효과적", "공정성 분석에 유용"]
+}

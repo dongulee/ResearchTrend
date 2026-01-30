@@ -1,0 +1,8 @@
+{
+  "paper_id": 217,
+  "title": "Maximum k-Plex Finding: Choices of Pruning Techniques",
+  "authors": "Akhlaque Ahmad, Da Yan, Xiao Chen, Lyuheng Yuan",
+  "summary": {"objective": "최대 k-Plex 탐색을 위한 가지치기 기법 선택", "methodology": "다양한 가지치기 기법 비교 및 최적 조합 식별", "contributions": ["k-Plex 가지치기 기법 분석", "최적 조합 식별"], "experiments": "다양한 그래프에서 가지치기 효과 비교", "limitations": "새로운 가지치기 기법에 대한 업데이트"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["가지치기 선택이 성능에 중요", "그래프 특성에 따라 최적 기법 다름"]
+}

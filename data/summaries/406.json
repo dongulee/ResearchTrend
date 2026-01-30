@@ -1,0 +1,8 @@
+{
+  "paper_id": 406,
+  "title": "Accelerating Tabular Inference: Training Data Generation with TENET",
+  "authors": "Enzo Veltri, Donatello Santoro, Jean-Flavien Bussotti, Paolo Papotti",
+  "summary": {"objective": "테이블 추론 가속화: TENET으로 훈련 데이터 생성", "methodology": "테이블 NLI를 위한 훈련 데이터 자동 생성", "contributions": ["훈련 데이터 생성 TENET", "테이블 추론 가속"], "experiments": "테이블 추론에서 데이터 생성 효과 검증", "limitations": "생성 데이터 품질"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["훈련 데이터 생성이 추론에 효과적", "자동 생성으로 효율 향상"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 407,
+  "title": "Accordion: Balancing Performance and Cost in Cloud-Native Data Analysis with Intra-Query Runtime Elasticity",
+  "authors": "Xukang Zhang, Huanchen Zhang, Xiaofeng Meng",
+  "summary": {"objective": "쿼리 내 런타임 탄력성으로 클라우드 네이티브 데이터 분석의 성능과 비용 균형", "methodology": "쿼리 실행 중 리소스를 동적으로 조절", "contributions": ["쿼리 내 탄력성 Accordion", "성능-비용 균형"], "experiments": "클라우드 환경에서 탄력성 효과 검증", "limitations": "탄력성 오버헤드"},
+  "tags": [{"tag": "Cloud Computing", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["쿼리 내 탄력성이 비용 절감에 효과적", "성능과 비용 균형 달성"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 464,
+  "title": "E2ETune: End-to-End Knob Tuning via Fine-tuned Generative Language Model",
+  "authors": "Xinmei Huang, Haoyang Li, Jing Zhang, Xinxin Zhao, Zhiming Yao, Yiyan Li, Tieying Zhang, Jianjun Chen, Hong Chen, Cuiping Li",
+  "summary": {"objective": "생성 언어 모델 기반 종단간 노브 튜닝", "methodology": "미세 조정된 LLM으로 DB 구성 최적화", "contributions": ["E2ETune 시스템 제안", "LLM 기반 튜닝"], "experiments": "다양한 워크로드에서 효과 검증", "limitations": "LLM 학습 비용"},
+  "tags": [{"tag": "Machine Learning", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Natural Language Processing", "confidence": 0.85}],
+  "key_findings": ["LLM이 DB 튜닝에 효과적", "종단간 최적화 가능"]
+}

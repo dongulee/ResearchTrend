@@ -1,0 +1,35 @@
+{
+  "paper_id": 121,
+  "title": "PlanRGCN: Predicting SPARQL Query Performance",
+  "authors": "Abiram Mohanaraj, Matteo Lissandrini, Katja Hose",
+  "summary": {
+    "objective": "실행 전 SPARQL 쿼리 런타임 성능을 예측하는 쿼리 성능 예측(QPP) 개선",
+    "methodology": "저장된 KG의 통계를 완전히 활용하고 비자명한 SPARQL 연산자를 지원하는 GCNN 아키텍처 PlanRGCN 제안. 과거 쿼리 로그와의 구문적 유사성에 의존하지 않고 보지 못한 쿼리로 일반화",
+    "contributions": [
+      "보지 못한 쿼리로 일반화하는 PlanRGCN 아키텍처",
+      "비자명한 SPARQL 연산자 최초 지원",
+      "SOTA 대비 확장 가능한 사전 훈련"
+    ],
+    "experiments": "실제 쿼리 로그에서 로드 밸런싱으로 최대 207% 처리량 향상. 실행 제어로 최대 70% 더 많은 쿼리 처리",
+    "limitations": "매우 복잡한 SPARQL 쿼리에서의 예측 정확도"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Knowledge Graphs",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "GCNN이 SPARQL QPP에 효과적",
+    "KG 통계 활용이 일반화에 핵심",
+    "QPP가 로드 밸런싱과 실행 제어에 실용적"
+  ]
+}

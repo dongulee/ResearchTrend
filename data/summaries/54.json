@@ -1,0 +1,34 @@
+{
+  "paper_id": 54,
+  "title": "PolyBase: Adapting to Data Affinity Changes in Geo-Replicated Database via Row-Level Consensus-Group Affiliation Re-Assignment",
+  "authors": "Chaoyi Ruan, Yingqiang Zhang, Juncheng Zhang, Cheng Li, Xiaosong Ma, Hao Chen, Jie Zhou, Feifei Li, Xinjun Yang",
+  "summary": {
+    "objective": "지리 복제 데이터베이스에서 데이터 친화도 변화에 적응하는 행 수준 합의 그룹 재할당",
+    "methodology": "Paxos 기반 로그 복제 메커니즘 활용. 데이터베이스 행을 Paxos 로그 복제 그룹 간 동적 재할당. 리더 리전이 빠른 쓰기와 최신 읽기 제공",
+    "contributions": [
+      "행 수준 합의 그룹 소속 유연한 관리 PolyBase",
+      "변경 없는 Paxos 프로토콜 위에서 동작",
+      "광역 RTT 감소"
+    ],
+    "experiments": "AWS에서 RocksDB/MySQL 통합. 실제 전자상거래 워크로드로 높은 처리량과 낮은 지연 확인",
+    "limitations": "매우 빠른 친화도 변화에 대한 재할당 오버헤드"
+  },
+  "tags": [
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Transaction Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Concurrency Control",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "행 수준 재할당이 샤드 수준보다 유연",
+    "광역 RTT 감소가 성능에 핵심"
+  ]
+}

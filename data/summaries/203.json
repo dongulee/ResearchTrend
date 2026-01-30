@@ -1,0 +1,8 @@
+{
+  "paper_id": 203,
+  "title": "PipeTGL: (Near) Zero Bubble Memory-based Temporal GNN Training",
+  "authors": "Jun Liu, Bingqian Du, Ziyue Luo, Sitian Chen",
+  "summary": {"objective": "메모리 기반 시간 GNN 훈련에서 거의 제로 버블 달성", "methodology": "파이프라인으로 버블 최소화하면서 시간 GNN 훈련. 메모리 효율적 처리", "contributions": ["제로 버블 시간 GNN 훈련 PipeTGL", "파이프라인 최적화"], "experiments": "기존 방법 대비 훈련 효율성 향상", "limitations": "매우 긴 시간 의존성에서의 메모리"},
+  "tags": [{"tag": "Deep Learning", "confidence": 0.95}, {"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}],
+  "key_findings": ["파이프라인이 버블 최소화에 효과적", "시간 GNN에 특화된 최적화 필요"]
+}

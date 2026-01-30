@@ -1,0 +1,8 @@
+{
+  "paper_id": 359,
+  "title": "Disaggregated State Management in Apache Flink 2.0",
+  "authors": "Yuan Mei, Zhaoqian Lan, Lei Huang, Yanfei Lei, Han Yin, Rui Xia, Kaitian Hu, Paris Carbone, Vasiliki Kalavri, Feng Wang",
+  "summary": {"objective": "Apache Flink 2.0에서 분리된 상태 관리", "methodology": "스트림 처리에서 상태를 분리하여 관리", "contributions": ["분리된 상태 관리", "Flink 2.0 아키텍처"], "experiments": "기존 Flink 대비 확장성과 탄력성 향상", "limitations": "상태 접근 지연"},
+  "tags": [{"tag": "Stream Processing", "confidence": 0.95}, {"tag": "Distributed Systems", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.85}],
+  "key_findings": ["상태 분리가 확장성에 효과적", "클라우드 환경에 적합"]
+}

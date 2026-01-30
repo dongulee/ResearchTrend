@@ -1,0 +1,8 @@
+{
+  "paper_id": 341,
+  "title": "OmniMatch: Joinability Discovery in Data Products",
+  "authors": "Christos Koutras, Jiani Zhang, Xiao Qin, Chuan Lei, Vassilis Ioannidis, Christos Faloutsos, George Karypis, Asterios Katsifodimos",
+  "summary": {"objective": "데이터 프로덕트에서 조인 가능성 발견", "methodology": "데이터 프로덕트 간 조인 가능한 컬럼 자동 발견", "contributions": ["조인 가능성 발견 OmniMatch", "데이터 프로덕트 지원"], "experiments": "기존 방법 대비 발견 정확도와 효율 향상", "limitations": "이질적 데이터 형식"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["자동 조인 발견이 효과적", "데이터 프로덕트 통합에 유용"]
+}

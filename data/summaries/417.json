@@ -1,0 +1,8 @@
+{
+  "paper_id": 417,
+  "title": "A Demonstration of POLARIS: An Interactive and Scalable Data Infrastructure for Polar Science",
+  "authors": "Yuchuan Huang, Ana Elena Uribe, Grant Ogren, Youssef Hussein, Kareem Eldahshoury, Mohamed Mokbel",
+  "summary": {"objective": "극지 과학을 위한 인터랙티브하고 확장 가능한 데이터 인프라 시연", "methodology": "POLARIS 시스템의 기능 시연", "contributions": ["POLARIS 시연", "극지 과학 지원"], "experiments": "극지 데이터에서 시스템 효용성 시연", "limitations": "도메인 특화"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["POLARIS가 극지 과학에 유용", "인터랙티브 분석 지원"]
+}

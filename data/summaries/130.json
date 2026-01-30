@@ -1,0 +1,35 @@
+{
+  "paper_id": 130,
+  "title": "Privacy for Free: Leveraging Local Differential Privacy Perturbed Data from Multiple Services",
+  "authors": "Rong Du, Qingqing Ye, Yue Fu, Haibo Hu",
+  "summary": {
+    "objective": "다중 서비스에서 섭동된 정보를 수집하고 집계하는 프레임워크 개발로 사용자의 프라이버시 부담 해결",
+    "methodology": "추정 통계와 섭동 메커니즘에 관계없이 다중 서비스에서 데이터 수집 및 집계. 평균 추정을 위한 UA와 최적화된 UWA. 분포 추정을 위한 ULE(User-level Likelihood Estimation)",
+    "contributions": [
+      "다중 서비스 LDP 데이터 활용 프레임워크",
+      "평균 추정을 위한 UA 및 UWA 방법",
+      "분포 추정을 위한 ULE 방법"
+    ],
+    "experiments": "평균 및 분포 추정 모두에서 정확도 크게 향상",
+    "limitations": "서비스 간 섭동 메커니즘 다양성 처리"
+  },
+  "tags": [
+    {
+      "tag": "Privacy",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Statistics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.8
+    }
+  ],
+  "key_findings": [
+    "다중 서비스 LDP 데이터가 추가 프라이버시 비용 없이 활용 가능",
+    "UWA가 최소 분산으로 평균 추정",
+    "사용자 수준 추정이 서비스 수준보다 효과적"
+  ]
+}

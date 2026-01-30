@@ -1,0 +1,14 @@
+{
+  "paper_id": 158,
+  "title": "Accio: Bolt-on Query Federation",
+  "authors": "Xiaoying Wang, Jiannan Wang, Tianzheng Wang, Yong Zhang",
+  "summary": {
+    "objective": "기존 시스템에 추가할 수 있는 쿼리 연합 솔루션 개발",
+    "methodology": "Bolt-on 방식으로 기존 데이터베이스에 쿼리 연합 기능 추가. 최소 침습적 통합으로 이종 데이터 소스 연합 쿼리",
+    "contributions": ["Bolt-on 쿼리 연합 Accio", "기존 시스템에 최소 침습적 통합", "이종 데이터 소스 연합"],
+    "experiments": "기존 시스템에 쉽게 추가 가능하면서 효율적 연합 쿼리",
+    "limitations": "매우 이질적인 데이터 모델 간 연합"
+  },
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Distributed Systems", "confidence": 0.85}],
+  "key_findings": ["Bolt-on 접근이 도입 장벽 낮춤", "기존 시스템 변경 최소화 가능", "연합 쿼리가 데이터 사일로 해결"]
+}

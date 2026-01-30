@@ -1,0 +1,8 @@
+{
+  "paper_id": 338,
+  "title": "LIMAO: A Framework for Lifelong Modular Learned Query Optimization",
+  "authors": "Qihan Zhang, Shaolin Xie, Ibrahim Sabek",
+  "summary": {"objective": "평생 모듈식 학습 쿼리 최적화 프레임워크", "methodology": "지속적으로 학습하고 적응하는 모듈식 쿼리 최적화", "contributions": ["평생 학습 최적화 LIMAO", "모듈식 구조"], "experiments": "워크로드 변화에서 적응성 검증", "limitations": "모듈 관리 복잡성"},
+  "tags": [{"tag": "Query Optimization", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Performance", "confidence": 0.85}],
+  "key_findings": ["평생 학습이 쿼리 최적화에 효과적", "모듈식 접근이 적응성 제공"]
+}

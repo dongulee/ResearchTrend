@@ -1,0 +1,34 @@
+{
+  "paper_id": 35,
+  "title": "Quantifying Point Contributions: A Lightweight Framework for Efficient and Effective Query-Driven Trajectory Simplification",
+  "authors": "Yumeng Song, Yu Gu, Tianyi Li, Yushuai Li, Christian S. Jensen, Ge Yu",
+  "summary": {
+    "objective": "쿼리 결과 일관성을 유지하면서 궤적을 효율적으로 단순화하는 것",
+    "methodology": "GNN-TS(그래프 신경망)와 Diff-TS(확산 모델) 통합 상호 학습 프레임워크 MLSimp. 전역성(전체 궤적과의 상관관계)과 고유성(이웃 점과의 차이)으로 점 중요도 평가. 어텐션 메커니즘으로 반복 프로세스 회피",
+    "contributions": [
+      "상호 학습 궤적 단순화 프레임워크 MLSimp",
+      "GNN 기반 점 중요도 평가",
+      "확산 모델로 낮은 압축률에서 중요 점 보존"
+    ],
+    "experiments": "8개 베이스라인 대비 우수한 성능. 효율성과 효과성 모두 개선",
+    "limitations": "매우 긴 궤적에서의 확장성, 다양한 쿼리 유형 동시 지원"
+  },
+  "tags": [
+    {
+      "tag": "Deep Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "전역성과 고유성 조합이 점 중요도 평가에 효과적",
+    "상호 학습이 단일 모델보다 우수"
+  ]
+}

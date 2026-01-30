@@ -1,0 +1,8 @@
+{
+  "paper_id": 427,
+  "title": "DocDB: A Database for Unstructured Document Analysis",
+  "authors": "Zequn Li, Yuanhao Zhong, Chengliang Chai, Zhaoze Sun, Yuhao Deng, Ye Yuan, Guoren Wang, Lei Cao",
+  "summary": {"objective": "비정형 문서 분석을 위한 데이터베이스", "methodology": "비정형 문서의 저장과 분석을 위한 전용 DB", "contributions": ["비정형 문서 DB DocDB", "문서 분석 지원"], "experiments": "다양한 문서 분석 작업에서 효과 검증", "limitations": "문서 형식 다양성"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Natural Language Processing", "confidence": 0.9}, {"tag": "Storage Systems", "confidence": 0.85}],
+  "key_findings": ["비정형 문서 DB가 분석에 효과적", "전용 시스템이 유용"]
+}

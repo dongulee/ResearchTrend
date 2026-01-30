@@ -1,0 +1,8 @@
+{
+  "paper_id": 244,
+  "title": "Parachute: Single-Pass Bi-Directional Information Passing",
+  "authors": "Mihail Stoian, Andreas Zimmerer, Skander Krid, Amadou Ngom, Jialin Ding, Tim Kraska, Andreas Kipf",
+  "summary": {"objective": "단일 패스 양방향 정보 전달", "methodology": "한 번의 스캔으로 양방향 정보를 전달하는 기법", "contributions": ["단일 패스 양방향 전달 Parachute", "효율적 데이터 처리"], "experiments": "기존 다중 패스 방법 대비 성능 향상", "limitations": "특정 데이터 패턴에서의 효과"},
+  "tags": [{"tag": "Query Processing", "confidence": 0.95}, {"tag": "Performance", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.8}],
+  "key_findings": ["단일 패스로 양방향 정보 전달 가능", "다중 패스 대비 효율성 크게 향상"]
+}

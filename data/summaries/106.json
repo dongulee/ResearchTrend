@@ -1,0 +1,35 @@
+{
+  "paper_id": 106,
+  "title": "Avoiding Materialisation for Guarded Aggregate Queries",
+  "authors": "Matthias Lanzinger, Reinhard Pichler, Alexander Selzer",
+  "summary": {
+    "objective": "특정 유형의 집계 쿼리에서 조인 결과의 구체화를 피하는 새로운 최적화 기법 개발",
+    "methodology": "GROUP BY 절과 집계 표현식에서 속성 발생에 제한을 두는 'guardedness' 개념 도입. 논리적 및 물리적 수준에서 새로운 최적화 기법 제안. Spark SQL에 구현",
+    "contributions": [
+      "Guarded aggregate 쿼리를 위한 구체화 회피 최적화",
+      "Guardedness 개념으로 최적화 적용 범위 정의",
+      "Spark SQL 구현 및 표준 벤치마크 검증"
+    ],
+    "experiments": "다양한 표준 벤치마크에서 최적화의 효과성 검증. 중간 결과 폭발 문제 해결",
+    "limitations": "Guardedness 조건을 만족하지 않는 쿼리에는 적용 불가"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "Guardedness가 구체화 회피 가능 여부의 핵심 조건",
+    "분석 쿼리에서 중간 결과 폭발 문제 해결 가능",
+    "그래프 DB의 복잡한 경로 쿼리에도 적용 가능"
+  ]
+}

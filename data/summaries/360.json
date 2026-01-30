@@ -1,0 +1,8 @@
+{
+  "paper_id": 360,
+  "title": "SiriusBI: A Comprehensive LLM-powered Solution for Data Analytics in Business Intelligence",
+  "authors": "Jie Jiang, Haining Xie, Siqi Shen, Yu Shen, Zihan Zhang, Meng Lei, Yifeng Zheng, Yang Li, Chunyou Li, Danqing Huang, Yinjun Wu, Wentao Zhang, Xiaofeng Yang, Bin Cui, Peng Chen",
+  "summary": {"objective": "비즈니스 인텔리전스에서 LLM 기반 종합 데이터 분석 솔루션", "methodology": "LLM을 활용한 BI 데이터 분석 전 과정 지원", "contributions": ["LLM 기반 BI 솔루션 SiriusBI", "종합 데이터 분석"], "experiments": "BI 워크플로우에서 효율성과 정확도 검증", "limitations": "LLM 비용과 정확도"},
+  "tags": [{"tag": "Natural Language Processing", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.9}, {"tag": "Data Integration", "confidence": 0.85}],
+  "key_findings": ["LLM이 BI 분석에 효과적", "종합 솔루션이 생산성 향상"]
+}

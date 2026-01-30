@@ -1,0 +1,8 @@
+{
+  "paper_id": 239,
+  "title": "Beyond Shortest Paths: Node Fairness in Route Recommendation",
+  "authors": "Antonio Ferrara, David Garcia-Soriano, Francesco Bonchi",
+  "summary": {"objective": "경로 추천에서 노드 공정성 고려", "methodology": "최단 경로 외에 노드 공정성을 고려한 경로 추천 알고리즘", "contributions": ["공정성 기반 경로 추천", "노드 균형 분배"], "experiments": "기존 최단 경로 대비 공정성 향상", "limitations": "계산 복잡도 증가"},
+  "tags": [{"tag": "Graph Analytics", "confidence": 0.95}, {"tag": "Machine Learning", "confidence": 0.85}, {"tag": "Data Quality", "confidence": 0.8}],
+  "key_findings": ["경로 추천에서 공정성이 중요", "노드 균형이 전체 네트워크 효율에 영향"]
+}

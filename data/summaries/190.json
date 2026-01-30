@@ -1,0 +1,8 @@
+{
+  "paper_id": 190,
+  "title": "Simple Testing Can Expose Most Critical Transaction Bugs",
+  "authors": "Ziyu Cui, Wensheng Dou, Yu Gao, Rui Yang",
+  "summary": {"objective": "간단한 테스팅으로 대부분의 중요한 트랜잭션 버그 노출", "methodology": "복잡한 퍼징 없이 간단한 테스트 케이스로 트랜잭션 버그 탐지. 효율적 테스트 전략", "contributions": ["간단한 트랜잭션 버그 테스팅", "효율적 테스트 전략"], "experiments": "실제 DBMS에서 중요 버그 발견", "limitations": "매우 복잡한 트랜잭션 시나리오에서의 커버리지"},
+  "tags": [{"tag": "Transaction Processing", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Security", "confidence": 0.85}],
+  "key_findings": ["간단한 테스트가 효과적", "복잡한 방법이 항상 필요하지 않음"]
+}

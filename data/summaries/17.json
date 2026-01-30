@@ -1,0 +1,39 @@
+{
+  "paper_id": 17,
+  "title": "Substructure-aware Log Anomaly Detection",
+  "authors": "Yanni Tang, Zhuoxing Zhang, Kaiqi Zhao, Lanting Fang, Zhenhua Li, Wu Chen",
+  "summary": {
+    "objective": "로그 그래프 내 노드의 복잡한 서브구조 패턴을 고려하여 시스템 로그 이상 탐지 성능 향상",
+    "methodology": "로그 이상 탐지에 특화된 Monte Carlo Tree Search 전략으로 대표적인 서브구조 발견. 서브구조 증류(distillation) 방식으로 이상 추론 효율성 향상. 노드의 핵심 서브구조를 얻기 위한 소프트 프루닝 적용",
+    "contributions": [
+      "로그 이상 탐지용 Monte Carlo Tree Search 전략 제안",
+      "서브구조 증류를 통한 효율적 이상 추론 방법",
+      "핵심 서브구조 추출을 위한 소프트 프루닝 기법"
+    ],
+    "experiments": "모든 베이스라인 대비 우수한 성능. 서브구조 기반 그래프 학습 방법 대비 이상 추론 속도 최소 15배 빠름",
+    "limitations": "매우 대규모 로그 스트림에서의 실시간 처리, 새로운 이상 유형에 대한 적응성"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Machine Learning",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Data Quality",
+      "confidence": 0.85
+    },
+    {
+      "tag": "Stream Processing",
+      "confidence": 0.75
+    }
+  ],
+  "key_findings": [
+    "로그 그래프 내 서브구조 패턴이 이상 탐지에 중요",
+    "Monte Carlo Tree Search가 대표 서브구조 발견에 효과적",
+    "서브구조 증류가 추론 효율성을 크게 개선"
+  ]
+}

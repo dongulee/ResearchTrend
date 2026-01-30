@@ -1,0 +1,34 @@
+{
+  "paper_id": 42,
+  "title": "Cardinality Estimation for Similarity Search on High-Dimensional Data Objects: The Impact of Reference Objects",
+  "authors": "Hai Lan, Shixun Huang, Zhifeng Bao, Renata Borovica-Gajic",
+  "summary": {
+    "objective": "고차원 데이터에서 유사성 검색의 카디널리티 추정을 데이터/쿼리 견고성과 효율성으로 수행",
+    "methodology": "참조 객체(reference objects)의 카디널리티 추정을 활용. 참조 객체 선택과 활용을 위한 두 가지 기법 제안. 동적 데이터베이스에서 효율적인 계산 지원 전략",
+    "contributions": [
+      "참조 객체 기반 카디널리티 추정 접근법",
+      "데이터/쿼리 견고성 달성",
+      "동적 DB 효율적 계산 지원"
+    ],
+    "experiments": "다양한 도메인 데이터셋에서 최대 10배 속도 향상, 최대 136배 작은 Q-error",
+    "limitations": "매우 고차원 데이터에서의 참조 객체 선택 비용"
+  },
+  "tags": [
+    {
+      "tag": "Query Optimization",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Indexing",
+      "confidence": 0.9
+    },
+    {
+      "tag": "Query Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "참조 객체가 카디널리티 추정 품질에 핵심",
+    "동적 DB 지원으로 실용성 향상"
+  ]
+}

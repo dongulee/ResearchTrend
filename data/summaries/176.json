@@ -1,0 +1,8 @@
+{
+  "paper_id": 176,
+  "title": "LogCloud: Fast Search of Compressed Logs on Object Storage",
+  "authors": "Ziheng Wang, Junyu Wei, Alex Aiken, Guanyu Wang",
+  "summary": {"objective": "객체 저장소에서 압축된 로그의 빠른 검색", "methodology": "압축 상태에서 로그 검색 수행. 객체 저장소의 특성을 활용한 최적화", "contributions": ["압축 로그 검색 LogCloud", "객체 저장소 최적화"], "experiments": "압축 해제 후 검색 대비 성능 향상", "limitations": "복잡한 쿼리 패턴에서의 검색 효율"},
+  "tags": [{"tag": "Storage Systems", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Cloud Computing", "confidence": 0.9}],
+  "key_findings": ["압축 상태 검색이 가능하고 효율적", "객체 저장소가 로그 저장에 비용 효율적"]
+}

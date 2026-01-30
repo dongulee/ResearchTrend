@@ -1,0 +1,8 @@
+{
+  "paper_id": 448,
+  "title": "Property Graph Standards: State of the Art & Open Challenges",
+  "authors": "Haridimos Kondylakis, Stefania Dumbrava, Matteo Lissandrini, Nikolay Yakovets, Angela Bonifati, Vasilis Efthymiou, George Fletcher, Dimitris Plexousakis, Riccardo Tommasini, Georgia Troullinou, Elisjana Ymeralli",
+  "summary": {"objective": "속성 그래프 표준 현황과 과제", "methodology": "GQL, SQL/PGQ 등 표준화 노력 분석", "contributions": ["속성 그래프 표준 튜토리얼", "과제 제시"], "experiments": "표준 구현 및 적용 분석", "limitations": "표준 통합"},
+  "tags": [{"tag": "Knowledge Graphs", "confidence": 0.95}, {"tag": "Query Processing", "confidence": 0.9}, {"tag": "Schema Design", "confidence": 0.85}],
+  "key_findings": ["속성 그래프 표준화 진행 중", "GQL 및 SQL/PGQ 발전"]
+}

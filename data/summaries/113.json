@@ -1,0 +1,35 @@
+{
+  "paper_id": 113,
+  "title": "BACH: Bridging Adjacency List and CSR Format using LSM-Trees for HGTAP Workloads",
+  "authors": "Jianfeng Huang, Cao Yihao, Ren Shubing, Baohua Wu, Dongjing Miao",
+  "summary": {
+    "objective": "대규모 동적 그래프에서 트랜잭션 보장과 함께 실시간 분석 처리를 지원하는 HGTAP 데이터베이스 개발",
+    "methodology": "LSM-Tree 설계 공간을 확장하여 다른 레벨에서 다른 그래프 데이터 레이아웃 수용. 컴팩션 과정을 확장하여 TP 친화적 인접 리스트에서 AP 친화적 CSR 형식으로 그래프 레이아웃 원활하게 변환",
+    "contributions": [
+      "인접 리스트와 CSR 형식을 연결하는 BACH 제안",
+      "LSM-Tree 레벨별 다른 그래프 레이아웃 지원",
+      "컴팩션 기반 레이아웃 변환 메커니즘"
+    ],
+    "experiments": "높은 연산 처리량, 높은 데이터 신선도, 동시 읽기/쓰기 쿼리의 고성능 격리 동시 달성",
+    "limitations": "매우 빈번한 토폴로지 변경에서의 컴팩션 오버헤드"
+  },
+  "tags": [
+    {
+      "tag": "Graph Analytics",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Storage Systems",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Transaction Processing",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "LSM-Tree가 그래프 HTAP에 효과적으로 적용 가능",
+    "컴팩션이 레이아웃 변환의 자연스러운 기회",
+    "레벨별 레이아웃 차별화가 TP/AP 성능 균형의 핵심"
+  ]
+}

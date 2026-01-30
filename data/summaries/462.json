@@ -1,0 +1,8 @@
+{
+  "paper_id": 462,
+  "title": "Bridging Disciplines in Data Management Research to Solve Complex Data Problems",
+  "authors": "Freire, Juliana",
+  "summary": {"objective": "복잡한 데이터 문제 해결을 위한 학제간 연구", "methodology": "다양한 과학 패러다임에서 데이터 문제 분석", "contributions": ["학제간 연구 기조 연설", "데이터 관리 과제 제시"], "experiments": "파이프라인 및 프로비넌스 분석", "limitations": "학제간 협력 어려움"},
+  "tags": [{"tag": "Data Integration", "confidence": 0.95}, {"tag": "Data Quality", "confidence": 0.9}, {"tag": "Real-time Analytics", "confidence": 0.85}],
+  "key_findings": ["도메인 문제가 데이터 관리 혁신 촉진", "학제간 연구 필요"]
+}

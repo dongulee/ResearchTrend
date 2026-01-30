@@ -1,0 +1,35 @@
+{
+  "paper_id": 95,
+  "title": "Vortex: Overcoming Memory Capacity Limitations in GPU-Accelerated Large-Scale Data Analytics",
+  "authors": "Yichao Yuan, Advait Iyer, Lin Ma, Nishil Talati",
+  "summary": {
+    "objective": "GPU 메모리 용량을 초과하는 대규모 데이터 분석 워크로드를 위한 GPU 가속 프레임워크 개발",
+    "methodology": "다중 GPU 시스템의 모든 PCIe 링크를 활용하는 최적화된 IO 프리미티브로 데이터를 다른 GPU를 통해 타겟 GPU로 라우팅. GPU 커널 개발과 IO 스케줄링을 분리하는 프로그래밍 모델. GPU zero-copy 메모리 접근 기반 지연 구체화 기법",
+    "contributions": [
+      "다중 GPU PCIe 링크 활용 IO 프리미티브",
+      "커널 개발과 IO 스케줄링 분리 프로그래밍 모델",
+      "Zero-copy 기반 지연 구체화 기법"
+    ],
+    "experiments": "GPU 메모리에 데이터 캐싱 없이 SOTA GPU 베이스라인 Proteus 대비 평균 5.7배 성능 향상. CPU 기반 DuckDB 대비 2.5배 가격 성능 향상",
+    "limitations": "다중 GPU 간 조정 오버헤드, AI 워크로드와의 공존 최적화"
+  },
+  "tags": [
+    {
+      "tag": "Query Processing",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Performance",
+      "confidence": 0.95
+    },
+    {
+      "tag": "Distributed Systems",
+      "confidence": 0.85
+    }
+  ],
+  "key_findings": [
+    "다중 GPU PCIe 링크 활용이 IO 병목 해결에 효과적",
+    "AI 워크로드와 데이터 분석의 IO 자원 활용 패턴이 상이하여 공존 가능",
+    "지연 구체화가 GPU 메모리 제한 극복에 핵심"
+  ]
+}

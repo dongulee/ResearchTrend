@@ -1,0 +1,8 @@
+{
+  "paper_id": 450,
+  "title": "Filtered Vector Search: State-of-the-art and Research Challenges",
+  "authors": "Helena Caminal, Yannis Chronis, Yannis Papakonstantinou, Fatma Ãzcan, Anastasia Ailamaki",
+  "summary": {"objective": "필터링된 벡터 검색 현황과 과제", "methodology": "벡터 검색과 관계 연산 통합 분석", "contributions": ["필터링 벡터 검색 튜토리얼", "최적화 기법 분석"], "experiments": "다양한 인덱스에서 효과 검증", "limitations": "필터 선택성"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Indexing", "confidence": 0.9}, {"tag": "Query Processing", "confidence": 0.85}],
+  "key_findings": ["필터링 벡터 검색이 DB 통합에 중요", "새로운 최적화 필요"]
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": 367,
+  "title": "GaussDB-Vector: A Large-Scale Persistent Real-Time Vector Database for LLM Applications",
+  "authors": "Guoliang Li, Ji Sun, James Pan, Jiang Wang, Yongqing Xie, Ruicheng Liu, Wen Nie",
+  "summary": {"objective": "LLM 애플리케이션을 위한 대규모 영구 실시간 벡터 DB", "methodology": "대규모 실시간 벡터 검색과 영구 저장 지원", "contributions": ["대규모 실시간 벡터 DB GaussDB-Vector", "LLM 애플리케이션 지원"], "experiments": "대규모 벡터 데이터에서 성능 검증", "limitations": "실시간 업데이트 부하"},
+  "tags": [{"tag": "Vector Search", "confidence": 0.95}, {"tag": "Storage Systems", "confidence": 0.9}, {"tag": "Machine Learning", "confidence": 0.85}],
+  "key_findings": ["대규모 실시간 벡터 DB 구축 가능", "LLM 애플리케이션에 필수"]
+}
