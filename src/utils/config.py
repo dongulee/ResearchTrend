@@ -12,7 +12,9 @@ class Config:
     DATA_DIR = ROOT_DIR / "data"
     PDF_DIR = DATA_DIR / "pdfs"
     SUMMARIES_DIR = DATA_DIR / "summaries"
-    REPORTS_DIR = DATA_DIR / "reports"
+
+    DOC_DIR = ROOT_DIR / "docs"
+    REPORTS_DIR = DOC_DIR / "reports"
 
     # 데이터베이스
     DB_PATH = DATA_DIR / "papers.db"
