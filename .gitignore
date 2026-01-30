@@ -24,3 +24,6 @@ uv.lock
 # OS
 .DS_Store
 Thumbs.db
+
+# Local configs
+.claude/settings.local.json
